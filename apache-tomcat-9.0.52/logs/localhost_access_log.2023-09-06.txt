@@ -1,0 +1,17 @@
+127.0.0.1 - - [06/Sep/2023:09:05:11 +0200] "GET /WS_HelloWorld/services/HelloWorld?wsdl HTTP/1.1" 200 4319
+127.0.0.1 - - [06/Sep/2023:09:05:11 +0200] "GET /WS_HelloWorld/services/HelloWorld?wsdl HTTP/1.1" 200 4319
+0:0:0:0:0:0:0:1 - - [06/Sep/2023:09:05:24 +0200] "GET /WS_HelloWorld/services/HelloWorld?wsdl HTTP/1.1" 200 4319
+127.0.0.1 - - [06/Sep/2023:09:05:58 +0200] "GET /WS_HelloWorld/services/HelloWorld?wsdl HTTP/1.1" 200 4319
+127.0.0.1 - - [06/Sep/2023:09:05:58 +0200] "GET /WS_HelloWorld/services/HelloWorld?wsdl HTTP/1.1" 200 4319
+127.0.0.1 - - [06/Sep/2023:09:05:58 +0200] "GET /WS_HelloWorld/services/HelloWorld?wsdl HTTP/1.1" 200 4319
+127.0.0.1 - - [06/Sep/2023:09:05:58 +0200] "GET /WS_HelloWorld/services/HelloWorld?wsdl HTTP/1.1" 200 4319
+127.0.0.1 - - [06/Sep/2023:09:05:58 +0200] "GET /WS_HelloWorld/services/HelloWorld?wsdl HTTP/1.1" 200 4319
+127.0.0.1 - - [06/Sep/2023:09:06:11 +0200] "GET /WS_HelloWorld/services/HelloWorld?wsdl HTTP/1.1" 200 4319
+127.0.0.1 - - [06/Sep/2023:09:24:49 +0200] "POST /WS_HelloWorld/services/HelloWorld.HelloWorldHttpEndpoint/sayHello HTTP/1.1" 200 130
+0:0:0:0:0:0:0:1 - - [06/Sep/2023:12:07:00 +0200] "GET /FirstREST/users/123/items HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [06/Sep/2023:12:07:00 +0200] "GET /FirstREST/users/123/items HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [06/Sep/2023:12:07:00 +0200] "GET /FirstREST/users/123/items HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [06/Sep/2023:12:07:00 +0200] "GET /FirstREST/users/123/items HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [06/Sep/2023:12:10:45 +0200] "GET /FirstREST/users/123/items HTTP/1.1" 200 47
+0:0:0:0:0:0:0:1 - - [06/Sep/2023:12:10:47 +0200] "GET /FirstREST/users/123 HTTP/1.1" 200 42
+0:0:0:0:0:0:0:1 - - [06/Sep/2023:12:10:50 +0200] "GET /FirstREST/users/999 HTTP/1.1" 200 42
