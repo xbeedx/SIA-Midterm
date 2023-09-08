@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="/home/user/Documents/GitHub/SIA-Midterm/Train_Filtering/org.restlet.ext.servlet.jar"/>
 	<classpathentry kind="lib" path="/home/user/Documents/GitHub/SIA-Midterm/Train_Filtering/org.restlet.jar"/>
+	<classpathentry kind="lib" path="/home/user/Documents/GitHub/SIA-Midterm/Train_Filtering/mysql-connector-j-8.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
