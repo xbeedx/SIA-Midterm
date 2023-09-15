@@ -57,7 +57,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713651', 'St-Jean-de-Losne', 'SAINT-USAGE', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276089', 'Montigny-Beauchamp', 'MONTIGNY-LES-CORMEILLES', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381475', 'Chanteloup-les-Vignes', 'CHANTELOUP-LES-VIGNES', 'YVELINES');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313288', 'St-Remy-en-l''Eau', 'SAINT-REMY-EN-L''EAU', 'OISE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313288', 'St-Remy-en-l'Eau', 'SAINT-REMY-EN-L'EAU', 'OISE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345272', 'Meurchin', 'MEURCHIN', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87287300', 'Ruminghem', 'RUMINGHEM', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394429', 'Magny-Blandainville', 'MAGNY', 'EURE-ET-LOIR');
@@ -71,7 +75,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756767', 'La Trinité-Victor', 'TRINITE (LA )', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723791', 'Servas-Lent', 'SERVAS', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87384008', 'Paris-St-Lazare', 'PARIS', 'PARIS');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721282', 'St-Germain-au-Mont-d''Or', 'SAINT-GERMAIN-AU-MONT-D''OR', 'RHONE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721282', 'St-Germain-au-Mont-d'Or', 'SAINT-GERMAIN-AU-MONT-D'OR', 'RHONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393157', 'Versailles-Rive-Gauche', 'VERSAILLES', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296434', 'Mennessis', 'MENNESSIS', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582643', 'La Teste', 'TESTE-DE-BUCH (LA )', 'GIRONDE');
@@ -89,7 +97,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271411', 'Aulnay-sous-Bois', 'AULNAY-SOUS-BOIS', 'SEINE-SAINT-DENIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594333', 'Souillac', 'SOUILLAC', 'LOT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478016', 'St-Germain-sur-Ille', 'MELESSE', 'ILLE-ET-VILAINE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485490', 'St-Maixent-l''Ecole', 'SAINT-MAIXENT-L''ÉCOLE', 'DEUX-SEVRES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485490', 'St-Maixent-l'Ecole', 'SAINT-MAIXENT-L'ÉCOLE', 'DEUX-SEVRES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381822', 'Thun-le-Paradis', 'MEULAN', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491449', 'Cognac', 'COGNAC', 'CHARENTE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87118000', 'Troyes', 'SAINT-JULIEN-LES-VILLAS', 'AUBE');
@@ -102,11 +114,19 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87712604', 'Ouges', 'OUGES', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87745422', 'Viry', 'VIRY', 'HAUTE-SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342071', 'Boisleux', 'BOISLEUX-AU-MONT', 'PAS-DE-CALAIS');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775239', 'Ste-Cécile-d''Andorge', 'SAINTE-CÉCILE-D''ANDORGE', 'GARD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783001', 'Millau', 'MILLAU', 'AVEYRON');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444604', 'Ste-Gauburge', 'SAINTE-GAUBURGE-SAINTE-COLOMBE', 'ORNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683318', 'St-Florentin-Vergigny', 'VERGIGNY', 'YONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491159', 'Fontaines-d''Ozillac', 'FONTAINES-D''OZILLAC', 'CHARENTE-MARITIME');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775239', 'Ste-Cécile-d'Andorge', 'SAINTE-CÉCILE-D'ANDORGE', 'GARD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783001', 'Millau', 'MILLAU', 'AVEYRON');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444604', 'Ste-Gauburge', 'SAINTE-GAUBURGE-SAINTE-COLOMBE', 'ORNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683318', 'St-Florentin-Vergigny', 'VERGIGNY', 'YONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491159', 'Fontaines-d'Ozillac', 'FONTAINES-D'OZILLAC', 'CHARENTE-MARITIME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681155', 'Maisons-Alfort-Alfortville', 'MAISONS-ALFORT', 'VAL-DE-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87343103', 'St-Amand-les-Eaux', 'SAINT-AMAND-LES-EAUX', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471532', 'Servon', 'SERVON-SUR-VILAINE', 'ILLE-ET-VILAINE');
@@ -180,7 +200,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581751', 'Pessac', 'PESSAC', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281535', 'Wardrecques', 'RACQUINGHEM', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87613075', 'Assier', 'ASSIER', 'LOT');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286831', 'Pont-de-Bois', 'VILLENEUVE-D''ASCQ', 'NORD');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286831', 'Pont-de-Bois', 'VILLENEUVE-D'ASCQ', 'NORD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575563', 'Ayron-Latillé', 'AYRON', 'VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142232', 'Vignory', 'VIGNORY', 'HAUTE-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87571539', 'St-Antoine-du-Rocher', 'SAINT-ANTOINE-DU-ROCHER', 'INDRE-ET-LOIRE');
@@ -211,7 +235,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271577', 'Nanteuil-le-Haudouin', 'NANTEUIL-LE-HAUDOUIN', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471359', 'Retiers', 'RETIERS', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683136', 'Pont-sur-Yonne', 'PONT-SUR-YONNE', 'YONNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751602', 'L''Estaque', 'MARSEILLE', 'BOUCHES-DU-RHONE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751602', 'L'Estaque', 'MARSEILLE', 'BOUCHES-DU-RHONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87297291', 'Barenton-Bugny', 'BARENTON-BUGNY', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545152', 'Chamarande', 'CHAMARANDE', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726406', 'Andrézieux', 'ANDREZIEUX-BOUTHEON', 'LOIRE');
@@ -224,7 +252,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615054', 'Bram', 'BRAM', 'AUDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87745497', 'Annemasse', 'ANNEMASSE', 'HAUTE-SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611129', 'Labarthe-Inard', 'LABARTHE-INARD', 'HAUTE-GARONNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781583', 'Le Bousquet-d''Orb', 'LE BOUSQUET-D''ORB', 'HERAULT');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781583', 'Le Bousquet-d'Orb', 'LE BOUSQUET-D'ORB', 'HERAULT');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781187', 'Colombiers', 'COLOMBIERS', 'HERAULT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144295', 'Martigny-les-Bains', 'MARTIGNY-LES-BAINS', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393439', 'Garancières-la-Queue', 'GARANCIÈRES', 'YVELINES');
@@ -238,7 +270,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611624', 'St-Jean-de-Verges', 'CRAMPAGNA', 'ARIEGE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393553', 'Nonancourt', 'NONANCOURT', 'EURE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87613893', 'Villefranche-de-Rouergue', 'VILLEFRANCHE-DE-ROUERGUE', 'AVEYRON');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582833', 'St-Pierre-d''Aurillac', 'SAINT-PIERRE-D''AURILLAC', 'GIRONDE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582833', 'St-Pierre-d'Aurillac', 'SAINT-PIERRE-D'AURILLAC', 'GIRONDE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743807', 'Vaux-en-Bugey', 'VAUX-EN-BUGEY', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594796', 'Laval-de-Cère', 'LAVAL-DE-CÈRE', 'LOT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345561', 'Caudry', 'CAUDRY', 'NORD');
@@ -315,6 +351,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594663', 'Pompadour', 'ARNAC-POMPADOUR', 'CORREZE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734186', 'Vic-le-Comte', 'VIC-LE-COMTE', 'PUY-DE-DOME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781278', 'Agde', 'AGDE', 'HERAULT');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345280', 'Bauvin-Provin', 'BAUVIN', 'NORD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87742320', 'St-Jean-de-Maurienne-Arvan', 'SAINT-JEAN-DE-MAURIENNE', 'SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142091', 'Langres', 'LANGRES', 'HAUTE-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784744', 'Thuès-les-Bains', 'NYER', 'PYRENEES-ORIENTALES');
@@ -323,7 +363,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394130', 'Maintenon', 'MAINTENON', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473009', 'St-Brieuc', 'SAINT-BRIEUC', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765107', 'Orange', 'ORANGE', 'VAUCLUSE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276154', 'Pont-Petit', 'SAINT-OUEN-L''AUMONE', 'VAL-D''OISE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276154', 'Pont-Petit', 'SAINT-OUEN-L'AUMONE', 'VAL-D''OISE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756320', 'Cagnes-sur-Mer', 'CAGNES-SUR-MER', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411181', 'Tourville', 'TOURVILLE-LA-RIVIÈRE', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296376', 'Clermont-les-Fermes', 'CLERMONT-LES-FERMES', 'AISNE');
@@ -331,6 +375,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753509', 'Martigues', 'MARTIGUES', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718866', 'Montbarrey', 'MONTBARREY', 'JURA');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87194407', 'Mont-St-Martin', 'MONT-SAINT-MARTIN', 'MEURTHE-ET-MOSELLE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592741', 'Bussière-Galant', 'BUSSIÈRE-GALANT', 'HAUTE-VIENNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471151', 'Guichen-Bourg-des-Comptes', 'GUICHEN', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611525', 'Mérens-les-Vals', 'MÉRENS-LES-VALS', 'ARIEGE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87437798', 'La Rochelle-Porte-Dauphine', 'ROCHELLE (LA )', 'CHARENTE-MARITIME');
@@ -345,6 +393,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87757666', 'Juan-les-Pins', 'ANTIBES', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313619', 'Bresles', 'BRESLES', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747626', 'Clelles-Mens', 'CLELLES', 'ISERE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753509', 'Martigues', 'MARTIGUES', 'BOUCHES-DU-RHONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394007', 'Chartres', 'CHARTRES', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212274', 'Limersheim', 'HIPSHEIM', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87185249', 'Lure', 'LURE', 'HAUTE-SAONE');
@@ -368,6 +420,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761650', 'Romans-Bourg-de-Péage', 'ROMANS-SUR-ISERE', 'DROME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281006', 'Dunkerque', 'DUNKERQUE', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592022', 'Limoges-Montjovis', 'LIMOGES', 'HAUTE-VIENNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743005', 'Bourg-en-Bresse', 'BOURG-EN-BRESSE', 'AIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286435', 'Don-Sainghin', 'SAINGHIN-EN-WEPPES', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476408', 'Belz-Ploemel', 'PLOEMEL', 'MORBIHAN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444232', 'Couliboeuf', 'MORTEAUX-COULIBOEUF', 'CALVADOS');
@@ -384,9 +440,15 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473165', 'Belle-Isle-Bégard', 'LOUARGAT', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756056', 'Nice-Ville', 'NICE', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87684241', 'Ferrières-Fontenay', 'FONTENAY-SUR-LOING', 'LOIRET');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581884', 'Le Bec-d''Ambès', 'AMBÈS', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775213', 'Génolhac', 'GÉNOLHAC', 'GARD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721563', 'Fleurieux-sur-l''Arbresle', 'FLEURIEUX-SUR-L''ARBRESLE', 'RHONE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581884', 'Le Bec-d'Ambès', 'AMBÈS', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775213', 'Génolhac', 'GÉNOLHAC', 'GARD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721563', 'Fleurieux-sur-l'Arbresle', 'FLEURIEUX-SUR-L'ARBRESLE', 'RHONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141598', 'Tantonville', 'TANTONVILLE', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673012', 'Bayonne-Allées-Marines', 'BAYONNE', 'PYRENEES-ATLANTIQUES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87295170', 'Bavay', 'BAVAY', 'NORD');
@@ -397,7 +459,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87745828', 'Seyssel-Corbonod', 'CORBONOD', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213108', 'Schweighouse-sur-Moder', 'SCHWEIGHOUSE-SUR-MODER', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713263', 'Semur-en-Auxois', 'SEMUR-EN-AUXOIS', 'COTE-D''OR');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761163', 'Tain-l''Hermitage-Tournon', 'TAIN-L''HERMITAGE', 'DROME');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761163', 'Tain-l'Hermitage-Tournon', 'TAIN-L'HERMITAGE', 'DROME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575142', 'Châtellerault', 'CHATELLERAULT', 'VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411074', 'Rouen-Orléans', 'ROUEN', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478065', 'Bonnemain', 'BONNEMAIN', 'ILLE-ET-VILAINE');
@@ -417,10 +483,18 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144089', 'Igney', 'IGNEY', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271585', 'Ormoy-Villers', 'ORMOY-VILLERS', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213603', 'Marienthal', 'HAGUENAU', 'BAS-RHIN');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581595', 'Cenon', 'CENON', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271247', 'St-Ouen', 'SAINT-OUEN', 'SEINE-SAINT-DENIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313692', 'Herchies', 'HERCHIES', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576470', 'La Guerche-sur-l''Aubois', 'LA GUERCHE-SUR-L''AUBOIS', 'CHER');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87384008', 'Paris-St-Lazare', 'PARIS', 'PARIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581595', 'Cenon', 'CENON', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271247', 'St-Ouen', 'SAINT-OUEN', 'SEINE-SAINT-DENIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313692', 'Herchies', 'HERCHIES', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576470', 'La Guerche-sur-l'Aubois', 'LA GUERCHE-SUR-L'AUBOIS', 'CHER');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696203', 'Tronsanges', 'TRONSANGES', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478537', 'Montsûrs', 'BRÉE', 'MAYENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144477', 'St-Léonard', 'SAINT-LÉONARD', 'VOSGES');
@@ -443,7 +517,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722587', 'Vienne', 'VIENNE', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592162', 'Bugeat', 'BUGEAT', 'CORREZE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415125', 'St-Aubin-sur-Scie', 'SAINT-AUBIN-SUR-SCIE', 'SEINE-MARITIME');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393041', 'Pont-de-l''Alma', 'PARIS', 'PARIS');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393041', 'Pont-de-l'Alma', 'PARIS', 'PARIS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276675', 'Mériel', 'MÉRIEL', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611822', 'Brax-Léguevin', 'BRAX', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611459', 'Lavilledieu', 'LA VILLE-DIEU-DU-TEMPLE', 'TARN-ET-GARONNE');
@@ -457,12 +535,20 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734426', 'Vertaizon', 'VERTAIZON', 'PUY-DE-DOME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87764308', 'Pierrelatte', 'PIERRELATTE', 'DROME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765008', 'Avignon-Centre', 'AVIGNON', 'VAUCLUSE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765008', 'Avignon-Centre', 'AVIGNON', 'VAUCLUSE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751800', 'Septèmes', 'SEPTEMES-LES-VALLONS', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276238', 'Les Noues', 'GOUSSAINVILLE', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87590349', 'Babinière', 'CHAPELLE-SUR-ERDRE (LA )', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144154', 'Bruyères', 'BRUYÈRES', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317487', 'Quesnoy-le-Montant', 'QUESNOY-LE-MONTANT', 'SOMME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683649', 'Cravant-Bazarnes', 'BAZARNES', 'YONNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144154', 'Bruyères', 'BRUYÈRES', 'VOSGES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481812', 'St-Étienne-de-Montluc', 'SAINT-ÉTIENNE-DE-MONTLUC', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615484', 'Damiatte-St-Paul', 'DAMIATTE', 'TARN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87193672', 'Herbitzheim', 'HERBITZHEIM', 'BAS-RHIN');
@@ -481,6 +567,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296004', 'St-Quentin', 'SAINT-QUENTIN', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144873', 'Anould', 'ANOULD', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87484154', 'Étriché-Châteauneuf', 'ÉTRICHÉ', 'MAINE-ET-LOIRE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473009', 'St-Brieuc', 'SAINT-BRIEUC', 'COTES-D''ARMOR');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345249', 'Ostricourt', 'OSTRICOURT', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473181', 'Plouaret-Trégor', 'PLOUARET', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276055', 'Ermont-Eaubonne', 'ERMONT', 'VAL-D''OISE');
@@ -519,6 +609,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615369', 'Montastruc-la-Conseillère', 'MONTASTRUC-LA-CONSEILLÈRE', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87486019', 'La Roche-sur-Yon', 'ROCHE-SUR-YON (LA )', 'VENDEE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574673', 'Crotelles', 'VILLEDÔMER', 'INDRE-ET-LOIRE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212027', 'Strasbourg-Ville', 'STRASBOURG', 'BAS-RHIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734004', 'Clermont-Ferrand', 'CLERMONT-FERRAND', 'PUY-DE-DOME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87215699', 'Tieffenbach-Struth', 'TIEFFENBACH', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87571000', 'Tours', 'TOURS', 'INDRE-ET-LOIRE');
@@ -532,6 +626,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214247', 'Barr', 'BARR', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381814', 'Vaux-sur-Seine', 'VAUX-SUR-SEINE', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722728', 'Brignais', 'BRIGNAIS', 'RHONE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694687', 'Paray-le-Monial', 'PARAY-LE-MONIAL', 'SAONE-ET-LOIRE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87583617', 'La Couronne', 'LA COURONNE', 'CHARENTE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594424', 'Larche', 'SAINT-PANTALÉON-DE-LARCHE', 'CORREZE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87115873', 'Champbenoist-Poigny', 'POIGNY', 'SEINE-ET-MARNE');
@@ -545,7 +643,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87684217', 'Souppes-Château-Landon', 'SOUPPES-SUR-LOING', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784736', 'Nyers', 'NYER', 'PYRENEES-ORIENTALES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182352', 'Turckheim', 'TURCKHEIM', 'HAUT-RHIN');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781856', 'Sallèles-d''Aude', 'SALLÈLES-D''AUDE', 'AUDE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781856', 'Sallèles-d'Aude', 'SALLÈLES-D'AUDE', 'AUDE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87386011', 'La Folie-Nanterre', 'NANTERRE', 'HAUTS-DE-SEINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141291', 'Neufchâteau', 'NEUFCHÂTEAU', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582684', 'Cadaujac', 'CADAUJAC', 'GIRONDE');
@@ -572,7 +674,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116574', 'Chézy-sur-Marne', 'CHÉZY-SUR-MARNE', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713321', 'Collonges', 'COLLONGES-LÈS-PREMIÈRES', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481564', 'La Chapelle-Centre', 'CHAPELLE-SUR-ERDRE (LA )', 'LOIRE-ATLANTIQUE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144626', 'Raon-l''Étape', 'RAON-L''ÉTAPE', 'VOSGES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144626', 'Raon-l'Étape', 'RAON-L'ÉTAPE', 'VOSGES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87691394', 'La Marche', 'LA MARCHE', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87287102', 'Lezennes', 'LILLE', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182584', 'Willer-sur-Thur', 'WILLER-SUR-THUR', 'HAUT-RHIN');
@@ -591,12 +697,21 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87278259', 'Mérignac-Arlac', 'MERIGNAC', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611962', 'Fenouillet-St-Alban', 'FENOUILLET', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276626', 'Vaucelles', 'TAVERNY', 'VAL-D''OISE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381129', 'Clichy-Levallois', 'LEVALLOIS-PERRET', 'HAUTS-DE-SEINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381129', 'Clichy-Levallois', 'CLICHY', 'HAUTS-DE-SEINE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317230', 'Auchy-lès-Hesdin', 'LE PARCQ', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116699', 'Oulchy-Breny', 'BRENY', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87645507', 'Neussargues', 'NEUSSARGUES-MOISSAC', 'CANTAL');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718619', 'Morteau', 'MORTEAU', 'DOUBS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581009', 'Bordeaux-St-Jean', 'BORDEAUX', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734673', 'Darsac', 'VERNASSAL', 'HAUTE-LOIRE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271585', 'Ormoy-Villers', 'ORMOY-VILLERS', 'OISE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615526', 'Labruguière', 'LABRUGUIÈRE', 'TARN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696807', 'Clamecy', 'CLAMECY', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545202', 'St-Michel-sur-Orge', 'SAINT-MICHEL-SUR-ORGE', 'ESSONNE');
@@ -609,18 +724,33 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87215012', 'Sarrebourg', 'SARREBOURG', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191627', 'Malling', 'MALLING', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313437', 'Villers-Bretonneux', 'VILLERS-BRETONNEUX', 'SOMME');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116566', 'Nogent-l''Artaud-Charly', 'NOGENT-L''ARTAUD', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141085', 'Champigneulles', 'CHAMPIGNEULLES', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191114', 'Hagondange', 'MONDELANGE', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87118844', 'Villeneuve-l''Archevêque', 'MOLINONS', 'YONNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116566', 'Nogent-l'Artaud-Charly', 'NOGENT-L'ARTAUD', 'AISNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141085', 'Champigneulles', 'CHAMPIGNEULLES', 'MEURTHE-ET-MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191114', 'Hagondange', 'MONDELANGE', 'MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87118844', 'Villeneuve-l'Archevêque', 'MOLINONS', 'YONNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87297192', 'Chivres-en-Laonnois', 'CHIVRES-EN-LAONNOIS', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87185595', 'Luxeuil-les-Bains', 'LUXEUIL-LES-BAINS', 'HAUTE-SAONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87755314', 'La Pauline-Hyères', 'GARDE (LA )', 'VAR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171868', 'Dontrien', 'DONTRIEN', 'MARNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411082', 'Petit-Quevilly', 'PETIT-QUEVILLY (LE )', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87559070', 'Nevers-Le Banlay', 'NEVERS', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317180', 'Brimeux', 'BRIMEUX', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87387308', 'St-André-de-l''Eure', 'SAINT-ANDRÉ-DE-L''EURE', 'EURE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142224', 'Bologne', 'BOLOGNE', 'HAUTE-MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411082', 'Petit-Quevilly', 'PETIT-QUEVILLY (LE )', 'SEINE-MARITIME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87559070', 'Nevers-Le Banlay', 'NEVERS', 'NIEVRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317180', 'Brimeux', 'BRIMEUX', 'PAS-DE-CALAIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87387308', 'St-André-de-l'Eure', 'SAINT-ANDRÉ-DE-L'EURE', 'EURE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171769', 'Coucy-lès-Eppes', 'COUCY-LÈS-EPPES', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87487249', 'Bressuire', 'BRESSUIRE', 'DEUX-SEVRES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213413', 'Hoelschloch', 'SURBOURG', 'BAS-RHIN');
@@ -644,12 +774,23 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212431', 'Seltz', 'SELTZ', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611004', 'Toulouse-Matabiau', 'TOULOUSE', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382218', 'La Défense', 'PUTEAUX', 'HAUTS-DE-SEINE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471052', 'St-Jacques-de-la-Lande', 'SAINT-JACQUES-DE-LA-LANDE', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611111', 'Lestelle', 'LESTELLE-DE-SAINT-MARTORY', 'HAUTE-GARONNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313213', 'Boves', 'BOVES', 'SOMME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471052', 'St-Jacques-de-la-Lande', 'SAINT-JACQUES-DE-LA-LANDE', 'ILLE-ET-VILAINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611111', 'Lestelle', 'LESTELLE-DE-SAINT-MARTORY', 'HAUTE-GARONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741132', 'Aix-les-Bains-Le Revard', 'AIX-LES-BAINS', 'SAVOIE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491043', 'Taillebourg', 'TAILLEBOURG', 'CHARENTE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396309', 'Connerré-Beillé', 'BEILLÉ', 'SARTHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281105', 'Bergues', 'BERGUES', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734731', 'Chamalières-sur-Loire', 'CHAMALIÈRES-SUR-LOIRE', 'HAUTE-LOIRE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713651', 'St-Jean-de-Losne', 'SAINT-USAGE', 'COTE-D''OR');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721324', 'Anse', 'ANSE', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214130', 'Matzenheim', 'MATZENHEIM', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734244', 'Brassac-les-Mines-Ste-Florine', 'BRASSAC-LES-MINES', 'PUY-DE-DOME');
@@ -657,6 +798,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478149', 'Pleudihen', 'PLEUDIHEN-SUR-RANCE', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696005', 'Nevers', 'NEVERS', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597120', 'Argenton-sur-Creuse', 'ARGENTON-SUR-CREUSE', 'INDRE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444372', 'Trouville-Deauville', 'DEAUVILLE', 'CALVADOS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722561', 'Chasse-sur-Rhône', 'CHASSE-SUR-RHÔNE', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87618215', 'Villenouvelle', 'VILLENOUVELLE', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574475', 'Bléré-la-Croix', 'LA CROIX-EN-TOURAINE', 'INDRE-ET-LOIRE');
@@ -670,9 +815,16 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87712513', 'St-Aubin (Jura)', 'SAINT-AUBIN', 'JURA');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87763722', 'Serres', 'SERRES', 'HAUTES-ALPES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87484063', 'Trélazé', 'TRELAZE', 'MAINE-ET-LOIRE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87684407', 'Boigneville', 'BOIGNEVILLE', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734699', 'Le Puy-en-Velay', 'PUY-EN-VELAY (LE )', 'HAUTE-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671495', 'St-Martin-d''Oney', 'SAINT-MARTIN-D''ONEY', 'LANDES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485318', 'Aiffres', 'AIFFRES', 'DEUX-SEVRES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87684407', 'Boigneville', 'BOIGNEVILLE', 'ESSONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734699', 'Le Puy-en-Velay', 'PUY-EN-VELAY (LE )', 'HAUTE-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671495', 'St-Martin-d'Oney', 'SAINT-MARTIN-D'ONEY', 'LANDES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87571430', 'Cormery', 'CORMERY', 'INDRE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87215103', 'Igney-Avricourt', 'AVRICOURT', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342592', 'Bailleul-Sir-Berthoult', 'BAILLEUL-SIR-BERTHOULT', 'PAS-DE-CALAIS');
@@ -692,19 +844,32 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671123', 'Lannemezan', 'LANNEMEZAN', 'HAUTES-PYRENEES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87762906', 'Lyon-St-Exupéry-TGV', 'COLOMBIER-SAUGNIEU', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783548', 'Le Bruel', 'ESCLANÈDES', 'LOZERE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611517', 'L''Hospitalet-près-l''Andorre', 'L''HOSPITALET-PRÈS-L''ANDORRE', 'ARIEGE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722298', 'Le Sablon', 'GRIGNY', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734152', 'Sarliève-Cournon', 'COURNON-D''AUVERGNE', 'PUY-DE-DOME');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611517', 'L'Hospitalet-près-l'Andorre', 'L'HOSPITALET-PRÈS-L'ANDORRE', 'ARIEGE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722298', 'Le Sablon', 'GRIGNY', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734152', 'Sarliève-Cournon', 'COURNON-D'AUVERGNE', 'PUY-DE-DOME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781104', 'Narbonne', 'NARBONNE', 'AUDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171553', 'Epernay', 'EPERNAY', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396713', 'Bessé-sur-Braye', 'BESSÉ-SUR-BRAYE', 'SARTHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396358', 'Voivres', 'VOIVRES-LÈS-LE-MANS', 'SARTHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192658', 'Baroncourt', 'DOMMARY-BARONCOURT', 'MEUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87763466', 'Embrun', 'EMBRUN', 'HAUTES-ALPES');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381798', 'Val-d''Argenteuil', 'ARGENTEUIL', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141424', 'Bertrichamps', 'BERTRICHAMPS', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87672220', 'Lacq', 'LACQ', 'PYRENEES-ATLANTIQUES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171579', 'Avenay', 'AVENAY-VAL-D''OR', 'MARNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381798', 'Val-d'Argenteuil', 'ARGENTEUIL', 'VAL-D''OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141424', 'Bertrichamps', 'BERTRICHAMPS', 'MEURTHE-ET-MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87672220', 'Lacq', 'LACQ', 'PYRENEES-ATLANTIQUES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171579', 'Avenay', 'AVENAY-VAL-D'OR', 'MARNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696740', 'Arzembouy', 'ARZEMBOUY', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286161', 'Steenwerck', 'BAILLEUL', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214692', 'Schirmeck-La Broque', 'SCHIRMECK', 'BAS-RHIN');
@@ -713,11 +878,19 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756825', 'Sospel', 'SOSPEL', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174102', 'Oiry', 'OIRY', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741140', 'Viviers-du-Lac', 'VIVIERS-DU-LAC', 'SAVOIE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87417444', 'Franchet-d''Esperey', 'REIMS', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87745596', 'Bons-en-Chablais', 'BONS-EN-CHABLAIS', 'HAUTE-SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313270', 'St-Just-en-Chaussée', 'SAINT-JUST-EN-CHAUSSÉE', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681395', 'Le Bras-de-fer', 'EVRY', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753228', 'Berre', 'BERRE-L''ETANG', 'BOUCHES-DU-RHONE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87417444', 'Franchet-d'Esperey', 'REIMS', 'MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87745596', 'Bons-en-Chablais', 'BONS-EN-CHABLAIS', 'HAUTE-SAVOIE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313270', 'St-Just-en-Chaussée', 'SAINT-JUST-EN-CHAUSSÉE', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681395', 'Le Bras-de-fer', 'EVRY', 'ESSONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753228', 'Berre', 'BERRE-L'ETANG', 'BOUCHES-DU-RHONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87755009', 'Toulon', 'TOULON', 'VAR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722322', 'Ste-Colombe-les-Vienne-St-Romain-en-Gal', 'SAINT-ROMAIN-EN-GAL', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476416', 'Plouharnel-Carnac', 'PLOUHARNEL', 'MORBIHAN');
@@ -735,12 +908,20 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741645', 'Albertville', 'ALBERTVILLE', 'SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673293', 'Labenne', 'LABENNE', 'LANDES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783514', 'Les Salelles', 'LES SALELLES', 'LOZERE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87184572', 'L''Isle-sur-le-Doubs', 'L''ISLE-SUR-LE-DOUBS', 'DOUBS');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87184572', 'L'Isle-sur-le-Doubs', 'L'ISLE-SUR-LE-DOUBS', 'DOUBS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726869', 'Balbigny', 'BALBIGNY', 'LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682104', 'Montgeron-Crosne', 'MONTGERON', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87677005', 'Hendaye', 'HENDAYE', 'PYRENEES-ATLANTIQUES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141523', 'Pont-St-Vincent', 'PONT-SAINT-VINCENT', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345025', 'Lens', 'LENS', 'PAS-DE-CALAIS');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345314', 'Somain', 'SOMAIN', 'NORD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271601', 'Vaumoise', 'COYOLLES', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485227', 'Surgères', 'SURGÈRES', 'CHARENTE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574152', 'Baule', 'BAULE', 'LOIRET');
@@ -758,17 +939,31 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87272096', 'Esches', 'ESCHES', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576157', 'Loreux', 'LOREUX', 'LOIR-ET-CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144410', 'Arches', 'ARCHES', 'VOSGES');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721225', 'Collonges-Fontaines', 'COLLONGES-AU-MONT-D''OR', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485540', 'Lusignan', 'LUSIGNAN', 'VIENNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721225', 'Collonges-Fontaines', 'COLLONGES-AU-MONT-D'OR', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485540', 'Lusignan', 'LUSIGNAN', 'VIENNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87384008', 'Paris-St-Lazare', 'PARIS', 'PARIS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214106', 'Ebersheim', 'EBERSHEIM', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775023', 'Beaucaire', 'BEAUCAIRE', 'GARD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595504', 'Périgueux-St-Georges', 'PERIGUEUX', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182832', 'Île-Napoléon', 'ILLZACH', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87193664', 'Kalhausen', 'KALHAUSEN', 'MOSELLE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415661', 'Pont-de-l''Arche', 'ALIZAY', 'EURE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393512', 'Jouy-en-Josas', 'JOUY-EN-JOSAS', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313551', 'Cires-lès-Mello', 'CIRES-LÈS-MELLO', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381459', 'Conflans-Fin-d''Oise', 'CONFLANS-SAINTE-HONORINE', 'YVELINES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415661', 'Pont-de-l'Arche', 'ALIZAY', 'EURE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783456', 'Tournemire-Roquefort', 'TOURNEMIRE', 'AVEYRON');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393512', 'Jouy-en-Josas', 'JOUY-EN-JOSAS', 'YVELINES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313551', 'Cires-lès-Mello', 'CIRES-LÈS-MELLO', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381459', 'Conflans-Fin-d'Oise', 'CONFLANS-SAINTE-HONORINE', 'YVELINES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741116', 'Chindrieux', 'CHINDRIEUX', 'SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718833', 'Mouchard', 'MOUCHARD', 'JURA');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575845', 'Lussac-les-Châteaux', 'LUSSAC-LES-CHÂTEAUX', 'VIENNE');
@@ -778,6 +973,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473108', 'Lamballe', 'LAMBALLE', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141036', 'Foug', 'FOUG', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582767', 'Preignac', 'PREIGNAC', 'GIRONDE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87343103', 'St-Amand-les-Eaux', 'SAINT-AMAND-LES-EAUX', 'NORD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751321', 'Manosque-Gréoux-les-Bains', 'MANOSQUE', 'ALPES-DE-HAUTE-PROVENCE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342006', 'Béthune', 'BETHUNE', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734442', 'Lezoux', 'LEZOUX', 'PUY-DE-DOME');
@@ -798,7 +997,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276113', 'Chantilly-Gouvieux', 'CHANTILLY', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723304', 'Vénissieux-Nord', 'SAINT-PRIEST', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681809', 'Villeneuve-Triage', 'VILLENEUVE-SAINT-GEORGES', 'VAL-DE-MARNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87113886', 'L''Abbaye', 'LIVRY-GARGAN', 'SEINE-SAINT-DENIS');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87113886', 'L'Abbaye', 'LIVRY-GARGAN', 'SEINE-SAINT-DENIS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784231', 'Argelès-sur-Mer', 'ARGELES-SUR-MER', 'PYRENEES-ORIENTALES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747402', 'Grenoble-Université-Gières', 'GIÈRES', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592279', 'Magnac-Vicq', 'VICQ-SUR-BREUILH', 'HAUTE-VIENNE');
@@ -807,6 +1010,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191304', 'Yutz', 'YUTZ', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381210', 'Liancourt-St-Pierre', 'LIANCOURT-SAINT-PIERRE', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393215', 'Viroflay-Rive-Gauche', 'VIROFLAY', 'YVELINES');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281477', 'Arques (Pas-de-Calais)', 'ARQUES', 'PAS-DE-CALAIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683318', 'St-Florentin-Vergigny', 'VERGIGNY', 'YONNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491035', 'St-Savinien-sur-Charente', 'SAINT-SAVINIEN', 'CHARENTE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87111849', 'Marne-la-Vallée-Chessy', 'CHESSY', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87474080', 'Quéménéven', 'QUÉMÉNÉVEN', 'FINISTERE');
@@ -816,6 +1024,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673285', 'Bénesse-Maremne', 'BÉNESSE-MAREMNE', 'LANDES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747410', 'Domène', 'DOMÈNE', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765826', 'Entraigues-sur-la-Sorgue', 'ENTRAIGUES-SUR-LA-SORGUE', 'VAUCLUSE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381111', 'Pont-Cardinet', 'PARIS', 'PARIS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694612', 'Blanzy', 'BLANZY', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681403', 'Moulin-Galant', 'CORBEIL-ESSONNES', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393447', 'Orgérus-Béhoust', 'ORGERUS', 'YVELINES');
@@ -828,9 +1040,17 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411249', 'Maromme', 'NOTRE-DAME-DE-BONDEVILLE', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116137', 'Longueville', 'LONGUEVILLE', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192039', 'Metz-Ville', 'METZ', 'MOSELLE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576876', 'Gièvres', 'GIÈVRES', 'LOIR-ET-CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576728', 'Mennetou-sur-Cher', 'MENNETOU-SUR-CHER', 'LOIR-ET-CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545517', 'Sermaise', 'SERMAISE', 'ESSONNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741181', 'Montmélian', 'MONTMÉLIAN', 'SAVOIE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576876', 'Gièvres', 'GIÈVRES', 'LOIR-ET-CHER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576728', 'Mennetou-sur-Cher', 'MENNETOU-SUR-CHER', 'LOIR-ET-CHER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545517', 'Sermaise', 'SERMAISE', 'ESSONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381111', 'Pont-Cardinet', 'PARIS', 'PARIS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743344', 'Cize-Bolozon', 'BOLOZON', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718601', 'Le Valdahon Camp Militaire', 'VALDAHON', 'DOUBS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444315', 'Serquigny', 'SERQUIGNY', 'EURE');
@@ -856,6 +1076,7 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575316', 'St-Jean-de-Sauves', 'SAINT-JEAN-DE-SAUVES', 'VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116681', 'Neuilly-St-Front', 'VICHEL-NANTEUIL', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116590', 'Mézy', 'MÉZY-MOULINS', 'AISNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775841', 'St-Laurent-d''Aigouze', 'SAINT-LAURENT-D''AIGOUZE', 'GARD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116111', 'Chelles-Gournay', 'CHELLES', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87184002', 'Belfort', 'BELFORT', 'TERRITOIRE-DE-BELFORT');
@@ -865,22 +1086,50 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87584755', 'La Gorp', 'AMBARES-ET-LAGRAVE', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381020', 'Neuilly-Porte-Maillot', 'PARIS', 'PARIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87193631', 'Sarreinsming', 'SARREINSMING', 'MOSELLE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775841', 'St-Laurent-d'Aigouze', 'SAINT-LAURENT-D'AIGOUZE', 'GARD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116111', 'Chelles-Gournay', 'CHELLES', 'SEINE-ET-MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87184002', 'Belfort', 'BELFORT', 'TERRITOIRE-DE-BELFORT');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286195', 'St-André', 'SAINT-ANDRE-LEZ-LILLE', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381087', 'Colombes', 'COLOMBES', 'HAUTS-DE-SEINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444711', 'Alençon', 'ALENCON', 'ORNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182865', 'Blodelsheim', 'BLODELSHEIM', 'HAUT-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87194357', 'Audun-le-Roman', 'AUDUN-LE-ROMAN', 'MEURTHE-ET-MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87584755', 'La Gorp', 'AMBARES-ET-LAGRAVE', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87215012', 'Sarrebourg', 'SARREBOURG', 'MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381020', 'Neuilly-Porte-Maillot', 'PARIS', 'PARIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87484337', 'La Possonnière', 'LA POSSONNIÈRE', 'MAINE-ET-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87193631', 'Sarreinsming', 'SARREINSMING', 'MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142554', 'Châtillon-sur-Seine', 'SAINTE-COLOMBE-SUR-SEINE', 'COTE-D''OR');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276576', 'Luzarches', 'LUZARCHES', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721548', 'La Tour-de-Salvagny', 'LA TOUR-DE-SALVAGNY', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342360', 'Aire-sur-la-Lys', 'AIRE-SUR-LA-LYS', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87584102', 'St-Émilion', 'SAINT-ÉMILION', 'GIRONDE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734335', 'Monistrol-d''Allier', 'MONISTROL-D''ALLIER', 'HAUTE-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87684100', 'Montigny-sur-Loing', 'MONTIGNY-SUR-LOING', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144071', 'Châtel-Nomexy', 'NOMEXY', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575175', 'Naintré-les-Barres', 'NAINTRÉ', 'VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586438', 'Penne', 'PENNE-D''AGENAIS', 'LOT-ET-GARONNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734335', 'Monistrol-d'Allier', 'MONISTROL-D'ALLIER', 'HAUTE-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87684100', 'Montigny-sur-Loing', 'MONTIGNY-SUR-LOING', 'SEINE-ET-MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144071', 'Châtel-Nomexy', 'NOMEXY', 'VOSGES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575175', 'Naintré-les-Barres', 'NAINTRÉ', 'VIENNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586438', 'Penne', 'PENNE-D'AGENAIS', 'LOT-ET-GARONNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342220', 'Chocques', 'CHOCQUES', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594606', 'Varetz', 'VARETZ', 'CORREZE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471334', 'Janzé', 'JANZÉ', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87613042', 'Rocamadour-Padirac', 'ROCAMADOUR', 'LOT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214296', 'Bischoffsheim', 'BISCHOFFSHEIM', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271486', 'Parc-des-Expositions', 'VILLEPINTE', 'SEINE-SAINT-DENIS');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276667', 'Méry (Val-d''Oise)', 'MERY-SUR-OISE', 'VAL-D''OISE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276667', 'Méry (Val-d'Oise)', 'MERY-SUR-OISE', 'VAL-D''OISE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746438', 'Sallanches-Combloux-Megève', 'SALLANCHES', 'HAUTE-SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171835', 'Bétheniville', 'BÉTHENIVILLE', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87295733', 'Avesnes', 'AVESNES-SUR-HELPE', 'NORD');
@@ -896,8 +1145,14 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713636', 'Aiserey', 'AISEREY', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615625', 'Carmaux', 'CARMAUX', 'TARN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87343509', 'Maulde-Mortagne', 'MORTAGNE-DU-NORD', 'NORD');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87764613', 'L''Ardoise', 'LAUDUN', 'GARD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87580340', 'Arenc-Euroméditerranée', 'MARSEILLE', 'BOUCHES-DU-RHONE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87764613', 'L'Ardoise', 'LAUDUN', 'GARD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87580340', 'Arenc-Euroméditerranée', 'MARSEILLE', 'BOUCHES-DU-RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87193250', 'Béning', 'BÉNING-LÈS-SAINT-AVOLD', 'MOSELLE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87287151', 'Nieppe', 'NIEPPE', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694109', 'Le Creusot-Montceau-Montchanin', 'ÉCUISSES', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271874', 'Crouy', 'CROUY', 'AISNE');
@@ -911,6 +1166,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87686733', 'Paris-Bercy-Rapée', 'PARIS', 'PARIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214528', 'Entzheim', 'ENTZHEIM', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271205', 'Gennevilliers', 'GENNEVILLIERS', 'HAUTS-DE-SEINE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192658', 'Baroncourt', 'DOMMARY-BARONCOURT', 'MEUSE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765206', 'Sorgues-Châteauneuf-du-Pape', 'SORGUES', 'VAUCLUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597740', 'Lavaufranche', 'LAVAUFRANCHE', 'CREUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473512', 'Moustéru', 'BOURBRIAC', 'COTES-D''ARMOR');
@@ -925,16 +1184,27 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271395', 'Le Bourget', 'BOURGET (LE )', 'SEINE-SAINT-DENIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191734', 'Rombas-Clouange', 'ROMBAS', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473504', 'Carhaix', 'CARHAIX-PLOUGUER', 'FINISTERE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175075', 'Fronville', 'FRONVILLE', 'HAUTE-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595595', 'La Bachellerie', 'SAINT-RABIER', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381426', 'St-Ouen-l''Aumône-Église', 'SAINT-OUEN-L''AUMONE', 'VAL-D''OISE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393579', 'Massy-Palaiseau', 'MASSY', 'ESSONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175075', 'Fronville', 'FRONVILLE', 'HAUTE-MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595595', 'La Bachellerie', 'SAINT-RABIER', 'DORDOGNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381426', 'St-Ouen-l'Aumône-Église', 'SAINT-OUEN-L'AUMONE', 'VAL-D''OISE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87353573', 'Le Toec', 'TOULOUSE', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726216', 'Bouthéon', 'ANDREZIEUX-BOUTHEON', 'LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784637', 'Prades-Molitg-les-Bains', 'PRADES', 'PYRENEES-ORIENTALES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182618', 'Wesserling', 'FELLERING', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746743', 'Les Houches', 'LES HOUCHES', 'HAUTE-SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481465', 'Montaigu-Vendée', 'MONTAIGU', 'VENDEE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543355', 'Villeneuve-d''Ingré', 'INGRÉ', 'LOIRET');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543355', 'Villeneuve-d'Ingré', 'INGRÉ', 'LOIRET');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783670', 'Belvezet', 'BELVEZET', 'LOZERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411223', 'Sotteville', 'SOTTEVILLE-LES-ROUEN', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594762', 'Bretenoux-Biars', 'BIARS-SUR-CÈRE', 'LOT');
@@ -951,9 +1221,16 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116269', 'Guérard-La Celle-sur-Morin', 'GUÉRARD', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594085', 'Jassonneix', 'MEYMAC', 'CORREZE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694869', 'Gilly-sur-Loire', 'GILLY-SUR-LOIRE', 'SAONE-ET-LOIRE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471060', 'L''Hermitage-Mordelles', 'L''HERMITAGE', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87287193', 'Ste-Marguerite', 'COMINES', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481259', 'Les Moutiers-en-Retz', 'LES MOUTIERS-EN-RETZ', 'LOIRE-ATLANTIQUE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471060', 'L'Hermitage-Mordelles', 'L'HERMITAGE', 'ILLE-ET-VILAINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87287193', 'Ste-Marguerite', 'COMINES', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481259', 'Les Moutiers-en-Retz', 'LES MOUTIERS-EN-RETZ', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271411', 'Aulnay-sous-Bois', 'AULNAY-SOUS-BOIS', 'SEINE-SAINT-DENIS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574509', 'Cloyes', 'CLOYES-SUR-LE-LOIR', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87547026', 'Paris-Austerlitz-Souterrain', 'PARIS', 'PARIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175018', 'Revigny', 'REVIGNY-SUR-ORNAIN', 'MEUSE');
@@ -995,9 +1272,17 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393272', 'Coignières', 'COIGNIÈRES', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393009', 'Versailles-Chantiers', 'VERSAILLES', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694182', 'Marmagne-sous-Creusot', 'MARMAGNE', 'SAONE-ET-LOIRE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87745679', 'Évian-les-Bains', 'ÉVIAN-LES-BAINS', 'HAUTE-SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682419', 'Chartrettes', 'CHARTRETTES', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761494', 'St-Péray', 'SAINT-PÉRAY', 'ARDECHE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87131961', 'Brion-Montréal-la-Cluse', 'BRION', 'AIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87745679', 'Évian-les-Bains', 'ÉVIAN-LES-BAINS', 'HAUTE-SAVOIE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682419', 'Chartrettes', 'CHARTRETTES', 'SEINE-ET-MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761494', 'St-Péray', 'SAINT-PÉRAY', 'ARDECHE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481705', 'St-Nazaire', 'SAINT-NAZAIRE', 'LOIRE-ATLANTIQUE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212449', 'Munchhausen', 'MUNCHHAUSEN', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141143', 'Mont-sur-Meurthe', 'REHAINVILLER', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576181', 'Les Quatre-Roues', 'PRUNIERS-EN-SOLOGNE', 'LOIR-ET-CHER');
@@ -1008,6 +1293,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87583849', 'Ruffec', 'RUFFEC', 'CHARENTE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317339', 'Marquise-Rinxent', 'RINXENT', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576439', 'Avord', 'AVORD', 'CHER');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722561', 'Chasse-sur-Rhône', 'CHASSE-SUR-RHÔNE', 'ISERE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87584201', 'St-Antoine-de-Breuilh', 'SAINT-ANTOINE-DE-BREUILH', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611723', 'Baziège', 'BAZIÈGE', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784561', 'Ille-sur-Têt', 'ILLE-SUR-TÊT', 'PYRENEES-ORIENTALES');
@@ -1024,6 +1313,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415885', 'Rosny-sur-Seine', 'ROSNY-SUR-SEINE', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276451', 'Bruyères-sur-Oise', 'BRUYÈRES-SUR-OISE', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476648', 'Ste-Anne', 'PLUNERET', 'MORBIHAN');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415034', 'Rouxmesnil', 'ROUXMESNIL-BOUTEILLES', 'SEINE-MARITIME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746768', 'Les Bossons', 'CHAMONIX-MONT-BLANC', 'HAUTE-SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87295535', 'Louvroil', 'LOUVROIL', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141788', 'Pompey', 'POMPEY', 'MEURTHE-ET-MOSELLE');
@@ -1031,8 +1324,15 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171736', 'Guignicourt', 'GUIGNICOURT', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342402', 'Beuvry (Pas-de-Calais)', 'BEUVRY', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87447649', 'Folligny', 'FOLLIGNY', 'MANCHE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175000', 'St-Dizier', 'SAINT-DIZIER', 'HAUTE-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611483', 'Latour-de-Carol-Enveitg', 'ENVEITG', 'PYRENEES-ORIENTALES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116541', 'Sézanne', 'SÉZANNE', 'MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175000', 'St-Dizier', 'SAINT-DIZIER', 'HAUTE-MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611483', 'Latour-de-Carol-Enveitg', 'ENVEITG', 'PYRENEES-ORIENTALES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473181', 'Plouaret-Trégor', 'LE VIEUX-MARCHÉ', 'COTES-D''ARMOR');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87613422', 'Rodez', 'RODEZ', 'AVEYRON');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594671', 'Lubersac', 'LUBERSAC', 'CORREZE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87295725', 'Avesnelles', 'AVESNELLES', 'NORD');
@@ -1044,14 +1344,25 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595728', 'Mauzens-Miremont', 'MAUZENS-ET-MIREMONT', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281469', 'Ebblinghem', 'EBBLINGHEM', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696328', 'Moulins-sur-Allier', 'YZEURE', 'ALLIER');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87546192', 'Pont-de-Rungis-Aéroport-d''Orly', 'THIAIS', 'VAL-DE-MARNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87546192', 'Pont-de-Rungis-Aéroport-d'Orly', 'THIAIS', 'VAL-DE-MARNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286872', 'Baisieux', 'BAISIEUX', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87612010', 'Montaudran', 'TOULOUSE', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746511', 'Reignier', 'REIGNIER', 'HAUTE-SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175794', 'Étain', 'ÉTAIN', 'MEUSE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87387183', 'Beaumont-le-Roger', 'BEAUMONT-LE-ROGER', 'EURE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174250', 'Loisy-sur-Marne', 'LOISY-SUR-MARNE', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756809', 'L''Escarène', 'L''ESCARÈNE', 'ALPES-MARITIMES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175000', 'St-Dizier', 'SAINT-DIZIER', 'HAUTE-MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87387183', 'Beaumont-le-Roger', 'BEAUMONT-LE-ROGER', 'EURE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174250', 'Loisy-sur-Marne', 'LOISY-SUR-MARNE', 'MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756809', 'L'Escarène', 'L'ESCARÈNE', 'ALPES-MARITIMES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87571463', 'Chambourg', 'CHAMBOURG-SUR-INDRE', 'INDRE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87118430', 'Buchères-Verrières', 'BUCHÈRES', 'AUBE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595892', 'Villefranche-du-Périgord', 'LOUBEJAC', 'DORDOGNE');
@@ -1071,7 +1382,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87146217', 'St-Nabord', 'SAINT-NABORD', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87715441', 'Morez', 'MOREZ', 'JURA');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141093', 'Laneuveville-devant-Nancy', 'LANEUVEVILLE-DEVANT-NANCY', 'MEURTHE-ET-MOSELLE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721431', 'L''Arbresle', 'ÉVEUX', 'RHONE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721431', 'L'Arbresle', 'ÉVEUX', 'RHONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411454', 'Montérolier-Buchy', 'BUCHY', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471524', 'Châteaubourg', 'CHÂTEAUBOURG', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142109', 'Lorraine-TGV', 'LOUVIGNY', 'MOSELLE');
@@ -1081,8 +1396,14 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144147', 'Bains-les-Bains', 'LE CLERJUS', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87287219', 'Anstaing', 'ANSTAING', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342535', 'Vis-à-Marles', 'MARLES-LES-MINES', 'PAS-DE-CALAIS');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313304', 'Clermont-de-l''Oise', 'CLERMONT', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595769', 'Siorac-en-Périgord', 'SIORAC-EN-PÉRIGORD', 'DORDOGNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313304', 'Clermont-de-l'Oise', 'CLERMONT', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595769', 'Siorac-en-Périgord', 'SIORAC-EN-PÉRIGORD', 'DORDOGNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87287102', 'Lezennes', 'LILLE', 'NORD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761007', 'Valence', 'VALENCE', 'DROME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345504', 'Aniche', 'ANICHE', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116178', 'Ste-Colombe-Septveilles', 'SAINTE-COLOMBE', 'SEINE-ET-MARNE');
@@ -1098,7 +1419,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87413203', 'Le Havre-Graville', 'HAVRE (LE )', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214148', 'Erstein', 'ERSTEIN', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313346', 'Montdidier', 'MONTDIDIER', 'SOMME');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721746', 'Civrieux-d''Azergues', 'CIVRIEUX-D''AZERGUES', 'RHONE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721746', 'Civrieux-d'Azergues', 'CIVRIEUX-D'AZERGUES', 'RHONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694406', 'Maison-Dieu (Yonne)', 'SCEAUX', 'YONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345157', 'Hénin-Beaumont', 'HENIN-BEAUMONT', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586149', 'Colayrac', 'COLAYRAC-SAINT-CIRQ', 'LOT-ET-GARONNE');
@@ -1115,6 +1440,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576322', 'St-Amand-Montrond-Orval', 'ORVAL', 'CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444752', 'Pré-en-Pail', 'PRÉ-EN-PAIL', 'MAYENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87486332', 'Chantonnay', 'CHANTONNAY', 'VENDEE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87486332', 'Chantonnay', 'CHANTONNAY', 'VENDEE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87641274', 'Laqueuille', 'SAINT-JULIEN-PUY-LAVÈZE', 'PUY-DE-DOME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182063', 'Mulhouse-Ville', 'MULHOUSE', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87287169', 'Marquette', 'MARQUETTE-LEZ-LILLE', 'NORD');
@@ -1125,10 +1454,18 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286005', 'Lille-Flandres', 'LILLE', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87413617', 'Colleville-Ste-Hélène', 'COLLEVILLE', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696534', 'Luzy', 'LUZY', 'NIEVRE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743005', 'Bourg-en-Bresse', 'BOURG-EN-BRESSE', 'AIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597377', 'Buzançais', 'BUZANÇAIS', 'INDRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586107', 'Port-Ste-Marie', 'PORT-SAINTE-MARIE', 'LOT-ET-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276766', 'Ribécourt', 'RIBÉCOURT-DRESLINCOURT', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271866', 'Ciry-Sermoise', 'CIRY-SALSOGNE', 'AISNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713040', 'Dijon-Ville', 'LONGVIC', 'COTE-D''OR');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87486324', 'Bournezeau', 'BOURNEZEAU', 'VENDEE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87715391', 'La Chaumusse-Fort-du-Plasne', 'LA CHAUMUSSE', 'JURA');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382200', 'Courbevoie', 'COURBEVOIE', 'HAUTS-DE-SEINE');
@@ -1142,9 +1479,15 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87742361', 'St-Michel-Valloire', 'SAINT-MICHEL-DE-MAURIENNE', 'SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473843', 'Pontrieux', 'PONTRIEUX', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174466', 'La Veuve', 'LA VEUVE', 'MARNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756817', 'Touët-de-l''Escarène', 'TOUËT-DE-L''ESCARÈNE', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87386318', 'Nanterre-Université', 'NANTERRE', 'HAUTS-DE-SEINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592634', 'L''Aiguille', 'BOSMIE-L''AIGUILLE', 'HAUTE-VIENNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756817', 'Touët-de-l'Escarène', 'TOUËT-DE-L'ESCARÈNE', 'ALPES-MARITIMES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87386318', 'Nanterre-Université', 'NANTERRE', 'HAUTS-DE-SEINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592634', 'L'Aiguille', 'BOSMIE-L'AIGUILLE', 'HAUTE-VIENNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87773408', 'Lunel', 'LUNEL', 'HERAULT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471243', 'St-Méen', 'SAINT-MÉEN-LE-GRAND', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87745646', 'Thonon-les-Bains', 'THONON-LES-BAINS', 'HAUTE-SAVOIE');
@@ -1167,7 +1510,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87295238', 'Douzies', 'MAUBEUGE', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296632', 'La Fère', 'LA FÈRE', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696120', 'Neuvy-sur-Loire', 'NEUVY-SUR-LOIRE', 'NIEVRE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576173', 'Faubourg-d''Orléans', 'ROMORANTIN-LANTHENAY', 'LOIR-ET-CHER');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576173', 'Faubourg-d'Orléans', 'ROMORANTIN-LANTHENAY', 'LOIR-ET-CHER');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296327', 'Athies-sous-Laon', 'ATHIES-SOUS-LAON', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214114', 'Kogenheim', 'KOGENHEIM', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87725713', 'Crêches-sur-Saône', 'CRÊCHES-SUR-SAÔNE', 'SAONE-ET-LOIRE');
@@ -1185,8 +1532,15 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756882', 'Tende', 'TENDE', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615773', 'Luc-Primaube', 'LUC-LA-PRIMAUBE', 'AVEYRON');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545269', 'Ablon', 'ABLON-SUR-SEINE', 'VAL-DE-MARNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271155', 'Stains', 'STAINS', 'SEINE-SAINT-DENIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87474056', 'Pont-de-Buis Lès Quimerc''h', 'PONT-DE-BUIS-LÈS-QUIMERCH', 'FINISTERE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393488', 'Dreux', 'DREUX', 'EURE-ET-LOIR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271155', 'Stains', 'STAINS', 'SEINE-SAINT-DENIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87474056', 'Pont-de-Buis Lès Quimerc'h', 'PONT-DE-BUIS-LÈS-QUIMERCH', 'FINISTERE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696575', 'Tamnay-Châtillon', 'TAMNAY-EN-BAZOIS', 'NIEVRE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743815', 'Lagnieu', 'LAGNIEU', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191239', 'Hayange', 'HAYANGE', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87303875', 'Ingersheim-Cité-Scolaire', 'TURCKHEIM', 'HAUT-RHIN');
@@ -1202,16 +1556,29 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87583203', 'Ruelle', 'RUELLE-SUR-TOUVRE', 'CHARENTE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396572', 'Aubigné-Racan', 'AUBIGNÉ-RACAN', 'SARTHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87387126', 'St-Aubin-du-Vieil-Évreux', 'LE VIEIL-ÉVREUX', 'EURE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545285', 'Choisy-le-Roi', 'CHOISY-LE-ROI', 'VAL-DE-MARNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783308', 'Le Monastier', 'LE MONASTIER-PIN-MORIÈS', 'LOZERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87745380', 'Pougny-Chancy', 'POUGNY', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87684563', 'Mignères-Gondréville', 'MIGNÈRES', 'LOIRET');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87571422', 'Esvres', 'ESVRES', 'INDRE-ET-LOIRE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87547307', 'Musée-d''Orsay', 'PARIS', 'PARIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171710', 'Courcy-Brimont', 'COURCY', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87755231', 'Ollioules-Sanary-sur-Mer', 'OLLIOULES', 'VAR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611806', 'L''Isle-Jourdain', 'L'' ISLE-JOURDAIN', 'GERS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682252', 'Thomery', 'FONTAINEBLEAU', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775254', 'Grand''Combe-La Pise', 'GRAND-COMBE (LA)', 'GARD');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87547307', 'Musée-d'Orsay', 'PARIS', 'PARIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171710', 'Courcy-Brimont', 'COURCY', 'MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87755231', 'Ollioules-Sanary-sur-Mer', 'OLLIOULES', 'VAR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611806', 'L'Isle-Jourdain', 'L' ISLE-JOURDAIN', 'GERS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682252', 'Thomery', 'FONTAINEBLEAU', 'SEINE-ET-MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775254', 'Grand'Combe-La Pise', 'GRAND-COMBE (LA)', 'GARD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393108', 'Meudon', 'MEUDON', 'HAUTS-DE-SEINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781559', 'Les Cabrils', 'ROQUEREDONDE', 'HERAULT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545293', 'Vitry-sur-Seine', 'VITRY-SUR-SEINE', 'VAL-DE-MARNE');
@@ -1224,9 +1591,17 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594234', 'Allassac', 'ALLASSAC', 'CORREZE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214544', 'Duttlenheim', 'DACHSTEIN', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595132', 'Négrondes', 'NÉGRONDES', 'DORDOGNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393231', 'Trappes-Marchandises', 'TRAPPES', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761262', 'Loriol', 'LORIOL-SUR-DRÔME', 'DROME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734301', 'St-Georges-d''Aurac', 'MAZEYRAT-D''ALLIER', 'HAUTE-LOIRE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172502', 'Tournes', 'TOURNES', 'ARDENNES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393231', 'Trappes-Marchandises', 'TRAPPES', 'YVELINES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761262', 'Loriol', 'LORIOL-SUR-DRÔME', 'DROME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753004', 'Miramas', 'MIRAMAS', 'BOUCHES-DU-RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734301', 'St-Georges-d'Aurac', 'MAZEYRAT-D'ALLIER', 'HAUTE-LOIRE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182725', 'Merxheim', 'MERXHEIM', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172171', 'Poix-Terron', 'POIX-TERRON', 'ARDENNES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595249', 'St-Astier', 'SAINT-ASTIER', 'DORDOGNE');
@@ -1247,8 +1622,14 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144204', 'Poussay', 'POUSSAY', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586545', 'Marmande', 'MARMANDE', 'LOT-ET-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683441', 'Courtenay', 'COURTENAY', 'LOIRET');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87641043', 'Lapeyrouse', 'LAPEYROUSE', 'PUY-DE-DOME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784520', 'St-Féliu-d''Avall', 'SAINT-FÉLIU-D''AVALL', 'PYRENEES-ORIENTALES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713578', 'Chagny', 'CHAGNY', 'SAONE-ET-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87641043', 'Lapeyrouse', 'LAPEYROUSE', 'PUY-DE-DOME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784520', 'St-Féliu-d'Avall', 'SAINT-FÉLIU-D'AVALL', 'PYRENEES-ORIENTALES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595751', 'Le Buisson', 'LE BUISSON-DE-CADOUIN', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741256', 'Aiguebelle', 'AIGUEBELLE', 'SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543348', 'Bricy-Boulay', 'BRICY', 'LOIRET');
@@ -1258,20 +1639,35 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182410', 'Cernay', 'CERNAY', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141796', 'Marbache', 'MARBACHE', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345595', 'Wambaix', 'WAMBAIX', 'NORD');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595777', 'St-Cyprien-en-Dordogne', 'SAINT-CYPRIEN', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345546', 'Maurois', 'HONNECHY', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87337980', 'St-Ouen-l''Aumône-Liesse', 'SAINT-OUEN-L''AUMONE', 'VAL-D''OISE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87571000', 'Tours', 'TOURS', 'INDRE-ET-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595777', 'St-Cyprien-en-Dordogne', 'SAINT-CYPRIEN', 'DORDOGNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345546', 'Maurois', 'HONNECHY', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87337980', 'St-Ouen-l'Aumône-Liesse', 'SAINT-OUEN-L'AUMONE', 'VAL-D''OISE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174862', 'Valmy', 'VALMY', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393462', 'Houdan', 'HOUDAN', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575043', 'Villeperdue', 'VILLEPERDUE', 'INDRE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116277', 'Faremoutiers-Pommeuse', 'POMMEUSE', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491183', 'Montendre', 'MONTENDRE', 'CHARENTE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682187', 'Savigny-le-Temple-Nandy', 'SAVIGNY-LE-TEMPLE', 'SEINE-ET-MARNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491274', 'La Grave-d''Ambarès-Gare-Inférieure', 'AMBARES-ET-LAGRAVE', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212332', 'Gambsheim', 'GAMBSHEIM', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394387', 'Beaulieu-Le Coudray', 'LE COUDRAY', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393058', 'Champ-de-Mars-Tour-Eiffel', 'PARIS', 'PARIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611350', 'Vernet-d''Ariège', 'LE VERNET', 'ARIEGE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491274', 'La Grave-d'Ambarès-Gare-Inférieure', 'AMBARES-ET-LAGRAVE', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212332', 'Gambsheim', 'GAMBSHEIM', 'BAS-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394387', 'Beaulieu-Le Coudray', 'LE COUDRAY', 'EURE-ET-LOIR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393058', 'Champ-de-Mars-Tour-Eiffel', 'PARIS', 'PARIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611350', 'Vernet-d'Ariège', 'LE VERNET', 'ARIEGE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491217', 'Cavignac', 'CAVIGNAC', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191684', 'Auboué', 'AUBOUÉ', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342451', 'Salomé', 'SALOMÉ', 'NORD');
@@ -1310,9 +1706,15 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396093', 'La Hutte-Coulombiers', 'COULOMBIERS', 'SARTHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586008', 'Agen', 'AGEN', 'LOT-ET-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576884', 'Villefranche-sur-Cher', 'VILLEFRANCHE-SUR-CHER', 'LOIR-ET-CHER');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87316059', 'Heilly', 'MÉRICOURT-L''ABBÉ', 'SOMME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281626', 'Leffrinckoucke', 'DUNKERQUE', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671040', 'Aire-sur-l''Adour', 'AIRE-SUR-L''ADOUR', 'LANDES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87316059', 'Heilly', 'MÉRICOURT-L'ABBÉ', 'SOMME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281626', 'Leffrinckoucke', 'DUNKERQUE', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671040', 'Aire-sur-l'Adour', 'AIRE-SUR-L'ADOUR', 'LANDES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543140', 'Lamotte-Beuvron', 'LAMOTTE-BEUVRON', 'LOIR-ET-CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382119', 'Rueil-Malmaison', 'RUEIL-MALMAISON', 'HAUTS-DE-SEINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87562421', 'Aulnat-Aéroport', 'AULNAT', 'PUY-DE-DOME');
@@ -1330,6 +1732,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286187', 'La Madeleine', 'MADELEINE (LA )', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481440', 'Clisson', 'CLISSON', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723387', 'St-Quentin-Fallavier', 'SAINT-QUENTIN-FALLAVIER', 'ISERE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144014', 'St-Dié-des-Vosges', 'SAINT-DIE', 'VOSGES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476267', 'Les Sables-Blancs', 'PLOUHARNEL', 'MORBIHAN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276006', 'Creil', 'CREIL', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473116', 'Yffiniac', 'YFFINIAC', 'COTES-D''ARMOR');
@@ -1338,6 +1744,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87215459', 'Sarre-Union', 'SARRE-UNION', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694448', 'La Roche-en-Brenil', 'LA ROCHE-EN-BRENIL', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743112', 'St-Martin-du-Mont', 'SAINT-MARTIN-DU-MONT', 'AIN');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396002', 'Le Mans', 'MANS (LE )', 'SARTHE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144386', 'Colroy-Lubine', 'COLROY-LA-GRANDE', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87534339', 'Mulhouse-Musées (Tram/Train)', 'MULHOUSE', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87487256', 'Luché', 'LUCHÉ-THOUARSAIS', 'DEUX-SEVRES');
@@ -1351,10 +1761,18 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87474791', 'Châteaulin', 'CHÂTEAULIN', 'FINISTERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382457', 'Louveciennes', 'LOUVECIENNES', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296244', 'Busigny', 'BUSIGNY', 'NORD');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381152', 'Boissy-l''Aillerie', 'BOISSY-L''AILLERIE', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87763003', 'Gap', 'GAP', 'HAUTES-ALPES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718361', 'Orchamps', 'ORCHAMPS', 'JURA');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444059', 'Audrieu', 'AUDRIEU', 'CALVADOS');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381152', 'Boissy-l'Aillerie', 'BOISSY-L'AILLERIE', 'VAL-D''OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87763003', 'Gap', 'GAP', 'HAUTES-ALPES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718361', 'Orchamps', 'ORCHAMPS', 'JURA');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444059', 'Audrieu', 'AUDRIEU', 'CALVADOS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87757617', 'Cannes-la-Bocca', 'CANNES', 'ALPES-MARITIMES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415620', 'Gaillon-Aubevoye', 'AUBEVOYE', 'EURE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271528', 'Mitry-Claye', 'MITRY-MORY', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87487710', 'Vivy', 'VIVY', 'MAINE-ET-LOIRE');
@@ -1363,6 +1781,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87484006', 'Angers-St-Laud', 'ANGERS', 'MAINE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775221', 'Chamborigaud', 'CHAMBORIGAUD', 'GARD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471516', 'Les Lacs', 'SAINT-AUBIN-DES-LANDES', 'ILLE-ET-VILAINE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775288', 'Alès', 'ALES', 'GARD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721159', 'Lyon-St-Paul', 'LYON', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342576', 'Vimy', 'VIMY', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214056', 'Sélestat', 'SELESTAT', 'BAS-RHIN');
@@ -1373,15 +1795,24 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481838', 'Savenay', 'SAVENAY', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381079', 'Bois-Colombes', 'BOIS-COLOMBES', 'HAUTS-DE-SEINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611178', 'Loures-Barbazan', 'LOURES-BAROUSSE', 'HAUTES-PYRENEES');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713271', 'Époisses', 'ÉPOISSES', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671016', 'Mont-de-Marsan', 'MONT-DE-MARSAN', 'LANDES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342550', 'Pernes-Camblain', 'CAMBLAIN-CHÂTELAIN', 'PAS-DE-CALAIS');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381079', 'Bois-Colombes', 'BOIS-COLOMBES', 'HAUTS-DE-SEINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713271', 'Époisses', 'ÉPOISSES', 'COTE-D''OR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671016', 'Mont-de-Marsan', 'MONT-DE-MARSAN', 'LANDES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342550', 'Pernes-Camblain', 'CAMBLAIN-CHÂTELAIN', 'PAS-DE-CALAIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753004', 'Miramas', 'MIRAMAS', 'BOUCHES-DU-RHONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722520', 'Sibelin', 'SOLAIZE', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286401', 'Santes', 'SANTES', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87343400', 'Trith-St-Léger', 'TRITH-SAINT-LÉGER', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175828', 'Pagny-sur-Meuse', 'PAGNY-SUR-MEUSE', 'MEUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396374', 'Noyen', 'NOYEN-SUR-SARTHE', 'SARTHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313098', 'Ailly-sur-Somme', 'AILLY-SUR-SOMME', 'SOMME');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87715227', 'Les Longevilles-Rochejean', 'LONGEVILLES-MONT-D''OR', 'DOUBS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595520', 'St-Pierre-de-Chignac', 'SAINT-PIERRE-DE-CHIGNAC', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575274', 'Ligugé', 'LIGUGÉ', 'VIENNE');
@@ -1393,12 +1824,31 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595538', 'Milhac-d''Auberoche', 'MILHAC-D''AUBEROCHE', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142307', 'Manois', 'MANOIS', 'HAUTE-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281444', 'St-Omer', 'SAINT-OMER', 'PAS-DE-CALAIS');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87715227', 'Les Longevilles-Rochejean', 'LONGEVILLES-MONT-D'OR', 'DOUBS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595520', 'St-Pierre-de-Chignac', 'SAINT-PIERRE-DE-CHIGNAC', 'DORDOGNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575274', 'Ligugé', 'LIGUGÉ', 'VIENNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182709', 'Bollwiller', 'BOLLWILLER', 'HAUT-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696328', 'Moulins-sur-Allier', 'MOULINS', 'ALLIER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276402', 'St-Leu-d'Esserent', 'SAINT-LEU-D'ESSERENT', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87447003', 'St-Lô', 'SAINT-LO', 'MANCHE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615732', 'Naucelle', 'NAUCELLE', 'AVEYRON');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87745836', 'Anglefort', 'ANGLEFORT', 'AIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595538', 'Milhac-d'Auberoche', 'MILHAC-D'AUBEROCHE', 'DORDOGNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142307', 'Manois', 'MANOIS', 'HAUTE-MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281444', 'St-Omer', 'SAINT-OMER', 'PAS-DE-CALAIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87114413', 'Sucy-Bonneuil', 'SUCY-EN-BRIE', 'VAL-DE-MARNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751636', 'Séon-St-Henry', 'MARSEILLE', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694638', 'Galuzot', 'SAINT-VALLIER', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683128', 'Champigny-sur-Yonne', 'CHAMPIGNY', 'YONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545681', 'Allonnes-Boisville', 'BOISVILLE-LA-SAINT-PÈRE', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271338', 'Bobigny', 'BOBIGNY', 'SEINE-SAINT-DENIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595298', 'Mussidan', 'MUSSIDAN', 'DORDOGNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271338', 'Bobigny', 'BOBIGNY', 'SEINE-SAINT-DENIS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481234', 'St-Hilaire-de-Chaléons', 'SAINT-HILAIRE-DE-CHALÉONS', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696898', 'Entrains', 'ENTRAINS-SUR-NOHAIN', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171272', 'Reims-Maison-Blanche', 'REIMS', 'MARNE');
@@ -1409,10 +1859,20 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87113878', 'Allée-de-la-Tour-Rendez-Vous', 'VILLEMOMBLE', 'SEINE-SAINT-DENIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615419', 'Marssac-sur-Tarn', 'MARSSAC-SUR-TARN', 'TARN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191379', 'Ébersviller', 'ÉBERSVILLER', 'MOSELLE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765446', 'Gadagne', 'CHÂTEAUNEUF-DE-GADAGNE', 'VAUCLUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175067', 'Nançois-Tronville', 'NANÇOIS-SUR-ORNAIN', 'MEUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747451', 'Brignoud', 'VILLARD-BONNOT', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595702', 'Les Versannes', 'LA DOUZE', 'DORDOGNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87185595', 'Luxeuil-les-Bains', 'LUXEUIL-LES-BAINS', 'HAUTE-SAONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765446', 'Gadagne', 'CHÂTEAUNEUF-DE-GADAGNE', 'VAUCLUSE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87193615', 'Sarreguemines', 'SARREGUEMINES', 'MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175067', 'Nançois-Tronville', 'NANÇOIS-SUR-ORNAIN', 'MEUSE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747451', 'Brignoud', 'VILLARD-BONNOT', 'ISERE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595702', 'Les Versannes', 'LA DOUZE', 'DORDOGNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683318', 'St-Florentin-Vergigny', 'VERGIGNY', 'YONNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87725614', 'Sennecey-le-Grand', 'SENNECEY-LE-GRAND', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87672634', 'Buzy-en-Béarn', 'BUZY', 'PYRENEES-ATLANTIQUES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313486', 'Nesle', 'NESLE', 'SOMME');
@@ -1424,6 +1884,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212050', 'Strasbourg-Cronenbourg', 'STRASBOURG', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718841', 'Arc-et-Senans', 'ARC-ET-SENANS', 'DOUBS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753541', 'La Couronne-Carro', 'MARTIGUES', 'BOUCHES-DU-RHONE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597740', 'Lavaufranche', 'LAVAUFRANCHE', 'CREUSE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87387092', 'Bueil', 'BUEIL', 'EURE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342303', 'Tincques', 'TINCQUES', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214205', 'Scherwiller', 'SCHERWILLER', 'BAS-RHIN');
@@ -1470,14 +1934,22 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481721', 'Donges', 'DONGES', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182667', 'Lutterbach (Haut-Rhin)', 'LUTTERBACH', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342063', 'Courcelles-le-Comte', 'HAMELINCOURT', 'PAS-DE-CALAIS');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276642', 'Bessancourt', 'BESSANCOURT', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396234', 'Sillé-le-Guillaume', 'SAINT-RÉMY-DE-SILLÉ', 'SARTHE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576876', 'Gièvres', 'GIÈVRES', 'LOIR-ET-CHER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276642', 'Bessancourt', 'BESSANCOURT', 'VAL-D''OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396234', 'Sillé-le-Guillaume', 'SAINT-RÉMY-DE-SILLÉ', 'SARTHE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696807', 'Clamecy', 'CLAMECY', 'NIEVRE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734418', 'Pont-du-Château (FRET)', 'PONT-DU-CHÂTEAU', 'PUY-DE-DOME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722025', 'Lyon-Perrache', 'LYON', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87474411', 'Plouigneau', 'PLOUIGNEAU', 'FINISTERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751719', 'La Pomme', 'MARSEILLE', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87391532', 'Vanves-Malakoff', 'VANVES', 'HAUTS-DE-SEINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784801', 'Bolquère-Eyne', 'BOLQUÈRE', 'PYRENEES-ORIENTALES');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721332', 'Villefranche-sur-Saône', 'VILLEFRANCHE-SUR-SAONE', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592733', 'Lafarge', 'SAINT-HILAIRE-LES-PLACES', 'HAUTE-VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87391300', 'Morre', 'MORRE', 'DOUBS');
@@ -1485,12 +1957,28 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87732156', 'Cusset', 'CUSSET', 'ALLIER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611947', 'Lalande-Église', 'TOULOUSE', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87486449', 'Les Sables-d''Olonne', 'SABLES-D''OLONNE (LES)', 'VENDEE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381129', 'Clichy-Levallois', 'LEVALLOIS-PERRET', 'HAUTS-DE-SEINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721332', 'Villefranche-sur-Saône', 'VILLEFRANCHE-SUR-SAONE', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592733', 'Lafarge', 'SAINT-HILAIRE-LES-PLACES', 'HAUTE-VIENNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87391300', 'Morre', 'MORRE', 'DOUBS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721241', 'Couzon-au-Mont-d'Or', 'COUZON-AU-MONT-D'OR', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87732156', 'Cusset', 'CUSSET', 'ALLIER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611947', 'Lalande-Église', 'TOULOUSE', 'HAUTE-GARONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87486449', 'Les Sables-d'Olonne', 'SABLES-D'OLONNE (LES)', 'VENDEE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192054', 'Metz-devant-les-Ponts', 'METZ', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473074', 'Broons', 'BROONS', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545301', 'Ivry-sur-Seine', 'IVRY-SUR-SEINE', 'VAL-DE-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87194274', 'Longuyon', 'LONGUYON', 'MEURTHE-ET-MOSELLE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382366', 'Le Val-d''Or', 'SAINT-CLOUD', 'HAUTS-DE-SEINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394270', 'Bretoncelles', 'BRETONCELLES', 'ORNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382366', 'Le Val-d'Or', 'SAINT-CLOUD', 'HAUTS-DE-SEINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394270', 'Bretoncelles', 'BRETONCELLES', 'ORNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271593', 'Crépy-en-Valois', 'CREPY-EN-VALOIS', 'OISE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713115', 'Les Laumes-Alésia', 'VENAREY-LES-LAUMES', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191106', 'Maizières-lès-Metz', 'MAIZIERES-LES-METZ', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342527', 'Farbus', 'FARBUS', 'PAS-DE-CALAIS');
@@ -1511,15 +1999,26 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783654', 'Allenc', 'ALLENC', 'LOZERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683789', 'Avallon', 'AVALLON', 'YONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673251', 'Saubusse-les-Bains', 'SAUBUSSE', 'LANDES');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313510', 'Beauvais', 'BEAUVAIS', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594572', 'St-Denis-près-Martel', 'SAINT-DENIS-LÈS-MARTEL', 'LOT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615310', 'Lisle-sur-Tarn', 'LISLE-SUR-TARN', 'TARN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592881', 'Exideuil-sur-Vienne', 'EXIDEUIL', 'CHARENTE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87295170', 'Bavay', 'BAVAY', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313510', 'Beauvais', 'BEAUVAIS', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594572', 'St-Denis-près-Martel', 'SAINT-DENIS-LÈS-MARTEL', 'LOT');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175828', 'Pagny-sur-Meuse', 'PAGNY-SUR-MEUSE', 'MEUSE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615310', 'Lisle-sur-Tarn', 'LISLE-SUR-TARN', 'TARN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592881', 'Exideuil-sur-Vienne', 'EXIDEUIL', 'CHARENTE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286195', 'St-André', 'LAMBERSART', 'NORD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545244', 'Juvisy', 'JUVISY-SUR-ORGE', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743633', 'St-Claude', 'SAINT-CLAUDE', 'JURA');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765735', 'Carpentras', 'CARPENTRAS', 'VAUCLUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597674', 'Montaigut', 'MONTAIGUT-LE-BLANC', 'CREUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144097', 'Thaon', 'THAON-LES-VOSGES', 'VOSGES');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87208553', 'Casino-Lacroix-Laval', 'MARCY-L''ÉTOILE', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87215335', 'Berthelming', 'BERTHELMING', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543330', 'Patay', 'PATAY', 'LOIRET');
@@ -1529,6 +2028,22 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592014', 'Limoges-Puy-Imbert', 'LIMOGES', 'HAUTE-VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592048', 'Les Bardys', 'SAINT-PRIEST-TAURION', 'HAUTE-VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723700', 'Sathonay-Rillieux', 'RILLIEUX-LA-PAPE', 'RHONE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87208553', 'Casino-Lacroix-Laval', 'MARCY-L'ÉTOILE', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87215335', 'Berthelming', 'BERTHELMING', 'MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753509', 'Martigues', 'MARTIGUES', 'BOUCHES-DU-RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543330', 'Patay', 'PATAY', 'LOIRET');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597419', 'Châtillon-sur-Indre', 'CHÂTILLON-SUR-INDRE', 'INDRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756007', 'Nice-St-Roch', 'NICE', 'ALPES-MARITIMES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411264', 'Barentin-Embranchement', 'BARENTIN', 'SEINE-MARITIME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746149', 'Rumilly', 'RUMILLY', 'HAUTE-SAVOIE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592014', 'Limoges-Puy-Imbert', 'LIMOGES', 'HAUTE-VIENNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87118000', 'Troyes', 'SAINT-JULIEN-LES-VILLAS', 'AUBE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592048', 'Les Bardys', 'SAINT-PRIEST-TAURION', 'HAUTE-VIENNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723700', 'Sathonay-Rillieux', 'RILLIEUX-LA-PAPE', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212050', 'Strasbourg-Cronenbourg', 'STRASBOURG', 'BAS-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345025', 'Lens', 'AVION', 'PAS-DE-CALAIS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761544', 'La Voulte-sur-Rhône', 'LA VOULTE-SUR-RHÔNE', 'ARDECHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753525', 'Fos-Viguerat', 'FOS-SUR-MER', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723783', 'St-Paul-de-Varax', 'SAINT-PAUL-DE-VARAX', 'AIN');
@@ -1537,6 +2052,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543314', 'Orgères', 'ORGÈRES-EN-BEAUCE', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87387175', 'Romilly-la-Puthenaye', 'ROMILLY-LA-PUTHENAYE', 'EURE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722439', 'Givors-Canal', 'GIVORS', 'RHONE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543017', 'Les Aubrais-Orléans', 'FLEURY-LES-AUBRAIS', 'LOIRET');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485110', 'Châtelaillon', 'CHÂTELAILLON-PLAGE', 'CHARENTE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87484048', 'Angers-Maître-École', 'ANGERS', 'MAINE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276741', 'Thourotte', 'THOUROTTE', 'OISE');
@@ -1546,6 +2065,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751081', 'Marseille-Blancarde', 'MARSEILLE', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281279', 'Bourbourg', 'BOURBOURG', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481432', 'Gorges', 'GORGES', 'LOIRE-ATLANTIQUE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192237', 'Rémilly', 'RÉMILLY', 'MOSELLE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481085', 'Doulon', 'NANTES', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87386763', 'Épône-Mézières', 'ÉPÔNE', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281402', 'Coudekerque-Branche', 'COUDEKERQUE-BRANCHE', 'NORD');
@@ -1553,6 +2076,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87474312', 'St-Thégonnec', 'SAINT-THÉGONNEC', 'FINISTERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87343608', 'Onnaing', 'ONNAING', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87672139', 'Coarraze-Nay', 'COARRAZE', 'PYRENEES-ATLANTIQUES');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694182', 'Marmagne-sous-Creusot', 'MARMAGNE', 'SAONE-ET-LOIRE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313833', 'Formerie', 'FORMERIE', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276543', 'Auvers-sur-Oise', 'AUVERS-SUR-OISE', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87448514', 'Avranches', 'AVRANCHES', 'MANCHE');
@@ -1564,10 +2091,18 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746727', 'Vaudagne', 'LES HOUCHES', 'HAUTE-SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734103', 'Pontmort', 'CELLULE', 'PUY-DE-DOME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286393', 'Lille-Champ-de-Mars', 'RONCHIN', 'NORD');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576405', 'St-Germain-du-Puy', 'SAINT-GERMAIN-DU-PUY', 'CHER');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753574', 'La Redonne-Ensuès', 'ENSUÈS-LA-REDONNE', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718197', 'St-Lothain', 'SAINT-LOTHAIN', 'JURA');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581181', 'Ludon', 'LUDON-MÉDOC', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615799', 'Revel-Sorèze', 'REVEL', 'HAUTE-GARONNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545657', 'Auneau', 'ROINVILLE', 'EURE-ET-LOIR');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481267', 'La Bernerie-en-Retz', 'LA BERNERIE-EN-RETZ', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87584235', 'Gardonne', 'GARDONNE', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342105', 'Bully-Grenay', 'GRENAY', 'PAS-DE-CALAIS');
@@ -1578,9 +2113,17 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393595', 'Verneuil-sur-Avre', 'VERNEUIL-SUR-AVRE', 'EURE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191700', 'Joeuf', 'JOEUF', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775379', 'Fons-St-Mamert', 'FONS', 'GARD');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481614', 'Abbaretz', 'ABBARETZ', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718551', 'Avoudrey', 'AVOUDREY', 'DOUBS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682153', 'Lieusaint-Moissy', 'LIEUSAINT', 'SEINE-ET-MARNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765735', 'Carpentras', 'CARPENTRAS', 'VAUCLUSE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481614', 'Abbaretz', 'ABBARETZ', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718551', 'Avoudrey', 'AVOUDREY', 'DOUBS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682153', 'Lieusaint-Moissy', 'LIEUSAINT', 'SEINE-ET-MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286187', 'La Madeleine', 'MADELEINE (LA )', 'NORD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415216', 'St-Pierre-le-Viger-Fontaine-le-Dun', 'SAINT-PIERRE-LE-VIGER', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481648', 'Châteaubriant', 'CHATEAUBRIANT', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775551', 'Salindres', 'SALINDRES', 'GARD');
@@ -1593,6 +2136,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87782607', 'Clermont-La Pardieu', 'CLERMONT-FERRAND', 'PUY-DE-DOME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722405', 'Givors', 'GIVORS', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783340', 'Campagnac-St-Geniez', 'CAMPAGNAC', 'AVEYRON');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595124', 'Thiviers', 'THIVIERS', 'DORDOGNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317016', 'Boulogne-Tintelleries', 'BOULOGNE-SUR-MER', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214742', 'St-Blaise-la-Roche-Poutay', 'SAINT-BLAISE-LA-ROCHE', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775072', 'St-Césaire', 'NIMES', 'GARD');
@@ -1618,10 +2165,20 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276261', 'Survilliers-Fosses', 'FOSSES', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171611', 'Val-de-Vesle', 'VAL-DE-VESLE', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87413484', 'Gravenchon-Port-Jérome', 'NOTRE-DAME-DE-GRAVENCHON', 'SEINE-MARITIME');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396275', 'Champagné', 'CHAMPAGNÉ', 'SARTHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611665', 'Castelnau-d''Estrétefonds', 'CASTELNAU-D''ESTRÉTEFONDS', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87343806', 'Marly-les-Valenciennes', 'MARLY', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87295055', 'Anor', 'ANOR', 'NORD');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781260', 'Vias', 'VIAS', 'HERAULT');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396275', 'Champagné', 'CHAMPAGNÉ', 'SARTHE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611665', 'Castelnau-d'Estrétefonds', 'CASTELNAU-D'ESTRÉTEFONDS', 'HAUTE-GARONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87447649', 'Folligny', 'FOLLIGNY', 'MANCHE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87343806', 'Marly-les-Valenciennes', 'MARLY', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87295055', 'Anor', 'ANOR', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411108', 'Grand-Quevilly', 'GRAND-QUEVILLY (LE )', 'SEINE-MARITIME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296129', 'Vervins', 'VERVINS', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753467', 'Fos-Graveleau', 'FOS-SUR-MER', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87717892', 'Besançon-St-Fergeux', 'BESANCON', 'DOUBS');
@@ -1630,6 +2187,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87118356', 'Bouilly-Roncenay', 'RONCENAY', 'AUBE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87672725', 'Oloron-Ste-Marie', 'OLORON-SAINTE-MARIE', 'PYRENEES-ATLANTIQUES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144162', 'Laveline-devant-Bruyères', 'LAVELINE-DEVANT-BRUYÈRES', 'VOSGES');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271734', 'Villers-Cotterêts', 'VILLERS-COTTERÊTS', 'AISNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393488', 'Dreux', 'DREUX', 'EURE-ET-LOIR');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87571471', 'Loches', 'LOCHES', 'INDRE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381178', 'Us', 'US', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182071', 'Rixheim', 'RIXHEIM', 'HAUT-RHIN');
@@ -1650,10 +2212,18 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783290', 'Chirac', 'CHIRAC', 'LOZERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411462', 'Sommery', 'SOMMERY', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175117', 'Chevillon', 'CHEVILLON', 'HAUTE-MARNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681627', 'Le Plessis-Chenet', 'LE COUDRAY-MONTCEAUX', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741231', 'Chamousset', 'CHAMOUSSET', 'SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574442', 'Azay-sur-Cher', 'MONTLOUIS-SUR-LOIRE', 'INDRE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595223', 'Razac', 'RAZAC-SUR-L''ISLE', 'DORDOGNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87703975', 'Nîmes-Pont du Gard', 'MANDUEL', 'GARD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681627', 'Le Plessis-Chenet', 'LE COUDRAY-MONTCEAUX', 'ESSONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741231', 'Chamousset', 'CHAMOUSSET', 'SAVOIE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574442', 'Azay-sur-Cher', 'MONTLOUIS-SUR-LOIRE', 'INDRE-ET-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595223', 'Razac', 'RAZAC-SUR-L'ISLE', 'DORDOGNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172544', 'Liart', 'LIART', 'ARDENNES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345223', 'Leforest', 'LEFOREST', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191353', 'Hombourg-Budange', 'HOMBOURG-BUDANGE', 'MOSELLE');
@@ -1662,10 +2232,18 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87181016', 'St-Louis-la-Chaussée', 'SAINT-LOUIS', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683227', 'St-Julien-du-Sault', 'SAINT-JULIEN-DU-SAULT', 'YONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87118505', 'Polisot', 'POLISOT', 'AUBE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485615', 'Fontenay-le-Comte', 'FONTENAY-LE-COMTE', 'VENDEE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87745620', 'Perrignier', 'PERRIGNIER', 'HAUTE-SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141556', 'Pierreville', 'PIERREVILLE', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574137', 'Meung-sur-Loire', 'MEUNG-SUR-LOIRE', 'LOIRET');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87194506', 'Saulnes', 'SAULNES', 'MEURTHE-ET-MOSELLE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747006', 'Grenoble', 'GRENOBLE', 'ISERE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87672006', 'Pau', 'PAU', 'PYRENEES-ATLANTIQUES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746339', 'Bonneville', 'BONNEVILLE', 'HAUTE-SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116616', 'Isles-Armentières', 'ISLES-LES-MELDEUSES', 'SEINE-ET-MARNE');
@@ -1673,6 +2251,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694778', 'Chauffailles', 'CHAUFFAILLES', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313254', 'Breteuil-Ville', 'BRETEUIL', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214643', 'Mullerhof', 'URMATT', 'BAS-RHIN');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142554', 'Châtillon-sur-Seine', 'CHÂTILLON-SUR-SEINE', 'COTE-D''OR');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87732206', 'St-Germain-des-Fossés', 'SAINT-GERMAIN-DES-FOSSÉS', 'ALLIER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87725895', 'Échirolles', 'ECHIROLLES', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597104', 'Lothiers', 'TENDU', 'INDRE');
@@ -1682,6 +2264,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174128', 'Jalons-les-Vignes', 'JÂLONS', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214338', 'Dorlisheim', 'DORLISHEIM', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444539', 'Argentan', 'MOULINS-SUR-ORNE', 'ORNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87295063', 'Hirson', 'HIRSON', 'AISNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313676', 'Laboissière-le-Déluge', 'LABOISSIÈRE-EN-THELLE', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87755264', 'La Seyne-Six-Fours', 'SEYNE-SUR-MER (LA )', 'VAR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87773002', 'Montpellier-St-Roch', 'MONTPELLIER', 'HERAULT');
@@ -1693,17 +2279,32 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276436', 'Domont', 'DOMONT', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381871', 'La Frette-Montigny', 'LA FRETTE-SUR-SEINE', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586164', 'Bon-Encontre', 'BOÉ', 'LOT-ET-GARONNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761106', 'St-Rambert-d''Albon', 'SAINT-RAMBERT-D''ALBON', 'DROME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734178', 'Les Martres-de-Veyre', 'LES MARTRES-DE-VEYRE', 'PUY-DE-DOME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87272195', 'Longueil-Annel', 'LONGUEIL-ANNEL', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481713', 'Montoir-de-Bretagne', 'MONTOIR-DE-BRETAGNE', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87159947', 'Ker-Lann', 'BRUZ', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213207', 'Mertzwiller', 'MERTZWILLER', 'BAS-RHIN');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761106', 'St-Rambert-d'Albon', 'SAINT-RAMBERT-D'ALBON', 'DROME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734178', 'Les Martres-de-Veyre', 'LES MARTRES-DE-VEYRE', 'PUY-DE-DOME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87272195', 'Longueil-Annel', 'LONGUEIL-ANNEL', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87215335', 'Berthelming', 'BERTHELMING', 'MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481713', 'Montoir-de-Bretagne', 'MONTOIR-DE-BRETAGNE', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87159947', 'Ker-Lann', 'BRUZ', 'ILLE-ET-VILAINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213207', 'Mertzwiller', 'MERTZWILLER', 'BAS-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182071', 'Rixheim', 'RIXHEIM', 'HAUT-RHIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396317', 'Sceaux-Boësse', 'BOËSSÉ-LE-SEC', 'SARTHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775825', 'Le Cailar', 'LE CAILAR', 'GARD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87571414', 'Veigné', 'VEIGNÉ', 'INDRE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142125', 'Culmont-Chalindrey', 'CHALINDREY', 'HAUTE-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582825', 'St-Macaire', 'SAINT-MACAIRE', 'GIRONDE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141127', 'Rosières-aux-Salines', 'DOMBASLE-SUR-MEURTHE', 'MEURTHE-ET-MOSELLE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753475', 'Fos-Mériquette', 'FOS-SUR-MER', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87773556', 'Frontignan', 'FRONTIGNAN', 'HERAULT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87745588', 'Machilly', 'MACHILLY', 'HAUTE-SAVOIE');
@@ -1718,11 +2319,20 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594820', 'Masseret', 'MASSERET', 'CORREZE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615146', 'Pomas', 'POMAS', 'AUDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313585', 'Hermes-Berthecourt', 'HERMES', 'OISE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781260', 'Vias', 'VIAS', 'HERAULT');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87725838', 'Mézériat', 'MÉZÉRIAT', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87684530', 'Auxy-Juranville', 'AUXY', 'LOIRET');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753285', 'Pas-des-Lanciers', 'MARIGNANE', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574681', 'Monnaie', 'MONNAIE', 'INDRE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756254', 'Nice-St-Augustin', 'NICE', 'ALPES-MARITIMES');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545657', 'Auneau', 'ROINVILLE', 'EURE-ET-LOIR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271411', 'Aulnay-sous-Bois', 'AULNAY-SOUS-BOIS', 'SEINE-SAINT-DENIS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87757583', 'Théoule-sur-Mer', 'THÉOULE-SUR-MER', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87691436', 'Garchizy', 'GARCHIZY', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615344', 'St-Sulpice', 'SAINT-SULPICE', 'TARN');
@@ -1753,7 +2363,13 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286146', 'Armentières', 'ARMENTIERES', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87193516', 'Farébersviller', 'FARÉBERSVILLER', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87295006', 'Maubeuge', 'MAUBEUGE', 'NORD');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172312', 'Bazeilles', 'BAZEILLES', 'ARDENNES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271122', 'Épinay-Villetaneuse', 'EPINAY-SUR-SEINE', 'SEINE-SAINT-DENIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172312', 'Bazeilles', 'BAZEILLES', 'ARDENNES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191239', 'Hayange', 'HAYANGE', 'MOSELLE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611533', 'Ax-les-Thermes', 'AX-LES-THERMES', 'ARIEGE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313502', 'Roye (Somme)', 'ROYE', 'SOMME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726307', 'St-Chamond', 'SAINT-CHAMOND', 'LOIRE');
@@ -1761,6 +2377,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87584532', 'Les Églisottes', 'LES ÉGLISOTTES-ET-CHALAURES', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713511', 'Vougeot-Gilly-lès-Cîteaux', 'GILLY-LÈS-CÎTEAUX', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87484360', 'Ingrandes-sur-Loire', 'INGRANDES', 'MAINE-ET-LOIRE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444265', 'Lisieux', 'LISIEUX', 'CALVADOS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87583658', 'Charmant', 'CHARMANT', 'CHARENTE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783647', 'Bagnols-Chadenet', 'CHADENET', 'LOZERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313882', 'TGV Haute-Picardie', 'ABLAINCOURT-PRESSOIR', 'SOMME');
@@ -1771,11 +2391,21 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175257', 'Commercy', 'COMMERCY', 'MEUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87755371', 'Carnoules', 'CARNOULES', 'VAR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743740', 'St-Rambert-en-Bugey', 'SAINT-RAMBERT-EN-BUGEY', 'AIN');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87645473', 'Le Lioran', 'LAVEISSIÈRE', 'CANTAL');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144220', 'Hymont-Mattaincourt', 'HYMONT', 'VOSGES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87645473', 'Le Lioran', 'LAVEISSIÈRE', 'CANTAL');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87193664', 'Kalhausen', 'KALHAUSEN', 'MOSELLE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747493', 'Pontcharra-sur-Breda-Allevard', 'PONTCHARRA', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575647', 'La Haye-Descartes', 'DESCARTES', 'INDRE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545137', 'Étampes', 'ETAMPES', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594325', 'Gignac-Cressensac', 'GIGNAC', 'LOT');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87745000', 'Bellegarde', 'BELLEGARDE-SUR-VALSERINE', 'AIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87757500', 'Fréjus', 'FREJUS', 'VAR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753251', 'Rognac', 'ROGNAC', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615252', 'Gaillac', 'GAILLAC', 'TARN');
@@ -1786,12 +2416,22 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597609', 'Guéret', 'GUERET', 'CREUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713388', 'Pontailler-sur-Saône', 'MAXILLY-SUR-SAÔNE', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87641019', 'Montluçon-Eau', 'MONTLUCON', 'ALLIER');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491142', 'Jonzac', 'JONZAC', 'CHARENTE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726133', 'St-Étienne-Pont-de-l''Âne', 'SAINT-ETIENNE', 'LOIRE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444711', 'Alençon', 'ALENCON', 'ORNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491142', 'Jonzac', 'JONZAC', 'CHARENTE-MARITIME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726133', 'St-Étienne-Pont-de-l'Âne', 'SAINT-ETIENNE', 'LOIRE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87448159', 'Vire', 'VIRE', 'CALVADOS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393066', 'Javel', 'PARIS', 'PARIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576504', 'Asnières-lès-Bourges', 'BOURGES', 'CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574368', 'Noizay', 'NOIZAY', 'INDRE-ET-LOIRE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545707', 'Voves', 'VOVES', 'EURE-ET-LOIR');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141432', 'Thiaville', 'THIAVILLE-SUR-MEURTHE', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313403', 'Rémy', 'REMY', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87645184', 'Boisset', 'BOISSET', 'CANTAL');
@@ -1815,11 +2455,19 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345231', 'Loison-sous-Lens', 'LOISON-SOUS-LENS', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713487', 'Tavaux-Solvay', 'TAVAUX', 'JURA');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734368', 'Luc', 'LUC', 'ARDECHE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393215', 'Viroflay-Rive-Gauche', 'VIROFLAY', 'YVELINES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543108', 'Janville', 'LE PUISET', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592824', 'St-Yrieix', 'SAINT-YRIEIX-LA-PERCHE', 'HAUTE-VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87413740', 'Rolleville', 'ROLLEVILLE', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761817', 'Saillans', 'SAILLANS', 'DROME');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761619', 'Alixan-Châteauneuf-d''Isère', 'CHÂTEAUNEUF-SUR-ISÈRE', 'DROME');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761619', 'Alixan-Châteauneuf-d'Isère', 'CHÂTEAUNEUF-SUR-ISÈRE', 'DROME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191346', 'Kédange', 'KÉDANGE-SUR-CANNER', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281113', 'Esquelbecq', 'ESQUELBECQ', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87691600', 'Les Perrières', 'NEVERS', 'NIEVRE');
@@ -1828,7 +2476,16 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751362', 'Pertuis', 'PERTUIS', 'VAUCLUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576264', 'La Chapelle-St-Ursin-Morthomiers', 'LA CHAPELLE-SAINT-URSIN', 'CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87295790', 'Leval', 'LEVAL', 'NORD');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721175', 'Lyon-Gorge-de-Loup', 'LYON', 'RHONE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87184002', 'Belfort', 'DANJOUTIN', 'TERRITOIRE-DE-BELFORT');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281006', 'Dunkerque', 'DUNKERQUE', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723700', 'Sathonay-Rillieux', 'RILLIEUX-LA-PAPE', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415661', 'Pont-de-l'Arche', 'ALIZAY', 'EURE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721175', 'Lyon-Gorge-de-Loup', 'LYON', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722405', 'Givors', 'GIVORS', 'RHONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142752', 'Mirebeau-sur-Bèze', 'MIREBEAU-SUR-BÈZE', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576348', 'Urçay', 'LA PERCHE', 'CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471078', 'Montfort-sur-Meu', 'MONTFORT-SUR-MEU', 'ILLE-ET-VILAINE');
@@ -1843,6 +2500,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611400', 'Portet-St-Simon', 'PORTET-SUR-GARONNE', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681007', 'Corbeil-Essonnes', 'CORBEIL-ESSONNES', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87742353', 'St-Julien-Montricher', 'SAINT-JULIEN-MONT-DENIS', 'SAVOIE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313759', 'Abancourt', 'ABANCOURT', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575704', 'Mignaloux-Nouaillé', 'MIGNALOUX-BEAUVOIR', 'VIENNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713859', 'Is-sur-Tille', 'MARCILLY-SUR-TILLE', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756890', 'Viévola', 'TENDE', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615211', 'Espéraza', 'ESPÉRAZA', 'AUDE');
@@ -1862,11 +2524,23 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473553', 'Le Pénity', 'DUAULT', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784769', 'Fontpédrouse-St-Thomas-les-Bains', 'FONTPÉDROUSE', 'PYRENEES-ORIENTALES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317396', 'Noyelles-sur-Mer', 'NOYELLES-SUR-MER', 'SOMME');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382481', 'St-Nom-la-Bretêche-Forêt-de-Marly', 'L''ÉTANG-LA-VILLE', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394221', 'Courville-sur-Eure', 'COURVILLE-SUR-EURE', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741561', 'Brens-Virignin', 'BRENS', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473538', 'Plougonver', 'PLOUGONVER', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394247', 'Pontgouin', 'PONTGOUIN', 'EURE-ET-LOIR');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747329', 'Moirans', 'MOIRANS', 'ISERE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87343707', 'Blanc-Misseron', 'CRESPIN', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382481', 'St-Nom-la-Bretêche-Forêt-de-Marly', 'L'ÉTANG-LA-VILLE', 'YVELINES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394221', 'Courville-sur-Eure', 'COURVILLE-SUR-EURE', 'EURE-ET-LOIR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741561', 'Brens-Virignin', 'BRENS', 'AIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271023', 'Paris-Nord-Souterraine', 'PARIS', 'PARIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473538', 'Plougonver', 'PLOUGONVER', 'COTES-D''ARMOR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394247', 'Pontgouin', 'PONTGOUIN', 'EURE-ET-LOIR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783365', 'Sévérac-le-Château', 'SÉVÉRAC-LE-CHÂTEAU', 'AVEYRON');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751370', 'Meyrargues', 'MEYRARGUES', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182626', 'Fellering', 'FELLERING', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491258', 'Villeneuve-la-Comtesse', 'VILLENEUVE-LA-COMTESSE', 'CHARENTE-MARITIME');
@@ -1883,19 +2557,35 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681379', 'Grigny-Centre', 'GRIGNY', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296152', 'Crépy-Couvron', 'CRÉPY', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582403', 'Gazinet-Cestas', 'CESTAS', 'GIRONDE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172452', 'Alland''huy', 'ALLAND''HUY-ET-SAUSSEUIL', 'ARDENNES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172452', 'Alland'huy', 'ALLAND'HUY-ET-SAUSSEUIL', 'ARDENNES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615328', 'Rabastens-Couffouleux', 'COUFOULEUX', 'TARN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87287276', 'Ennevelin', 'TEMPLEUVE', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751107', 'Marseille-Prado', 'MARSEILLE', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713412', 'Dole', 'DOLE', 'JURA');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141812', 'Dieulouard', 'DIEULOUARD', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473801', 'Gourland', 'GUINGAMP', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746875', 'Vallorcine', 'VALLORCINE', 'HAUTE-SAVOIE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696260', 'Saincaize', 'SAINCAIZE-MEAUCE', 'NIEVRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141812', 'Dieulouard', 'DIEULOUARD', 'MEURTHE-ET-MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473801', 'Gourland', 'GUINGAMP', 'COTES-D''ARMOR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746875', 'Vallorcine', 'VALLORCINE', 'HAUTE-SAVOIE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87487249', 'Bressuire', 'BRESSUIRE', 'DEUX-SEVRES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393306', 'Issy-Val-de-Seine', 'ISSY-LES-MOULINEAUX', 'HAUTS-DE-SEINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574301', 'Chouzy', 'CHOUZY-SUR-CISSE', 'LOIR-ET-CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87352047', 'Paul-Émile-Victor', 'CHAMPAGNOLE', 'JURA');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485136', 'St-Laurent-de-la-Prée', 'SAINT-LAURENT-DE-LA-PRÉE', 'CHARENTE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721738', 'Dommartin-Lissieu', 'DOMMARTIN', 'RHONE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313346', 'Montdidier', 'MONTDIDIER', 'SOMME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761726', 'Vinay', 'VINAY', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144303', 'Lamarche', 'LAMARCHE', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87184820', 'Pont-de-Roide', 'PONT-DE-ROIDE', 'DOUBS');
@@ -1917,23 +2607,39 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783324', 'Banassac-La Canourgue', 'BANASSAC', 'LOZERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592840', 'Coussac-Bonneval', 'COUSSAC-BONNEVAL', 'HAUTE-VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87328195', 'Thésée', 'THÉSÉE', 'LOIR-ET-CHER');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595769', 'Siorac-en-Périgord', 'SIORAC-EN-PÉRIGORD', 'DORDOGNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192203', 'Peltre', 'PELTRE', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476432', 'Kerhostin', 'SAINT-PIERRE-QUIBERON', 'MORBIHAN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87484246', 'Chemillé', 'CHEMILLÉ', 'MAINE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87612002', 'Labège-Innopole', 'LABÈGE', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87757005', 'Cannes-Marchandises', 'CANNES', 'ALPES-MARITIMES');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213058', 'Haguenau', 'SCHWEIGHOUSE-SUR-MODER', 'BAS-RHIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345041', 'Liévin', 'LIEVIN', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411173', 'Elbeuf-St-Aubin', 'SAINT-AUBIN-LES-ELBEUF', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381186', 'Santeuil-Le Perchay', 'SANTEUIL', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87295543', 'Sous-le-Bois', 'MAUBEUGE', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214825', 'La Vancelle', 'KINTZHEIM', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485037', 'Dompierre-sur-Mer', 'DOMPIERRE-SUR-MER', 'CHARENTE-MARITIME');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87546317', 'Chemin-d''Antony', 'ANTONY', 'HAUTS-DE-SEINE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87546317', 'Chemin-d'Antony', 'ANTONY', 'HAUTS-DE-SEINE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87484386', 'Varades-St-Florent-le-Vieil', 'VARADES', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743591', 'Molinges', 'MOLINGES', 'JURA');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276394', 'Écouen-Ézanville', 'EZANVILLE', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172007', 'Charleville-Mézières', 'CHARLEVILLE-MEZIERES', 'ARDENNES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723585', 'Meximieux-Pérouges', 'MEXIMIEUX', 'AIN');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296434', 'Mennessis', 'MENNESSIS', 'AISNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734202', 'Issoire', 'ISSOIRE', 'PUY-DE-DOME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485532', 'Rouillé', 'ROUILLÉ', 'VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141416', 'Baccarat', 'BACCARAT', 'MEURTHE-ET-MOSELLE');
@@ -1942,12 +2648,23 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172270', 'Rethel', 'RETHEL', 'ARDENNES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87001479', 'Roissy-Aéroport-Charles-de-Gaulle 2-TGV (RER)', 'LE MESNIL-AMELOT', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784009', 'Perpignan', 'PERPIGNAN', 'PYRENEES-ORIENTALES');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726414', 'Bonson', 'BONSON', 'LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784751', 'Thuès', 'THUÈS-ENTRE-VALLS', 'PYRENEES-ORIENTALES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381137', 'Asnières-sur-Seine', 'ASNIERES-SUR-SEINE', 'HAUTS-DE-SEINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726414', 'Bonson', 'BONSON', 'LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784751', 'Thuès', 'THUÈS-ENTRE-VALLS', 'PYRENEES-ORIENTALES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212027', 'Strasbourg-Ville', 'STRASBOURG', 'BAS-RHIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473835', 'Pontrieux-Halte', 'PONTRIEUX', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317263', 'Calais-Ville', 'CALAIS', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286179', 'Bailleul', 'BAILLEUL', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381590', 'Mantes-Station', 'MANTES-LA-JOLIE', 'YVELINES');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741231', 'Chamousset', 'CHAMOUSSET', 'SAVOIE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286526', 'Wattignies-Templemars', 'TEMPLEMARS', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192070', 'Metz-Nord', 'METZ', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192062', 'Metz-Chambière', 'METZ', 'MOSELLE');
@@ -1960,18 +2677,37 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87185579', 'Gray', 'ARC-LÈS-GRAY', 'HAUTE-SAONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87757567', 'Anthéor-Cap-Roux', 'SAINT-RAPHAEL', 'VAR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751842', 'Ste-Marthe-en-Provence', 'MARSEILLE', 'BOUCHES-DU-RHONE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144642', 'Étival-Clairefontaine', 'ÉTIVAL-CLAIREFONTAINE', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471086', 'Montauban-de-Bretagne', 'MONTAUBAN-DE-BRETAGNE', 'ILLE-ET-VILAINE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87343004', 'Valenciennes', 'VALENCIENNES', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144642', 'Étival-Clairefontaine', 'ÉTIVAL-CLAIREFONTAINE', 'VOSGES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471086', 'Montauban-de-Bretagne', 'MONTAUBAN-DE-BRETAGNE', 'ILLE-ET-VILAINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87448159', 'Vire', 'VIRE', 'CALVADOS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87584136', 'Castillon', 'CASTILLON-LA-BATAILLE', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481218', 'Port-St-Père-St-Mars', 'PORT-SAINT-PÈRE', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212365', 'Sessenheim', 'SESSENHEIM', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192468', 'Pagny-sur-Moselle', 'PAGNY-SUR-MOSELLE', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141010', 'Jarville-la-Malgrange', 'JARVILLE-LA-MALGRANGE', 'MEURTHE-ET-MOSELLE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393223', 'St-Cyr', 'SAINT-CYR-L''ECOLE', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741777', 'Landry', 'LANDRY', 'SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276162', 'Chaponval', 'AUVERS-SUR-OISE', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87315168', 'Avrigny', 'AVRIGNY', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481598', 'Nort-sur-Erdre', 'NORT-SUR-ERDRE', 'LOIRE-ATLANTIQUE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141010', 'Jarville-la-Malgrange', 'JARVILLE-LA-MALGRANGE', 'MEURTHE-ET-MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393223', 'St-Cyr', 'SAINT-CYR-L'ECOLE', 'YVELINES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393223', 'St-Cyr', 'SAINT-CYR-L'ECOLE', 'YVELINES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741777', 'Landry', 'LANDRY', 'SAVOIE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276162', 'Chaponval', 'AUVERS-SUR-OISE', 'VAL-D''OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734350', 'Langogne', 'LANGOGNE', 'LOZERE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87315168', 'Avrigny', 'AVRIGNY', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481598', 'Nort-sur-Erdre', 'NORT-SUR-ERDRE', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313049', 'Longueau', 'BOVES', 'SOMME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87641092', 'St-Éloy', 'SAINT-ÉLOY-LES-MINES', 'PUY-DE-DOME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182733', 'Muhlbach-sur-Munster', 'MUHLBACH-SUR-MUNSTER', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381855', 'Argenteuil GC', 'ARGENTEUIL', 'VAL-D''OISE');
@@ -1982,7 +2718,13 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87763250', 'Aspres-sur-Buëch', 'ASPRES-SUR-BUËCH', 'HAUTES-ALPES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382374', 'Suresnes-Mont-Valérien', 'SURESNES', 'HAUTS-DE-SEINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87641357', 'Vallon', 'VALLON-EN-SULLY', 'ALLIER');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212340', 'Herrlisheim', 'HERRLISHEIM', 'BAS-RHIN');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592022', 'Limoges-Montjovis', 'LIMOGES', 'HAUTE-VIENNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212340', 'Herrlisheim', 'HERRLISHEIM', 'BAS-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345314', 'Somain', 'SOMAIN', 'NORD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694166', 'Broye', 'SAINT-SYMPHORIEN-DE-MARMAGNE', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751750', 'Aubagne', 'AUBAGNE', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743328', 'Villereversure', 'VILLEREVERSURE', 'AIN');
@@ -2002,6 +2744,7 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381038', 'Avenue-Foch', 'PARIS', 'PARIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87316398', 'Heilles-Mouchy', 'HEILLES', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281311', 'Grande-Synthe', 'GRANDE-SYNTHE', 'NORD');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694604', 'Blanzy-Poste', 'BLANZY', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747592', 'Monestier-de-Clermont', 'MONESTIER-DE-CLERMONT', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213611', 'Bischwiller', 'BISCHWILLER', 'BAS-RHIN');
@@ -2009,6 +2752,20 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575191', 'Dissay', 'DISSAY', 'VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87728006', 'Lyon-Guillotière', 'LYON', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595827', 'Sarlat', 'SARLAT-LA-CANEDA', 'DORDOGNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317065', 'Étaples-Le Touquet', 'ETAPLES', 'PAS-DE-CALAIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694604', 'Blanzy-Poste', 'BLANZY', 'SAONE-ET-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747592', 'Monestier-de-Clermont', 'MONESTIER-DE-CLERMONT', 'ISERE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756833', 'Breil-sur-Roya', 'BREIL-SUR-ROYA', 'ALPES-MARITIMES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213611', 'Bischwiller', 'BISCHWILLER', 'BAS-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87745117', 'Fort-l'Écluse-Collonges', 'COLLONGES', 'AIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575191', 'Dissay', 'DISSAY', 'VIENNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182139', 'St-Louis', 'SAINT-LOUIS', 'HAUT-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87295063', 'Hirson', 'HIRSON', 'AISNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87728006', 'Lyon-Guillotière', 'LYON', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595827', 'Sarlat', 'SARLAT-LA-CANEDA', 'DORDOGNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722439', 'Givors-Canal', 'GIVORS', 'RHONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396333', 'Le Theil-La Rouge', 'LA ROUGE', 'ORNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191007', 'Thionville', 'THIONVILLE', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615062', 'Trèbes', 'TRÈBES', 'AUDE');
@@ -2021,6 +2778,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87757674', 'Antibes', 'ANTIBES', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345140', 'Billy-Montigny', 'BILLY-MONTIGNY', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276758', 'Nointel-Mours', 'NOINTEL', 'VAL-D''OISE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175778', 'Verdun', 'VERDUN', 'MEUSE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696831', 'Coulanges-sur-Yonne', 'CRAIN', 'YONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481424', 'Le Pallet', 'LE PALLET', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444877', 'Cherbourg', 'CHERBOURG', 'MANCHE');
@@ -2034,9 +2795,16 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682005', 'Melun', 'MELUN', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765420', 'Morières-lès-Avignon', 'MORIÈRES-LÈS-AVIGNON', 'VAUCLUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753442', 'Fos-sur-Mer', 'PORT-DE-BOUC', 'BOUCHES-DU-RHONE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574699', 'Notre-Dame-d''Oé', 'NOTRE-DAME-D''OÉ', 'INDRE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478750', 'Port-Brillet', 'PORT-BRILLET', 'MAYENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87725622', 'Tournus', 'TOURNUS', 'SAONE-ET-LOIRE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574699', 'Notre-Dame-d'Oé', 'NOTRE-DAME-D'OÉ', 'INDRE-ET-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478750', 'Port-Brillet', 'PORT-BRILLET', 'MAYENNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87725622', 'Tournus', 'TOURNUS', 'SAONE-ET-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481564', 'La Chapelle-Centre', 'CHAPELLE-SUR-ERDRE (LA )', 'LOIRE-ATLANTIQUE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592337', 'La Jonchère', 'LA JONCHÈRE-SAINT-MAURICE', 'HAUTE-VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396218', 'Conlie', 'CONLIE', 'SARTHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87773424', 'Lunel-Viel', 'LUNEL-VIEL', 'HERAULT');
@@ -2044,13 +2812,22 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784892', 'Béna-Fanes', 'ENVEITG', 'PYRENEES-ORIENTALES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381228', 'Chaumont-en-Vexin', 'CHAUMONT-EN-VEXIN', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87413716', 'Jacques-Monod-La Demi-Lieue', 'MONTIVILLIERS', 'SEINE-MARITIME');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276527', 'L''Isle-Adam-Parmain', 'PARMAIN', 'VAL-D''OISE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276527', 'L'Isle-Adam-Parmain', 'PARMAIN', 'VAL-D''OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87343160', 'Beuvrages', 'BEUVRAGES', 'NORD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394403', 'La Taye', 'SAINT-GEORGES-SUR-EURE', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582577', 'Solférino', 'SOLFÉRINO', 'LANDES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382002', 'Bécon-les-Bruyères', 'COURBEVOIE', 'HAUTS-DE-SEINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182600', 'St-Amarin', 'SAINT-AMARIN', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87755330', 'Solliès-Pont', 'SOLLIES-PONT', 'VAR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545186', 'Marolles-en-Hurepoix', 'MAROLLES-EN-HUREPOIX', 'ESSONNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586438', 'Penne', 'PENNE-D'AGENAIS', 'LOT-ET-GARONNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342584', 'Avion', 'AVION', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87413328', 'Étainhus-St-Romain', 'ÉTAINHUS', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396598', 'Vaas', 'VAAS', 'SARTHE');
@@ -2067,6 +2844,7 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575217', 'Jaunay-Clan', 'JAUNAY-CLAN', 'VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784298', 'Banyuls-sur-Mer', 'BANYULS-SUR-MER', 'PYRENEES-ORIENTALES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87215145', 'Héming', 'HÉMING', 'MOSELLE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756775', 'Drap-Cantaron', 'CANTARON', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116665', 'Mareuil-sur-Ourcq', 'MAREUIL-SUR-OURCQ', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317537', 'Eu', 'EU', 'SEINE-MARITIME');
@@ -2081,6 +2859,29 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696088', 'Briare', 'BRIARE', 'LOIRET');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721753', 'Châtillon-d''Azergues', 'CHÂTILLON', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87641373', 'Les Trillers', 'VAUX', 'ALLIER');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581009', 'Bordeaux-St-Jean', 'BORDEAUX', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756775', 'Drap-Cantaron', 'CANTARON', 'ALPES-MARITIMES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87447003', 'St-Lô', 'SAINT-LO', 'MANCHE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116665', 'Mareuil-sur-Ourcq', 'MAREUIL-SUR-OURCQ', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271585', 'Ormoy-Villers', 'ORMOY-VILLERS', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317537', 'Eu', 'EU', 'SEINE-MARITIME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481697', 'La Baule-les-Pins', 'BAULE-ESCOUBLAC (LA )', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415018', 'Dieppe', 'DIEPPE', 'SEINE-MARITIME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394254', 'La Loupe', 'LA LOUPE', 'EURE-ET-LOIR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582718', 'Portets', 'PORTETS', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473546', 'Callac', 'CALLAC', 'COTES-D''ARMOR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276030', 'Champ-de-Courses-d'Enghien', 'SOISY-SOUS-MONTMORENCY', 'VAL-D''OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87674770', 'Aix-en-Provence-Marchandises', 'AIX-EN-PROVENCE', 'BOUCHES-DU-RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87484170', 'Morannes', 'MORANNES', 'MAINE-ET-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781542', 'Ceilhes-Roqueredonde', 'ROQUEREDONDE', 'HERAULT');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87612002', 'Labège-Innopole', 'LABÈGE', 'HAUTE-GARONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696088', 'Briare', 'BRIARE', 'LOIRET');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721753', 'Châtillon-d'Azergues', 'CHÂTILLON', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87641373', 'Les Trillers', 'VAUX', 'ALLIER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734053', 'Riom-Châtel-Guyon', 'RIOM', 'PUY-DE-DOME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694109', 'Le Creusot-Montceau-Montchanin', 'ÉCUISSES', 'SAONE-ET-LOIRE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87773515', 'Villeneuve-lès-Maguelone', 'VILLENEUVE-LÈS-MAGUELONE', 'HERAULT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753681', 'St-Martin-de-Crau', 'SAINT-MARTIN-DE-CRAU', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543322', 'Gommiers', 'TERMINIERS', 'EURE-ET-LOIR');
@@ -2100,11 +2901,21 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271007', 'Paris-Nord', 'PARIS', 'PARIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141408', 'Azerailles', 'AZERAILLES', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394452', 'Brou', 'BROU', 'EURE-ET-LOIR');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751081', 'Marseille-Blancarde', 'MARSEILLE', 'BOUCHES-DU-RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481085', 'Doulon', 'NANTES', 'LOIRE-ATLANTIQUE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476671', 'Questembert', 'QUESTEMBERT', 'MORBIHAN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87764472', 'Le Teil', 'LE TEIL', 'ARDECHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471177', 'Pléchâtel', 'PLÉCHÂTEL', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746206', 'Pringy', 'PRINGY', 'HAUTE-SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592683', 'St-Victurnien', 'SAINT-VICTURNIEN', 'HAUTE-VIENNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543017', 'Les Aubrais-Orléans', 'FLEURY-LES-AUBRAIS', 'LOIRET');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182667', 'Lutterbach (Haut-Rhin)', 'LUTTERBACH', 'HAUT-RHIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756791', 'Peille', 'PEILLE', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87712026', 'Rully', 'RULLY', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271460', 'Roissy-Aéroport-Charles-de-Gaulle 1', 'TREMBLAY-EN-FRANCE', 'SEINE-SAINT-DENIS');
@@ -2112,8 +2923,15 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142729', 'Autrey-lès-Gray', 'AUTREY-LÈS-GRAY', 'HAUTE-SAONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87297085', 'La Bouteille', 'LA BOUTEILLE', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313395', 'Poix-de-Picardie', 'POIX-DE-PICARDIE', 'SOMME');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576223', 'Chabris', 'CHABRIS', 'INDRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87413336', 'Virville-Manneville', 'VIRVILLE', 'SEINE-MARITIME');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281402', 'Coudekerque-Branche', 'COUDEKERQUE-BRANCHE', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576223', 'Chabris', 'CHABRIS', 'INDRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87413336', 'Virville-Manneville', 'VIRVILLE', 'SEINE-MARITIME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87413203', 'Le Havre-Graville', 'HAVRE (LE )', 'SEINE-MARITIME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276345', 'Deuil-Montmagny', 'DEUIL-LA-BARRE', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87764357', 'Bollène-la-Croisière', 'BOLLENE', 'VAUCLUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87755447', 'Les Arcs-Draguignan', 'LES ARCS', 'VAR');
@@ -2121,6 +2939,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87672170', 'Lescar', 'LESCAR', 'PYRENEES-ATLANTIQUES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444208', 'Mézidon', 'MÉZIDON-CANON', 'CALVADOS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751230', 'Château-Arnoux-St-Auban', 'CHÂTEAU-ARNOUX-SAINT-AUBAN', 'ALPES-DE-HAUTE-PROVENCE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751230', 'Château-Arnoux-St-Auban', 'CHÂTEAU-ARNOUX-SAINT-AUBAN', 'ALPES-DE-HAUTE-PROVENCE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182394', 'Munster', 'MUNSTER', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182055', 'Mulhouse-Dornach', 'MULHOUSE', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142588', 'Laignes', 'LAIGNES', 'COTE-D''OR');
@@ -2135,6 +2957,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182824', 'Île-Napoléon-Garage', 'SAUSHEIM', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411116', 'Petit-Couronne', 'PETIT-COURONNE', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296095', 'Marle-sur-Serre', 'MARLE', 'AISNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741074', 'Culoz', 'CULOZ', 'AIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765412', 'Montfavet', 'AVIGNON', 'VAUCLUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575084', 'Loudun', 'LOUDUN', 'VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171595', 'Rilly-la-Montagne', 'RILLY-LA-MONTAGNE', 'MARNE');
@@ -2149,32 +2975,60 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87755223', 'Bandol', 'BANDOL', 'VAR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696179', 'Pouilly-sur-Loire', 'POUILLY-SUR-LOIRE', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718155', 'Arbois', 'ARBOIS', 'JURA');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784488', 'Cases-de-Pène', 'ESPIRA-DE-L''AGLY', 'PYRENEES-ORIENTALES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784488', 'Cases-de-Pène', 'ESPIRA-DE-L'AGLY', 'PYRENEES-ORIENTALES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481002', 'Nantes', 'NANTES', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142125', 'Culmont-Chalindrey', 'CHALINDREY', 'HAUTE-MARNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751743', 'La Penne-sur-Huveaune', 'LA PENNE-SUR-HUVEAUNE', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87732404', 'Gannat', 'GANNAT', 'ALLIER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87590331', 'Haluchère-Batignolles', 'NANTES', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396671', 'La Chartre-sur-le-Loir', 'LA CHARTRE-SUR-LE-LOIR', 'SARTHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313742', 'Feuquières-Broquiers', 'FEUQUIÈRES', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313874', 'Amiens', 'AMIENS', 'SOMME');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545160', 'Lardy', 'LARDY', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784512', 'Le Soler', 'LE SOLER', 'PYRENEES-ORIENTALES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87612028', 'Labège-Village', 'LABÈGE', 'HAUTE-GARONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545160', 'Lardy', 'LARDY', 'ESSONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784512', 'Le Soler', 'LE SOLER', 'PYRENEES-ORIENTALES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751602', 'L'Estaque', 'MARSEILLE', 'BOUCHES-DU-RHONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141820', 'Pont-à-Mousson', 'PONT-A-MOUSSON', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723718', 'Les Échets', 'MIRIBEL', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545277', 'Villeneuve-le-Roi', 'VILLENEUVE-LE-ROI', 'VAL-DE-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191130', 'Uckange', 'UCKANGE', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345439', 'Brunémont', 'BRUNÉMONT', 'NORD');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281071', 'Calais-Fréthun', 'FRÉTHUN', 'PAS-DE-CALAIS');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144410', 'Arches', 'ARCHES', 'VOSGES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281071', 'Calais-Fréthun', 'FRÉTHUN', 'PAS-DE-CALAIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491076', 'Beillant', 'SAINT-SEVER-DE-SAINTONGE', 'CHARENTE-MARITIME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87584508', 'St-Denis-de-Pile', 'SAINT-DENIS-DE-PILE', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271320', 'La Courneuve-Dugny', 'COURNEUVE (LA )', 'SEINE-SAINT-DENIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481200', 'Bouaye', 'BOUAYE', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87318964', 'Avignon-TGV', 'AVIGNON', 'VAUCLUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713701', 'Mervans', 'MERVANS', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172411', 'Margut-Fromy', 'MARGUT', 'ARDENNES');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317537', 'Eu', 'EU', 'SEINE-MARITIME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87641043', 'Lapeyrouse', 'LAPEYROUSE', 'PUY-DE-DOME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471219', 'Beslé', 'GUÉMENÉ-PENFAO', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141044', 'Toul', 'TOUL', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87447284', 'Valognes', 'VALOGNES', 'MANCHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172593', 'Vouziers', 'VOUZIERS', 'ARDENNES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683219', 'Villeneuve-sur-Yonne', 'VILLENEUVE-SUR-YONNE', 'YONNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144477', 'St-Léonard', 'SAINT-LÉONARD', 'VOSGES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171587', 'Germaine', 'GERMAINE', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141341', 'Coussey', 'COUSSEY', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741629', 'Frontenex', 'FRONTENEX', 'SAVOIE');
@@ -2185,7 +3039,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87715326', 'Champagnole', 'CHAMPAGNOLE', 'JURA');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286419', 'Wavrin', 'WAVRIN', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116558', 'Nanteuil-Saâcy', 'SAÂCY-SUR-MARNE', 'SEINE-ET-MARNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313064', 'Méricourt-Ribemont', 'MÉRICOURT-L''ABBÉ', 'SOMME');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313064', 'Méricourt-Ribemont', 'MÉRICOURT-L'ABBÉ', 'SOMME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144279', 'Vittel', 'VITTEL', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576579', 'Aubigny-sur-Nère', 'AUBIGNY-SUR-NÈRE', 'CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87583427', 'La Rochefoucauld', 'LA ROCHEFOUCAULD', 'CHARENTE');
@@ -2202,6 +3060,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394148', 'St-Piat', 'SAINT-PIAT', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574491', 'Chenonceaux-Chisseaux', 'CHENONCEAUX', 'INDRE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574855', 'Montrichard', 'MONTRICHARD', 'LOIR-ET-CHER');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87193714', 'Sarralbe', 'SARRALBE', 'MOSELLE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543421', 'Chécy-Mardié', 'CHÉCY', 'LOIRET');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718056', 'Devecey', 'DEVECEY', 'DOUBS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382879', 'Montreuil', 'VERSAILLES', 'YVELINES');
@@ -2212,6 +3074,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734228', 'Le Breuil-sur-Couze', 'LE BREUIL-SUR-COUZE', 'PUY-DE-DOME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342287', 'Thiennes', 'THIENNES', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721506', 'Écully-la-Demi-Lune', 'TASSIN-LA-DEMI-LUNE', 'RHONE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476556', 'Pontivy', 'PONTIVY', 'MORBIHAN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473199', 'Plounérin', 'PLOUNÉRIN', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615500', 'St-Juéry', 'SAINT-JUÉRY', 'TARN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87009696', 'La Douzillère', 'JOUE-LES-TOURS', 'INDRE-ET-LOIRE');
@@ -2223,11 +3089,25 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718122', 'Byans', 'BYANS-SUR-DOUBS', 'DOUBS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87645101', 'Ytrac', 'YTRAC', 'CANTAL');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87448001', 'Flers', 'FLERS', 'ORNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696195', 'La Charité-sur-Loire', 'LA CHARITÉ-SUR-LOIRE', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543157', 'Nouan-le-Fuzelier', 'NOUAN-LE-FUZELIER', 'LOIR-ET-CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721555', 'Lentilly', 'LENTILLY', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87700153', 'Joncherey', 'JONCHEREY', 'TERRITOIRE-DE-BELFORT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393645', 'Gravigny-Balizy', 'LONGJUMEAU', 'ESSONNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87641191', 'La Ville-Gozet', 'MONTLUCON', 'ALLIER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696195', 'La Charité-sur-Loire', 'LA CHARITÉ-SUR-LOIRE', 'NIEVRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396093', 'La Hutte-Coulombiers', 'COULOMBIERS', 'SARTHE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543157', 'Nouan-le-Fuzelier', 'NOUAN-LE-FUZELIER', 'LOIR-ET-CHER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721555', 'Lentilly', 'LENTILLY', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144006', 'Épinal', 'EPINAL', 'VOSGES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87700153', 'Joncherey', 'JONCHEREY', 'TERRITOIRE-DE-BELFORT');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393645', 'Gravigny-Balizy', 'LONGJUMEAU', 'ESSONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87194001', 'Longwy', 'LONGWY', 'MEURTHE-ET-MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681007', 'Corbeil-Essonnes', 'CORBEIL-ESSONNES', 'ESSONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396234', 'Sillé-le-Guillaume', 'SILLÉ-LE-GUILLAUME', 'SARTHE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87755421', 'Vidauban', 'VIDAUBAN', 'VAR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696492', 'Cercy-la-Tour', 'CERCY-LA-TOUR', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87193623', 'Rémelfing', 'RÉMELFING', 'MOSELLE');
@@ -2245,12 +3125,24 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683516', 'Bonnard-Bassou', 'BONNARD', 'YONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174409', 'Mourmelon-le-Petit', 'MOURMELON-LE-PETIT', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87387159', 'Conches', 'CONCHES-EN-OUCHE', 'EURE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393603', 'Bourth', 'BOURTH', 'EURE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576454', 'Nérondes', 'NÉRONDES', 'CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575654', 'Civray-Ville', 'CIVRAY', 'VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478073', 'Dol-de-Bretagne', 'DOL-DE-BRETAGNE', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696682', 'Château-Chinon', 'CHÂTEAU-CHINON(CAMPAGNE)', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491357', 'St-Jean-d''Angély', 'SAINT-JEAN-D''ANGÉLY', 'CHARENTE-MARITIME');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214056', 'Sélestat', 'SELESTAT', 'BAS-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393603', 'Bourth', 'BOURTH', 'EURE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576454', 'Nérondes', 'NÉRONDES', 'CHER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575654', 'Civray-Ville', 'CIVRAY', 'VIENNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586453', 'Monsempron-Libos', 'MONSEMPRON-LIBOS', 'LOT-ET-GARONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478073', 'Dol-de-Bretagne', 'DOL-DE-BRETAGNE', 'ILLE-ET-VILAINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286435', 'Don-Sainghin', 'SAINGHIN-EN-WEPPES', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696682', 'Château-Chinon', 'CHÂTEAU-CHINON(CAMPAGNE)', 'NIEVRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491357', 'St-Jean-d'Angély', 'SAINT-JEAN-D'ANGÉLY', 'CHARENTE-MARITIME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271353', 'Neuilly-sur-Marne', 'NEUILLY-SUR-MARNE', 'SEINE-SAINT-DENIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276774', 'Ourscamps', 'PIMPREZ', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611681', 'Dieupentale', 'DIEUPENTALE', 'TARN-ET-GARONNE');
@@ -2263,11 +3155,22 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182014', 'Colmar', 'COLMAR', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543835', 'Beaune-la-Rolande', 'BEAUNE-LA-ROLANDE', 'LOIRET');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171751', 'St-Erme', 'SAINT-ERME-OUTRE-ET-RAMECOURT', 'AISNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581538', 'Caudéran-Mérignac', 'BORDEAUX', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476770', 'Drefféac', 'DREFFÉAC', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783175', 'St-Flour-Chaudes-Aigues', 'SAINT-FLOUR', 'CANTAL');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415604', 'Vernon-Giverny', 'VERNON', 'EURE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87184523', 'Montbéliard', 'MONTBELIARD', 'DOUBS');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381590', 'Mantes-Station', 'MANTES-LA-VILLE', 'YVELINES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581538', 'Caudéran-Mérignac', 'BORDEAUX', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476770', 'Drefféac', 'DREFFÉAC', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783175', 'St-Flour-Chaudes-Aigues', 'SAINT-FLOUR', 'CANTAL');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761106', 'St-Rambert-d'Albon', 'SAINT-RAMBERT-D'ALBON', 'DROME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415604', 'Vernon-Giverny', 'VERNON', 'EURE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87184523', 'Montbéliard', 'MONTBELIARD', 'DOUBS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671016', 'Mont-de-Marsan', 'MONT-DE-MARSAN', 'LANDES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87113217', 'Noisy-le-Sec', 'NOISY-LE-SEC', 'SEINE-SAINT-DENIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575480', 'Montmorillon', 'MONTMORILLON', 'VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296012', 'Laon', 'LAON', 'AISNE');
@@ -2284,6 +3187,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394866', 'Coltainville', 'COLTAINVILLE', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595157', 'Agonac', 'AGONAC', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747485', 'Le Cheylas-La Buissière', 'LE CHEYLAS', 'ISERE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144162', 'Laveline-devant-Bruyères', 'LAVELINE-DEVANT-BRUYÈRES', 'VOSGES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783282', 'Marvejols', 'MARVEJOLS', 'LOZERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87185686', 'Fougerolles', 'FOUGEROLLES', 'HAUTE-SAONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473819', 'Trégonneau-Squiffiec', 'SQUIFFIEC', 'COTES-D''ARMOR');
@@ -2298,21 +3205,38 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781609', 'Bédarieux', 'BÉDARIEUX', 'HERAULT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722744', 'Alaï', 'TASSIN-LA-DEMI-LUNE', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87684621', 'La Chapelle-la-Reine', 'LA CHAPELLE-LA-REINE', 'SEINE-ET-MARNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481143', 'Thouaré', 'THOUARÉ-SUR-LOIRE', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713842', 'Gemeaux', 'GEMEAUX', 'COTE-D''OR');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87194357', 'Audun-le-Roman', 'AUDUN-LE-ROMAN', 'MEURTHE-ET-MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481143', 'Thouaré', 'THOUARÉ-SUR-LOIRE', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713842', 'Gemeaux', 'GEMEAUX', 'COTE-D''OR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87546192', 'Pont-de-Rungis-Aéroport-d'Orly', 'THIAIS', 'VAL-DE-MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481648', 'Châteaubriant', 'CHATEAUBRIANT', 'LOIRE-ATLANTIQUE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87645135', 'Laroquebrou', 'LAROQUEBROU', 'CANTAL');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726786', 'Pont-de-Lignon', 'BEAUZAC', 'HAUTE-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141531', 'Bainville-sur-Madon', 'BAINVILLE-SUR-MADON', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87684274', 'Nogent-sur-Vernisson', 'NOGENT-SUR-VERNISSON', 'LOIRET');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144196', 'Corcieux-Vanémont', 'LA HOUSSIÈRE', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784785', 'Planès', 'PLANÈS', 'PYRENEES-ORIENTALES');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444562', 'Surdon', 'LE CHÂTEAU-D''ALMENÊCHES', 'ORNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611863', 'Valence-d''Agen', 'VALENCE', 'TARN-ET-GARONNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444562', 'Surdon', 'LE CHÂTEAU-D'ALMENÊCHES', 'ORNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611863', 'Valence-d'Agen', 'VALENCE', 'TARN-ET-GARONNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396606', 'Château-du-Loir', 'CHÂTEAU-DU-LOIR', 'SARTHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671339', 'Lourdes', 'LOURDES', 'HAUTES-PYRENEES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192732', 'Valleroy-Moineville', 'VALLEROY', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87755215', 'St-Cyr-les-Lècques-La Cadière', 'SAINT-CYR-SUR-MER', 'VAR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87324335', 'Hirson-Écoles', 'HIRSON', 'AISNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342279', 'Isbergues', 'ISBERGUES', 'PAS-DE-CALAIS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342048', 'Achiet', 'ACHIET-LE-GRAND', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87400986', 'Magneux-Courlandon', 'COURLANDON', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182840', 'Bantzenheim', 'BANTZENHEIM', 'HAUT-RHIN');
@@ -2323,6 +3247,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296566', 'Anizy-Pinon', 'PINON', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747535', 'Jarrie-Vizille', 'JARRIE', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87287250', 'Lille-Porte-de-Douai', 'LILLE', 'NORD');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87295055', 'Anor', 'ANOR', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597633', 'Vieilleville', 'MOURIOUX-VIEILLEVILLE', 'CREUSE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393322', 'Pont-du-Garigliano-Hôpital-Georges-Pompidou', 'PARIS', 'PARIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87763425', 'Chorges', 'CHORGES', 'HAUTES-ALPES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174441', 'St-Hilaire-au-Temple', 'SAINT-HILAIRE-AU-TEMPLE', 'MARNE');
@@ -2343,14 +3272,26 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191692', 'Homécourt', 'HOMÉCOURT', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753715', 'Sénas', 'SÉNAS', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681825', 'Villeneuve-St-Georges', 'VILLENEUVE-SAINT-GEORGES', 'VAL-DE-MARNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696328', 'Moulins-sur-Allier', 'YZEURE', 'ALLIER');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592055', 'St-Priest-Taurion', 'SAINT-PRIEST-TAURION', 'HAUTE-VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212100', 'Mundolsheim', 'MUNDOLSHEIM', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313197', 'Montières', 'AMIENS', 'SOMME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586800', 'Mézin', 'MÉZIN', 'LOT-ET-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581793', 'Alouette-France', 'PESSAC', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214577', 'Molsheim', 'MOLSHEIM', 'BAS-RHIN');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721761', 'Chessy', 'CHESSY', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87497461', 'Galliéni-Cancéropole', 'TOULOUSE', 'HAUTE-GARONNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87185629', 'Aillevillers', 'CORBENAY', 'HAUTE-SAONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182014', 'Colmar', 'COLMAR', 'HAUT-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721761', 'Chessy', 'CHESSY', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87497461', 'Galliéni-Cancéropole', 'TOULOUSE', 'HAUTE-GARONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381111', 'Pont-Cardinet', 'PARIS', 'PARIS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87417501', 'Lancey', 'VILLARD-BONNOT', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87353581', 'Les Ramassiers', 'TOULOUSE', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87571810', 'St-Patrice', 'SAINT-PATRICE', 'INDRE-ET-LOIRE');
@@ -2370,7 +3311,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116772', 'Crécy-La Chapelle', 'CRÉCY-LA-CHAPELLE', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543165', 'Salbris', 'SALBRIS', 'LOIR-ET-CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411256', 'Malaunay-Le Houlme', 'LE HOULME', 'SEINE-MARITIME');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741223', 'St-Pierre-d''Albigny', 'SAINT-PIERRE-D''ALBIGNY', 'SAVOIE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741223', 'St-Pierre-d'Albigny', 'SAINT-PIERRE-D'ALBIGNY', 'SAVOIE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87745240', 'Chevry', 'CHEVRY', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87184408', 'Meroux', 'MEROUX', 'TERRITOIRE-DE-BELFORT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214585', 'Mutzig', 'MUTZIG', 'BAS-RHIN');
@@ -2378,6 +3323,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191320', 'Distroff', 'DISTROFF', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444299', 'Bernay', 'BERNAY', 'EURE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87712182', 'Neuilly-lès-Dijon', 'NEUILLY-LÈS-DIJON', 'COTE-D''OR');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87343004', 'Valenciennes', 'VALENCIENNES', 'NORD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345033', 'Loos-en-Gohelle', 'LENS', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87487009', 'Thouars', 'THOUARS', 'DEUX-SEVRES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317578', 'Marck', 'MARCK', 'PAS-DE-CALAIS');
@@ -2394,12 +3343,21 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575340', 'Couhé-Vérac', 'CEAUX-EN-COUHÉ', 'VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87712505', 'Franxault', 'FRANXAULT', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87447185', 'Pont-Hébert', 'RAMPAN', 'MANCHE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582692', 'St-Médard-d''Eyrans', 'SAINT-MÉDARD-D''EYRANS', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381566', 'Gargenville', 'GARGENVILLE', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471227', 'Massérac', 'MASSÉRAC', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87773531', 'Vic-Mireval', 'VIC-LA-GARDIOLE', 'HERAULT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783241', 'St-Chély-d''Apcher', 'SAINT-CHÉLY-D''APCHER', 'LOZERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382473', 'L''Étang-la-Ville', 'L''ÉTANG-LA-VILLE', 'YVELINES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582692', 'St-Médard-d'Eyrans', 'SAINT-MÉDARD-D'EYRANS', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381566', 'Gargenville', 'GARGENVILLE', 'YVELINES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471227', 'Massérac', 'MASSÉRAC', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87773531', 'Vic-Mireval', 'VIC-LA-GARDIOLE', 'HERAULT');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783241', 'St-Chély-d'Apcher', 'SAINT-CHÉLY-D'APCHER', 'LOZERE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382473', 'L'Étang-la-Ville', 'L'ÉTANG-LA-VILLE', 'YVELINES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595512', 'Niversac', 'SAINT-LAURENT-SUR-MANOIRE', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681247', 'Le Vert-de-Maisons', 'MAISONS-ALFORT', 'VAL-DE-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415042', 'Arques-la-Bataille', 'ARQUES-LA-BATAILLE', 'SEINE-MARITIME');
@@ -2410,7 +3368,12 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696617', 'Corbigny', 'CORBIGNY', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87295220', 'Le Cateau', 'LE CATEAU-CAMBRÉSIS', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444182', 'Frénouville-Cagny', 'CAGNY', 'CALVADOS');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276139', 'Pontoise', 'SAINT-OUEN-L''AUMONE', 'VAL-D''OISE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276139', 'Pontoise', 'SAINT-OUEN-L'AUMONE', 'VAL-D''OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141044', 'Toul', 'TOUL', 'MEURTHE-ET-MOSELLE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87561143', 'Halte de Fontanil-Lycée de Drap', 'DRAP', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784728', 'Olette-Canaveilles-les-Bains', 'OLETTE', 'PYRENEES-ORIENTALES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411207', 'Oissel', 'OISSEL', 'SEINE-MARITIME');
@@ -2418,15 +3381,27 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87584151', 'Lamothe-Montravel', 'LAMOTHE-MONTRAVEL', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212373', 'Rountzenheim', 'AUENHEIM', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141606', 'Vézelise', 'VÉZELISE', 'MEURTHE-ET-MOSELLE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286856', 'Annappes', 'VILLENEUVE-D''ASCQ', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87757526', 'St-Raphaël-Valescure', 'SAINT-RAPHAEL', 'VAR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611236', 'Luchon', 'BAGNÈRES-DE-LUCHON', 'HAUTE-GARONNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87113407', 'Bondy', 'BONDY', 'SEINE-SAINT-DENIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286856', 'Annappes', 'VILLENEUVE-D'ASCQ', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87757526', 'St-Raphaël-Valescure', 'SAINT-RAPHAEL', 'VAR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611236', 'Luchon', 'BAGNÈRES-DE-LUCHON', 'HAUTE-GARONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87386763', 'Épône-Mézières', 'ÉPÔNE', 'YVELINES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681411', 'Mennecy', 'MENNECY', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478180', 'Corseul-Languenan', 'LANGUENAN', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116483', 'Esternay', 'ESTERNAY', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182717', 'Raedersheim', 'RAEDERSHEIM', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592097', 'St-Denis-des-Murs', 'SAINT-DENIS-DES-MURS', 'HAUTE-VIENNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713107', 'Darcey (Côte-d''Or)', 'DARCEY', 'COTE-D''OR');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713107', 'Darcey (Côte-d'Or)', 'DARCEY', 'COTE-D''OR');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317503', 'Feuquières-Fressenneville', 'FEUQUIÈRES-EN-VIMEU', 'SOMME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481689', 'La Croix-de-Méan', 'TRIGNAC', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694000', 'Le Creusot', 'CREUSOT (LE )', 'SAONE-ET-LOIRE');
@@ -2438,6 +3413,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393587', 'Tillières', 'TILLIÈRES-SUR-AVRE', 'EURE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783563', 'Barjac', 'BARJAC', 'LOZERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683268', 'Laroche-Migennes', 'MIGENNES', 'YONNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87571000', 'Tours', 'TOURS', 'INDRE-ET-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747402', 'Grenoble-Université-Gières', 'GIÈRES', 'ISERE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342188', 'Maroeuil', 'MAROEUIL', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743716', 'Ambérieu', 'AMBERIEU-EN-BUGEY', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87773200', 'Sète', 'SETE', 'HERAULT');
@@ -2458,10 +3438,18 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87272013', 'Jaux', 'JAUX', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116293', 'Vaires-Torcy', 'VAIRES-SUR-MARNE', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784850', 'Ste-Léocadie', 'SAINTE-LÉOCADIE', 'PYRENEES-ORIENTALES');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345264', 'Pont-à-Vendin', 'VENDIN-LE-VIEIL', 'PAS-DE-CALAIS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296608', 'Versigny', 'VERSIGNY', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765305', 'Barbentane-Rognonas', 'BARBENTANE', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594382', 'Condat-le-Lardin', 'LE LARDIN-SAINT-LAZARE', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317198', 'Beaurainville', 'BEAURAINVILLE', 'PAS-DE-CALAIS');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87547026', 'Paris-Austerlitz-Souterrain', 'PARIS', 'PARIS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116491', 'Trilport', 'TRILPORT', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144451', 'Remiremont', 'REMIREMONT', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592501', 'La Coquille', 'LA COQUILLE', 'DORDOGNE');
@@ -2469,7 +3457,13 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746818', 'Les Moussoux', 'CHAMONIX-MONT-BLANC', 'HAUTE-SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213462', 'Riedseltz', 'RIEDSELTZ', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87641001', 'Montluçon-Ville', 'MONTLUCON', 'ALLIER');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87613109', 'Capdenac', 'CAPDENAC-GARE', 'AVEYRON');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765107', 'Orange', 'ORANGE', 'VAUCLUSE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87613109', 'Capdenac', 'CAPDENAC-GARE', 'AVEYRON');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87773200', 'Sète', 'SETE', 'HERAULT');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673459', 'Guéthary', 'GUÉTHARY', 'PYRENEES-ATLANTIQUES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444414', 'Dives-Cabourg', 'DIVES-SUR-MER', 'CALVADOS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87181289', 'Vieux-Thann ZI', 'VIEUX-THANN', 'HAUT-RHIN');
@@ -2478,20 +3472,37 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491290', 'Loulay', 'LOULAY', 'CHARENTE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393678', 'Aunay-Tréon', 'TRÉON', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87343319', 'Raismes', 'RAISMES', 'NORD');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192666', 'Conflans-Jarny', 'JARNY', 'MEURTHE-ET-MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592725', 'Nexon', 'NEXON', 'HAUTE-VIENNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481770', 'Batz-sur-Mer', 'BATZ-SUR-MER', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611574', 'Les Cabannes', 'LES CABANNES', 'ARIEGE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213165', 'Obermodern', 'OBERMODERN-ZUTZENDORF', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87484659', 'Château-Gontier', 'CHATEAU-GONTIER', 'MAYENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87322347', 'Traou-Nez', 'PLOURIVO', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713594', 'Santenay-les-Bains', 'SANTENAY', 'COTE-D''OR');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144683', 'St-Michel-sur-Meurthe', 'SAINT-MICHEL-SUR-MEURTHE', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142570', 'Poinçon', 'POINÇON-LÈS-LARREY', 'COTE-D''OR');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481838', 'Savenay', 'SAVENAY', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144683', 'St-Michel-sur-Meurthe', 'SAINT-MICHEL-SUR-MEURTHE', 'VOSGES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142570', 'Poinçon', 'POINÇON-LÈS-LARREY', 'COTE-D''OR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382358', 'St-Cloud', 'SAINT-CLOUD', 'HAUTS-DE-SEINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784686', 'Villefranche-Vernet-les-Bains', 'VILLEFRANCHE-DE-CONFLENT', 'PYRENEES-ORIENTALES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396580', 'Mayet', 'MAYET', 'SARTHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317305', 'Les Fontinettes', 'CALAIS', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394569', 'St-Sauveur-Châteauneuf', 'SAINT-SAUVEUR-MARVILLE', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478107', 'St-Malo', 'SAINT-MALO', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694570', 'Autun', 'AUTUN', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174474', 'Nuisement', 'NUISEMENT-SUR-COOLE', 'MARNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743716', 'Ambérieu', 'AMBERIEU-EN-BUGEY', 'AIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182634', 'Oderen', 'ODEREN', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756338', 'Cros-de-Cagnes', 'CAGNES-SUR-MER', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87113845', 'Les Coquetiers', 'VILLEMOMBLE', 'SEINE-SAINT-DENIS');
@@ -2499,14 +3510,27 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87484329', 'Savennières-Béhuard', 'SAVENNIÈRES', 'MAINE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761247', 'Livron', 'LIVRON-SUR-DRÔME', 'DROME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586305', 'Layrac', 'LAYRAC', 'LOT-ET-GARONNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87193714', 'Sarralbe', 'SARRALBE', 'MOSELLE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775122', 'Aigues-Vives', 'AIGUES-VIVES', 'GARD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753483', 'Fos-Mole-Central', 'FOS-SUR-MER', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473876', 'Frynaudour', 'PLOURIVO', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741504', 'Virieu-le-Grand-Belley', 'VIRIEU-LE-GRAND', 'AIN');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781609', 'Bédarieux', 'BÉDARIEUX', 'HERAULT');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87684233', 'Dordives', 'DORDIVES', 'LOIRET');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611632', 'Beaumont-de-Lomagne', 'BEAUMONT-DE-LOMAGNE', 'TARN-ET-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286427', 'La Fontaine', 'WAVRIN', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87571612', 'Druye', 'DRUYE', 'INDRE-ET-LOIRE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682278', 'Moret-Veneux-les-Sablons', 'VENEUX-LES-SABLONS', 'SEINE-ET-MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87763250', 'Aspres-sur-Buëch', 'ASPRES-SUR-BUËCH', 'HAUTES-ALPES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481788', 'Le Croisic', 'LE CROISIC', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171496', 'Braine', 'BRAINE', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87745471', 'Bossey-Veyrier', 'ÉTREMBIÈRES', 'HAUTE-SAVOIE');
@@ -2523,8 +3547,15 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212183', 'Dettwiller', 'DETTWILLER', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781294', 'Marseillan-Plage', 'MARSEILLAN', 'HERAULT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87474007', 'Brest', 'BREST', 'FINISTERE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574327', 'Veuves-Monteaux', 'VEUVES', 'LOIR-ET-CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144105', 'Raves-Ban-de-Laveline', 'RAVES', 'VOSGES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713040', 'Dijon-Ville', 'DIJON', 'COTE-D''OR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574327', 'Veuves-Monteaux', 'VEUVES', 'LOIR-ET-CHER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144105', 'Raves-Ban-de-Laveline', 'RAVES', 'VOSGES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87185629', 'Aillevillers', 'CORBENAY', 'HAUTE-SAONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296467', 'Origny-Ste-Benoite', 'ORIGNY-SAINTE-BENOITE', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721290', 'Quincieux', 'QUINCIEUX', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87215483', 'Schopperten', 'SCHOPPERTEN', 'BAS-RHIN');
@@ -2534,9 +3565,19 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116749', 'Villiers-Montbarbin', 'CRÉCY-LA-CHAPELLE', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87715144', 'La Rivière', 'LA RIVIÈRE-DRUGEON', 'DOUBS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141549', 'Xeuilley', 'XEUILLEY', 'MEURTHE-ET-MOSELLE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192724', 'Hatrize', 'HATRIZE', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694695', 'Digoin', 'DIGOIN', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582866', 'La Réole', 'LA RÉOLE', 'GIRONDE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615344', 'St-Sulpice', 'SAINT-SULPICE', 'TARN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192724', 'Hatrize', 'HATRIZE', 'MEURTHE-ET-MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144212', 'Mirecourt', 'MIRECOURT', 'VOSGES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694695', 'Digoin', 'DIGOIN', 'SAONE-ET-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582866', 'La Réole', 'LA RÉOLE', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713859', 'Is-sur-Tille', 'MARCILLY-SUR-TILLE', 'COTE-D''OR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87343418', 'Prouvy-Thiant', 'PROUVY', 'NORD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683243', 'Joigny', 'JOIGNY', 'YONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476440', 'St-Pierre-Quiberon', 'SAINT-PIERRE-QUIBERON', 'MORBIHAN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276535', 'Valmondois', 'BUTRY-SUR-OISE', 'VAL-D''OISE');
@@ -2546,11 +3587,22 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683573', 'Auxerre-St-Gervais', 'AUXERRE', 'YONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576447', 'Bengy', 'BENGY-SUR-CRAON', 'CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723544', 'Beynost', 'BEYNOST', 'AIN');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478024', 'St-Médard-sur-Ille', 'SAINT-MÉDARD-SUR-ILLE', 'ILLE-ET-VILAINE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87448084', 'Briouze', 'BRIOUZE', 'ORNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478024', 'St-Médard-sur-Ille', 'SAINT-MÉDARD-SUR-ILLE', 'ILLE-ET-VILAINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723700', 'Sathonay-Rillieux', 'SATHONAY-CAMP', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214056', 'Sélestat', 'SELESTAT', 'BAS-RHIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286096', 'Haubourdin', 'HAUBOURDIN', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574558', 'Vendôme', 'VENDOME', 'LOIR-ET-CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172460', 'Attigny (Ardennes)', 'ATTIGNY', 'ARDENNES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213678', 'Weyersheim', 'WEYERSHEIM', 'BAS-RHIN');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182709', 'Bollwiller', 'BOLLWILLER', 'HAUT-RHIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172486', 'Messempré', 'PURE', 'ARDENNES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175166', 'Ancerville-Guë', 'ANCERVILLE', 'MEUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87223263', 'Lille-Europe', 'LILLE', 'NORD');
@@ -2559,6 +3611,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481507', 'Carquefou', 'CARQUEFOU', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87773465', 'St-Aunès', 'SAINT-AUNÈS', 'HERAULT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276865', 'Rethondes', 'COMPIEGNE', 'OISE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141143', 'Mont-sur-Meurthe', 'REHAINVILLER', 'MEURTHE-ET-MOSELLE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87184531', 'Voujeaucourt', 'VOUJEAUCOURT', 'DOUBS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87715417', 'St-Laurent (Jura)', 'SAINT-LAURENT-EN-GRANDVAUX', 'JURA');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478131', 'Miniac', 'MINIAC-MORVAN', 'ILLE-ET-VILAINE');
@@ -2566,27 +3622,51 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381012', 'Péreire-Levallois', 'PARIS', 'PARIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592246', 'Solignac-Le Vigen', 'SOLIGNAC', 'HAUTE-VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575035', 'Monts', 'MONTS', 'INDRE-ET-LOIRE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681007', 'Corbeil-Essonnes', 'CORBEIL-ESSONNES', 'ESSONNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721514', 'Tassin', 'TASSIN-LA-DEMI-LUNE', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478768', 'St-Pierre-la-Cour', 'SAINT-PIERRE-LA-COUR', 'MAYENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276493', 'Montsoult-Maffliers', 'MONTSOULT', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87613471', 'Laguépie', 'LAGUÉPIE', 'TARN-ET-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726778', 'Bas-Monistrol', 'BAS-EN-BASSET', 'HAUTE-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87287417', 'Lomme (MIN)', 'LILLE', 'NORD');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87534347', 'Lutterbach-Tram-Train', 'LUTTERBACH', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87742007', 'Modane', 'MODANE', 'SAVOIE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595769', 'Siorac-en-Périgord', 'SIORAC-EN-PÉRIGORD', 'DORDOGNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87534347', 'Lutterbach-Tram-Train', 'LUTTERBACH', 'HAUT-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144006', 'Épinal', 'EPINAL', 'VOSGES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87742007', 'Modane', 'MODANE', 'SAVOIE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471359', 'Retiers', 'RETIERS', 'ILLE-ET-VILAINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174441', 'St-Hilaire-au-Temple', 'SAINT-HILAIRE-AU-TEMPLE', 'MARNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775353', 'Nozières-Brignon', 'BOUCOIRAN-ET-NOZIÈRES', 'GARD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393520', 'St-Germain-St-Rémy', 'SAINT-GERMAIN-SUR-AVRE', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747220', 'Le Grand-Lemps', 'LE GRAND-LEMPS', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545228', 'Épinay-sur-Orge', 'EPINAY-SUR-ORGE', 'ESSONNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784496', 'Espira-de-l''Agly', 'ESPIRA-DE-L''AGLY', 'PYRENEES-ORIENTALES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481820', 'Cordemais', 'CORDEMAIS', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473827', 'Brélidy-Plouëc', 'PLOUËC-DU-TRIEUX', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761239', 'L''Isle-d''Abeau', 'ISLE-D''ABEAU (L'')', 'ISERE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784496', 'Espira-de-l'Agly', 'ESPIRA-DE-L'AGLY', 'PYRENEES-ORIENTALES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481820', 'Cordemais', 'CORDEMAIS', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411819', 'Clères', 'CLÈRES', 'SEINE-MARITIME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682005', 'Melun', 'MELUN', 'SEINE-ET-MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473827', 'Brélidy-Plouëc', 'PLOUËC-DU-TRIEUX', 'COTES-D''ARMOR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761239', 'L'Isle-d'Abeau', 'ISLE-D'ABEAU (L')', 'ISERE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765354', 'Tarascon', 'TARASCON', 'BOUCHES-DU-RHONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485169', 'Aytré', 'AYTRÉ', 'CHARENTE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747204', 'Virieu-sur-Bourbre', 'PANISSAGE', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683615', 'Champs-St-Bris', 'CHAMPS-SUR-YONNE', 'YONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696732', 'Prémery', 'PRÉMERY', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683201', 'Étigny-Véron', 'ÉTIGNY', 'YONNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87113894', 'Freinville-Sevran', 'SEVRAN', 'SEINE-SAINT-DENIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726232', 'La Fouillouse', 'LA FOUILLOUSE', 'LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87590828', 'Sucé-sur-Erdre', 'SUCÉ-SUR-ERDRE', 'LOIRE-ATLANTIQUE');
@@ -2595,6 +3675,21 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575720', 'Jardres', 'JARDRES', 'VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781088', 'Leucate-la-Franqui', 'LEUCATE', 'AUDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393876', 'Noisy-le-Roi', 'NOISY-LE-ROI', 'YVELINES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718833', 'Mouchard', 'MOUCHARD', 'JURA');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87113894', 'Freinville-Sevran', 'SEVRAN', 'SEINE-SAINT-DENIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726232', 'La Fouillouse', 'LA FOUILLOUSE', 'LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213058', 'Haguenau', 'HAGUENAU', 'BAS-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87590828', 'Sucé-sur-Erdre', 'SUCÉ-SUR-ERDRE', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116327', 'Esbly', 'ESBLY', 'SEINE-ET-MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87413542', 'Fécamp', 'FECAMP', 'SEINE-MARITIME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87728501', 'St-Fons', 'SAINT-FONS', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481234', 'St-Hilaire-de-Chaléons', 'SAINT-HILAIRE-DE-CHALÉONS', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575720', 'Jardres', 'JARDRES', 'VIENNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781088', 'Leucate-la-Franqui', 'LEUCATE', 'AUDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393876', 'Noisy-le-Roi', 'NOISY-LE-ROI', 'YVELINES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722439', 'Givors-Canal', 'GIVORS', 'RHONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411199', 'Elbeuf-Ville', 'ELBEUF', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682294', 'St-Mammès', 'SAINT-MAMMÈS', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87745430', 'St-Julien-en-Genevois', 'SAINT-JULIEN-EN-GENEVOIS', 'HAUTE-SAVOIE');
@@ -2602,17 +3697,31 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393124', 'Sèvres-Rive-Gauche', 'SEVRES', 'HAUTS-DE-SEINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694307', 'Montchanin', 'MONTCHANIN', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342204', 'Fouquereuil', 'FOUQUEREUIL', 'PAS-DE-CALAIS');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87316067', 'Buire-sur-l''Ancre', 'BUIRE-SUR-L''ANCRE', 'SOMME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87645168', 'Maurs', 'MAURS', 'CANTAL');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723320', 'Vénissieux', 'VENISSIEUX', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751644', 'St-Louis-les-Aygalades', 'MARSEILLE', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751529', 'L''Ariane', 'TRINITE (LA )', 'ALPES-MARITIMES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87316067', 'Buire-sur-l'Ancre', 'BUIRE-SUR-L'ANCRE', 'SOMME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87645168', 'Maurs', 'MAURS', 'CANTAL');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723320', 'Vénissieux', 'VENISSIEUX', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751644', 'St-Louis-les-Aygalades', 'MARSEILLE', 'BOUCHES-DU-RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751529', 'L'Ariane', 'TRINITE (LA )', 'ALPES-MARITIMES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611244', 'Montauban-Ville-Bourbon', 'MONTAUBAN', 'TARN-ET-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615138', 'Verzeille', 'LEUC', 'AUDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761783', 'Crest', 'CREST', 'DROME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576413', 'Moulins-sur-Yèvre', 'MOULINS-SUR-YÈVRE', 'CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342410', 'Cuinchy', 'CUINCHY', 'PAS-DE-CALAIS');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576165', 'Villeherviers', 'VILLEHERVIERS', 'LOIR-ET-CHER');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382481', 'St-Nom-la-Bretêche-Forêt-de-Marly', 'L'ÉTANG-LA-VILLE', 'YVELINES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576165', 'Villeherviers', 'VILLEHERVIERS', 'LOIR-ET-CHER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213108', 'Schweighouse-sur-Moder', 'SCHWEIGHOUSE-SUR-MODER', 'BAS-RHIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765024', 'Avignon-Fontcouverte', 'AVIGNON', 'VAUCLUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682500', 'Vosves', 'DAMMARIE-LES-LYS', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87272039', 'Seugy', 'SEUGY', 'VAL-D''OISE');
@@ -2621,11 +3730,22 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87715219', 'Labergement-Ste-Marie', 'LABERGEMENT-SAINTE-MARIE', 'DOUBS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281873', 'Magenta', 'PARIS', 'PARIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543090', 'Angerville', 'ANGERVILLE', 'ESSONNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87487140', 'Airvault-Gare', 'AIRVAULT', 'DEUX-SEVRES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87386300', 'Les Vallées', 'COLOMBES', 'HAUTS-DE-SEINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281428', 'Audruicq', 'AUDRUICQ', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746347', 'Marignier', 'MARIGNIER', 'HAUTE-SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673707', 'Ossès-St-Martin-d''Arrossa', 'SAINT-MARTIN-D''ARROSSA', 'PYRENEES-ATLANTIQUES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481226', 'Ste-Pazanne', 'SAINTE-PAZANNE', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87487140', 'Airvault-Gare', 'AIRVAULT', 'DEUX-SEVRES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87386300', 'Les Vallées', 'COLOMBES', 'HAUTS-DE-SEINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87387126', 'St-Aubin-du-Vieil-Évreux', 'LE VIEIL-ÉVREUX', 'EURE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345009', 'Douai', 'DOUAI', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281428', 'Audruicq', 'AUDRUICQ', 'PAS-DE-CALAIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746347', 'Marignier', 'MARIGNIER', 'HAUTE-SAVOIE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673707', 'Ossès-St-Martin-d'Arrossa', 'SAINT-MARTIN-D'ARROSSA', 'PYRENEES-ATLANTIQUES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393207', 'Chaville-Rive-Gauche', 'CHAVILLE', 'HAUTS-DE-SEINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87725663', 'Fleurville-Pont-de-Vaux', 'FLEURVILLE', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756353', 'Nice-Riquier', 'NICE', 'ALPES-MARITIMES');
@@ -2633,14 +3753,23 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597724', 'Parsac-Gouzon', 'PARSAC', 'CREUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313478', 'Chaulnes', 'CHAULNES', 'SOMME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594754', 'Puybrun', 'PUYBRUN', 'LOT');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723759', 'Villars-les-Dombes', 'VILLARS-LES-DOMBES', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87484113', 'Écouflant', 'ÉCOUFLANT', 'MAINE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396226', 'Crissé', 'CRISSÉ', 'SARTHE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87384008', 'Paris-St-Lazare', 'PARIS', 'PARIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723759', 'Villars-les-Dombes', 'VILLARS-LES-DOMBES', 'AIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87484113', 'Écouflant', 'ÉCOUFLANT', 'MAINE-ET-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396226', 'Crissé', 'CRISSÉ', 'SARTHE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775171', 'La Bastide-St-Laurent-les-Bains', 'LA BASTIDE-PUYLAURENT', 'LOZERE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743351', 'Nurieux', 'NURIEUX-VOLOGNAT', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615286', 'Carcassonne', 'CARCASSONNE', 'AUDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141804', 'Belleville', 'BELLEVILLE', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87447144', 'Carantilly-Marigny', 'CARANTILLY', 'MANCHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286757', 'Roubaix-Wattrelos', 'ROUBAIX', 'NORD');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313296', 'Avrechy', 'AVRECHY', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694331', 'St-Julien-Écuisses', 'SAINT-JULIEN-SUR-DHEUNE', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182337', 'Rouffach', 'ROUFFACH', 'HAUT-RHIN');
@@ -2651,6 +3780,23 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393413', 'Villepreux-les-Clayes', 'CLAYES-SOUS-BOIS (LES)', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141390', 'Ménil-Flin', 'FLIN', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747279', 'Réaumont-St-Cassien', 'SAINT-CASSIEN', 'ISERE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286757', 'Roubaix-Wattrelos', 'ROUBAIX', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313296', 'Avrechy', 'AVRECHY', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694331', 'St-Julien-Écuisses', 'SAINT-JULIEN-SUR-DHEUNE', 'SAONE-ET-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182337', 'Rouffach', 'ROUFFACH', 'HAUT-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87181016', 'St-Louis-la-Chaussée', 'SAINT-LOUIS', 'HAUT-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581835', 'Villenave-d'Ornon', 'VILLENAVE-D'ORNON', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586750', 'Lasserre', 'MONCRABEAU', 'LOT-ET-GARONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721449', 'Dardilly-le-Jubin', 'DARDILLY', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713578', 'Chagny', 'CHAGNY', 'SAONE-ET-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775007', 'Nîmes', 'NIMES', 'GARD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393413', 'Villepreux-les-Clayes', 'CLAYES-SOUS-BOIS (LES)', 'YVELINES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393009', 'Versailles-Chantiers', 'VERSAILLES', 'YVELINES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141390', 'Ménil-Flin', 'FLIN', 'MEURTHE-ET-MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747279', 'Réaumont-St-Cassien', 'SAINT-CASSIEN', 'ISERE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784207', 'Elne', 'ELNE', 'PYRENEES-ORIENTALES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592071', 'St-Léonard-de-Noblat', 'SAINT-LÉONARD-DE-NOBLAT', 'HAUTE-VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87645440', 'Vic-sur-Cère', 'VIC-SUR-CÈRE', 'CANTAL');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592493', 'St-Sébastien', 'SAINT-SÉBASTIEN', 'CREUSE');
@@ -2664,10 +3810,20 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478057', 'Combourg', 'COMBOURG', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87729111', 'Mâcon-Port-Fluvial', 'MACON', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87447680', 'Granville', 'GRANVILLE', 'MANCHE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382341', 'Sèvres-Ville-d''Avray', 'SEVRES', 'HAUTS-DE-SEINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722264', 'Vernaison', 'VERNAISON', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286294', 'Lomme', 'LILLE', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172221', 'Vrigne-Meuse', 'VRIGNE-MEUSE', 'ARDENNES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382341', 'Sèvres-Ville-d'Avray', 'SEVRES', 'HAUTS-DE-SEINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722264', 'Vernaison', 'VERNAISON', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87295543', 'Sous-le-Bois', 'MAUBEUGE', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381095', 'Le Stade', 'COLOMBES', 'HAUTS-DE-SEINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286294', 'Lomme', 'LILLE', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172221', 'Vrigne-Meuse', 'VRIGNE-MEUSE', 'ARDENNES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694687', 'Paray-le-Monial', 'PARAY-LE-MONIAL', 'SAONE-ET-LOIRE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87474296', 'Guimiliau', 'GUIMILIAU', 'FINISTERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415893', 'Bonnières', 'BONNIÈRES-SUR-SEINE', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87287128', 'Mont-de-Terre', 'LILLE', 'NORD');
@@ -2675,19 +3831,39 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141101', 'Varangéville-St-Nicolas', 'VARANGÉVILLE', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212126', 'Stephansfeld', 'BRUMATH', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286062', 'Hellemmes', 'LILLE', 'NORD');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87571653', 'Rivarennes', 'RIVARENNES', 'INDRE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87546002', 'Rungis (MIN)', 'RUNGIS', 'VAL-DE-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214726', 'Rothau', 'ROTHAU', 'BAS-RHIN');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586735', 'Nérac', 'NÉRAC', 'LOT-ET-GARONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87571653', 'Rivarennes', 'RIVARENNES', 'INDRE-ET-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87546002', 'Rungis (MIN)', 'RUNGIS', 'VAL-DE-MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214726', 'Rothau', 'ROTHAU', 'BAS-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87613422', 'Rodez', 'RODEZ', 'AVEYRON');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342246', 'Aubigny-en-Artois', 'AUBIGNY-EN-ARTOIS', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381863', 'Cormeilles-en-Parisis', 'CORMEILLES-EN-PARISIS', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595736', 'Les Eyzies', 'LES EYZIES-DE-TAYAC-SIREUIL', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87712588', 'Port-Sec-de-Pacy', 'PACY-SUR-ARMANÇON', 'YONNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87584615', 'St-Seurin-sur-l''Isle', 'SAINT-SEURIN-SUR-L''ISLE', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481168', 'Le Cellier', 'LE CELLIER', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87193318', 'St-Avold', 'VALMONT', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212142', 'Mommenheim', 'MOMMENHEIM', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286781', 'Cysoing', 'CYSOING', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718213', 'Domblans-Voiteur', 'DOMBLANS', 'JURA');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87584615', 'St-Seurin-sur-l'Isle', 'SAINT-SEURIN-SUR-L'ISLE', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481168', 'Le Cellier', 'LE CELLIER', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87193318', 'St-Avold', 'VALMONT', 'MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87386409', 'Houilles-Carrières-sur-Seine', 'HOUILLES', 'YVELINES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212142', 'Mommenheim', 'MOMMENHEIM', 'BAS-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286781', 'Cysoing', 'CYSOING', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281071', 'Calais-Fréthun', 'FRÉTHUN', 'PAS-DE-CALAIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718213', 'Domblans-Voiteur', 'DOMBLANS', 'JURA');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481002', 'Nantes', 'NANTES', 'LOIRE-ATLANTIQUE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485250', 'Mauzé', 'MAUZÉ-SUR-LE-MIGNON', 'DEUX-SEVRES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586651', 'Tonneins', 'TONNEINS', 'LOT-ET-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761759', 'Tullins-Fures', 'TULLINS', 'ISERE');
@@ -2703,13 +3879,25 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381830', 'Meulan-Hardricourt', 'HARDRICOURT', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212167', 'Hochfelden', 'HOCHFELDEN', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741009', 'Chambéry-Challes-les-Eaux', 'CHAMBERY', 'SAVOIE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611921', 'Colomiers-Lycée-International', 'COLOMIERS', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87184200', 'Bas-Évette', 'ÉVETTE-SALBERT', 'TERRITOIRE-DE-BELFORT');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87641415', 'Commentry', 'COMMENTRY', 'ALLIER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444539', 'Argentan', 'ARGENTAN', 'ORNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611921', 'Colomiers-Lycée-International', 'COLOMIERS', 'HAUTE-GARONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87184200', 'Bas-Évette', 'ÉVETTE-SALBERT', 'TERRITOIRE-DE-BELFORT');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313601', 'Rochy-Condé', 'ROCHY-CONDÉ', 'OISE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393629', 'Plaisir-Les Clayes', 'PLAISIR', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723197', 'Lyon-Part-Dieu', 'LYON', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756387', 'Èze', 'ÈZE', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681510', 'Buno-Gironville', 'BUNO-BONNEVAUX', 'ESSONNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743120', 'Pont-d''Ain', 'PONT-D''AIN', 'AIN');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743120', 'Pont-d'Ain', 'PONT-D'AIN', 'AIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317172', 'Attin-Garage', 'ATTIN', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87547315', 'St-Michel-Notre-Dame', 'PARIS', 'PARIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213223', 'Gundershoffen', 'GUNDERSHOFFEN', 'BAS-RHIN');
@@ -2717,13 +3905,25 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592253', 'Pierre-Buffière', 'PIERRE-BUFFIÈRE', 'HAUTE-VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615377', 'Gragnague', 'GRAGNAGUE', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116244', 'Mortcerf', 'MORTCERF', 'SEINE-ET-MARNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192435', 'Onville', 'ONVILLE', 'MEURTHE-ET-MOSELLE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393363', 'Beynes', 'BEYNES', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713008', 'Dijon-Porte-Neuve', 'DIJON', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723825', 'Neuville-sur-Saône', 'NEUVILLE-SUR-SAÔNE', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87641068', 'Bellenaves', 'BELLENAVES', 'ALLIER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87338517', 'Hoenheim-Tram', 'HOENHEIM', 'BAS-RHIN');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141150', 'Lunéville', 'LUNEVILLE', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87641225', 'Archignat', 'ARCHIGNAT', 'ALLIER');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276055', 'Ermont-Eaubonne', 'ERMONT', 'VAL-D''OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87215665', 'Diemeringen', 'DIEMERINGEN', 'BAS-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141150', 'Lunéville', 'LUNEVILLE', 'MEURTHE-ET-MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87641225', 'Archignat', 'ARCHIGNAT', 'ALLIER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87763300', 'Veynes-Dévoluy', 'VEYNES', 'HAUTES-ALPES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172106', 'Haybes', 'HAYBES', 'ARDENNES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574343', 'Amboise', 'AMBOISE', 'INDRE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718049', 'Miserey-Salines', 'MISEREY-SALINES', 'DOUBS');
@@ -2746,11 +3946,19 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491811', 'Saujon', 'SAUJON', 'CHARENTE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575134', 'Ingrandes-sur-Vienne', 'INGRANDES', 'VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276600', 'St-Leu-la-Forêt', 'SAINT-LEU-LA-FORET', 'VAL-D''OISE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87487173', 'Parthenay', 'PARTHENAY', 'DEUX-SEVRES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271783', 'Vierzy', 'VIERZY', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734715', 'St-Vincent-le-Château', 'SAINT-VINCENT', 'HAUTE-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597849', 'Felletin', 'FELLETIN', 'CREUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696310', 'Villeneuve-sur-Allier', 'VILLENEUVE-SUR-ALLIER', 'ALLIER');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476275', 'L''Isthme', 'SAINT-PIERRE-QUIBERON', 'MORBIHAN');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476275', 'L'Isthme', 'SAINT-PIERRE-QUIBERON', 'MORBIHAN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142240', 'Froncles', 'FRONCLES', 'HAUTE-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761874', 'Luc-en-Diois', 'LUC-EN-DIOIS', 'DROME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87287292', 'Nortkerque', 'NORTKERQUE', 'PAS-DE-CALAIS');
@@ -2760,23 +3968,45 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726802', 'Roanne', 'ROANNE', 'LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743336', 'Simandre-sur-Suran', 'SIMANDRE-SUR-SURAN', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171637', 'Sillery', 'SILLERY', 'MARNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713859', 'Is-sur-Tille', 'MARCILLY-SUR-TILLE', 'COTE-D''OR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726885', 'Montrond-les-Bains', 'MONTROND-LES-BAINS', 'LOIRE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696716', 'Guérigny', 'GUÉRIGNY', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281501', 'Wizernes', 'WIZERNES', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543181', 'Boulainvilliers', 'PARIS', 'PARIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171355', 'Mont-Notre-Dame', 'MONT-NOTRE-DAME', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485144', 'Rochefort', 'ROCHEFORT', 'CHARENTE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174276', 'Vitry-le-François', 'VITRY-LE-FRANCOIS', 'MARNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381244', 'Gisors', 'GISORS', 'EURE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281410', 'Pont-d''Ardres', 'ARDRES', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713826', 'Ruffey', 'RUFFEY-LÈS-ECHIREY', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597401', 'Clion-sur-Indre', 'CLION', 'INDRE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87684290', 'Gien', 'GIEN', 'LOIRET');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381244', 'Gisors', 'GISORS', 'EURE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411470', 'Serqueux', 'SERQUEUX', 'SEINE-MARITIME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281410', 'Pont-d'Ardres', 'ARDRES', 'PAS-DE-CALAIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713826', 'Ruffey', 'RUFFEY-LÈS-ECHIREY', 'COTE-D''OR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597401', 'Clion-sur-Indre', 'CLION', 'INDRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696575', 'Tamnay-Châtillon', 'TAMNAY-EN-BAZOIS', 'NIEVRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751008', 'Marseille-St-Charles', 'MARSEILLE', 'BOUCHES-DU-RHONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87618058', 'Pommevic', 'POMMEVIC', 'TARN-ET-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87571240', 'St-Pierre-des-Corps', 'SAINT-PIERRE-DES-CORPS', 'INDRE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175661', 'Dugny', 'DUGNY-SUR-MEUSE', 'MEUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214221', 'Epfig', 'EPFIG', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172759', 'Mouzon', 'MOUZON', 'ARDENNES');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718528', 'L''Hôpital-du-Grosbois', 'L''HÔPITAL-DU-GROSBOIS', 'DOUBS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673640', 'Halsou-Larressore', 'HALSOU', 'PYRENEES-ATLANTIQUES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718528', 'L'Hôpital-du-Grosbois', 'L'HÔPITAL-DU-GROSBOIS', 'DOUBS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673640', 'Halsou-Larressore', 'HALSOU', 'PYRENEES-ATLANTIQUES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87641423', 'Volvic', 'VOLVIC', 'PUY-DE-DOME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144311', 'Rozières-sur-Mouzon', 'ROZIÈRES-SUR-MOUZON', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87316752', 'Feuquerolles', 'FEUQUIÈRES-EN-VIMEU', 'SOMME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342089', 'Roeux', 'ROEUX', 'PAS-DE-CALAIS');
@@ -2784,7 +4014,12 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775833', 'Aimargues', 'AIMARGUES', 'GARD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175141', 'Eurville-Bienville', 'EURVILLE-BIENVILLE', 'HAUTE-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543033', 'Cercottes', 'CERCOTTES', 'LOIRET');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721787', 'Bois-d''Oingt-Légny', 'LÉGNY', 'RHONE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721787', 'Bois-d'Oingt-Légny', 'LÉGNY', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751602', 'L'Estaque', 'MARSEILLE', 'BOUCHES-DU-RHONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478404', 'Laval', 'LAVAL', 'MAYENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597666', 'Bourganeuf', 'BOURGANEUF', 'CREUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142406', 'Merrey', 'MERREY', 'HAUTE-MARNE');
@@ -2792,16 +4027,30 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342030', 'Miraumont', 'MIRAUMONT', 'SOMME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281121', 'Arnèke', 'ARNÈKE', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473389', 'Loudéac', 'LOUDÉAC', 'COTES-D''ARMOR');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381806', 'Triel-sur-Seine', 'TRIEL-SUR-SEINE', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595264', 'St-Léon-sur-l''Isle', 'SAINT-LÉON-SUR-L''ISLE', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594630', 'Objat', 'OBJAT', 'CORREZE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345421', 'Arleux', 'ARLEUX', 'NORD');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87474015', 'Dirinon Loperhet', 'LOPERHET', 'FINISTERE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381806', 'Triel-sur-Seine', 'TRIEL-SUR-SEINE', 'YVELINES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576090', 'Vierzon-Forges', 'VIERZON', 'CHER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595264', 'St-Léon-sur-l'Isle', 'SAINT-LÉON-SUR-L'ISLE', 'DORDOGNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594630', 'Objat', 'OBJAT', 'CORREZE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345421', 'Arleux', 'ARLEUX', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171926', 'Champagne-Ardenne-TGV', 'BEZANNES', 'MARNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784447', 'Caudiès', 'CAUDIÈS-DE-FENOUILLÈDES', 'PYRENEES-ORIENTALES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597112', 'Chabenet', 'LE PONT-CHRÉTIEN-CHABENET', 'INDRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281899', 'Haussmann-St-Lazare', 'PARIS', 'PARIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581371', 'Soulac-sur-Mer', 'SOULAC-SUR-MER', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471342', 'Le Theil-de-Bretagne', 'LE THEIL-DE-BRETAGNE', 'ILLE-ET-VILAINE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756395', 'Cap-d''Ail', 'CAP-D''AIL', 'ALPES-MARITIMES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756395', 'Cap-d'Ail', 'CAP-D'AIL', 'ALPES-MARITIMES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87185355', 'Jussey', 'JUSSEY', 'HAUTE-SAONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182592', 'Moosch', 'MOOSCH', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87338525', 'Krimmeri-Meinau', 'STRASBOURG', 'BAS-RHIN');
@@ -2815,6 +4064,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581017', 'Bordeaux-Bastide', 'BORDEAUX', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87387142', 'La Bonneville-sur-Iton', 'LA BONNEVILLE-SUR-ITON', 'EURE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476606', 'Vannes', 'VANNES', 'MORBIHAN');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775031', 'Beaucaire-Marchandises', 'BEAUCAIRE', 'GARD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481150', 'Mauves-sur-Loire', 'MAUVES-SUR-LOIRE', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471144', 'Laillé', 'GUICHEN', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271775', 'Longpont', 'LONGPONT', 'AISNE');
@@ -2834,8 +4087,15 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87297143', 'Dercy-Froidmont', 'DERCY', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171264', 'Trois-Puits', 'TROIS-PUITS', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476689', 'Malansac', 'MALANSAC', 'MORBIHAN');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673095', 'Le Boucau', 'BOUCAU', 'PYRENEES-ATLANTIQUES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214502', 'Lingolsheim', 'LINGOLSHEIM', 'BAS-RHIN');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192666', 'Conflans-Jarny', 'JARNY', 'MEURTHE-ET-MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673095', 'Le Boucau', 'BOUCAU', 'PYRENEES-ATLANTIQUES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214502', 'Lingolsheim', 'LINGOLSHEIM', 'BAS-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444315', 'Serquigny', 'SERQUIGNY', 'EURE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597039', 'Reuilly', 'REUILLY', 'INDRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694737', 'La Clayette-Baudemont', 'BAUDEMONT', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87584466', 'Mauzac', 'MAUZAC-ET-GRAND-CASTANG', 'DORDOGNE');
@@ -2843,21 +4103,41 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751560', 'La Barque-Fuveau', 'FUVEAU', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87697326', 'Pierrefite-Stains TT', 'PIERREFITTE-SUR-SEINE', 'SEINE-SAINT-DENIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286815', 'Nomain-Ouvignies', 'NOMAIN', 'NORD');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576298', 'Châteauneuf-sur-Cher', 'CHÂTEAUNEUF-SUR-CHER', 'CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671156', 'Capvern', 'CAPVERN', 'HAUTES-PYRENEES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476226', 'Landaul-Mendon', 'LANDAUL', 'MORBIHAN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276550', 'Belloy-St-Martin', 'BELLOY-EN-FRANCE', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586693', 'Aiguillon', 'AIGUILLON', 'LOT-ET-GARONNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142562', 'Ste-Colombe-sur-Seine', 'SAINTE-COLOMBE-SUR-SEINE', 'COTE-D''OR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576298', 'Châteauneuf-sur-Cher', 'CHÂTEAUNEUF-SUR-CHER', 'CHER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671156', 'Capvern', 'CAPVERN', 'HAUTES-PYRENEES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734673', 'Darsac', 'VERNASSAL', 'HAUTE-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476226', 'Landaul-Mendon', 'LANDAUL', 'MORBIHAN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276550', 'Belloy-St-Martin', 'BELLOY-EN-FRANCE', 'VAL-D''OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586693', 'Aiguillon', 'AIGUILLON', 'LOT-ET-GARONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87715102', 'Andelot', 'ANDELOT-EN-MONTAGNE', 'JURA');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393058', 'Champ-de-Mars-Tour-Eiffel', 'PARIS', 'PARIS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214254', 'Gertwiller', 'GERTWILLER', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214676', 'Wisches', 'WISCHES', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444000', 'Caen', 'CAEN', 'CALVADOS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174573', 'Mailly-le-Camp', 'MAILLY-LE-CAMP', 'AUBE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276105', 'St-Ouen-l''Aumône', 'SAINT-OUEN-L''AUMONE', 'VAL-D''OISE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276105', 'St-Ouen-l'Aumône', 'SAINT-OUEN-L'AUMONE', 'VAL-D''OISE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87282624', 'Lyon-Jean-Macé', 'LYON', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87613174', 'Dégagnac', 'DÉGAGNAC', 'LOT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575183', 'La Tricherie', 'BEAUMONT', 'VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214635', 'Urmatt', 'URMATT', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87584607', 'St-Médard-de-Guizières', 'SAINT-MÉDARD-DE-GUIZIÈRES', 'GIRONDE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87175067', 'Nançois-Tronville', 'NANÇOIS-SUR-ORNAIN', 'MEUSE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174516', 'Bussy-Lettrée-Vatry', 'BUSSY-LETTRÉE', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582536', 'Ychoux', 'YCHOUX', 'LANDES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582882', 'Lamothe-Landerron', 'LAMOTHE-LANDERRON', 'GIRONDE');
@@ -2869,10 +4149,20 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87172080', 'Revin', 'REVIN', 'ARDENNES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444547', 'Écouché', 'ÉCOUCHÉ', 'ORNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191163', 'Hettange-Grande', 'HETTANGE-GRANDE', 'MOSELLE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673400', 'Biarritz', 'BIARRITZ', 'PYRENEES-ATLANTIQUES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394205', 'Amilly-Ouerray', 'AMILLY', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615005', 'Albi', 'ALBI', 'TARN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491225', 'Gauriaguet', 'GAURIAGUET', 'GIRONDE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144014', 'St-Dié-des-Vosges', 'SAINT-DIE', 'VOSGES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673400', 'Biarritz', 'BIARRITZ', 'PYRENEES-ATLANTIQUES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87684001', 'Montargis', 'MONTARGIS', 'LOIRET');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394205', 'Amilly-Ouerray', 'AMILLY', 'EURE-ET-LOIR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615005', 'Albi', 'ALBI', 'TARN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491225', 'Gauriaguet', 'GAURIAGUET', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751602', 'L'Estaque', 'MARSEILLE', 'BOUCHES-DU-RHONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411652', 'St-Valéry-en-Caux', 'SAINT-VALERY-EN-CAUX', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673616', 'Villefranque', 'VILLEFRANQUE', 'PYRENEES-ATLANTIQUES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87571547', 'Neuillé-Pont-Pierre', 'NEUILLÉ-PONT-PIERRE', 'INDRE-ET-LOIRE');
@@ -2884,8 +4174,15 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271387', 'Valenton', 'VALENTON', 'VAL-DE-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87584540', 'St-Aigulin-La Roche-Chalais', 'SAINT-AIGULIN', 'CHARENTE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746784', 'Chamonix-Mont-Blanc', 'CHAMONIX-MONT-BLANC', 'HAUTE-SAVOIE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581876', 'La Chapelle-d''Ambès', 'AMBÈS', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182550', 'Vieux-Thann', 'VIEUX-THANN', 'HAUT-RHIN');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673103', 'Morcenx', 'MORCENX', 'LANDES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581876', 'La Chapelle-d'Ambès', 'AMBÈS', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182550', 'Vieux-Thann', 'VIEUX-THANN', 'HAUT-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212415', 'Roppenheim', 'ROPPENHEIM', 'BAS-RHIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396549', 'Arnage', 'ARNAGE', 'SARTHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576280', 'Lunery', 'LUNERY', 'CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592873', 'Chabanais', 'CHABANAIS', 'CHARENTE');
@@ -2893,6 +4190,7 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592105', 'Châteauneuf-Bujaleuf', 'NEUVIC-ENTIER', 'HAUTE-VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271817', 'Soissons', 'SOISSONS', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415505', 'Beuzeville (Eure)', 'BEUZEVILLE', 'EURE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87590364', 'La Chapelle-Aulnay', 'CHAPELLE-SUR-ERDRE (LA )', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575126', 'Dangé', 'DANGÉ-SAINT-ROMAIN', 'VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753731', 'Lamanon', 'LAMANON', 'BOUCHES-DU-RHONE');
@@ -2905,21 +4203,58 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476762', 'St-Gildas-des-Bois', 'SAINT-GILDAS-DES-BOIS', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681635', 'Coudray-Montceaux', 'LE COUDRAY-MONTCEAUX', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182691', 'Staffelfelden', 'STAFFELFELDEN', 'HAUT-RHIN');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411256', 'Malaunay-Le Houlme', 'LE HOULME', 'SEINE-MARITIME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87590364', 'La Chapelle-Aulnay', 'CHAPELLE-SUR-ERDRE (LA )', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575126', 'Dangé', 'DANGÉ-SAINT-ROMAIN', 'VIENNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581009', 'Bordeaux-St-Jean', 'BORDEAUX', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673707', 'Ossès-St-Martin-d'Arrossa', 'SAINT-MARTIN-D'ARROSSA', 'PYRENEES-ATLANTIQUES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753731', 'Lamanon', 'LAMANON', 'BOUCHES-DU-RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611764', 'Aubiet', 'AUBIET', 'GERS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444349', 'Pont-l'Évêque', 'PONT-L'ÉVÊQUE', 'CALVADOS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296293', 'Fresnoy-le-Grand', 'FRESNOY-LE-GRAND', 'AISNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87672261', 'Baigts-de-Béarn', 'BAIGTS-DE-BÉARN', 'PYRENEES-ATLANTIQUES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87185629', 'Aillevillers', 'CORBENAY', 'HAUTE-SAONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87584425', 'Couze', 'LALINDE', 'DORDOGNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415349', 'Glos-Montfort', 'GLOS-SUR-RISLE', 'EURE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765479', 'L'Isle-Fontaine-de-Vaucluse', 'ISLE-SUR-LA-SORGUE (L' )', 'VAUCLUSE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87686006', 'Paris-Gare-de-Lyon', 'PARIS', 'PARIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476762', 'St-Gildas-des-Bois', 'SAINT-GILDAS-DES-BOIS', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681635', 'Coudray-Montceaux', 'LE COUDRAY-MONTCEAUX', 'ESSONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182691', 'Staffelfelden', 'STAFFELFELDEN', 'HAUT-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286146', 'Armentières', 'ARMENTIERES', 'NORD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696146', 'Cosne-sur-Loire', 'COSNE-COURS-SUR-LOIRE', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673004', 'Bayonne', 'BAYONNE', 'PYRENEES-ATLANTIQUES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296871', 'Flavy-le-Martel', 'FLAVY-LE-MARTEL', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87715433', 'Morbier', 'MORBIER', 'JURA');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87297531', 'St-Hilaire', 'SAINT-HILAIRE-SUR-HELPE', 'NORD');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784355', 'St-Jean-Pla-de-Corts', 'SAINT-JEAN-PLA-DE-CORTS', 'PYRENEES-ORIENTALES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214593', 'Gresswiller', 'GRESSWILLER', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313353', 'Tricot', 'TRICOT', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87763557', 'L''Argentière-les-Écrins', 'L''ARGENTIÈRE-LA-BESSÉE', 'HAUTES-ALPES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87118588', 'Arcis-sur-Aube', 'VILLETTE-SUR-AUBE', 'AUBE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87715003', 'Pontarlier', 'PONTARLIER', 'DOUBS');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213058', 'Haguenau', 'HAGUENAU', 'BAS-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784355', 'St-Jean-Pla-de-Corts', 'SAINT-JEAN-PLA-DE-CORTS', 'PYRENEES-ORIENTALES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214593', 'Gresswiller', 'GRESSWILLER', 'BAS-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313353', 'Tricot', 'TRICOT', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87763557', 'L'Argentière-les-Écrins', 'L'ARGENTIÈRE-LA-BESSÉE', 'HAUTES-ALPES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87118588', 'Arcis-sur-Aube', 'VILLETTE-SUR-AUBE', 'AUBE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87715003', 'Pontarlier', 'PONTARLIER', 'DOUBS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87185249', 'Lure', 'LURE', 'HAUTE-SAONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683003', 'Sens', 'SENS', 'YONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87287235', 'Bouvines', 'CYSOING', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615476', 'Lavaur', 'LAVAUR', 'TARN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116319', 'Lagny-Thorigny', 'THORIGNY-SUR-MARNE', 'SEINE-ET-MARNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718304', 'Franois', 'FRANOIS', 'DOUBS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87387092', 'Bueil', 'BUEIL', 'EURE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682526', 'Ponthierry-Pringy', 'SAINT-FARGEAU-PONTHIERRY', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775197', 'Villefort', 'VILLEFORT', 'LOZERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473579', 'Coat-Guégan', 'PONT-MELVEZ', 'COTES-D''ARMOR');
@@ -2927,6 +4262,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87382465', 'Marly-le-Roi', 'MARLY-LE-ROI', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575290', 'Vivonne', 'VIVONNE', 'VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317081', 'Dannes-Camiers', 'CAMIERS', 'PAS-DE-CALAIS');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87487603', 'Saumur', 'SAUMUR', 'MAINE-ET-LOIRE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87295642', 'Landrecies', 'LANDRECIES', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611434', 'Lacourtensourt', 'TOULOUSE', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141374', 'St-Clément-Laronxe', 'SAINT-CLÉMENT', 'MEURTHE-ET-MOSELLE');
@@ -2941,17 +4280,35 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87691469', 'Vauzelles', 'VARENNES-VAUZELLES', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592451', 'Vaulry', 'VAULRY', 'HAUTE-VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696229', 'Fourchambault', 'FOURCHAMBAULT', 'NIEVRE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671024', 'Grenade-sur-l''Adour', 'GRENADE-SUR-L''ADOUR', 'LANDES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671024', 'Grenade-sur-l'Adour', 'GRENADE-SUR-L'ADOUR', 'LANDES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87487892', 'St-Mathurin', 'SAINT-MATHURIN-SUR-LOIRE', 'MAINE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722546', 'Sérézin', 'SÉRÉZIN-DU-RHÔNE', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286518', 'Seclin', 'SECLIN', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276220', 'Villiers-le-Bel-Gonesse-Arnouville', 'ARNOUVILLE-LES-GONESSE', 'VAL-D''OISE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673319', 'Ondres', 'ONDRES', 'LANDES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741611', 'Grésy-sur-Isère', 'GRÉSY-SUR-ISÈRE', 'SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574764', 'Montoire-sur-le-Loir', 'MONTOIRE-SUR-LE-LOIR', 'LOIR-ET-CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87590356', 'Erdre-Active', 'CHAPELLE-SUR-ERDRE (LA )', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485102', 'Angoulins-sur-Mer', 'ANGOULINS', 'CHARENTE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345256', 'Libercourt', 'LIBERCOURT', 'PAS-DE-CALAIS');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722025', 'Lyon-Perrache', 'LYON', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673319', 'Ondres', 'ONDRES', 'LANDES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191114', 'Hagondange', 'HAGONDANGE', 'MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741611', 'Grésy-sur-Isère', 'GRÉSY-SUR-ISÈRE', 'SAVOIE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87384008', 'Paris-St-Lazare', 'PARIS', 'PARIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574764', 'Montoire-sur-le-Loir', 'MONTOIRE-SUR-LE-LOIR', 'LOIR-ET-CHER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87590356', 'Erdre-Active', 'CHAPELLE-SUR-ERDRE (LA )', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192468', 'Pagny-sur-Moselle', 'PAGNY-SUR-MOSELLE', 'MEURTHE-ET-MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485102', 'Angoulins-sur-Mer', 'ANGOULINS', 'CHARENTE-MARITIME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345256', 'Libercourt', 'LIBERCOURT', 'PAS-DE-CALAIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381509', 'Mantes-la-Jolie', 'MANTES-LA-VILLE', 'YVELINES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87684126', 'Nemours-St-Pierre', 'SAINT-PIERRE-LÈS-NEMOURS', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741694', 'Notre-Dame-de-Briançon', 'LA LÉCHÈRE', 'SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182089', 'Habsheim', 'HABSHEIM', 'HAUT-RHIN');
@@ -2974,6 +4331,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87583443', 'Chasseneuil-sur-Bonnieure', 'CHASSENEUIL-SUR-BONNIEURE', 'CHARENTE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212407', 'Roeschwoog', 'ROESCHWOOG', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491241', 'St-André-de-Cubzac', 'SAINT-ANDRÉ-DE-CUBZAC', 'GIRONDE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381509', 'Mantes-la-Jolie', 'MANTES-LA-JOLIE', 'YVELINES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682120', 'Brunoy', 'BRUNOY', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212381', 'Reichstett', 'REICHSTETT', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545251', 'Athis-Mons', 'ATHIS-MONS', 'ESSONNE');
@@ -2985,19 +4346,38 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87118554', 'Charmont', 'CHARMONT-SOUS-BARBUISE', 'AUBE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775866', 'Le Grau-du-Roi', 'LE GRAU-DU-ROI', 'GARD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214783', 'Saales', 'SAALES', 'BAS-RHIN');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394015', 'Lucé', 'LUCE', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415877', 'Val-de-Reuil', 'VAL-DE-REUIL', 'EURE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393348', 'Gazeran', 'GAZERAN', 'YVELINES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87583468', 'Roumazières-Loubert', 'ROUMAZIÈRES-LOUBERT', 'CHARENTE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394015', 'Lucé', 'LUCE', 'EURE-ET-LOIR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415877', 'Val-de-Reuil', 'VAL-DE-REUIL', 'EURE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393348', 'Gazeran', 'GAZERAN', 'YVELINES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491001', 'Saintes', 'SAINTES', 'CHARENTE-MARITIME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276253', 'Louvres', 'LOUVRES', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671404', 'Labarthe-Avezac', 'AVEZAC-PRAT-LAHITTE', 'HAUTES-PYRENEES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545483', 'Breuillet-Bruyères-le-Châtel', 'BREUILLET', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681312', 'Viry-Châtillon', 'VIRY-CHATILLON', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713545', 'Beaune', 'BEAUNE', 'COTE-D''OR');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545475', 'Égly', 'ÉGLY', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781666', 'Magalas', 'MAGALAS', 'HERAULT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481036', 'Rezé-Pont-Rousseau', 'REZE', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313338', 'Hargicourt-Pierrepont', 'HARGICOURT', 'SOMME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286864', 'Ascq', 'VILLENEUVE-D''ASCQ', 'NORD');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174664', 'Fère-Champenoise', 'FÈRE-CHAMPENOISE', 'MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545475', 'Égly', 'ÉGLY', 'ESSONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743716', 'Ambérieu', 'AMBERIEU-EN-BUGEY', 'AIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781666', 'Magalas', 'MAGALAS', 'HERAULT');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481036', 'Rezé-Pont-Rousseau', 'REZE', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718841', 'Arc-et-Senans', 'ARC-ET-SENANS', 'DOUBS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313338', 'Hargicourt-Pierrepont', 'HARGICOURT', 'SOMME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286864', 'Ascq', 'VILLENEUVE-D'ASCQ', 'NORD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747246', 'Rives', 'RIVES', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696211', 'Pougues-les-Eaux', 'POUGUES-LES-EAUX', 'NIEVRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87757625', 'Cannes', 'CANNES', 'ALPES-MARITIMES');
@@ -3009,9 +4389,18 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171702', 'Aguilcourt-Variscourt', 'AGUILCOURT', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87316125', 'Thézy-Glimont', 'THÉZY-GLIMONT', 'SOMME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594119', 'Corrèze', 'SAINT-PRIEST-DE-GIMEL', 'CORREZE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444638', 'L''Aigle', 'AIGLE (L'')', 'ORNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592345', 'St-Sulpice-Laurière', 'SAINT-SULPICE-LAURIÈRE', 'HAUTE-VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393892', 'Montfort-l''Amaury-Mère', 'MÉRÉ', 'YVELINES');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444638', 'L'Aigle', 'AIGLE (L')', 'ORNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592345', 'St-Sulpice-Laurière', 'SAINT-SULPICE-LAURIÈRE', 'HAUTE-VIENNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481234', 'St-Hilaire-de-Chaléons', 'SAINT-HILAIRE-DE-CHALÉONS', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393892', 'Montfort-l'Amaury-Mère', 'MÉRÉ', 'YVELINES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182014', 'Colmar', 'COLMAR', 'HAUT-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313080', 'St-Roch (Somme)', 'AMIENS', 'SOMME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87732305', 'St-Yorre', 'SAINT-YORRE', 'ALLIER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87413708', 'Harfleur-Halte', 'HARFLEUR', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415141', 'Longueville-sur-Scie', 'LONGUEVILLE-SUR-SCIE', 'SEINE-MARITIME');
@@ -3028,6 +4417,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87413351', 'Bolbec-Nointot', 'BOLBEC', 'SEINE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313866', 'Péronne-la-Chapelette', 'PÉRONNE', 'SOMME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575498', 'Lathus', 'LATHUS-SAINT-RÉMY', 'VIENNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396606', 'Château-du-Loir', 'CHÂTEAU-DU-LOIR', 'SARTHE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87613182', 'Thédirac-Peyrilles', 'PEYRILLES', 'LOT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615468', 'Castres', 'CASTRES', 'TARN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723494', 'St-André-le-Gaz', 'SAINT-ANDRÉ-LE-GAZ', 'ISERE');
@@ -3041,10 +4434,18 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313569', 'Balagny-St-Épin', 'BALAGNY-SUR-THÉRAIN', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595272', 'Neuvic', 'NEUVIC', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182402', 'Ranspach', 'RANSPACH', 'HAUT-RHIN');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182840', 'Bantzenheim', 'BANTZENHEIM', 'HAUT-RHIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611509', 'Porté-Puymorens', 'PORTA', 'PYRENEES-ORIENTALES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87386425', 'Maisons-Laffitte', 'MAISONS-LAFFITTE', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142273', 'Donjeux', 'DONJEUX', 'HAUTE-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276873', 'Lamotte-Breuil', 'TROSLY-BREUIL', 'OISE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313478', 'Chaulnes', 'CHAULNES', 'SOMME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574434', 'Véretz-Montlouis', 'MONTLOUIS-SUR-LOIRE', 'INDRE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671172', 'Tournay', 'TOURNAY', 'HAUTES-PYRENEES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214122', 'Benfeld', 'BENFELD', 'BAS-RHIN');
@@ -3054,7 +4455,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473223', 'Lannion', 'LANNION', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342295', 'Steenbecque', 'STEENBECQUE', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611749', 'Auch', 'AUCH', 'GERS');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765438', 'St-Saturnin-d''Avignon', 'SAINT-SATURNIN-LÈS-AVIGNON', 'VAUCLUSE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765438', 'St-Saturnin-d'Avignon', 'SAINT-SATURNIN-LÈS-AVIGNON', 'VAUCLUSE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87645192', 'Le Rouget', 'LE ROUGET', 'CANTAL');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214536', 'Duppigheim', 'DUPPIGHEIM', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775809', 'Beauvoisin', 'BEAUVOISIN', 'GARD');
@@ -3069,6 +4474,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87437806', 'Aytré-Plage', 'AYTRÉ', 'CHARENTE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575068', 'Maillé', 'MAILLÉ', 'INDRE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671263', 'Roquefort (Landes)', 'ROQUEFORT', 'LANDES');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286096', 'Haubourdin', 'HAUBOURDIN', 'NORD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174821', 'Suippes', 'SUIPPES', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191247', 'Florange', 'FLORANGE', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342212', 'Frévin-Capelle', 'FRÉVIN-CAPELLE', 'PAS-DE-CALAIS');
@@ -3080,9 +4489,16 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673632', 'Jatxou', 'USTARITZ', 'PYRENEES-ATLANTIQUES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87712521', 'Chemin-Peseux', 'PESEUX', 'JURA');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671008', 'Tarbes', 'TARBES', 'HAUTES-PYRENEES');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87764407', 'Le Pouzin', 'LE POUZIN', 'ARDECHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141200', 'Einvaux', 'EINVAUX', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87185108', 'Port-d''Atelier-Amance', 'FAVERNEY', 'HAUTE-SAONE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671123', 'Lannemezan', 'LANNEMEZAN', 'HAUTES-PYRENEES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87764407', 'Le Pouzin', 'LE POUZIN', 'ARDECHE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141200', 'Einvaux', 'EINVAUX', 'MEURTHE-ET-MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87185108', 'Port-d'Atelier-Amance', 'FAVERNEY', 'HAUTE-SAONE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396556', 'Laigné-St-Gervais', 'SAINT-GERVAIS-EN-BELIN', 'SARTHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743534', 'Oyonnax', 'OYONNAX', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212175', 'Wilwisheim', 'WILWISHEIM', 'BAS-RHIN');
@@ -3091,18 +4507,36 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581199', 'Macau', 'MACAU', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381202', 'Lavilletertre', 'LAVILLETERTRE', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87613398', 'Albias', 'ALBIAS', 'TARN-ET-GARONNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575571', 'Chalandray', 'CHALANDRAY', 'VIENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574533', 'Fréteval-Morée', 'FRÉTEVAL', 'LOIR-ET-CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471391', 'Pontchaillou', 'RENNES', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543439', 'St-Denis-Jargeau', 'SAINT-DENIS-DE-L''HÔTEL', 'LOIRET');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213165', 'Obermodern', 'OBERMODERN-ZUTZENDORF', 'BAS-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87575571', 'Chalandray', 'CHALANDRAY', 'VIENNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574533', 'Fréteval-Morée', 'FRÉTEVAL', 'LOIR-ET-CHER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471391', 'Pontchaillou', 'RENNES', 'ILLE-ET-VILAINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543439', 'St-Denis-Jargeau', 'SAINT-DENIS-DE-L'HÔTEL', 'LOIRET');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87684290', 'Gien', 'GIEN', 'LOIRET');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345447', 'Aubigny-au-Bac', 'AUBIGNY-AU-BAC', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87641217', 'Huriel', 'HURIEL', 'ALLIER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313734', 'Grandvilliers', 'GRANDVILLIERS', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87334482', 'Neuville-Université', 'NEUVILLE-SUR-OISE', 'VAL-D''OISE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281055', 'Croix-l''Allumette', 'CROIX', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722660', 'Clonas', 'CLONAS-SUR-VARÈZE', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473272', 'Plancoët', 'PLANCOËT', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87684118', 'Bourron-Marlotte-Grez', 'BOURRON-MARLOTTE', 'SEINE-ET-MARNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281055', 'Croix-l'Allumette', 'CROIX', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722660', 'Clonas', 'CLONAS-SUR-VARÈZE', 'ISERE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473272', 'Plancoët', 'PLANCOËT', 'COTES-D''ARMOR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87684118', 'Bourron-Marlotte-Grez', 'BOURRON-MARLOTTE', 'SEINE-ET-MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276139', 'Pontoise', 'PONTOISE', 'VAL-D''OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611897', 'Castelsarrasin', 'CASTELSARRASIN', 'TARN-ET-GARONNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478743', 'Le Genest', 'LE GENEST-SAINT-ISLE', 'MAYENNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682302', 'Montereau', 'MONTEREAU-FAULT-YONNE', 'SEINE-ET-MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722314', 'Loire', 'LOIRE-SUR-RHÔNE', 'RHONE');
@@ -3110,21 +4544,41 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87673269', 'St-Geours', 'SAINT-GEOURS-DE-MAREMNE', 'LANDES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276386', 'Sarcelles-St-Brice', 'SAINT-BRICE-SOUS-FORET', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694646', 'Ciry-le-Noble', 'CIRY-LE-NOBLE', 'SAONE-ET-LOIRE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682302', 'Montereau', 'VARENNES-SUR-SEINE', 'SEINE-ET-MARNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393074', 'Issy', 'ISSY-LES-MOULINEAUX', 'HAUTS-DE-SEINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182576', 'Bitschwiller (Haut-Rhin)', 'BITSCHWILLER-LÈS-THANN', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756304', 'Villeneuve-Loubet-Plage', 'VILLENEUVE-LOUBET', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213405', 'Walbourg', 'WALBOURG', 'BAS-RHIN');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144147', 'Bains-les-Bains', 'LE CLERJUS', 'VOSGES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182881', 'Thann-St-Jacques', 'THANN', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141648', 'Diarville', 'DIARVILLE', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276782', 'Noyon', 'NOYON', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87571406', 'Montbazon', 'MONTBAZON', 'INDRE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87386680', 'Les Mureaux', 'MUREAUX (LES)', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87757591', 'Mandelieu-la-Napoule', 'MANDELIEU-LA-NAPOULE', 'ALPES-MARITIMES');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313262', 'Gannes', 'GANNES', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87725705', 'Mâcon-Loché-TGV', 'MACON', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87486142', 'Belleville-Vendée', 'BELLEVILLE-SUR-VIE', 'VENDEE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87184507', 'Héricourt', 'HERICOURT', 'HAUTE-SAONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192476', 'Vandières', 'VANDIÈRES', 'MEURTHE-ET-MOSELLE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586107', 'Port-Ste-Marie', 'PORT-SAINTE-MARIE', 'LOT-ET-GARONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313262', 'Gannes', 'GANNES', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87725705', 'Mâcon-Loché-TGV', 'MACON', 'SAONE-ET-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444208', 'Mézidon', 'MÉZIDON-CANON', 'CALVADOS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87486142', 'Belleville-Vendée', 'BELLEVILLE-SUR-VIE', 'VENDEE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87184507', 'Héricourt', 'HERICOURT', 'HAUTE-SAONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192476', 'Vandières', 'VANDIÈRES', 'MEURTHE-ET-MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313122', 'Longpré-les-Corps-Saints', 'LONGPRÉ-LES-CORPS-SAINTS', 'SOMME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444562', 'Surdon', 'LE CHÂTEAU-D'ALMENÊCHES', 'ORNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718577', 'Gilley', 'GILLEY', 'DOUBS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116582', 'Château-Thierry', 'ÉTAMPES-SUR-MARNE', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713081', 'Verrey', 'VERREY-SOUS-SALMAISE', 'COTE-D''OR');
@@ -3133,10 +4587,19 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581256', 'Pauillac', 'PAUILLAC', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87343525', 'Lecelles', 'LECELLES', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476523', 'Baud', 'LANGUIDIC', 'MORBIHAN');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545251', 'Athis-Mons', 'ATHIS-MONS', 'ESSONNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721423', 'Lozanne', 'LOZANNE', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586446', 'Trentels-Ladignac', 'TRENTELS', 'LOT-ET-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721001', 'Lyon-Vaise', 'LYON', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87583005', 'Angoulême', 'ANGOULEME', 'CHARENTE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87193615', 'Sarreguemines', 'SARREGUEMINES', 'MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212027', 'Strasbourg-Ville', 'STRASBOURG', 'BAS-RHIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723726', 'Mionnay', 'MIONNAY', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87712265', 'Bretigny-Norges', 'BRETIGNY', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276444', 'Boran-sur-Oise', 'BORAN-SUR-OISE', 'OISE');
@@ -3149,6 +4612,7 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213256', 'Niederbronn-les-Bains', 'NIEDERBRONN-LES-BAINS', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595579', 'Thenon', 'THENON', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271536', 'Dammartin-Juilly-St-Mard', 'SAINT-MARD', 'SEINE-ET-MARNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313247', 'Breteuil-Embranchement', 'BACOUËL', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476424', 'Penthièvre', 'SAINT-PIERRE-QUIBERON', 'MORBIHAN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594408', 'Terrasson', 'TERRASSON-LAILLEDIEU', 'DORDOGNE');
@@ -3157,6 +4621,20 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396283', 'St-Mars-la-Brière', 'SAINT-MARS-LA-BRIÈRE', 'SARTHE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87297523', 'Hachette', 'LOCQUIGNOL', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411280', 'Motteville', 'MOTTEVILLE', 'SEINE-MARITIME');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87721514', 'Tassin', 'TASSIN-LA-DEMI-LUNE', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313247', 'Breteuil-Embranchement', 'BACOUËL', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87476424', 'Penthièvre', 'SAINT-PIERRE-QUIBERON', 'MORBIHAN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317305', 'Les Fontinettes', 'CALAIS', 'PAS-DE-CALAIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594408', 'Terrasson', 'TERRASSON-LAILLEDIEU', 'DORDOGNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296459', 'Appilly', 'APPILLY', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286377', 'Lestrem', 'LESTREM', 'PAS-DE-CALAIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415646', 'St-Pierre-du-Vauvray', 'SAINT-PIERRE-DU-VAUVRAY', 'EURE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87396283', 'St-Mars-la-Brière', 'SAINT-MARS-LA-BRIÈRE', 'SARTHE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87297523', 'Hachette', 'LOCQUIGNOL', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411280', 'Motteville', 'MOTTEVILLE', 'SEINE-MARITIME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192302', 'Bénestroff', 'BÉNESTROFF', 'MOSELLE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594275', 'Meymac', 'MEYMAC', 'CORREZE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313841', 'Fouilloy', 'FOUILLOY', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781161', 'Coursan', 'COURSAN', 'AUDE');
@@ -3172,9 +4650,17 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756858', 'Fontan-Saorge', 'FONTAN', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212191', 'Strasbourg-Roethig', 'LINGOLSHEIM', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713073', 'Blaisy-Bas', 'BLAISY-BAS', 'COTE-D''OR');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491316', 'Le Douhet-Écoyeux', 'LE DOUHET', 'CHARENTE-MARITIME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87447219', 'Lison', 'SAINTE-MARGUERITE-D''ELLE', 'CALVADOS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296269', 'Bohain', 'BOHAIN-EN-VERMANDOIS', 'AISNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581868', 'Bassens-Appontements', 'BASSENS', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491316', 'Le Douhet-Écoyeux', 'LE DOUHET', 'CHARENTE-MARITIME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87447219', 'Lison', 'SAINTE-MARGUERITE-D'ELLE', 'CALVADOS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296269', 'Bohain', 'BOHAIN-EN-VERMANDOIS', 'AISNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87682302', 'Montereau', 'VARENNES-SUR-SEINE', 'SEINE-ET-MARNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87386649', 'Villennes-sur-Seine', 'VILLENNES-SUR-SEINE', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747287', 'Voiron', 'VOIRON', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726422', 'Sury-le-Comtal', 'SURY-LE-COMTAL', 'LOIRE');
@@ -3189,12 +4675,17 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281436', 'Watten-Éperlecques', 'ÉPERLECQUES', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784256', 'Collioure', 'COLLIOURE', 'PYRENEES-ORIENTALES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87764290', 'Donzère', 'DONZÈRE', 'DROME');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713040', 'Dijon-Ville', 'DIJON', 'COTE-D''OR');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545731', 'Bonneval', 'BONNEVAL', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87757724', 'Grasse', 'GRASSE', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87520299', 'Nice-Pont-Michel', 'NICE', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713313', 'Genlis', 'GENLIS', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718544', 'Le Valdahon', 'VALDAHON', 'DOUBS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592147', 'La Celle-Corrèze', 'LACELLE', 'CORREZE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394114', 'Épernon', 'ÉPERNON', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746115', 'Albens', 'ALBENS', 'SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296442', 'Tergnier', 'TERGNIER', 'AISNE');
@@ -3210,14 +4701,49 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597823', 'Aubusson', 'AUBUSSON', 'CREUSE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582734', 'Podensac', 'PODENSAC', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174698', 'Connantre', 'CONNANTRE', 'MARNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765354', 'Tarascon', 'TARASCON', 'BOUCHES-DU-RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394114', 'Épernon', 'ÉPERNON', 'EURE-ET-LOIR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746115', 'Albens', 'ALBENS', 'SAVOIE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296442', 'Tergnier', 'TERGNIER', 'AISNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313759', 'Abancourt', 'ABANCOURT', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213686', 'Hoerdt', 'HOERDT', 'BAS-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171744', 'Amifontaine', 'AMIFONTAINE', 'AISNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751420', 'Gardanne', 'GARDANNE', 'BOUCHES-DU-RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574558', 'Vendôme', 'VENDOME', 'LOIR-ET-CHER');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765503', 'Cavaillon', 'CAVAILLON', 'VAUCLUSE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313718', 'St-Omer-en-Chaussée', 'SAINT-OMER-EN-CHAUSSÉE', 'OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141507', 'Neuves-Maisons', 'NEUVES-MAISONS', 'MEURTHE-ET-MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213744', 'Wingen-sur-Moder', 'WINGEN-SUR-MODER', 'BAS-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594168', 'Égletons', 'ÉGLETONS', 'CORREZE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734129', 'Aigueperse', 'AIGUEPERSE', 'PUY-DE-DOME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722306', 'Badan', 'GRIGNY', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592428', 'Peyrilhac-St-Jouvent', 'PEYRILHAC', 'HAUTE-VIENNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87755363', 'Puget-Ville', 'PUGET-VILLE', 'VAR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713156', 'Nuits-sous-Ravières', 'NUITS', 'YONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597823', 'Aubusson', 'AUBUSSON', 'CREUSE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582734', 'Podensac', 'PODENSAC', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174698', 'Connantre', 'CONNANTRE', 'MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746479', 'St-Gervais-les-Bains-Le Fayet', 'SAINT-GERVAIS-LES-BAINS', 'HAUTE-SAVOIE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87474155', 'Rosporden', 'ROSPORDEN', 'FINISTERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381848', 'Argenteuil', 'ARGENTEUIL', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87785006', 'Cerbère', 'CERBÈRE', 'PYRENEES-ORIENTALES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595280', 'Douzillac', 'DOUZILLAC', 'DORDOGNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734459', 'Pont-de-Dore', 'PESCHADOIRES', 'PUY-DE-DOME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545350', 'St-Martin-d''Étampes', 'ETAMPES', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192229', 'Sanry-sur-Nied', 'SANRY-SUR-NIED', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281139', 'Cassel', 'OXELAËRE', 'NORD');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743005', 'Bourg-en-Bresse', 'BOURG-EN-BRESSE', 'AIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734459', 'Pont-de-Dore', 'PESCHADOIRES', 'PUY-DE-DOME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87491217', 'Cavignac', 'CAVIGNAC', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545350', 'St-Martin-d'Étampes', 'ETAMPES', 'ESSONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192229', 'Sanry-sur-Nied', 'SANRY-SUR-NIED', 'MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87281139', 'Cassel', 'OXELAËRE', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141291', 'Neufchâteau', 'NEUFCHÂTEAU', 'VOSGES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681486', 'Maisse', 'MAISSE', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393314', 'Rambouillet', 'RAMBOUILLET', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611616', 'Foix', 'FOIX', 'ARIEGE');
@@ -3228,6 +4754,7 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471003', 'Rennes', 'RENNES', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192708', 'Jeandelize', 'JEANDELIZE', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87486258', 'Luçon', 'LUÇON', 'VENDEE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683847', 'Mailly-la-Ville', 'MAILLY-LA-VILLE', 'YONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722207', 'Oullins', 'OULLINS', 'RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743302', 'Ceyzériat', 'CEYZÉRIAT', 'AIN');
@@ -3235,16 +4762,37 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473850', 'Lancerf', 'PLOURIVO', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775247', 'La Levade', 'GRAND-COMBE (LA)', 'GARD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394296', 'Nogent-le-Rotrou', 'NOGENT-LE-ROTROU', 'EURE-ET-LOIR');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87571885', 'Joué-lès-Tours', 'JOUE-LES-TOURS', 'INDRE-ET-LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683847', 'Mailly-la-Ville', 'MAILLY-LA-VILLE', 'YONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87722207', 'Oullins', 'OULLINS', 'RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381137', 'Asnières-sur-Seine', 'ASNIERES-SUR-SEINE', 'HAUTS-DE-SEINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743302', 'Ceyzériat', 'CEYZÉRIAT', 'AIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345520', 'Cambrai', 'CAMBRAI', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87686030', 'Paris-Gare-de-Lyon-Souterrain', 'PARIS', 'PARIS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473850', 'Lancerf', 'PLOURIVO', 'COTES-D''ARMOR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87775247', 'La Levade', 'GRAND-COMBE (LA)', 'GARD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87394296', 'Nogent-le-Rotrou', 'NOGENT-LE-ROTROU', 'EURE-ET-LOIR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473108', 'Lamballe', 'LAMBALLE', 'COTES-D''ARMOR');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214684', 'Russ-Hersbach', 'WISCHES', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276279', 'Orry-la-Ville-Coye', 'ORRY-LA-VILLE', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611343', 'Pamiers', 'PAMIERS', 'ARIEGE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87413310', 'St-Laurent-Gainneville', 'SAINT-LAURENT-DE-BRÈVEDENT', 'SEINE-MARITIME');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296442', 'Tergnier', 'TERGNIER', 'AISNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87193227', 'Cocheren', 'COCHEREN', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87584441', 'Lalinde', 'LALINDE', 'DORDOGNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317222', 'Hesdin', 'HESDIN', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481242', 'Bourgneuf-en-Retz', 'BOURGNEUF-EN-RETZ', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313726', 'Marseille-en-Beauvaisis', 'MARSEILLE-EN-BEAUVAISIS', 'OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87316208', 'Wacquemoulin', 'WACQUEMOULIN', 'OISE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743005', 'Bourg-en-Bresse', 'BOURG-EN-BRESSE', 'AIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87613224', 'Aubin', 'AUBIN', 'AVEYRON');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485300', 'Niort', 'NIORT', 'DEUX-SEVRES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696393', 'St-Pourçain-sur-Sioule', 'SAINT-POURÇAIN-SUR-SIOULE', 'ALLIER');
@@ -3258,7 +4806,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317206', 'Maresquel', 'MARESQUEL-ECQUEMICOURT', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582619', 'Gujan-Mestras', 'GUJAN-MESTRAS', 'GIRONDE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87582775', 'Langon', 'LANGON', 'GIRONDE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681346', 'Orangis-Bois-de-l''Épine', 'RIS-ORANGIS', 'ESSONNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87681346', 'Orangis-Bois-de-l'Épine', 'RIS-ORANGIS', 'ESSONNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576009', 'Vierzon-Ville', 'VIERZON', 'CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592154', 'Viam', 'VIAM', 'CORREZE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87751438', 'Simiane', 'SIMIANE-COLLONGUE', 'BOUCHES-DU-RHONE');
@@ -3275,6 +4827,10 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393298', 'Le Perray', 'LE PERRAY-EN-YVELINES', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611368', 'Saverdun', 'SAVERDUN', 'ARIEGE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87297150', 'Voyenne', 'VOYENNE', 'AISNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87783308', 'Le Monastier', 'LE MONASTIER-PIN-MORIÈS', 'LOZERE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87402297', 'Colmar-Mésanges', 'COLMAR', 'HAUT-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87741496', 'Les Abrets-Fitilieu', 'FITILIEU', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212076', 'Strasbourg-Port-du-Rhin', 'STRASBOURG', 'BAS-RHIN');
@@ -3282,60 +4838,122 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611707', 'Escalquens', 'ESCALQUENS', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342337', 'St-Pol-sur-Ternoise', 'SAINT-POL-SUR-TERNOISE', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87343459', 'Denain', 'DENAIN', 'NORD');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381012', 'Péreire-Levallois', 'PARIS', 'PARIS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87756874', 'La Brigue', 'LA BRIGUE', 'ALPES-MARITIMES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141135', 'Blainville-Damelevières', 'DAMELEVIÈRES', 'MEURTHE-ET-MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574848', 'Chissay-en-Touraine', 'CHISSAY-EN-TOURAINE', 'LOIR-ET-CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87193342', 'Teting', 'TETING-SUR-NIED', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87715136', 'Frasne', 'FRASNE', 'DOUBS');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381905', 'Cergy-Préfecture', 'CERGY', 'VAL-D''OISE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713859', 'Is-sur-Tille', 'MARCILLY-SUR-TILLE', 'COTE-D''OR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381905', 'Cergy-Préfecture', 'CERGY', 'VAL-D''OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87411207', 'Oissel', 'TOURVILLE-LA-RIVIÈRE', 'SEINE-MARITIME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87343103', 'St-Amand-les-Eaux', 'SAINT-AMAND-LES-EAUX', 'NORD');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171009', 'Reims', 'REIMS', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393421', 'Plaisir-Grignon', 'PLAISIR', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611020', 'Empalot', 'TOULOUSE', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478081', 'La Fresnais', 'LA FRESNAIS', 'ILLE-ET-VILAINE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87116590', 'Mézy', 'MÉZY-MOULINS', 'AISNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545210', 'Ste-Geneviève-des-Bois', 'SAINTE-GENEVIEVE-DES-BOIS', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574665', 'Château-Renault', 'CHÂTEAU-RENAULT', 'INDRE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471029', 'Vern', 'VERN-SUR-SEICHE', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191643', 'Apach', 'APACH', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481747', 'Pornichet', 'PORNICHET', 'LOIRE-ATLANTIQUE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444224', 'Vendeuvre-Jort', 'VENDEUVRE', 'CALVADOS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713867', 'Dijon-Porte-d''Ouche-Perrigny', 'DIJON', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87635581', 'La Barasse', 'MARSEILLE', 'BOUCHES-DU-RHONE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471326', 'Corps-Nuds', 'CORPS-NUDS', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781369', 'Lézignan-la-Cèbe', 'LÉZIGNAN-LA-CÈBE', 'HERAULT');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87672634', 'Buzy-en-Béarn', 'BUZY', 'PYRENEES-ATLANTIQUES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444224', 'Vendeuvre-Jort', 'VENDEUVRE', 'CALVADOS');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713867', 'Dijon-Porte-d'Ouche-Perrigny', 'DIJON', 'COTE-D''OR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87581850', 'Bassens', 'BASSENS', 'GIRONDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87635581', 'La Barasse', 'MARSEILLE', 'BOUCHES-DU-RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471326', 'Corps-Nuds', 'CORPS-NUDS', 'ILLE-ET-VILAINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87781369', 'Lézignan-la-Cèbe', 'LÉZIGNAN-LA-CÈBE', 'HERAULT');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393843', 'St-Quentin-en-Yvelines', 'MONTIGNY-LE-BRETONNEUX', 'YVELINES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747667', 'Lus-la-Croix-Haute', 'LUS-LA-CROIX-HAUTE', 'DROME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87478099', 'La Gouesnière-Cancale', 'SAINT-MÉLOIR-DES-ONDES', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87594481', 'Cornil', 'CORNIL', 'CORREZE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746008', 'Annecy', 'ANNECY', 'HAUTE-SAVOIE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171371', 'Fère-en-Tardenois', 'FÈRE-EN-TARDENOIS', 'AISNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87761106', 'St-Rambert-d'Albon', 'SAINT-RAMBERT-D'ALBON', 'DROME');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276055', 'Ermont-Eaubonne', 'EAUBONNE', 'VAL-D''OISE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87534131', 'Ermont-Eaubonne (PSL)', 'ERMONT', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213470', 'Wissembourg', 'WISSEMBOURG', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87743526', 'Bellignat', 'BELLIGNAT', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87592543', 'Le Dorat', 'LE DORAT', 'HAUTE-VIENNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87540179', 'Dourdan-la-Forêt', 'DOURDAN', 'ESSONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713131', 'Montbard', 'MONTBARD', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746412', 'Magland', 'MAGLAND', 'HAUTE-SAVOIE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141044', 'Toul', 'TOUL', 'MEURTHE-ET-MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87540179', 'Dourdan-la-Forêt', 'DOURDAN', 'ESSONNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753509', 'Martigues', 'MARTIGUES', 'BOUCHES-DU-RHONE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713131', 'Montbard', 'MONTBARD', 'COTE-D''OR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87746412', 'Magland', 'MAGLAND', 'HAUTE-SAVOIE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87415018', 'Dieppe', 'DIEPPE', 'SEINE-MARITIME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171348', 'Bazoches', 'BAZOCHES-SUR-VESLES', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87671487', 'Ygos', 'YGOS-SAINT-SATURNIN', 'LANDES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87590372', 'Châteaubriant Tram-Train', 'CHATEAUBRIANT', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87753186', 'Entressen', 'ISTRES', 'BOUCHES-DU-RHONE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595215', 'La Cave', 'MARSAC-SUR-L''ISLE', 'DORDOGNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595215', 'La Cave', 'MARSAC-SUR-L'ISLE', 'DORDOGNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615245', 'Tessonnières', 'GAILLAC', 'TARN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87747477', 'Goncelin', 'GONCELIN', 'ISERE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87718411', 'Novillars', 'NOVILLARS', 'DOUBS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87484022', 'Angers-St-Serge', 'ÉCOUFLANT', 'MAINE-ET-LOIRE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726471', 'Boën', 'BOËN', 'LOIRE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611483', 'Latour-de-Carol-Enveitg', 'ENVEITG', 'PYRENEES-ORIENTALES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726471', 'Boën', 'BOËN', 'LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393132', 'Versailles-Matelots', 'VERSAILLES', 'YVELINES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87317495', 'Chepy-Valines', 'CHÉPY', 'SOMME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87576116', 'Mehun-sur-Yèvre', 'MEHUN-SUR-YÈVRE', 'CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296145', 'Origny-en-Thiérache', 'ORIGNY-EN-THIÉRACHE', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87584474', 'Trémolat', 'TRÉMOLAT', 'DORDOGNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87485003', 'La Rochelle-Ville', 'ROCHELLE (LA )', 'CHARENTE-MARITIME');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212225', 'Saverne', 'SAVERNE', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393256', 'La Verrière', 'VERRIERE (LA )', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87784330', 'Le Boulou-Perthus', 'LE BOULOU', 'PYRENEES-ORIENTALES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87393504', 'Petit-Jouy-Les Loges', 'LES LOGES-EN-JOSAS', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87193276', 'Hombourg-Haut', 'HOMBOURG-HAUT', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723734', 'St-André-de-Corcy', 'SAINT-ANDRÉ-DE-CORCY', 'AIN');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286203', 'Strazeele', 'STRAZEELE', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615187', 'Alet-les-Bains', 'ALET-LES-BAINS', 'AUDE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87597377', 'Buzançais', 'BUZANÇAIS', 'INDRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87764472', 'Le Teil', 'LE TEIL', 'ARDECHE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286203', 'Strazeele', 'STRAZEELE', 'NORD');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87615187', 'Alet-les-Bains', 'ALET-LES-BAINS', 'AUDE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87683268', 'Laroche-Migennes', 'MIGENNES', 'YONNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87672386', 'Urt', 'URT', 'PYRENEES-ATLANTIQUES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87343301', 'Wallers', 'WALLERS', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726760', 'Aurec', 'AUREC-SUR-LOIRE', 'HAUTE-LOIRE');
@@ -3348,6 +4966,7 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87444216', 'St-Pierre-sur-Dives', 'SAINT-PIERRE-SUR-DIVES', 'CALVADOS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87755355', 'Cuers-Pierrefeu', 'CUERS', 'VAR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271494', 'Aéroport-Charles-de-Gaulle 2-TGV', 'TREMBLAY-EN-FRANCE', 'SEINE-ET-MARNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87773432', 'Valergues-Lansargues', 'VALERGUES', 'HERAULT');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213785', 'Ingwiller', 'INGWILLER', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171314', 'Jonchery-sur-Vesle', 'JONCHERY-SUR-VESLE', 'MARNE');
@@ -3360,11 +4979,36 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174003', 'Châlons-en-Champagne', 'CHALONS-EN-CHAMPAGNE', 'MARNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87757559', 'Agay', 'SAINT-RAPHAEL', 'VAR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543058', 'Artenay', 'ARTENAY', 'LOIRET');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696260', 'Saincaize', 'SAINCAIZE-MEAUCE', 'NIEVRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87773432', 'Valergues-Lansargues', 'VALERGUES', 'HERAULT');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87213785', 'Ingwiller', 'INGWILLER', 'BAS-RHIN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381459', 'Conflans-Fin-d'Oise', 'CONFLANS-SAINTE-HONORINE', 'YVELINES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87171314', 'Jonchery-sur-Vesle', 'JONCHERY-SUR-VESLE', 'MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276899', 'Vic-sur-Aisne', 'RESSONS-LE-LONG', 'AISNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595751', 'Le Buisson', 'LE BUISSON-DE-CADOUIN', 'DORDOGNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87726703', 'La Ricamarie', 'RICAMARIE (LA )', 'LOIRE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471094', 'La Brohinière', 'MONTAUBAN-DE-BRETAGNE', 'ILLE-ET-VILAINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276147', 'Épluches', 'SAINT-OUEN-L'AUMONE', 'VAL-D''OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87328021', 'Les Cauquillous', 'LAVAUR', 'TARN');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87677104', 'Les Deux Jumeaux', 'HENDAYE', 'PYRENEES-ATLANTIQUES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87215012', 'Sarrebourg', 'SARREBOURG', 'MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87174003', 'Châlons-en-Champagne', 'CHALONS-EN-CHAMPAGNE', 'MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381848', 'Argenteuil', 'ARGENTEUIL', 'VAL-D''OISE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87757559', 'Agay', 'SAINT-RAPHAEL', 'VAR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543058', 'Artenay', 'ARTENAY', 'LOIRET');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87765206', 'Sorgues-Châteauneuf-du-Pape', 'SORGUES', 'VAUCLUSE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611053', 'Longages-Noé', 'LONGAGES', 'HAUTE-GARONNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545756', 'Châteaudun', 'CHATEAUDUN', 'EURE-ET-LOIR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473124', 'La Méaugon', 'LA MÉAUGON', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87345363', 'Épehy', 'ÉPEHY', 'SOMME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713065', 'Mâlain', 'MÂLAIN', 'COTE-D''OR');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192039', 'Metz-Ville', 'METZ', 'MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87586164', 'Bon-Encontre', 'BOÉ', 'LOT-ET-GARONNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381657', 'Achères-Ville', 'ACHERES', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87113852', 'Pavillons-sous-Bois', 'PAVILLONS-SOUS-BOIS (LES)', 'SEINE-SAINT-DENIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87413385', 'Yvetot', 'YVETOT', 'SEINE-MARITIME');
@@ -3378,20 +5022,39 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574236', 'Suèvres', 'SUÈVRES', 'LOIR-ET-CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473090', 'Plestan', 'PLESTAN', 'COTES-D''ARMOR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87142620', 'Vaux-sous-Aubigny', 'VAUX-SOUS-AUBIGNY', 'HAUTE-MARNE');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87545244', 'Juvisy', 'JUVISY-SUR-ORGE', 'ESSONNE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87313379', 'Namps-Quevauvillers', 'NAMPS-MAISNIL', 'SOMME');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87276196', 'Garges-Sarcelles', 'GARGES-LES-GONESSE', 'VAL-D''OISE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87543082', 'Boisseaux', 'BOISSEAUX', 'LOIRET');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286807', 'Genech', 'GENECH', 'NORD');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473009', 'St-Brieuc', 'SAINT-BRIEUC', 'COTES-D''ARMOR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87613091', 'Figeac', 'FIGEAC', 'LOT');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696492', 'Cercy-la-Tour', 'CERCY-LA-TOUR', 'NIEVRE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481762', 'Le Pouliguen', 'LE POULIGUEN', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87734723', 'Vorey', 'VOREY', 'HAUTE-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191601', 'Basse-Ham', 'BASSE-HAM', 'MOSELLE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87473058', 'Quédillac', 'QUÉDILLAC', 'ILLE-ET-VILAINE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87713677', 'Seurre', 'SEURRE', 'COTE-D''OR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87611087', 'Martres-Tolosane', 'MARTRES-TOLOSANE', 'HAUTE-GARONNE');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381582', 'Limay', 'LIMAY', 'YVELINES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87755835', 'La Motte-Ste-Rosseline', 'LA MOTTE', 'VAR');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481051', 'Chantenay', 'NANTES', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595165', 'Château-l''Évêque', 'CHÂTEAU-L''ÉVÊQUE', 'DORDOGNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87192302', 'Bénestroff', 'BÉNESTROFF', 'MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87381582', 'Limay', 'LIMAY', 'YVELINES');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87755835', 'La Motte-Ste-Rosseline', 'LA MOTTE', 'VAR');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481051', 'Chantenay', 'NANTES', 'LOIRE-ATLANTIQUE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87595165', 'Château-l'Évêque', 'CHÂTEAU-L'ÉVÊQUE', 'DORDOGNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87141077', 'Frouard', 'FROUARD', 'MEURTHE-ET-MOSELLE');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214775', 'Bourg-Bruche', 'BOURG-BRUCHE', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87271437', 'Vert-Galant', 'VILLEPINTE', 'SEINE-SAINT-DENIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87755629', 'Hyères', 'HYERES', 'VAR');
@@ -3399,6 +5062,11 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87699223', 'Base Aérienne', 'GIÈVRES', 'LOIR-ET-CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286252', 'Rougebarre', 'MARCQ-EN-BAROEUL', 'NORD');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87286575', 'Landas', 'LANDAS', 'NORD');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87471318', 'St-Armel', 'SAINT-ARMEL', 'ILLE-ET-VILAINE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144121', 'Xertigny', 'XERTIGNY', 'VOSGES');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87481622', 'Issé', 'ISSÉ', 'LOIRE-ATLANTIQUE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87723577', 'La Valbonne', 'BÉLIGNEUX', 'AIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87696294', 'St-Pierre-le-Moûtier', 'SAINT-PIERRE-LE-MOÛTIER', 'NIEVRE');
@@ -3409,9 +5077,20 @@ INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES 
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87694364', 'St-Léger-sur-Dheune', 'SAINT-LÉGER-SUR-DHEUNE', 'SAONE-ET-LOIRE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574640', 'St-Amand-de-Vendôme', 'SAINT-AMAND-LONGPRÉ', 'LOIR-ET-CHER');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87182154', 'Huningue', 'HUNINGUE', 'HAUT-RHIN');
+<<<<<<< HEAD
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296178', 'Clacy-Mons', 'CLACY-ET-THIERRET', 'AISNE');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87272047', 'Compans', 'COMPANS', 'SEINE-ET-MARNE');
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87191387', 'Anzeling', 'ANZELING', 'MOSELLE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87296178', 'Clacy-Mons', 'CLACY-ET-THIERRET', 'AISNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87272047', 'Compans', 'COMPANS', 'SEINE-ET-MARNE');
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342014', 'Arras', 'ARRAS', 'PAS-DE-CALAIS');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87144055', 'Charmes', 'CHARMES', 'VOSGES');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87342261', 'Ham-en-Artois', 'HAM-EN-ARTOIS', 'PAS-DE-CALAIS');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87214270', 'Goxwiller', 'GOXWILLER', 'BAS-RHIN');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87574251', 'La Chaussée-St-Victor', 'LA CHAUSSÉE-SAINT-VICTOR', 'LOIR-ET-CHER');
+<<<<<<< HEAD
+=======
+INSERT INTO `Station` (`StationID`, `StationName`, `City`, `Department`) VALUES ('87212142', 'Mommenheim', 'MOMMENHEIM', 'BAS-RHIN');
+>>>>>>> 389161fe782f66ff5ad8861255d50c3b09d8bc57
