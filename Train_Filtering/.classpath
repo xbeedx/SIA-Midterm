@@ -6,8 +6,8 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="/home/user/Documents/GitHub/SIA-Midterm/Train_Filtering/org.restlet.ext.servlet.jar"/>
-	<classpathentry kind="lib" path="/home/user/Documents/GitHub/SIA-Midterm/Train_Filtering/org.restlet.jar"/>
-	<classpathentry kind="lib" path="/home/user/Documents/GitHub/SIA-Midterm/Train_Filtering/mysql-connector-j-8.1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/restlet-jee-2.4.3/lib/org.restlet.ext.servlet.jar"/>
+	<classpathentry kind="lib" path="/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/restlet-jee-2.4.3/lib/org.restlet.jar"/>
+	<classpathentry kind="lib" path="/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/mysql-connector-j-8.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

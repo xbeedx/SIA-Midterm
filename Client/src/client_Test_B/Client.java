@@ -20,12 +20,13 @@ public class Client {
  
 		// Write the response entity on the console
 		try {
-			System.out.print("Get");
-			resourceGet.get().write(System.out);
+			System.out.println("Get");
+			String responseGet = resourceGet.get().getText();
+			System.out.println(responseGet);
 			
-			System.out.print("Post");
-			resourcePost.post(form).write(System.out);
-			
+			System.out.println("Post");
+			String responsePost =resourcePost.post(form).getText();
+			System.out.println(responsePost);
  
 		} catch (ResourceException e) {
 			// TODO Auto-generated catch block
