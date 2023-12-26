@@ -7,8 +7,6 @@ import org.restlet.representation.StringRepresentation;
 import org.restlet.resource.Get;
 import org.restlet.resource.Post;
 import org.restlet.resource.ServerResource;
-
-import Filtering.db.MySQLAccess;
  
 public class TrainRessource extends ServerResource {  	
 	@Get  
@@ -22,9 +20,6 @@ public class TrainRessource extends ServerResource {
 		Representation result = null;  
         // Parse the given representation and retrieve data
         Form form = new Form(entity);  
-        
-        //MySQLAccess dao = new MySQLAccess();
-        //dao.readDataBase();
         
         //String uid = form.getFirstValue("uid");  
         //String uname = form.getFirstValue("uname");  
