@@ -36,3 +36,10 @@ Running on port 8080
 
 ### Run 
 Right click on ```Client.java``` > Run as ... > Run as java application
+
+## SNCF API 
+
+### Departures 
+```
+https://api.sncf.com/v1/coverage/sncf/stop_areas/stop_area:SNCF:87686006/departures
+```

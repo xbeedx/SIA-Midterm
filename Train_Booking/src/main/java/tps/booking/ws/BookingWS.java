@@ -3,13 +3,14 @@ package tps.booking.ws;
 import java.util.List;
 
 import db.MySQLAccess;
+import objects.Train;
 
 public class BookingWS {
 	
     //MySQLAccess dao = new MySQLAccess();
     //dao.readDataBase();
 	
-	public List<Train> callTrainFilteringService(String departureStation, String arrivalStation,
+	public void callTrainFilteringService(String departureStation, String arrivalStation,
             String outboundDateTime, String returnDateTime,
             int numTickets, String travelClass) {
 		
