@@ -9,5 +9,7 @@
 	<classpathentry kind="lib" path="/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/restlet-jee-2.4.3/lib/org.restlet.ext.servlet.jar"/>
 	<classpathentry kind="lib" path="/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/restlet-jee-2.4.3/lib/org.restlet.jar"/>
 	<classpathentry kind="lib" path="/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/mysql-connector-j-8.1.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

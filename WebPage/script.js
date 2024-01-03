@@ -13,7 +13,7 @@ function sayHello() {
 
     // Make AJAX call
     $.ajax({
-        url: 'http://localhost:8080/Train_Booking/services/BookingWS/',
+        url: 'http://localhost:8085/Train_Booking/services/BookingWS/',
         type: 'POST',
         dataType: 'xml',
         data: soapRequest,
