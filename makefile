@@ -1,21 +1,22 @@
 all: stop_server run_servers run_client
 
-compile_filtering:
+run_filtering:
 	cd Train_Filtering/src/Filtering && javac -cp .:../../../restlet-jee-2.4.3/lib/org.restlet.jar:../../../restlet-jee-2.4.3/lib/org.restlet.ext.servlet.jar:../../../DataBase/mysql-connector-j-8.1.0.jar:. *.java
 
-run_servers: compile_filtering compile_booking deploy_train_booking
+run_servers: run_filtering compile_booking deploy_train_booking
 
 compile_booking: 
 	cd Train_Filtering/src/ && java -cp .:../../restlet-jee-2.4.3/lib/org.restlet.jar:../../restlet-jee-2.4.3/lib/org.restlet.ext.servlet.jar:../../DataBase/mysql-connector-j-8.1.0.jar Filtering.RESTDistributor &
 
 deploy_train_booking:
-	(source ./set-env.sh && cd ./Train_Booking && ant build)
-	pwd
-	cp Train_Booking/build/lib/BookingWS.aar axis2-1.5.1/repository/services/
-	axis2-1.5.1/bin/axis2server.sh
+	. set-env.sh
+	javac -cp .:apache-tomcat-9.0.82/lib/servlet-api.jar:DataBase/mysql-connector-j-8.1.0.jar:axis2-1.5.1/lib/axis2-kernel-1.5.1.jar:axis2-1.5.1/lib/axiom-api-1.2.8.jar Train_Booking/*/*.java	
+	cp -r Train_Booking axis2-1.5.1/repository/services
+	axis2-1.5.1/bin/axis2server.sh 2>&1 &
 
 run_client:
-	cd WebPage && npm start
+	cd WebPage && live-server --port=8081
+	trap "make stop_server" EXIT; \
 
 stop_server:
 	@echo "Stopping process using port 8080..."
