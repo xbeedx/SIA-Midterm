@@ -1,6 +1,6 @@
 export TPWS=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
-export AXIS2_HOME=$TPWS/axis2-1.5.1
+export AXIS2_HOME=$TPWS/axis2-1.8.2
 export PATH=$AXIS2_HOME/bin:$PATH
 export CLASSPATH=.
 export CLASSPATH=$CLASSPATH:$AXIS2_HOME/lib/activation-1.1.jar

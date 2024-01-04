@@ -1,18 +1,33 @@
 all: stop_server run_servers run_client
 
-run_filtering:
+compile_filtering:
 	cd Train_Filtering/src/Filtering && javac -cp .:../../../restlet-jee-2.4.3/lib/org.restlet.jar:../../../restlet-jee-2.4.3/lib/org.restlet.ext.servlet.jar:../../../DataBase/mysql-connector-j-8.1.0.jar:. *.java
 
-run_servers: run_filtering compile_booking
+run_servers: compile_filtering run_filtering run_booking
 
-compile_booking: 
+run_filtering: 
 	cd Train_Filtering/src/ && java -cp .:../../restlet-jee-2.4.3/lib/org.restlet.jar:../../restlet-jee-2.4.3/lib/org.restlet.ext.servlet.jar:../../DataBase/mysql-connector-j-8.1.0.jar Filtering.RESTDistributor &
 
+run_booking:
+	cd Train_Booking && ant clean && ant generate.wsdl && ant generate.service
+	cp Train_Booking/build/BookingWS.aar apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services
+	cd apache-tomcat-9.0.82/bin && ./startup.sh
+
 run_client:
-	cd WebPage && live-server --port=8081
-	trap "make stop_server" EXIT; \
+	sleep 5
+	cd WebPage && flask run --port=8081
 
 stop_server:
+	@echo "Stopping process using port 8088..."
+	@PID=$$(lsof -ti :8088); \
+	if [ -n "$$PID" ]; then \
+		echo "Killing process $$PID..."; \
+		kill -9 $$PID; \
+		echo "Process stopped."; \
+	else \
+		echo "No process found using port 8088."; \
+	fi
+
 	@echo "Stopping process using port 8182..."
 	@PID_8182=$$(lsof -ti :8182); \
 	if [ -n "$$PID_8182" ]; then \
