@@ -12,9 +12,9 @@ client = Client(wsdl_url)
 @app.route('/')
 def home():
     # Call the sayHello operation
-    response = client.service.sayHello(input="Chuugo")
+    stations = client.service.getStations()
 
-    return render_template('index.html', response=response)
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

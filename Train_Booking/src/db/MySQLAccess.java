@@ -3,7 +3,6 @@ package db;
 import java.sql.Connection;
 import java.sql.Date;
 
-import objects.Classe;
 import objects.Ride;
 import objects.Station;
 import objects.Ticket;
@@ -22,7 +21,7 @@ public class MySQLAccess {
     private PreparedStatement preparedStatement = null;
     private ResultSet resultSet = null;
     
-    public MySQLAccess() throws Exception {
+    public MySQLAccess() {
     	try {
     		// This will load the MySQL driver, each DB has its own driver
     		Class.forName("com.mysql.jdbc.Driver");
@@ -31,7 +30,8 @@ public class MySQLAccess {
             // Statements allow to issue SQL queries to the database
             statement = connect.createStatement();
     	} catch (Exception e) {
-            throw e;
+    		 System.out.println("Error during MySQLAccess initialization: " + e.getMessage());
+	        e.printStackTrace();
     	}
     }
     
@@ -76,23 +76,41 @@ public class MySQLAccess {
     }
     
     public List<Station> getStations() throws Exception {
-    	try {
-			List<Station> stations = new ArrayList<>();
-			resultSet = statement.executeQuery("select * from SIA.Station");
-    		 while (resultSet.next()) {
-    			 String stationID = resultSet.getString("StationID");
-				 String station_Name = resultSet.getString("StationName");
-				 String city = resultSet.getString("City");
-				 String department = resultSet.getString("Department");
-    			 stations.add(new Station(stationID,station_Name,city,department) );
-    		 }
-    		 return stations;
-    	} catch (Exception e) {
+        try {
+            List<Station> stations = new ArrayList<>();
+            
+            // Make sure statement is not null
+            if (statement == null) {
+                // Initialize statement here or throw an exception
+                throw new IllegalStateException("Statement is not initialized");
+            }
+
+            resultSet = statement.executeQuery("select * from SIA.Station");
+
+            // Make sure resultSet is not null
+            if (resultSet == null) {
+                // Handle the situation when resultSet is unexpectedly null
+                throw new IllegalStateException("ResultSet is unexpectedly null");
+            }
+
+            while (resultSet.next()) {
+                String stationID = resultSet.getString("StationID");
+                String station_Name = resultSet.getString("StationName");
+                String city = resultSet.getString("City");
+                String ZipCode = resultSet.getString("ZipCode");
+                float Lat = resultSet.getFloat("Lat");
+                float Lon = resultSet.getFloat("Lon");
+
+                stations.add(new Station(stationID, station_Name, city, ZipCode, Lat, Lon));
+            }
+            return stations;
+        } catch (Exception e) {
             throw e;
         } finally {
             close();
         }
     }
+
     
     public List<Ticket> getTickets() throws Exception {
     	try {
@@ -115,24 +133,6 @@ public class MySQLAccess {
         }
     }
     
-    public List<Classe> getClasses() throws Exception {
-    	try {
-			List<Classe> classes = new ArrayList<>();
-			resultSet = statement.executeQuery("select * from SIA.Classe");
-    		 while (resultSet.next()) {
-                String classeID = resultSet.getString("ClasseID");
-                String name = resultSet.getString("ClassName");
-                int multiplier = resultSet.getInt("PriceMultiplier");
-                classes.add(new Classe(classeID,name,multiplier) );
-    		 }
-    		 return classes;
-    	} catch (Exception e) {
-            throw e;
-        } finally {
-            close();
-        }
-    }
-   
     
     public Boolean bookTicket( String UserId, String TravelClass, String RideID, int Seat, String Type, Float Price) throws Exception {
     	try {

@@ -1,128 +1,149 @@
-<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns="http://ws.booking" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" targetNamespace="http://ws.booking">
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns="http://ws.booking" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ax21="http://objects/xsd" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" targetNamespace="http://ws.booking">
     <wsdl:types>
-        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://ws.booking">
-            <xs:element name="sayHello">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element minOccurs="0" name="input" nillable="true" type="xs:string"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="sayHelloResponse">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="sayBye">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element minOccurs="0" name="input" nillable="true" type="xs:string"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="sayByeResponse">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="inch_to_cm">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="inch" type="xs:double"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="inch_to_cmResponse">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="return" type="xs:double"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="cm_to_inch">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="cm" type="xs:double"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="cm_to_inchResponse">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="return" type="xs:double"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="callTrainFilteringService">
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://objects/xsd">
+            <xs:complexType name="Train">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="seats_capacity" type="xs:int"/>
+                    <xs:element minOccurs="0" name="trainID" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="type" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="Station">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="city" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="stationID" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="station_Name" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:schema>
+        <xs:schema xmlns:ax22="http://objects/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://ws.booking">
+            <xs:import namespace="http://objects/xsd"/>
+            <xs:element name="searchTrains">
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element minOccurs="0" name="departureStation" nillable="true" type="xs:string"/>
                         <xs:element minOccurs="0" name="arrivalStation" nillable="true" type="xs:string"/>
-                        <xs:element minOccurs="0" name="outboundDateTime" nillable="true" type="xs:string"/>
-                        <xs:element minOccurs="0" name="returnDateTime" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="departureDate" nillable="true" type="xs:date"/>
+                        <xs:element minOccurs="0" name="returnDate" nillable="true" type="xs:date"/>
                         <xs:element name="numTickets" type="xs:int"/>
                         <xs:element minOccurs="0" name="travelClass" nillable="true" type="xs:string"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
+            <xs:element name="searchTrainsResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="ax22:Train"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="reserveSeat">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element maxOccurs="unbounded" minOccurs="0" name="trainIds" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="travelClass" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="reserveSeatResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="return" type="xs:boolean"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="BookingWSException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="BookingWSException" nillable="true" type="ns:Exception"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:complexType name="Exception">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="getStations">
+                <xs:complexType>
+                    <xs:sequence/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getStationsResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="ax22:Station"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="authenticateUser">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="username" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="authenticateUserResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="return" type="xs:boolean"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
         </xs:schema>
     </wsdl:types>
-    <wsdl:message name="sayHelloRequest">
-        <wsdl:part name="parameters" element="ns:sayHello"/>
+    <wsdl:message name="authenticateUserRequest">
+        <wsdl:part name="parameters" element="ns:authenticateUser"/>
     </wsdl:message>
-    <wsdl:message name="sayHelloResponse">
-        <wsdl:part name="parameters" element="ns:sayHelloResponse"/>
+    <wsdl:message name="authenticateUserResponse">
+        <wsdl:part name="parameters" element="ns:authenticateUserResponse"/>
     </wsdl:message>
-    <wsdl:message name="callTrainFilteringServiceRequest">
-        <wsdl:part name="parameters" element="ns:callTrainFilteringService"/>
+    <wsdl:message name="getStationsRequest">
+        <wsdl:part name="parameters" element="ns:getStations"/>
     </wsdl:message>
-    <wsdl:message name="cm_to_inchRequest">
-        <wsdl:part name="parameters" element="ns:cm_to_inch"/>
+    <wsdl:message name="getStationsResponse">
+        <wsdl:part name="parameters" element="ns:getStationsResponse"/>
     </wsdl:message>
-    <wsdl:message name="cm_to_inchResponse">
-        <wsdl:part name="parameters" element="ns:cm_to_inchResponse"/>
+    <wsdl:message name="BookingWSException">
+        <wsdl:part name="parameters" element="ns:BookingWSException"/>
     </wsdl:message>
-    <wsdl:message name="sayByeRequest">
-        <wsdl:part name="parameters" element="ns:sayBye"/>
+    <wsdl:message name="searchTrainsRequest">
+        <wsdl:part name="parameters" element="ns:searchTrains"/>
     </wsdl:message>
-    <wsdl:message name="sayByeResponse">
-        <wsdl:part name="parameters" element="ns:sayByeResponse"/>
+    <wsdl:message name="searchTrainsResponse">
+        <wsdl:part name="parameters" element="ns:searchTrainsResponse"/>
     </wsdl:message>
-    <wsdl:message name="inch_to_cmRequest">
-        <wsdl:part name="parameters" element="ns:inch_to_cm"/>
+    <wsdl:message name="reserveSeatRequest">
+        <wsdl:part name="parameters" element="ns:reserveSeat"/>
     </wsdl:message>
-    <wsdl:message name="inch_to_cmResponse">
-        <wsdl:part name="parameters" element="ns:inch_to_cmResponse"/>
+    <wsdl:message name="reserveSeatResponse">
+        <wsdl:part name="parameters" element="ns:reserveSeatResponse"/>
     </wsdl:message>
     <wsdl:portType name="BookingWSPortType">
-        <wsdl:operation name="sayHello">
-            <wsdl:input message="ns:sayHelloRequest" wsaw:Action="urn:sayHello"/>
-            <wsdl:output message="ns:sayHelloResponse" wsaw:Action="urn:sayHelloResponse"/>
+        <wsdl:operation name="authenticateUser">
+            <wsdl:input message="ns:authenticateUserRequest" wsaw:Action="urn:authenticateUser"/>
+            <wsdl:output message="ns:authenticateUserResponse" wsaw:Action="urn:authenticateUserResponse"/>
         </wsdl:operation>
-        <wsdl:operation name="callTrainFilteringService">
-            <wsdl:input message="ns:callTrainFilteringServiceRequest" wsaw:Action="urn:callTrainFilteringService"/>
+        <wsdl:operation name="getStations">
+            <wsdl:input message="ns:getStationsRequest" wsaw:Action="urn:getStations"/>
+            <wsdl:output message="ns:getStationsResponse" wsaw:Action="urn:getStationsResponse"/>
+            <wsdl:fault message="ns:BookingWSException" name="BookingWSException" wsaw:Action="urn:getStationsBookingWSException"/>
         </wsdl:operation>
-        <wsdl:operation name="cm_to_inch">
-            <wsdl:input message="ns:cm_to_inchRequest" wsaw:Action="urn:cm_to_inch"/>
-            <wsdl:output message="ns:cm_to_inchResponse" wsaw:Action="urn:cm_to_inchResponse"/>
+        <wsdl:operation name="searchTrains">
+            <wsdl:input message="ns:searchTrainsRequest" wsaw:Action="urn:searchTrains"/>
+            <wsdl:output message="ns:searchTrainsResponse" wsaw:Action="urn:searchTrainsResponse"/>
         </wsdl:operation>
-        <wsdl:operation name="sayBye">
-            <wsdl:input message="ns:sayByeRequest" wsaw:Action="urn:sayBye"/>
-            <wsdl:output message="ns:sayByeResponse" wsaw:Action="urn:sayByeResponse"/>
-        </wsdl:operation>
-        <wsdl:operation name="inch_to_cm">
-            <wsdl:input message="ns:inch_to_cmRequest" wsaw:Action="urn:inch_to_cm"/>
-            <wsdl:output message="ns:inch_to_cmResponse" wsaw:Action="urn:inch_to_cmResponse"/>
+        <wsdl:operation name="reserveSeat">
+            <wsdl:input message="ns:reserveSeatRequest" wsaw:Action="urn:reserveSeat"/>
+            <wsdl:output message="ns:reserveSeatResponse" wsaw:Action="urn:reserveSeatResponse"/>
         </wsdl:operation>
     </wsdl:portType>
     <wsdl:binding name="BookingWSSoap11Binding" type="ns:BookingWSPortType">
         <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
-        <wsdl:operation name="sayHello">
-            <soap:operation soapAction="urn:sayHello" style="document"/>
+        <wsdl:operation name="authenticateUser">
+            <soap:operation soapAction="urn:authenticateUser" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -130,14 +151,20 @@
                 <soap:body use="literal"/>
             </wsdl:output>
         </wsdl:operation>
-        <wsdl:operation name="callTrainFilteringService">
-            <soap:operation soapAction="urn:callTrainFilteringService" style="document"/>
+        <wsdl:operation name="getStations">
+            <soap:operation soapAction="urn:getStations" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="BookingWSException">
+                <soap:fault use="literal" name="BookingWSException"/>
+            </wsdl:fault>
         </wsdl:operation>
-        <wsdl:operation name="cm_to_inch">
-            <soap:operation soapAction="urn:cm_to_inch" style="document"/>
+        <wsdl:operation name="searchTrains">
+            <soap:operation soapAction="urn:searchTrains" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -145,17 +172,8 @@
                 <soap:body use="literal"/>
             </wsdl:output>
         </wsdl:operation>
-        <wsdl:operation name="sayBye">
-            <soap:operation soapAction="urn:sayBye" style="document"/>
-            <wsdl:input>
-                <soap:body use="literal"/>
-            </wsdl:input>
-            <wsdl:output>
-                <soap:body use="literal"/>
-            </wsdl:output>
-        </wsdl:operation>
-        <wsdl:operation name="inch_to_cm">
-            <soap:operation soapAction="urn:inch_to_cm" style="document"/>
+        <wsdl:operation name="reserveSeat">
+            <soap:operation soapAction="urn:reserveSeat" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -166,8 +184,8 @@
     </wsdl:binding>
     <wsdl:binding name="BookingWSSoap12Binding" type="ns:BookingWSPortType">
         <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
-        <wsdl:operation name="sayHello">
-            <soap12:operation soapAction="urn:sayHello" style="document"/>
+        <wsdl:operation name="authenticateUser">
+            <soap12:operation soapAction="urn:authenticateUser" style="document"/>
             <wsdl:input>
                 <soap12:body use="literal"/>
             </wsdl:input>
@@ -175,14 +193,20 @@
                 <soap12:body use="literal"/>
             </wsdl:output>
         </wsdl:operation>
-        <wsdl:operation name="callTrainFilteringService">
-            <soap12:operation soapAction="urn:callTrainFilteringService" style="document"/>
+        <wsdl:operation name="getStations">
+            <soap12:operation soapAction="urn:getStations" style="document"/>
             <wsdl:input>
                 <soap12:body use="literal"/>
             </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="BookingWSException">
+                <soap12:fault use="literal" name="BookingWSException"/>
+            </wsdl:fault>
         </wsdl:operation>
-        <wsdl:operation name="cm_to_inch">
-            <soap12:operation soapAction="urn:cm_to_inch" style="document"/>
+        <wsdl:operation name="searchTrains">
+            <soap12:operation soapAction="urn:searchTrains" style="document"/>
             <wsdl:input>
                 <soap12:body use="literal"/>
             </wsdl:input>
@@ -190,17 +214,8 @@
                 <soap12:body use="literal"/>
             </wsdl:output>
         </wsdl:operation>
-        <wsdl:operation name="sayBye">
-            <soap12:operation soapAction="urn:sayBye" style="document"/>
-            <wsdl:input>
-                <soap12:body use="literal"/>
-            </wsdl:input>
-            <wsdl:output>
-                <soap12:body use="literal"/>
-            </wsdl:output>
-        </wsdl:operation>
-        <wsdl:operation name="inch_to_cm">
-            <soap12:operation soapAction="urn:inch_to_cm" style="document"/>
+        <wsdl:operation name="reserveSeat">
+            <soap12:operation soapAction="urn:reserveSeat" style="document"/>
             <wsdl:input>
                 <soap12:body use="literal"/>
             </wsdl:input>
@@ -211,8 +226,8 @@
     </wsdl:binding>
     <wsdl:binding name="BookingWSHttpBinding" type="ns:BookingWSPortType">
         <http:binding verb="POST"/>
-        <wsdl:operation name="sayHello">
-            <http:operation location="sayHello"/>
+        <wsdl:operation name="authenticateUser">
+            <http:operation location="authenticateUser"/>
             <wsdl:input>
                 <mime:content type="application/xml" part="parameters"/>
             </wsdl:input>
@@ -220,14 +235,18 @@
                 <mime:content type="application/xml" part="parameters"/>
             </wsdl:output>
         </wsdl:operation>
-        <wsdl:operation name="callTrainFilteringService">
-            <http:operation location="callTrainFilteringService"/>
+        <wsdl:operation name="getStations">
+            <http:operation location="getStations"/>
             <wsdl:input>
                 <mime:content type="application/xml" part="parameters"/>
             </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+            <wsdl:fault name="BookingWSException"/>
         </wsdl:operation>
-        <wsdl:operation name="cm_to_inch">
-            <http:operation location="cm_to_inch"/>
+        <wsdl:operation name="searchTrains">
+            <http:operation location="searchTrains"/>
             <wsdl:input>
                 <mime:content type="application/xml" part="parameters"/>
             </wsdl:input>
@@ -235,17 +254,8 @@
                 <mime:content type="application/xml" part="parameters"/>
             </wsdl:output>
         </wsdl:operation>
-        <wsdl:operation name="sayBye">
-            <http:operation location="sayBye"/>
-            <wsdl:input>
-                <mime:content type="application/xml" part="parameters"/>
-            </wsdl:input>
-            <wsdl:output>
-                <mime:content type="application/xml" part="parameters"/>
-            </wsdl:output>
-        </wsdl:operation>
-        <wsdl:operation name="inch_to_cm">
-            <http:operation location="inch_to_cm"/>
+        <wsdl:operation name="reserveSeat">
+            <http:operation location="reserveSeat"/>
             <wsdl:input>
                 <mime:content type="application/xml" part="parameters"/>
             </wsdl:input>

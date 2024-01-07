@@ -5,14 +5,20 @@ public class Station {
 	private String stationID;
 	private String station_Name;
 	private String city;
-	private String department;
+	private String ZipCode;
+	public float Lat;	
+	public float Lon;
+
 	
-	public Station(String stationID, String station_Name, String city, String department) {
+	public Station(String stationID, String station_Name, String city, String ZipCode, float Lat, float Lon) {
 		super();
 		this.stationID = stationID;
 		this.station_Name = station_Name;
 		this.city = city;
-		this.department = department;
+		this.ZipCode = ZipCode;		
+		this.Lat = Lat;
+		this.Lon = Lon;
+
 	}
 
 	public String getStationID() {
@@ -37,13 +43,5 @@ public class Station {
 
 	public void setCity(String city) {
 		this.city = city;
-	}
-
-	public String getDepartment() {
-		return department;
-	}
-
-	public void setDepartment(String department) {
-		this.department = department;
 	}
 }

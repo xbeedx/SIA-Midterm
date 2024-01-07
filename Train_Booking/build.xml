@@ -4,6 +4,7 @@
 
   <property environment="env"/>
     <property name="axis2.home" value="${env.AXIS2_HOME}"/>
+    <property name="database.home" value="${env.DATABASE}"/>
     <property name="project.base.dir" value="."/>
     <property name="maven.class.path" value=""/>
     <property name="name" value="BookingWS"/>
@@ -21,6 +22,7 @@
             <include name="lib/*.jar"/>
         </fileset>
         <pathelement location="../apache-tomcat-9.0.82/lib/servlet-api.jar"/>
+        <pathelement location="../../DataBase/mysql-connector-j-8.1.0.jar"/>
     </path>
 
  <property name="build.dir" value="build"/>

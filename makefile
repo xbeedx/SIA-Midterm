@@ -15,7 +15,7 @@ run_booking:
 
 run_client:
 	sleep 5
-	cd WebPage && flask run --port=8081
+	cd WebPage && flask run  --debug --port=8081
 
 stop_server:
 	@echo "Stopping process using port 8088..."
@@ -26,6 +26,16 @@ stop_server:
 		echo "Process stopped."; \
 	else \
 		echo "No process found using port 8088."; \
+	fi
+
+	@echo "Stopping process using port 8081..."
+	@PID=$$(lsof -ti :8081); \
+	if [ -n "$$PID" ]; then \
+		echo "Killing process $$PID..."; \
+		kill -9 $$PID; \
+		echo "Process stopped."; \
+	else \
+		echo "No process found using port 8081."; \
 	fi
 
 	@echo "Stopping process using port 8182..."
