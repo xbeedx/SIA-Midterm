@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:14:46:53 +0100] "GET /axis2/services/BookingWS?wsdl HTTP/1.1" 200 12568
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:14:47:02 +0100] "POST /axis2/services/BookingWS.BookingWSHttpSoap11Endpoint/ HTTP/1.1" 200 484
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:14:48:32 +0100] "GET / HTTP/1.1" 200 11230
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:14:48:32 +0100] "GET /tomcat.svg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:14:48:32 +0100] "GET /tomcat.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:14:48:32 +0100] "GET /asf-logo-wide.svg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:14:48:32 +0100] "GET /bg-upper.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:14:48:32 +0100] "GET /bg-nav.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:14:48:32 +0100] "GET /bg-middle.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:14:48:32 +0100] "GET /bg-button.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:14:48:36 +0100] "POST /axis2/services/BookingWS.BookingWSHttpSoap11Endpoint/ HTTP/1.1" 200 484
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:14:49:37 +0100] "GET /axis2/services/BookingWS?wsdl HTTP/1.1" 200 12568
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:14:50:05 +0100] "GET / HTTP/1.1" 200 11230
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:14:50:39 +0100] "GET /axis2/services/BookingWS?wsdl HTTP/1.1" 200 12568

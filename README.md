@@ -20,22 +20,15 @@ This project is written in Java 8. You can download and install it from the offi
 
 ## Train Filtering
 
-### Run 
-Right click on ```RESTDistributor.java``` > Run as ... > Run on server 
-
 Running on port 8182
 
 ## Train Booking 
 
-### Run 
-Right click on project > Run as ... > Run on server > Select a server/ If no server, create a Tomcat v9.0 server > Next > Add Train_Booking to the ```configured``` table > Finish 
-
-Running on port 8080
+Running on port 8088
 
 ## Client
 
-### Run 
-Right click on ```Client.java``` > Run as ... > Run as java application
+Running on port 8081
 
 ## SNCF API 
 
