@@ -4,6 +4,9 @@ import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.restlet.resource.ClientResource;
+import org.restlet.resource.ResourceException;
+
 import db.MySQLAccess;
 import objects.Station;
 import objects.Train;
@@ -34,4 +37,15 @@ public class BookingWS {
         // Exemple simplifié : toujours retourner true pour cet exemple
         return true;
     }
+	
+	public String sayTchouTchou() {
+		ClientResource resource = new ClientResource("http://localhost:8182/trains");
+		try {
+			return resource.get().getText();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			return e.toString();
+		}  
+
+	}
 }

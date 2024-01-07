@@ -22,7 +22,8 @@
             <include name="lib/*.jar"/>
         </fileset>
         <pathelement location="../apache-tomcat-9.0.82/lib/servlet-api.jar"/>
-        <pathelement location="../../DataBase/mysql-connector-j-8.1.0.jar"/>
+        <pathelement location="../DataBase/mysql-connector-j-8.1.0.jar"/>
+        <pathelement location="../restlet-jee-2.4.3/lib/org.restlet.jar"/>
     </path>
 
  <property name="build.dir" value="build"/>

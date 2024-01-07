@@ -4460,3 +4460,196 @@ Caused by: java.lang.IllegalStateException: Statement is not initialized
 07-Jan-2024 18:48:15.657 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] de l'application web s'est terminé en [282] ms
 07-Jan-2024 18:48:15.660 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8088"]
 07-Jan-2024 18:48:15.671 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [8869] millisecondes
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+07-Jan-2024 21:18:43.052 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.82
+07-Jan-2024 21:18:43.054 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Oct 11 2023 13:15:08 UTC
+07-Jan-2024 21:18:43.054 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.82.0
+07-Jan-2024 21:18:43.054 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Mac OS X
+07-Jan-2024 21:18:43.054 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.16
+07-Jan-2024 21:18:43.054 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     x86_64
+07-Jan-2024 21:18:43.054 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        /Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre
+07-Jan-2024 21:18:43.054 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      1.8.0_271-b09
+07-Jan-2024 21:18:43.054 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+07-Jan-2024 21:18:43.054 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+07-Jan-2024 21:18:43.054 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+07-Jan-2024 21:18:43.056 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+07-Jan-2024 21:18:43.056 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jan-2024 21:18:43.056 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+07-Jan-2024 21:18:43.057 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jan-2024 21:18:43.057 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Jan-2024 21:18:43.057 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+07-Jan-2024 21:18:43.057 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+07-Jan-2024 21:18:43.057 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+07-Jan-2024 21:18:43.057 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/temp
+07-Jan-2024 21:18:43.060 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [/Users/boujams/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Jan-2024 21:18:43.470 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8088"]
+07-Jan-2024 21:18:43.495 INFOS [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [629] millisecondes
+07-Jan-2024 21:18:43.529 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+07-Jan-2024 21:18:43.529 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.82]
+07-Jan-2024 21:18:43.549 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war] de l'application web
+07-Jan-2024 21:18:47.798 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+2024-01-07 21:18:48,619 main DEBUG Apache Log4j Core 2.18.0 initializing configuration XmlConfiguration[location=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-07 21:18:48,621 main DEBUG PluginManager 'Core' found 130 plugins
+2024-01-07 21:18:48,622 main DEBUG PluginManager 'Level' found 0 plugins
+2024-01-07 21:18:48,627 main DEBUG PluginManager 'Lookup' found 16 plugins
+2024-01-07 21:18:48,630 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-01-07 21:18:48,652 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2024-01-07 21:18:48,677 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(axis2), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2024-01-07 21:18:48,677 main DEBUG PluginManager 'Converter' found 45 plugins
+2024-01-07 21:18:48,678 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2024-01-07 21:18:48,695 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="Console", Configuration(axis2), Filter=null, ={})
+2024-01-07 21:18:48,697 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2024-01-07 21:18:48,697 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2024-01-07 21:18:48,700 main DEBUG createAppenders(={Console})
+2024-01-07 21:18:48,700 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-01-07 21:18:48,705 main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2024-01-07 21:18:48,706 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2024-01-07 21:18:48,709 main DEBUG LoggerConfig$RootLogger$Builder(additivity="null", level="INFO", levelAndRefs="null", includeLocation="null", ={Console}, ={}, Configuration(axis2), Filter=null)
+2024-01-07 21:18:48,716 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2024-01-07 21:18:48,717 main DEBUG createLoggers(={root})
+2024-01-07 21:18:48,718 main DEBUG Configuration XmlConfiguration[location=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] initialized
+2024-01-07 21:18:48,718 main DEBUG Starting configuration XmlConfiguration[location=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-07 21:18:48,718 main DEBUG Started configuration XmlConfiguration[location=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] OK.
+2024-01-07 21:18:48,719 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2024-01-07 21:18:48,719 main DEBUG OutputStream closed
+2024-01-07 21:18:48,719 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2024-01-07 21:18:48,720 main DEBUG Appender DefaultConsole-1 stopped with status true
+2024-01-07 21:18:48,720 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@59c9e3b9 OK
+2024-01-07 21:18:48,726 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f
+2024-01-07 21:18:48,730 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f,component=StatusLogger
+2024-01-07 21:18:48,735 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f,component=ContextSelector
+2024-01-07 21:18:48,738 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f,component=Loggers,name=
+2024-01-07 21:18:48,742 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f,component=Appenders,name=Console
+2024-01-07 21:18:48,755 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+2024-01-07 21:18:48,756 main DEBUG Reconfiguration complete for context[name=691a7f8f] at URI /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml (org.apache.logging.log4j.core.LoggerContext@6178b3bf) with optional ClassLoader: null
+2024-01-07 21:18:48,757 main DEBUG Shutdown hook enabled. Registering a new one.
+2024-01-07 21:18:48,761 main DEBUG LoggerContext[name=691a7f8f, org.apache.logging.log4j.core.LoggerContext@6178b3bf] started OK.
+21:18:49.560 [main] INFO  org.apache.axis2.deployment.ClusterBuilder - Clustering has been disabled
+2024-01-07 21:18:49,594 main DEBUG AsyncLogger.ThreadNameStrategy=UNCACHED (user specified null, default is UNCACHED)
+2024-01-07 21:18:49,595 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+21:18:49.693 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: jaxws-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/axis2-jaxws-mar-1.8.2.mar
+21:18:49.709 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: addressing-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/addressing-1.8.2.mar
+21:18:49.716 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: mtompolicy-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mtompolicy-1.8.2.mar
+21:18:49.720 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: script-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/scripting-1.8.2.mar
+21:18:49.725 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: soapmonitor-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/soapmonitor-1.8.2.mar
+21:18:49.735 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: ping-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/ping-1.8.2.mar
+21:18:49.741 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: metadataExchange-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mex-1.8.2.mar
+21:18:49.913 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: BookingWS.aar - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/BookingWS.aar
+21:18:49.922 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: version-1.8.2.aar - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/version-1.8.2.aar
+21:18:49.952 [main] WARN  org.apache.axis2.transport.http.AxisServlet - No transportReceiver for org.apache.axis2.transport.http.AxisServletListener found. An instance for HTTP will be configured automatically. Please update your axis2.xml file!
+07-Jan-2024 21:18:49.972 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war] s'est terminé en [6 422] ms
+07-Jan-2024 21:18:49.973 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+07-Jan-2024 21:18:50.463 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+07-Jan-2024 21:18:50.466 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] de l'application web s'est terminé en [492] ms
+07-Jan-2024 21:18:50.466 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+07-Jan-2024 21:18:50.732 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+07-Jan-2024 21:18:50.737 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] de l'application web s'est terminé en [270] ms
+07-Jan-2024 21:18:50.737 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+07-Jan-2024 21:18:51.234 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+07-Jan-2024 21:18:51.250 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] de l'application web s'est terminé en [513] ms
+07-Jan-2024 21:18:51.250 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+07-Jan-2024 21:18:51.543 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+07-Jan-2024 21:18:51.544 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] de l'application web s'est terminé en [294] ms
+07-Jan-2024 21:18:51.545 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+07-Jan-2024 21:18:51.868 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+07-Jan-2024 21:18:51.870 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] de l'application web s'est terminé en [325] ms
+07-Jan-2024 21:18:51.874 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8088"]
+07-Jan-2024 21:18:51.892 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [8396] millisecondes
+07-Jan-2024 21:19:01.493 INFOS [http-nio-8088-exec-4] org.restlet.engine.connector.HttpClientHelper.start Starting the internal HTTP client
+07-Jan-2024 21:21:26.602 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.82
+07-Jan-2024 21:21:26.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Oct 11 2023 13:15:08 UTC
+07-Jan-2024 21:21:26.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.82.0
+07-Jan-2024 21:21:26.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Mac OS X
+07-Jan-2024 21:21:26.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.16
+07-Jan-2024 21:21:26.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     x86_64
+07-Jan-2024 21:21:26.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        /Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre
+07-Jan-2024 21:21:26.605 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      1.8.0_271-b09
+07-Jan-2024 21:21:26.605 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+07-Jan-2024 21:21:26.605 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+07-Jan-2024 21:21:26.605 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+07-Jan-2024 21:21:26.607 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+07-Jan-2024 21:21:26.607 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jan-2024 21:21:26.607 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+07-Jan-2024 21:21:26.607 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jan-2024 21:21:26.608 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Jan-2024 21:21:26.608 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+07-Jan-2024 21:21:26.608 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+07-Jan-2024 21:21:26.608 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+07-Jan-2024 21:21:26.608 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/temp
+07-Jan-2024 21:21:26.610 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [/Users/boujams/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Jan-2024 21:21:26.993 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8088"]
+07-Jan-2024 21:21:27.024 INFOS [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [563] millisecondes
+07-Jan-2024 21:21:27.046 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+07-Jan-2024 21:21:27.046 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.82]
+07-Jan-2024 21:21:27.062 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war] de l'application web
+07-Jan-2024 21:21:30.928 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+2024-01-07 21:21:31,667 main DEBUG Apache Log4j Core 2.18.0 initializing configuration XmlConfiguration[location=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-07 21:21:31,669 main DEBUG PluginManager 'Core' found 130 plugins
+2024-01-07 21:21:31,670 main DEBUG PluginManager 'Level' found 0 plugins
+2024-01-07 21:21:31,675 main DEBUG PluginManager 'Lookup' found 16 plugins
+2024-01-07 21:21:31,678 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-01-07 21:21:31,732 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2024-01-07 21:21:31,751 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(axis2), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2024-01-07 21:21:31,752 main DEBUG PluginManager 'Converter' found 45 plugins
+2024-01-07 21:21:31,753 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2024-01-07 21:21:31,770 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="Console", Configuration(axis2), Filter=null, ={})
+2024-01-07 21:21:31,776 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2024-01-07 21:21:31,777 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2024-01-07 21:21:31,777 main DEBUG createAppenders(={Console})
+2024-01-07 21:21:31,778 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-01-07 21:21:31,784 main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2024-01-07 21:21:31,784 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2024-01-07 21:21:31,787 main DEBUG LoggerConfig$RootLogger$Builder(additivity="null", level="INFO", levelAndRefs="null", includeLocation="null", ={Console}, ={}, Configuration(axis2), Filter=null)
+2024-01-07 21:21:31,793 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2024-01-07 21:21:31,795 main DEBUG createLoggers(={root})
+2024-01-07 21:21:31,796 main DEBUG Configuration XmlConfiguration[location=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] initialized
+2024-01-07 21:21:31,796 main DEBUG Starting configuration XmlConfiguration[location=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-07 21:21:31,797 main DEBUG Started configuration XmlConfiguration[location=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] OK.
+2024-01-07 21:21:31,797 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2024-01-07 21:21:31,797 main DEBUG OutputStream closed
+2024-01-07 21:21:31,798 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2024-01-07 21:21:31,798 main DEBUG Appender DefaultConsole-1 stopped with status true
+2024-01-07 21:21:31,798 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@59c9e3b9 OK
+2024-01-07 21:21:31,804 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f
+2024-01-07 21:21:31,808 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f,component=StatusLogger
+2024-01-07 21:21:31,811 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f,component=ContextSelector
+2024-01-07 21:21:31,814 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f,component=Loggers,name=
+2024-01-07 21:21:31,816 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f,component=Appenders,name=Console
+2024-01-07 21:21:31,822 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+2024-01-07 21:21:31,822 main DEBUG Reconfiguration complete for context[name=691a7f8f] at URI /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml (org.apache.logging.log4j.core.LoggerContext@6178b3bf) with optional ClassLoader: null
+2024-01-07 21:21:31,823 main DEBUG Shutdown hook enabled. Registering a new one.
+2024-01-07 21:21:31,825 main DEBUG LoggerContext[name=691a7f8f, org.apache.logging.log4j.core.LoggerContext@6178b3bf] started OK.
+21:21:32.249 [main] INFO  org.apache.axis2.deployment.ClusterBuilder - Clustering has been disabled
+2024-01-07 21:21:32,259 main DEBUG AsyncLogger.ThreadNameStrategy=UNCACHED (user specified null, default is UNCACHED)
+2024-01-07 21:21:32,259 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+21:21:32.340 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: jaxws-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/axis2-jaxws-mar-1.8.2.mar
+21:21:32.354 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: addressing-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/addressing-1.8.2.mar
+21:21:32.360 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: mtompolicy-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mtompolicy-1.8.2.mar
+21:21:32.364 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: script-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/scripting-1.8.2.mar
+21:21:32.368 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: soapmonitor-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/soapmonitor-1.8.2.mar
+21:21:32.379 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: ping-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/ping-1.8.2.mar
+21:21:32.385 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: metadataExchange-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mex-1.8.2.mar
+21:21:32.552 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: BookingWS.aar - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/BookingWS.aar
+21:21:32.559 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: version-1.8.2.aar - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/version-1.8.2.aar
+21:21:32.569 [main] WARN  org.apache.axis2.transport.http.AxisServlet - No transportReceiver for org.apache.axis2.transport.http.AxisServletListener found. An instance for HTTP will be configured automatically. Please update your axis2.xml file!
+07-Jan-2024 21:21:32.583 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war] s'est terminé en [5 521] ms
+07-Jan-2024 21:21:32.584 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+07-Jan-2024 21:21:32.884 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+07-Jan-2024 21:21:32.887 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] de l'application web s'est terminé en [303] ms
+07-Jan-2024 21:21:32.887 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+07-Jan-2024 21:21:33.171 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+07-Jan-2024 21:21:33.176 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] de l'application web s'est terminé en [289] ms
+07-Jan-2024 21:21:33.176 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+07-Jan-2024 21:21:33.655 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+07-Jan-2024 21:21:33.671 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] de l'application web s'est terminé en [495] ms
+07-Jan-2024 21:21:33.671 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+07-Jan-2024 21:21:33.995 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+07-Jan-2024 21:21:33.997 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] de l'application web s'est terminé en [326] ms
+07-Jan-2024 21:21:33.997 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+07-Jan-2024 21:21:34.366 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+07-Jan-2024 21:21:34.369 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] de l'application web s'est terminé en [372] ms
+07-Jan-2024 21:21:34.374 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8088"]
+07-Jan-2024 21:21:34.389 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [7364] millisecondes
+07-Jan-2024 21:21:34.636 INFOS [http-nio-8088-exec-1] org.restlet.engine.connector.HttpClientHelper.start Starting the internal HTTP client
+07-Jan-2024 21:21:35.020 INFOS [Finalizer] org.restlet.engine.connector.HttpClientHelper.stop Stopping the internal HTTP client
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.

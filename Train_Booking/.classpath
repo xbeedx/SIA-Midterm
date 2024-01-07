@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/lib/servlet-api.jar"/>
 	<classpathentry kind="lib" path="/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/DataBase/mysql-connector-j-8.1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/restlet-jee-2.4.3/lib/org.restlet.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

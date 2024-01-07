@@ -3,6 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     overflow: hidden;
+    background-color: rgb(243, 243, 248);
   }
   
 .topnav {
@@ -19,6 +20,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    border: 1px solid transparent;
 }
 
 .topnav a:hover {
@@ -65,10 +67,15 @@ svg {
 }
 
 .input-reservation {
-    width: 100%; /* Make the input take up the full width of its container */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    padding: 0 10px; /* Add some padding to the left and right of the input */
+    width: 60rem; 
+    box-sizing: border-box;
+    padding: 0 10px;
     z-index: 2;
+}
+
+#input-reservation {
+    display: flex;
+    justify-content: center;
 }
 
 .double-border-input {
@@ -83,6 +90,63 @@ svg {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(243, 243, 248, 0.5);
     z-index: 1;
+}
+
+.stations-container {
+    border-radius: 10px;
+    background-color: white;
+    overflow-y:auto; 
+    max-height: 80%;
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    width: 600px;
+    display: none !important;
+    padding-top: 30px;
+    scrollbar-color: #157089 transparent;
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #157089;
+    -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+}
+
+.stations-container ul {
+    width: 100%;
+}
+
+.stations-container li {
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+#stations-caption {
+    margin-left: 10px;
+}
+
+.stations-container svg {
+    width: 32px;
+    height: auto;
+    fill: black;
+}
+
+span.station {
+    font-weight: bold;
+}
+
+span.city {
+    color: grey;
 }
