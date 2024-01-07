@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask App with Zeep</title>
-</head>
-<body>
-    <h1>Hello, Flask!</h1>
-    <p>This is a simple Flask app.</p>
-    
-    <h2>Response from sayHello:</h2>
-    <p>{{ response }}</p>
-</body>
-</html>
+{% extends "layout.html" %}
+
+{% block body %}
+<div class="container-reservation d-flex align-items-center justify-content-center vh-100">
+    <div class="container-reservation-content">
+        <div class="row h3-reservation">
+            <h3>Réserver un billet</h3>
+        </div>
+        <div class="row">
+            <div class="input-group mb-3" id="input-reservation">
+                <input type="text" class="input-reservation" placeholder="Où voulez-vous partir ?" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
