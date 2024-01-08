@@ -89,6 +89,20 @@
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
+            <xs:element name="getStation">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="stationId" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getStationResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="ax22:Station"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
             <xs:element name="authenticateUser">
                 <xs:complexType>
                     <xs:sequence>
@@ -112,14 +126,20 @@
     <wsdl:message name="authenticateUserResponse">
         <wsdl:part name="parameters" element="ns:authenticateUserResponse"/>
     </wsdl:message>
+    <wsdl:message name="getStationRequest">
+        <wsdl:part name="parameters" element="ns:getStation"/>
+    </wsdl:message>
+    <wsdl:message name="getStationResponse">
+        <wsdl:part name="parameters" element="ns:getStationResponse"/>
+    </wsdl:message>
+    <wsdl:message name="BookingWSException">
+        <wsdl:part name="parameters" element="ns:BookingWSException"/>
+    </wsdl:message>
     <wsdl:message name="getStationsRequest">
         <wsdl:part name="parameters" element="ns:getStations"/>
     </wsdl:message>
     <wsdl:message name="getStationsResponse">
         <wsdl:part name="parameters" element="ns:getStationsResponse"/>
-    </wsdl:message>
-    <wsdl:message name="BookingWSException">
-        <wsdl:part name="parameters" element="ns:BookingWSException"/>
     </wsdl:message>
     <wsdl:message name="sayTchouTchouRequest">
         <wsdl:part name="parameters" element="ns:sayTchouTchou"/>
@@ -143,6 +163,11 @@
         <wsdl:operation name="authenticateUser">
             <wsdl:input message="ns:authenticateUserRequest" wsaw:Action="urn:authenticateUser"/>
             <wsdl:output message="ns:authenticateUserResponse" wsaw:Action="urn:authenticateUserResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="getStation">
+            <wsdl:input message="ns:getStationRequest" wsaw:Action="urn:getStation"/>
+            <wsdl:output message="ns:getStationResponse" wsaw:Action="urn:getStationResponse"/>
+            <wsdl:fault message="ns:BookingWSException" name="BookingWSException" wsaw:Action="urn:getStationBookingWSException"/>
         </wsdl:operation>
         <wsdl:operation name="getStations">
             <wsdl:input message="ns:getStationsRequest" wsaw:Action="urn:getStations"/>
@@ -172,6 +197,18 @@
             <wsdl:output>
                 <soap:body use="literal"/>
             </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getStation">
+            <soap:operation soapAction="urn:getStation" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="BookingWSException">
+                <soap:fault use="literal" name="BookingWSException"/>
+            </wsdl:fault>
         </wsdl:operation>
         <wsdl:operation name="getStations">
             <soap:operation soapAction="urn:getStations" style="document"/>
@@ -224,6 +261,18 @@
                 <soap12:body use="literal"/>
             </wsdl:output>
         </wsdl:operation>
+        <wsdl:operation name="getStation">
+            <soap12:operation soapAction="urn:getStation" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="BookingWSException">
+                <soap12:fault use="literal" name="BookingWSException"/>
+            </wsdl:fault>
+        </wsdl:operation>
         <wsdl:operation name="getStations">
             <soap12:operation soapAction="urn:getStations" style="document"/>
             <wsdl:input>
@@ -274,6 +323,16 @@
             <wsdl:output>
                 <mime:content type="application/xml" part="parameters"/>
             </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getStation">
+            <http:operation location="getStation"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+            <wsdl:fault name="BookingWSException"/>
         </wsdl:operation>
         <wsdl:operation name="getStations">
             <http:operation location="getStations"/>

@@ -4748,3 +4748,438 @@ Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class 
 08-Jan-2024 19:35:29.539 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8088"]
 08-Jan-2024 19:35:29.551 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [7505] millisecondes
 Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+08-Jan-2024 21:15:44.433 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.82
+08-Jan-2024 21:15:44.436 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Oct 11 2023 13:15:08 UTC
+08-Jan-2024 21:15:44.437 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.82.0
+08-Jan-2024 21:15:44.437 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Mac OS X
+08-Jan-2024 21:15:44.437 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.16
+08-Jan-2024 21:15:44.437 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     x86_64
+08-Jan-2024 21:15:44.437 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        /Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre
+08-Jan-2024 21:15:44.437 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      1.8.0_271-b09
+08-Jan-2024 21:15:44.438 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+08-Jan-2024 21:15:44.438 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 21:15:44.438 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 21:15:44.442 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+08-Jan-2024 21:15:44.442 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jan-2024 21:15:44.442 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+08-Jan-2024 21:15:44.442 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jan-2024 21:15:44.442 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Jan-2024 21:15:44.443 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+08-Jan-2024 21:15:44.443 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 21:15:44.443 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 21:15:44.444 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/temp
+08-Jan-2024 21:15:44.448 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [/Users/boujams/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Jan-2024 21:15:45.039 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8088"]
+08-Jan-2024 21:15:45.061 INFOS [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [972] millisecondes
+08-Jan-2024 21:15:45.086 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Jan-2024 21:15:45.087 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.82]
+08-Jan-2024 21:15:45.104 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war] de l'application web
+08-Jan-2024 21:15:50.193 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+2024-01-08 21:15:51,289 main DEBUG Apache Log4j Core 2.18.0 initializing configuration XmlConfiguration[location=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-08 21:15:51,291 main DEBUG PluginManager 'Core' found 130 plugins
+2024-01-08 21:15:51,291 main DEBUG PluginManager 'Level' found 0 plugins
+2024-01-08 21:15:51,298 main DEBUG PluginManager 'Lookup' found 16 plugins
+2024-01-08 21:15:51,300 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-01-08 21:15:51,322 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2024-01-08 21:15:51,341 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(axis2), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2024-01-08 21:15:51,342 main DEBUG PluginManager 'Converter' found 45 plugins
+2024-01-08 21:15:51,343 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2024-01-08 21:15:51,358 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="Console", Configuration(axis2), Filter=null, ={})
+2024-01-08 21:15:51,361 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2024-01-08 21:15:51,361 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2024-01-08 21:15:51,362 main DEBUG createAppenders(={Console})
+2024-01-08 21:15:51,363 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-01-08 21:15:51,368 main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2024-01-08 21:15:51,369 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2024-01-08 21:15:51,373 main DEBUG LoggerConfig$RootLogger$Builder(additivity="null", level="INFO", levelAndRefs="null", includeLocation="null", ={Console}, ={}, Configuration(axis2), Filter=null)
+2024-01-08 21:15:51,378 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2024-01-08 21:15:51,380 main DEBUG createLoggers(={root})
+2024-01-08 21:15:51,381 main DEBUG Configuration XmlConfiguration[location=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] initialized
+2024-01-08 21:15:51,381 main DEBUG Starting configuration XmlConfiguration[location=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-08 21:15:51,382 main DEBUG Started configuration XmlConfiguration[location=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] OK.
+2024-01-08 21:15:51,382 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2024-01-08 21:15:51,383 main DEBUG OutputStream closed
+2024-01-08 21:15:51,383 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2024-01-08 21:15:51,384 main DEBUG Appender DefaultConsole-1 stopped with status true
+2024-01-08 21:15:51,384 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@59c9e3b9 OK
+2024-01-08 21:15:51,391 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f
+2024-01-08 21:15:51,395 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f,component=StatusLogger
+2024-01-08 21:15:51,398 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f,component=ContextSelector
+2024-01-08 21:15:51,400 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f,component=Loggers,name=
+2024-01-08 21:15:51,403 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f,component=Appenders,name=Console
+2024-01-08 21:15:51,411 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+2024-01-08 21:15:51,412 main DEBUG Reconfiguration complete for context[name=691a7f8f] at URI /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml (org.apache.logging.log4j.core.LoggerContext@6178b3bf) with optional ClassLoader: null
+2024-01-08 21:15:51,413 main DEBUG Shutdown hook enabled. Registering a new one.
+2024-01-08 21:15:51,415 main DEBUG LoggerContext[name=691a7f8f, org.apache.logging.log4j.core.LoggerContext@6178b3bf] started OK.
+21:15:51.938 [main] INFO  org.apache.axis2.deployment.ClusterBuilder - Clustering has been disabled
+2024-01-08 21:15:51,949 main DEBUG AsyncLogger.ThreadNameStrategy=UNCACHED (user specified null, default is UNCACHED)
+2024-01-08 21:15:51,950 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+21:15:52.080 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: jaxws-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/axis2-jaxws-mar-1.8.2.mar
+21:15:52.109 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: addressing-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/addressing-1.8.2.mar
+21:15:52.119 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: mtompolicy-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mtompolicy-1.8.2.mar
+21:15:52.124 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: script-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/scripting-1.8.2.mar
+21:15:52.136 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: soapmonitor-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/soapmonitor-1.8.2.mar
+21:15:52.157 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: ping-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/ping-1.8.2.mar
+21:15:52.166 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: metadataExchange-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mex-1.8.2.mar
+21:15:52.342 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: BookingWS.aar - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/BookingWS.aar
+21:15:52.351 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: version-1.8.2.aar - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/version-1.8.2.aar
+21:15:52.365 [main] WARN  org.apache.axis2.transport.http.AxisServlet - No transportReceiver for org.apache.axis2.transport.http.AxisServletListener found. An instance for HTTP will be configured automatically. Please update your axis2.xml file!
+08-Jan-2024 21:15:52.383 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war] s'est terminé en [7 278] ms
+08-Jan-2024 21:15:52.384 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+08-Jan-2024 21:15:52.718 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Jan-2024 21:15:52.721 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] de l'application web s'est terminé en [337] ms
+08-Jan-2024 21:15:52.721 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+08-Jan-2024 21:15:53.090 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Jan-2024 21:15:53.094 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] de l'application web s'est terminé en [373] ms
+08-Jan-2024 21:15:53.094 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+08-Jan-2024 21:15:53.572 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Jan-2024 21:15:53.587 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] de l'application web s'est terminé en [493] ms
+08-Jan-2024 21:15:53.587 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+08-Jan-2024 21:15:53.946 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Jan-2024 21:15:53.948 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] de l'application web s'est terminé en [361] ms
+08-Jan-2024 21:15:53.949 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+08-Jan-2024 21:15:54.385 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Jan-2024 21:15:54.388 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] de l'application web s'est terminé en [440] ms
+08-Jan-2024 21:15:54.392 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8088"]
+08-Jan-2024 21:15:54.405 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [9343] millisecondes
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+21:15:59.594 [http-nio-8088-exec-4] ERROR org.apache.axis2.rpc.receivers.RPCMessageReceiver - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':SNCF:80080945' at line 1
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[catalina.jar:9.0.82]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_271]
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':SNCF:80080945' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at db.MySQLAccess.getStation(MySQLAccess.java:124) ~[?:?]
+	at booking.ws.BookingWS.getStation(BookingWS.java:29) ~[?:?]
+	... 39 more
+21:15:59.617 [http-nio-8088-exec-4] ERROR org.apache.axis2.transport.http.AxisServlet - processAxisFault() found a null HTTP status from the MessageContext instance, setting HttpServletResponse status to: axis2.http.response.state
+21:17:57.811 [http-nio-8088-exec-4] ERROR org.apache.axis2.rpc.receivers.RPCMessageReceiver - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':SNCF:80080945' at line 1
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[catalina.jar:9.0.82]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_271]
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':SNCF:80080945' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at db.MySQLAccess.getStation(MySQLAccess.java:124) ~[?:?]
+	at booking.ws.BookingWS.getStation(BookingWS.java:29) ~[?:?]
+	... 39 more
+21:17:57.832 [http-nio-8088-exec-4] ERROR org.apache.axis2.transport.http.AxisServlet - processAxisFault() found a null HTTP status from the MessageContext instance, setting HttpServletResponse status to: axis2.http.response.state
+21:18:41.343 [http-nio-8088-exec-8] ERROR org.apache.axis2.rpc.receivers.RPCMessageReceiver - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':SNCF:80080945' at line 1
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[catalina.jar:9.0.82]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_271]
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':SNCF:80080945' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at db.MySQLAccess.getStation(MySQLAccess.java:124) ~[?:?]
+	at booking.ws.BookingWS.getStation(BookingWS.java:29) ~[?:?]
+	... 39 more
+21:18:41.349 [http-nio-8088-exec-8] ERROR org.apache.axis2.transport.http.AxisServlet - processAxisFault() found a null HTTP status from the MessageContext instance, setting HttpServletResponse status to: axis2.http.response.state
+21:19:49.532 [http-nio-8088-exec-10] ERROR org.apache.axis2.rpc.receivers.RPCMessageReceiver - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':SNCF:80080945' at line 1
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[catalina.jar:9.0.82]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_271]
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':SNCF:80080945' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at db.MySQLAccess.getStation(MySQLAccess.java:124) ~[?:?]
+	at booking.ws.BookingWS.getStation(BookingWS.java:29) ~[?:?]
+	... 39 more
+21:19:49.550 [http-nio-8088-exec-10] ERROR org.apache.axis2.transport.http.AxisServlet - processAxisFault() found a null HTTP status from the MessageContext instance, setting HttpServletResponse status to: axis2.http.response.state
+21:20:30.864 [http-nio-8088-exec-1] ERROR org.apache.axis2.rpc.receivers.RPCMessageReceiver - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':SNCF:80080945' at line 1
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[catalina.jar:9.0.82]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_271]
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':SNCF:80080945' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at db.MySQLAccess.getStation(MySQLAccess.java:124) ~[?:?]
+	at booking.ws.BookingWS.getStation(BookingWS.java:29) ~[?:?]
+	... 39 more
+21:20:30.870 [http-nio-8088-exec-1] ERROR org.apache.axis2.transport.http.AxisServlet - processAxisFault() found a null HTTP status from the MessageContext instance, setting HttpServletResponse status to: axis2.http.response.state
+08-Jan-2024 21:24:38.653 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.82
+08-Jan-2024 21:24:38.654 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Oct 11 2023 13:15:08 UTC
+08-Jan-2024 21:24:38.655 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.82.0
+08-Jan-2024 21:24:38.655 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Mac OS X
+08-Jan-2024 21:24:38.655 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.16
+08-Jan-2024 21:24:38.655 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     x86_64
+08-Jan-2024 21:24:38.655 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        /Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre
+08-Jan-2024 21:24:38.655 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      1.8.0_271-b09
+08-Jan-2024 21:24:38.655 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+08-Jan-2024 21:24:38.655 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 21:24:38.655 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 21:24:38.658 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+08-Jan-2024 21:24:38.658 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jan-2024 21:24:38.658 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+08-Jan-2024 21:24:38.658 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jan-2024 21:24:38.658 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Jan-2024 21:24:38.658 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+08-Jan-2024 21:24:38.658 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 21:24:38.658 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 21:24:38.658 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/temp
+08-Jan-2024 21:24:38.661 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [/Users/boujams/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Jan-2024 21:24:38.943 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8088"]
+08-Jan-2024 21:24:38.964 INFOS [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [457] millisecondes
+08-Jan-2024 21:24:38.986 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Jan-2024 21:24:38.986 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.82]
+08-Jan-2024 21:24:39.001 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war] de l'application web
+08-Jan-2024 21:24:44.026 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+2024-01-08 21:24:45,309 main DEBUG Apache Log4j Core 2.18.0 initializing configuration XmlConfiguration[location=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-08 21:24:45,312 main DEBUG PluginManager 'Core' found 130 plugins
+2024-01-08 21:24:45,312 main DEBUG PluginManager 'Level' found 0 plugins
+2024-01-08 21:24:45,318 main DEBUG PluginManager 'Lookup' found 16 plugins
+2024-01-08 21:24:45,322 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-01-08 21:24:45,344 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2024-01-08 21:24:45,369 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(axis2), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2024-01-08 21:24:45,369 main DEBUG PluginManager 'Converter' found 45 plugins
+2024-01-08 21:24:45,371 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2024-01-08 21:24:45,386 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="Console", Configuration(axis2), Filter=null, ={})
+2024-01-08 21:24:45,389 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2024-01-08 21:24:45,390 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2024-01-08 21:24:45,390 main DEBUG createAppenders(={Console})
+2024-01-08 21:24:45,391 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-01-08 21:24:45,396 main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2024-01-08 21:24:45,397 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2024-01-08 21:24:45,400 main DEBUG LoggerConfig$RootLogger$Builder(additivity="null", level="INFO", levelAndRefs="null", includeLocation="null", ={Console}, ={}, Configuration(axis2), Filter=null)
+2024-01-08 21:24:45,406 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2024-01-08 21:24:45,408 main DEBUG createLoggers(={root})
+2024-01-08 21:24:45,409 main DEBUG Configuration XmlConfiguration[location=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] initialized
+2024-01-08 21:24:45,409 main DEBUG Starting configuration XmlConfiguration[location=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-08 21:24:45,410 main DEBUG Started configuration XmlConfiguration[location=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] OK.
+2024-01-08 21:24:45,410 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2024-01-08 21:24:45,411 main DEBUG OutputStream closed
+2024-01-08 21:24:45,411 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2024-01-08 21:24:45,412 main DEBUG Appender DefaultConsole-1 stopped with status true
+2024-01-08 21:24:45,412 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@59c9e3b9 OK
+2024-01-08 21:24:45,420 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f
+2024-01-08 21:24:45,424 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f,component=StatusLogger
+2024-01-08 21:24:45,428 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f,component=ContextSelector
+2024-01-08 21:24:45,453 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f,component=Loggers,name=
+2024-01-08 21:24:45,457 main DEBUG Registering MBean org.apache.logging.log4j2:type=691a7f8f,component=Appenders,name=Console
+2024-01-08 21:24:45,466 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+2024-01-08 21:24:45,466 main DEBUG Reconfiguration complete for context[name=691a7f8f] at URI /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml (org.apache.logging.log4j.core.LoggerContext@6178b3bf) with optional ClassLoader: null
+2024-01-08 21:24:45,467 main DEBUG Shutdown hook enabled. Registering a new one.
+2024-01-08 21:24:45,469 main DEBUG LoggerContext[name=691a7f8f, org.apache.logging.log4j.core.LoggerContext@6178b3bf] started OK.
+21:24:46.028 [main] INFO  org.apache.axis2.deployment.ClusterBuilder - Clustering has been disabled
+2024-01-08 21:24:46,039 main DEBUG AsyncLogger.ThreadNameStrategy=UNCACHED (user specified null, default is UNCACHED)
+2024-01-08 21:24:46,040 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+21:24:46.124 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: jaxws-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/axis2-jaxws-mar-1.8.2.mar
+21:24:46.138 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: addressing-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/addressing-1.8.2.mar
+21:24:46.144 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: mtompolicy-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mtompolicy-1.8.2.mar
+21:24:46.148 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: script-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/scripting-1.8.2.mar
+21:24:46.153 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: soapmonitor-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/soapmonitor-1.8.2.mar
+21:24:46.164 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: ping-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/ping-1.8.2.mar
+21:24:46.170 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: metadataExchange-1.8.2 - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mex-1.8.2.mar
+21:24:46.335 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: BookingWS.aar - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/BookingWS.aar
+21:24:46.348 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: version-1.8.2.aar - file:/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/version-1.8.2.aar
+21:24:46.361 [main] WARN  org.apache.axis2.transport.http.AxisServlet - No transportReceiver for org.apache.axis2.transport.http.AxisServletListener found. An instance for HTTP will be configured automatically. Please update your axis2.xml file!
+08-Jan-2024 21:24:46.377 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war] s'est terminé en [7 375] ms
+08-Jan-2024 21:24:46.378 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+08-Jan-2024 21:24:46.709 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Jan-2024 21:24:46.711 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] de l'application web s'est terminé en [333] ms
+08-Jan-2024 21:24:46.711 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+08-Jan-2024 21:24:47.016 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Jan-2024 21:24:47.022 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] de l'application web s'est terminé en [311] ms
+08-Jan-2024 21:24:47.023 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+08-Jan-2024 21:24:47.495 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Jan-2024 21:24:47.510 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] de l'application web s'est terminé en [487] ms
+08-Jan-2024 21:24:47.510 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+08-Jan-2024 21:24:47.808 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Jan-2024 21:24:47.809 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] de l'application web s'est terminé en [299] ms
+08-Jan-2024 21:24:47.810 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+08-Jan-2024 21:24:48.106 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Jan-2024 21:24:48.107 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] de l'application web s'est terminé en [297] ms
+08-Jan-2024 21:24:48.110 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8088"]
+08-Jan-2024 21:24:48.121 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [9157] millisecondes
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.

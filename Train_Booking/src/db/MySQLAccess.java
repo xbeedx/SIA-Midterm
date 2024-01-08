@@ -111,7 +111,56 @@ public class MySQLAccess {
         }
     }
 
-    
+    public Station getStation(String stationId ) throws Exception {
+        try {
+            List<Station> stations = new ArrayList<>();
+            
+            // Make sure statement is not null
+            if (statement == null) {
+                // Initialize statement here or throw an exception
+                throw new IllegalStateException("Statement is not initialized");
+            }
+
+            //prepared statement using ?
+            preparedStatement = connect
+                    .prepareStatement("select * from SIA.Station where StationID = ?");
+            preparedStatement.setString(1, stationId);
+            resultSet = preparedStatement.executeQuery();
+
+            // Make sure resultSet is not null
+            if (resultSet == null) {
+                // Handle the situation when resultSet is unexpectedly null
+                throw new IllegalStateException("ResultSet is unexpectedly null");
+            }
+            Station station = processSingleStation(resultSet);
+            return station;
+        } catch (Exception e) {
+            throw e;
+        } finally {
+            close();
+        }
+    }
+
+    private Station processSingleStation(ResultSet resultSet2) {
+        try {
+            if (resultSet2.next()) {
+                String stationID = resultSet2.getString("StationID");
+                String station_Name = resultSet2.getString("StationName");
+                String city = resultSet2.getString("City");
+                String ZipCode = resultSet2.getString("ZipCode");
+                float Lat = resultSet2.getFloat("Lat");
+                float Lon = resultSet2.getFloat("Lon");
+
+                return new Station(stationID, station_Name, city, ZipCode, Lat, Lon);
+            }
+            return null;
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            return null;
+        }
+    }
+
     public List<Ticket> getTickets() throws Exception {
     	try {
 			List<Ticket> tickets = new ArrayList<>();

@@ -24,6 +24,11 @@ public class BookingWS {
 		return dao.getStations();
     }
 
+	public Station getStation(String stationId) throws Exception {
+		MySQLAccess dao = new MySQLAccess();
+		return dao.getStation(stationId);
+    }
+
 	public List<Train> searchTrains(String departureStation, String arrivalStation, Date departureDate, Date returnDate, int numTickets, String travelClass) {
         // Implémenter la logique de recherche de trains
         // Exemple simplifié : retourner une liste statique de trains
