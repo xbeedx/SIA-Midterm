@@ -5183,3 +5183,1751 @@ Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL synta
 08-Jan-2024 21:24:48.110 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8088"]
 08-Jan-2024 21:24:48.121 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [9157] millisecondes
 Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+08-Jan-2024 22:09:48.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+08-Jan-2024 22:09:48.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+08-Jan-2024 22:09:48.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+08-Jan-2024 22:09:48.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Jan-2024 22:09:48.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.2.1
+08-Jan-2024 22:09:48.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+08-Jan-2024 22:09:48.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
+08-Jan-2024 22:09:48.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_381-b09
+08-Jan-2024 22:09:48.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Jan-2024 22:09:48.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:09:48.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:09:48.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+08-Jan-2024 22:09:48.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jan-2024 22:09:48.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Jan-2024 22:09:48.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jan-2024 22:09:48.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Jan-2024 22:09:48.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Jan-2024 22:09:48.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:09:48.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:09:48.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/temp
+08-Jan-2024 22:09:48.572 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/christophewang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Jan-2024 22:09:48.817 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+08-Jan-2024 22:09:48.841 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [380] milliseconds
+08-Jan-2024 22:09:48.863 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Jan-2024 22:09:48.863 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+08-Jan-2024 22:09:48.873 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war]
+08-Jan-2024 22:09:50.913 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-01-08 22:09:51,226 main DEBUG Apache Log4j Core 2.18.0 initializing configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-08 22:09:51,227 main DEBUG PluginManager 'Core' found 130 plugins
+2024-01-08 22:09:51,227 main DEBUG PluginManager 'Level' found 0 plugins
+2024-01-08 22:09:51,230 main DEBUG PluginManager 'Lookup' found 16 plugins
+2024-01-08 22:09:51,231 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-01-08 22:09:51,237 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2024-01-08 22:09:51,244 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(axis2), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2024-01-08 22:09:51,245 main DEBUG PluginManager 'Converter' found 45 plugins
+2024-01-08 22:09:51,245 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2024-01-08 22:09:51,251 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="Console", Configuration(axis2), Filter=null, ={})
+2024-01-08 22:09:51,252 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2024-01-08 22:09:51,252 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2024-01-08 22:09:51,253 main DEBUG createAppenders(={Console})
+2024-01-08 22:09:51,253 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-01-08 22:09:51,256 main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2024-01-08 22:09:51,256 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2024-01-08 22:09:51,257 main DEBUG LoggerConfig$RootLogger$Builder(additivity="null", level="INFO", levelAndRefs="null", includeLocation="null", ={Console}, ={}, Configuration(axis2), Filter=null)
+2024-01-08 22:09:51,259 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2024-01-08 22:09:51,260 main DEBUG createLoggers(={root})
+2024-01-08 22:09:51,260 main DEBUG Configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] initialized
+2024-01-08 22:09:51,260 main DEBUG Starting configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-08 22:09:51,260 main DEBUG Started configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] OK.
+2024-01-08 22:09:51,261 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2024-01-08 22:09:51,261 main DEBUG OutputStream closed
+2024-01-08 22:09:51,261 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2024-01-08 22:09:51,261 main DEBUG Appender DefaultConsole-1 stopped with status true
+2024-01-08 22:09:51,261 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@3fdb9c55 OK
+2024-01-08 22:09:51,268 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2
+2024-01-08 22:09:51,270 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=StatusLogger
+2024-01-08 22:09:51,271 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=ContextSelector
+2024-01-08 22:09:51,272 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=Loggers,name=
+2024-01-08 22:09:51,273 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=Appenders,name=Console
+2024-01-08 22:09:51,276 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+2024-01-08 22:09:51,276 main DEBUG Reconfiguration complete for context[name=341b80b2] at URI /Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml (org.apache.logging.log4j.core.LoggerContext@d9ef223) with optional ClassLoader: null
+2024-01-08 22:09:51,276 main DEBUG Shutdown hook enabled. Registering a new one.
+2024-01-08 22:09:51,277 main DEBUG LoggerContext[name=341b80b2, org.apache.logging.log4j.core.LoggerContext@d9ef223] started OK.
+22:09:51.457 [main] INFO  org.apache.axis2.deployment.ClusterBuilder - Clustering has been disabled
+2024-01-08 22:09:51,461 main DEBUG AsyncLogger.ThreadNameStrategy=UNCACHED (user specified null, default is UNCACHED)
+2024-01-08 22:09:51,461 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+22:09:51.506 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: jaxws-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/axis2-jaxws-mar-1.8.2.mar
+22:09:51.514 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: addressing-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/addressing-1.8.2.mar
+22:09:51.516 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: mtompolicy-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mtompolicy-1.8.2.mar
+22:09:51.519 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: script-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/scripting-1.8.2.mar
+22:09:51.521 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: soapmonitor-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/soapmonitor-1.8.2.mar
+22:09:51.526 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: ping-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/ping-1.8.2.mar
+22:09:51.529 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: metadataExchange-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mex-1.8.2.mar
+22:09:51.607 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: BookingWS.aar - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/BookingWS.aar
+22:09:51.611 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: version-1.8.2.aar - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/version-1.8.2.aar
+22:09:51.616 [main] WARN  org.apache.axis2.transport.http.AxisServlet - No transportReceiver for org.apache.axis2.transport.http.AxisServletListener found. An instance for HTTP will be configured automatically. Please update your axis2.xml file!
+08-Jan-2024 22:09:51.624 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war] has finished in [2,750] ms
+08-Jan-2024 22:09:51.625 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+08-Jan-2024 22:09:51.758 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:09:51.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] has finished in [135] ms
+08-Jan-2024 22:09:51.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+08-Jan-2024 22:09:51.893 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:09:51.896 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] has finished in [137] ms
+08-Jan-2024 22:09:51.896 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+08-Jan-2024 22:09:52.110 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:09:52.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] has finished in [223] ms
+08-Jan-2024 22:09:52.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+08-Jan-2024 22:09:52.277 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:09:52.278 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] has finished in [159] ms
+08-Jan-2024 22:09:52.278 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+08-Jan-2024 22:09:52.428 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:09:52.429 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] has finished in [151] ms
+08-Jan-2024 22:09:52.431 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+08-Jan-2024 22:09:52.438 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3596] milliseconds
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Error during MySQLAccess initialization: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:819)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:440)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:270)
+	at db.MySQLAccess.<init>(MySQLAccess.java:29)
+	at booking.ws.BookingWS.getStations(BookingWS.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257)
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121)
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40)
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169)
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179)
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:939)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:809)
+	... 46 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 49 more
+22:09:54.114 [http-nio-8088-exec-2] ERROR org.apache.axis2.rpc.receivers.RPCMessageReceiver - Statement is not initialized
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_381]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_381]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_381]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_381]
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[catalina.jar:9.0.82]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_381]
+Caused by: java.lang.IllegalStateException: Statement is not initialized
+	at db.MySQLAccess.getStations(MySQLAccess.java:85) ~[?:?]
+	at booking.ws.BookingWS.getStations(BookingWS.java:24) ~[?:?]
+	... 39 more
+22:09:54.121 [http-nio-8088-exec-2] ERROR org.apache.axis2.transport.http.AxisServlet - processAxisFault() found a null HTTP status from the MessageContext instance, setting HttpServletResponse status to: axis2.http.response.state
+08-Jan-2024 22:11:37.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+08-Jan-2024 22:11:37.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+08-Jan-2024 22:11:37.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+08-Jan-2024 22:11:37.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Jan-2024 22:11:37.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.2.1
+08-Jan-2024 22:11:37.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+08-Jan-2024 22:11:37.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
+08-Jan-2024 22:11:37.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_381-b09
+08-Jan-2024 22:11:37.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Jan-2024 22:11:37.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:11:37.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:11:37.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+08-Jan-2024 22:11:37.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jan-2024 22:11:37.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Jan-2024 22:11:37.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jan-2024 22:11:37.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Jan-2024 22:11:37.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Jan-2024 22:11:37.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:11:37.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:11:37.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/temp
+08-Jan-2024 22:11:37.952 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/christophewang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Jan-2024 22:11:38.197 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+08-Jan-2024 22:11:38.219 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [378] milliseconds
+08-Jan-2024 22:11:38.237 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Jan-2024 22:11:38.237 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+08-Jan-2024 22:11:38.246 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war]
+08-Jan-2024 22:11:40.035 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-01-08 22:11:40,331 main DEBUG Apache Log4j Core 2.18.0 initializing configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-08 22:11:40,332 main DEBUG PluginManager 'Core' found 130 plugins
+2024-01-08 22:11:40,332 main DEBUG PluginManager 'Level' found 0 plugins
+2024-01-08 22:11:40,335 main DEBUG PluginManager 'Lookup' found 16 plugins
+2024-01-08 22:11:40,336 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-01-08 22:11:40,343 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2024-01-08 22:11:40,350 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(axis2), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2024-01-08 22:11:40,350 main DEBUG PluginManager 'Converter' found 45 plugins
+2024-01-08 22:11:40,351 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2024-01-08 22:11:40,356 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="Console", Configuration(axis2), Filter=null, ={})
+2024-01-08 22:11:40,357 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2024-01-08 22:11:40,357 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2024-01-08 22:11:40,358 main DEBUG createAppenders(={Console})
+2024-01-08 22:11:40,359 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-01-08 22:11:40,361 main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2024-01-08 22:11:40,361 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2024-01-08 22:11:40,362 main DEBUG LoggerConfig$RootLogger$Builder(additivity="null", level="INFO", levelAndRefs="null", includeLocation="null", ={Console}, ={}, Configuration(axis2), Filter=null)
+2024-01-08 22:11:40,364 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2024-01-08 22:11:40,368 main DEBUG createLoggers(={root})
+2024-01-08 22:11:40,368 main DEBUG Configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] initialized
+2024-01-08 22:11:40,369 main DEBUG Starting configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-08 22:11:40,369 main DEBUG Started configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] OK.
+2024-01-08 22:11:40,369 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2024-01-08 22:11:40,369 main DEBUG OutputStream closed
+2024-01-08 22:11:40,370 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2024-01-08 22:11:40,370 main DEBUG Appender DefaultConsole-1 stopped with status true
+2024-01-08 22:11:40,370 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@3fdb9c55 OK
+2024-01-08 22:11:40,373 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2
+2024-01-08 22:11:40,374 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=StatusLogger
+2024-01-08 22:11:40,375 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=ContextSelector
+2024-01-08 22:11:40,376 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=Loggers,name=
+2024-01-08 22:11:40,377 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=Appenders,name=Console
+2024-01-08 22:11:40,380 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+2024-01-08 22:11:40,380 main DEBUG Reconfiguration complete for context[name=341b80b2] at URI /Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml (org.apache.logging.log4j.core.LoggerContext@d9ef223) with optional ClassLoader: null
+2024-01-08 22:11:40,380 main DEBUG Shutdown hook enabled. Registering a new one.
+2024-01-08 22:11:40,381 main DEBUG LoggerContext[name=341b80b2, org.apache.logging.log4j.core.LoggerContext@d9ef223] started OK.
+22:11:40.559 [main] INFO  org.apache.axis2.deployment.ClusterBuilder - Clustering has been disabled
+2024-01-08 22:11:40,563 main DEBUG AsyncLogger.ThreadNameStrategy=UNCACHED (user specified null, default is UNCACHED)
+2024-01-08 22:11:40,564 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+22:11:40.608 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: jaxws-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/axis2-jaxws-mar-1.8.2.mar
+22:11:40.616 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: addressing-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/addressing-1.8.2.mar
+22:11:40.618 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: mtompolicy-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mtompolicy-1.8.2.mar
+22:11:40.621 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: script-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/scripting-1.8.2.mar
+22:11:40.623 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: soapmonitor-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/soapmonitor-1.8.2.mar
+22:11:40.628 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: ping-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/ping-1.8.2.mar
+22:11:40.631 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: metadataExchange-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mex-1.8.2.mar
+22:11:40.708 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: BookingWS.aar - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/BookingWS.aar
+22:11:40.712 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: version-1.8.2.aar - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/version-1.8.2.aar
+22:11:40.716 [main] WARN  org.apache.axis2.transport.http.AxisServlet - No transportReceiver for org.apache.axis2.transport.http.AxisServletListener found. An instance for HTTP will be configured automatically. Please update your axis2.xml file!
+08-Jan-2024 22:11:40.725 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war] has finished in [2,478] ms
+08-Jan-2024 22:11:40.725 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+08-Jan-2024 22:11:40.858 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:11:40.859 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] has finished in [134] ms
+08-Jan-2024 22:11:40.859 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+08-Jan-2024 22:11:40.994 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:11:40.997 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] has finished in [138] ms
+08-Jan-2024 22:11:40.997 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+08-Jan-2024 22:11:41.196 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:11:41.203 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] has finished in [206] ms
+08-Jan-2024 22:11:41.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+08-Jan-2024 22:11:41.341 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:11:41.342 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] has finished in [139] ms
+08-Jan-2024 22:11:41.343 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+08-Jan-2024 22:11:41.481 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:11:41.482 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] has finished in [140] ms
+08-Jan-2024 22:11:41.484 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+08-Jan-2024 22:11:41.490 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3271] milliseconds
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Error during MySQLAccess initialization: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:819)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:440)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:270)
+	at db.MySQLAccess.<init>(MySQLAccess.java:29)
+	at booking.ws.BookingWS.getStations(BookingWS.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257)
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121)
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40)
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169)
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179)
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:939)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:809)
+	... 46 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 49 more
+22:11:43.403 [http-nio-8088-exec-2] ERROR org.apache.axis2.rpc.receivers.RPCMessageReceiver - Statement is not initialized
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_381]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_381]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_381]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_381]
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[catalina.jar:9.0.82]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_381]
+Caused by: java.lang.IllegalStateException: Statement is not initialized
+	at db.MySQLAccess.getStations(MySQLAccess.java:85) ~[?:?]
+	at booking.ws.BookingWS.getStations(BookingWS.java:24) ~[?:?]
+	... 39 more
+22:11:43.410 [http-nio-8088-exec-2] ERROR org.apache.axis2.transport.http.AxisServlet - processAxisFault() found a null HTTP status from the MessageContext instance, setting HttpServletResponse status to: axis2.http.response.state
+08-Jan-2024 22:15:23.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+08-Jan-2024 22:15:23.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+08-Jan-2024 22:15:23.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+08-Jan-2024 22:15:23.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Jan-2024 22:15:23.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.2.1
+08-Jan-2024 22:15:23.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+08-Jan-2024 22:15:23.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
+08-Jan-2024 22:15:23.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_381-b09
+08-Jan-2024 22:15:23.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Jan-2024 22:15:23.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:15:23.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:15:23.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+08-Jan-2024 22:15:23.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jan-2024 22:15:23.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Jan-2024 22:15:23.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jan-2024 22:15:23.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Jan-2024 22:15:23.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Jan-2024 22:15:23.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:15:23.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:15:23.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/temp
+08-Jan-2024 22:15:23.022 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/christophewang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Jan-2024 22:15:23.268 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+08-Jan-2024 22:15:23.288 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [378] milliseconds
+08-Jan-2024 22:15:23.307 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Jan-2024 22:15:23.307 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+08-Jan-2024 22:15:23.317 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war]
+08-Jan-2024 22:15:25.366 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-01-08 22:15:25,683 main DEBUG Apache Log4j Core 2.18.0 initializing configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-08 22:15:25,684 main DEBUG PluginManager 'Core' found 130 plugins
+2024-01-08 22:15:25,685 main DEBUG PluginManager 'Level' found 0 plugins
+2024-01-08 22:15:25,687 main DEBUG PluginManager 'Lookup' found 16 plugins
+2024-01-08 22:15:25,688 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-01-08 22:15:25,695 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2024-01-08 22:15:25,702 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(axis2), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2024-01-08 22:15:25,702 main DEBUG PluginManager 'Converter' found 45 plugins
+2024-01-08 22:15:25,703 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2024-01-08 22:15:25,709 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="Console", Configuration(axis2), Filter=null, ={})
+2024-01-08 22:15:25,710 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2024-01-08 22:15:25,710 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2024-01-08 22:15:25,711 main DEBUG createAppenders(={Console})
+2024-01-08 22:15:25,711 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-01-08 22:15:25,714 main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2024-01-08 22:15:25,714 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2024-01-08 22:15:25,715 main DEBUG LoggerConfig$RootLogger$Builder(additivity="null", level="INFO", levelAndRefs="null", includeLocation="null", ={Console}, ={}, Configuration(axis2), Filter=null)
+2024-01-08 22:15:25,717 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2024-01-08 22:15:25,717 main DEBUG createLoggers(={root})
+2024-01-08 22:15:25,718 main DEBUG Configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] initialized
+2024-01-08 22:15:25,718 main DEBUG Starting configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-08 22:15:25,718 main DEBUG Started configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] OK.
+2024-01-08 22:15:25,719 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2024-01-08 22:15:25,719 main DEBUG OutputStream closed
+2024-01-08 22:15:25,719 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2024-01-08 22:15:25,720 main DEBUG Appender DefaultConsole-1 stopped with status true
+2024-01-08 22:15:25,720 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@3fdb9c55 OK
+2024-01-08 22:15:25,725 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2
+2024-01-08 22:15:25,727 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=StatusLogger
+2024-01-08 22:15:25,728 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=ContextSelector
+2024-01-08 22:15:25,729 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=Loggers,name=
+2024-01-08 22:15:25,730 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=Appenders,name=Console
+2024-01-08 22:15:25,732 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+2024-01-08 22:15:25,733 main DEBUG Reconfiguration complete for context[name=341b80b2] at URI /Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml (org.apache.logging.log4j.core.LoggerContext@d9ef223) with optional ClassLoader: null
+2024-01-08 22:15:25,733 main DEBUG Shutdown hook enabled. Registering a new one.
+2024-01-08 22:15:25,734 main DEBUG LoggerContext[name=341b80b2, org.apache.logging.log4j.core.LoggerContext@d9ef223] started OK.
+22:15:25.911 [main] INFO  org.apache.axis2.deployment.ClusterBuilder - Clustering has been disabled
+2024-01-08 22:15:25,915 main DEBUG AsyncLogger.ThreadNameStrategy=UNCACHED (user specified null, default is UNCACHED)
+2024-01-08 22:15:25,916 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+22:15:25.960 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: jaxws-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/axis2-jaxws-mar-1.8.2.mar
+22:15:25.968 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: addressing-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/addressing-1.8.2.mar
+22:15:25.971 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: mtompolicy-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mtompolicy-1.8.2.mar
+22:15:25.973 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: script-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/scripting-1.8.2.mar
+22:15:25.975 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: soapmonitor-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/soapmonitor-1.8.2.mar
+22:15:25.980 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: ping-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/ping-1.8.2.mar
+22:15:25.984 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: metadataExchange-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mex-1.8.2.mar
+22:15:26.061 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: BookingWS.aar - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/BookingWS.aar
+22:15:26.066 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: version-1.8.2.aar - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/version-1.8.2.aar
+22:15:26.070 [main] WARN  org.apache.axis2.transport.http.AxisServlet - No transportReceiver for org.apache.axis2.transport.http.AxisServletListener found. An instance for HTTP will be configured automatically. Please update your axis2.xml file!
+08-Jan-2024 22:15:26.079 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war] has finished in [2,761] ms
+08-Jan-2024 22:15:26.079 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+08-Jan-2024 22:15:26.212 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:15:26.213 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] has finished in [134] ms
+08-Jan-2024 22:15:26.213 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+08-Jan-2024 22:15:26.347 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:15:26.350 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] has finished in [137] ms
+08-Jan-2024 22:15:26.350 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+08-Jan-2024 22:15:26.560 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:15:26.567 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] has finished in [217] ms
+08-Jan-2024 22:15:26.567 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+08-Jan-2024 22:15:26.707 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:15:26.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] has finished in [141] ms
+08-Jan-2024 22:15:26.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+08-Jan-2024 22:15:26.847 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:15:26.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] has finished in [140] ms
+08-Jan-2024 22:15:26.850 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+08-Jan-2024 22:15:26.857 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3569] milliseconds
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Error during MySQLAccess initialization: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:819)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:440)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:270)
+	at db.MySQLAccess.<init>(MySQLAccess.java:29)
+	at booking.ws.BookingWS.getStations(BookingWS.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257)
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121)
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40)
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169)
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179)
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:939)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:809)
+	... 46 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 49 more
+22:15:28.629 [http-nio-8088-exec-3] ERROR org.apache.axis2.rpc.receivers.RPCMessageReceiver - Statement is not initialized
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_381]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_381]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_381]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_381]
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[catalina.jar:9.0.82]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_381]
+Caused by: java.lang.IllegalStateException: Statement is not initialized
+	at db.MySQLAccess.getStations(MySQLAccess.java:85) ~[?:?]
+	at booking.ws.BookingWS.getStations(BookingWS.java:24) ~[?:?]
+	... 39 more
+22:15:28.636 [http-nio-8088-exec-3] ERROR org.apache.axis2.transport.http.AxisServlet - processAxisFault() found a null HTTP status from the MessageContext instance, setting HttpServletResponse status to: axis2.http.response.state
+08-Jan-2024 22:16:16.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+08-Jan-2024 22:16:16.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+08-Jan-2024 22:16:16.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+08-Jan-2024 22:16:16.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Jan-2024 22:16:16.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.2.1
+08-Jan-2024 22:16:16.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+08-Jan-2024 22:16:16.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
+08-Jan-2024 22:16:16.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_381-b09
+08-Jan-2024 22:16:16.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Jan-2024 22:16:16.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:16:16.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:16:16.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+08-Jan-2024 22:16:16.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jan-2024 22:16:16.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Jan-2024 22:16:16.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jan-2024 22:16:16.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Jan-2024 22:16:16.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Jan-2024 22:16:16.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:16:16.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:16:16.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/temp
+08-Jan-2024 22:16:16.254 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/christophewang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Jan-2024 22:16:16.501 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+08-Jan-2024 22:16:16.523 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [380] milliseconds
+08-Jan-2024 22:16:16.544 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Jan-2024 22:16:16.545 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+08-Jan-2024 22:16:16.555 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war]
+08-Jan-2024 22:16:18.460 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-01-08 22:16:18,764 main DEBUG Apache Log4j Core 2.18.0 initializing configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-08 22:16:18,765 main DEBUG PluginManager 'Core' found 130 plugins
+2024-01-08 22:16:18,765 main DEBUG PluginManager 'Level' found 0 plugins
+2024-01-08 22:16:18,768 main DEBUG PluginManager 'Lookup' found 16 plugins
+2024-01-08 22:16:18,769 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-01-08 22:16:18,775 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2024-01-08 22:16:18,782 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(axis2), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2024-01-08 22:16:18,783 main DEBUG PluginManager 'Converter' found 45 plugins
+2024-01-08 22:16:18,783 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2024-01-08 22:16:18,788 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="Console", Configuration(axis2), Filter=null, ={})
+2024-01-08 22:16:18,790 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2024-01-08 22:16:18,790 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2024-01-08 22:16:18,791 main DEBUG createAppenders(={Console})
+2024-01-08 22:16:18,791 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-01-08 22:16:18,793 main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2024-01-08 22:16:18,793 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2024-01-08 22:16:18,795 main DEBUG LoggerConfig$RootLogger$Builder(additivity="null", level="INFO", levelAndRefs="null", includeLocation="null", ={Console}, ={}, Configuration(axis2), Filter=null)
+2024-01-08 22:16:18,796 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2024-01-08 22:16:18,797 main DEBUG createLoggers(={root})
+2024-01-08 22:16:18,797 main DEBUG Configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] initialized
+2024-01-08 22:16:18,797 main DEBUG Starting configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-08 22:16:18,798 main DEBUG Started configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] OK.
+2024-01-08 22:16:18,798 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2024-01-08 22:16:18,798 main DEBUG OutputStream closed
+2024-01-08 22:16:18,798 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2024-01-08 22:16:18,802 main DEBUG Appender DefaultConsole-1 stopped with status true
+2024-01-08 22:16:18,802 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@3fdb9c55 OK
+2024-01-08 22:16:18,805 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2
+2024-01-08 22:16:18,807 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=StatusLogger
+2024-01-08 22:16:18,807 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=ContextSelector
+2024-01-08 22:16:18,808 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=Loggers,name=
+2024-01-08 22:16:18,809 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=Appenders,name=Console
+2024-01-08 22:16:18,812 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+2024-01-08 22:16:18,812 main DEBUG Reconfiguration complete for context[name=341b80b2] at URI /Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml (org.apache.logging.log4j.core.LoggerContext@d9ef223) with optional ClassLoader: null
+2024-01-08 22:16:18,812 main DEBUG Shutdown hook enabled. Registering a new one.
+2024-01-08 22:16:18,813 main DEBUG LoggerContext[name=341b80b2, org.apache.logging.log4j.core.LoggerContext@d9ef223] started OK.
+22:16:18.989 [main] INFO  org.apache.axis2.deployment.ClusterBuilder - Clustering has been disabled
+2024-01-08 22:16:18,993 main DEBUG AsyncLogger.ThreadNameStrategy=UNCACHED (user specified null, default is UNCACHED)
+2024-01-08 22:16:18,993 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+22:16:19.036 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: jaxws-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/axis2-jaxws-mar-1.8.2.mar
+22:16:19.044 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: addressing-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/addressing-1.8.2.mar
+22:16:19.047 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: mtompolicy-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mtompolicy-1.8.2.mar
+22:16:19.049 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: script-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/scripting-1.8.2.mar
+22:16:19.052 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: soapmonitor-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/soapmonitor-1.8.2.mar
+22:16:19.056 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: ping-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/ping-1.8.2.mar
+22:16:19.059 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: metadataExchange-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mex-1.8.2.mar
+22:16:19.132 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: BookingWS.aar - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/BookingWS.aar
+22:16:19.136 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: version-1.8.2.aar - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/version-1.8.2.aar
+22:16:19.141 [main] WARN  org.apache.axis2.transport.http.AxisServlet - No transportReceiver for org.apache.axis2.transport.http.AxisServletListener found. An instance for HTTP will be configured automatically. Please update your axis2.xml file!
+08-Jan-2024 22:16:19.150 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war] has finished in [2,594] ms
+08-Jan-2024 22:16:19.150 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+08-Jan-2024 22:16:19.284 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:16:19.286 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] has finished in [135] ms
+08-Jan-2024 22:16:19.286 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+08-Jan-2024 22:16:19.421 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:16:19.424 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] has finished in [138] ms
+08-Jan-2024 22:16:19.424 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+08-Jan-2024 22:16:19.633 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:16:19.639 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] has finished in [215] ms
+08-Jan-2024 22:16:19.639 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+08-Jan-2024 22:16:19.779 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:16:19.780 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] has finished in [141] ms
+08-Jan-2024 22:16:19.780 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+08-Jan-2024 22:16:19.920 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:16:19.921 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] has finished in [141] ms
+08-Jan-2024 22:16:19.922 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+08-Jan-2024 22:16:19.929 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3405] milliseconds
+08-Jan-2024 22:21:15.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+08-Jan-2024 22:21:15.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+08-Jan-2024 22:21:15.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+08-Jan-2024 22:21:15.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Jan-2024 22:21:15.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.2.1
+08-Jan-2024 22:21:15.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+08-Jan-2024 22:21:15.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
+08-Jan-2024 22:21:15.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_381-b09
+08-Jan-2024 22:21:15.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Jan-2024 22:21:15.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:21:15.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:21:15.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+08-Jan-2024 22:21:15.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jan-2024 22:21:15.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Jan-2024 22:21:15.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jan-2024 22:21:15.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Jan-2024 22:21:15.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Jan-2024 22:21:15.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:21:15.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82
+08-Jan-2024 22:21:15.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/temp
+08-Jan-2024 22:21:15.629 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/christophewang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Jan-2024 22:21:15.876 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+08-Jan-2024 22:21:15.895 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [379] milliseconds
+08-Jan-2024 22:21:15.915 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Jan-2024 22:21:15.915 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+08-Jan-2024 22:21:15.925 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war]
+08-Jan-2024 22:21:17.957 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-01-08 22:21:18,276 main DEBUG Apache Log4j Core 2.18.0 initializing configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-08 22:21:18,277 main DEBUG PluginManager 'Core' found 130 plugins
+2024-01-08 22:21:18,277 main DEBUG PluginManager 'Level' found 0 plugins
+2024-01-08 22:21:18,279 main DEBUG PluginManager 'Lookup' found 16 plugins
+2024-01-08 22:21:18,281 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-01-08 22:21:18,287 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2024-01-08 22:21:18,295 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(axis2), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2024-01-08 22:21:18,295 main DEBUG PluginManager 'Converter' found 45 plugins
+2024-01-08 22:21:18,295 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2024-01-08 22:21:18,301 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="Console", Configuration(axis2), Filter=null, ={})
+2024-01-08 22:21:18,302 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2024-01-08 22:21:18,302 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2024-01-08 22:21:18,303 main DEBUG createAppenders(={Console})
+2024-01-08 22:21:18,304 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-01-08 22:21:18,306 main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2024-01-08 22:21:18,306 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2024-01-08 22:21:18,307 main DEBUG LoggerConfig$RootLogger$Builder(additivity="null", level="INFO", levelAndRefs="null", includeLocation="null", ={Console}, ={}, Configuration(axis2), Filter=null)
+2024-01-08 22:21:18,309 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2024-01-08 22:21:18,310 main DEBUG createLoggers(={root})
+2024-01-08 22:21:18,310 main DEBUG Configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] initialized
+2024-01-08 22:21:18,311 main DEBUG Starting configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml]
+2024-01-08 22:21:18,311 main DEBUG Started configuration XmlConfiguration[location=/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml] OK.
+2024-01-08 22:21:18,311 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2024-01-08 22:21:18,311 main DEBUG OutputStream closed
+2024-01-08 22:21:18,312 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2024-01-08 22:21:18,315 main DEBUG Appender DefaultConsole-1 stopped with status true
+2024-01-08 22:21:18,315 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@3fdb9c55 OK
+2024-01-08 22:21:18,318 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2
+2024-01-08 22:21:18,320 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=StatusLogger
+2024-01-08 22:21:18,321 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=ContextSelector
+2024-01-08 22:21:18,322 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=Loggers,name=
+2024-01-08 22:21:18,323 main DEBUG Registering MBean org.apache.logging.log4j2:type=341b80b2,component=Appenders,name=Console
+2024-01-08 22:21:18,325 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+2024-01-08 22:21:18,326 main DEBUG Reconfiguration complete for context[name=341b80b2] at URI /Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/classes/log4j2.xml (org.apache.logging.log4j.core.LoggerContext@d9ef223) with optional ClassLoader: null
+2024-01-08 22:21:18,326 main DEBUG Shutdown hook enabled. Registering a new one.
+2024-01-08 22:21:18,327 main DEBUG LoggerContext[name=341b80b2, org.apache.logging.log4j.core.LoggerContext@d9ef223] started OK.
+22:21:18.505 [main] INFO  org.apache.axis2.deployment.ClusterBuilder - Clustering has been disabled
+2024-01-08 22:21:18,509 main DEBUG AsyncLogger.ThreadNameStrategy=UNCACHED (user specified null, default is UNCACHED)
+2024-01-08 22:21:18,509 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+22:21:18.554 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: jaxws-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/axis2-jaxws-mar-1.8.2.mar
+22:21:18.562 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: addressing-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/addressing-1.8.2.mar
+22:21:18.565 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: mtompolicy-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mtompolicy-1.8.2.mar
+22:21:18.567 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: script-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/scripting-1.8.2.mar
+22:21:18.572 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: soapmonitor-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/soapmonitor-1.8.2.mar
+22:21:18.577 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: ping-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/ping-1.8.2.mar
+22:21:18.580 [main] INFO  org.apache.axis2.deployment.ModuleDeployer - Deploying module: metadataExchange-1.8.2 - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/modules/mex-1.8.2.mar
+22:21:18.655 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: BookingWS.aar - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/BookingWS.aar
+22:21:18.659 [main] INFO  org.apache.axis2.deployment.DeploymentEngine - Deploying Web service: version-1.8.2.aar - file:/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services/version-1.8.2.aar
+22:21:18.664 [main] WARN  org.apache.axis2.transport.http.AxisServlet - No transportReceiver for org.apache.axis2.transport.http.AxisServletListener found. An instance for HTTP will be configured automatically. Please update your axis2.xml file!
+08-Jan-2024 22:21:18.672 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/axis2.war] has finished in [2,746] ms
+08-Jan-2024 22:21:18.672 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+08-Jan-2024 22:21:18.805 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:21:18.806 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] has finished in [134] ms
+08-Jan-2024 22:21:18.806 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+08-Jan-2024 22:21:18.940 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:21:18.942 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] has finished in [136] ms
+08-Jan-2024 22:21:18.942 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+08-Jan-2024 22:21:19.151 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:21:19.159 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] has finished in [217] ms
+08-Jan-2024 22:21:19.159 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+08-Jan-2024 22:21:19.296 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:21:19.297 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] has finished in [138] ms
+08-Jan-2024 22:21:19.297 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+08-Jan-2024 22:21:19.437 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2024 22:21:19.438 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christophewang/Desktop/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] has finished in [141] ms
+08-Jan-2024 22:21:19.440 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+08-Jan-2024 22:21:19.447 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3551] milliseconds
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Error during MySQLAccess initialization: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:819)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:440)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:270)
+	at db.MySQLAccess.<init>(MySQLAccess.java:29)
+	at booking.ws.BookingWS.getStations(BookingWS.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257)
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121)
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40)
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169)
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179)
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:939)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:809)
+	... 46 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 49 more
+22:21:25.246 [http-nio-8088-exec-2] ERROR org.apache.axis2.rpc.receivers.RPCMessageReceiver - Statement is not initialized
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_381]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_381]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_381]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_381]
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[catalina.jar:9.0.82]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_381]
+Caused by: java.lang.IllegalStateException: Statement is not initialized
+	at db.MySQLAccess.getStations(MySQLAccess.java:85) ~[?:?]
+	at booking.ws.BookingWS.getStations(BookingWS.java:24) ~[?:?]
+	... 39 more
+22:21:25.254 [http-nio-8088-exec-2] ERROR org.apache.axis2.transport.http.AxisServlet - processAxisFault() found a null HTTP status from the MessageContext instance, setting HttpServletResponse status to: axis2.http.response.state
+Error during MySQLAccess initialization: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:819)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:440)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:270)
+	at db.MySQLAccess.<init>(MySQLAccess.java:29)
+	at booking.ws.BookingWS.getStations(BookingWS.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257)
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121)
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40)
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169)
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179)
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:939)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:809)
+	... 46 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 49 more
+22:21:26.203 [http-nio-8088-exec-3] ERROR org.apache.axis2.rpc.receivers.RPCMessageReceiver - Statement is not initialized
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_381]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_381]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_381]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_381]
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[catalina.jar:9.0.82]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_381]
+Caused by: java.lang.IllegalStateException: Statement is not initialized
+	at db.MySQLAccess.getStations(MySQLAccess.java:85) ~[?:?]
+	at booking.ws.BookingWS.getStations(BookingWS.java:24) ~[?:?]
+	... 39 more
+22:21:26.208 [http-nio-8088-exec-3] ERROR org.apache.axis2.transport.http.AxisServlet - processAxisFault() found a null HTTP status from the MessageContext instance, setting HttpServletResponse status to: axis2.http.response.state
+Error during MySQLAccess initialization: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:819)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:440)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:270)
+	at db.MySQLAccess.<init>(MySQLAccess.java:29)
+	at booking.ws.BookingWS.getStations(BookingWS.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257)
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121)
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40)
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169)
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179)
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:939)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:809)
+	... 46 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 49 more
+22:21:36.233 [http-nio-8088-exec-4] ERROR org.apache.axis2.rpc.receivers.RPCMessageReceiver - Statement is not initialized
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_381]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_381]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_381]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_381]
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[catalina.jar:9.0.82]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_381]
+Caused by: java.lang.IllegalStateException: Statement is not initialized
+	at db.MySQLAccess.getStations(MySQLAccess.java:85) ~[?:?]
+	at booking.ws.BookingWS.getStations(BookingWS.java:24) ~[?:?]
+	... 39 more
+22:21:36.253 [http-nio-8088-exec-4] ERROR org.apache.axis2.transport.http.AxisServlet - processAxisFault() found a null HTTP status from the MessageContext instance, setting HttpServletResponse status to: axis2.http.response.state
+Error during MySQLAccess initialization: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:819)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:440)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:270)
+	at db.MySQLAccess.<init>(MySQLAccess.java:29)
+	at booking.ws.BookingWS.getStations(BookingWS.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257)
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121)
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40)
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169)
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179)
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:939)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:809)
+	... 46 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 49 more
+22:26:36.685 [http-nio-8088-exec-5] ERROR org.apache.axis2.rpc.receivers.RPCMessageReceiver - Statement is not initialized
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_381]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_381]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_381]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_381]
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[catalina.jar:9.0.82]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_381]
+Caused by: java.lang.IllegalStateException: Statement is not initialized
+	at db.MySQLAccess.getStations(MySQLAccess.java:85) ~[?:?]
+	at booking.ws.BookingWS.getStations(BookingWS.java:24) ~[?:?]
+	... 39 more
+22:26:36.760 [http-nio-8088-exec-5] ERROR org.apache.axis2.transport.http.AxisServlet - processAxisFault() found a null HTTP status from the MessageContext instance, setting HttpServletResponse status to: axis2.http.response.state
+Error during MySQLAccess initialization: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:819)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:440)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:270)
+	at db.MySQLAccess.<init>(MySQLAccess.java:29)
+	at booking.ws.BookingWS.getStations(BookingWS.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257)
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121)
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40)
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169)
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179)
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:939)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:809)
+	... 46 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 49 more
+22:30:05.946 [http-nio-8088-exec-6] ERROR org.apache.axis2.rpc.receivers.RPCMessageReceiver - Statement is not initialized
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_381]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_381]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_381]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_381]
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[catalina.jar:9.0.82]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_381]
+Caused by: java.lang.IllegalStateException: Statement is not initialized
+	at db.MySQLAccess.getStations(MySQLAccess.java:85) ~[?:?]
+	at booking.ws.BookingWS.getStations(BookingWS.java:24) ~[?:?]
+	... 39 more
+22:30:06.008 [http-nio-8088-exec-6] ERROR org.apache.axis2.transport.http.AxisServlet - processAxisFault() found a null HTTP status from the MessageContext instance, setting HttpServletResponse status to: axis2.http.response.state
+Error during MySQLAccess initialization: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:819)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:440)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:270)
+	at db.MySQLAccess.<init>(MySQLAccess.java:29)
+	at booking.ws.BookingWS.getStations(BookingWS.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257)
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121)
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40)
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169)
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179)
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:939)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:809)
+	... 46 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 49 more
+22:32:23.466 [http-nio-8088-exec-7] ERROR org.apache.axis2.rpc.receivers.RPCMessageReceiver - Statement is not initialized
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_381]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_381]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_381]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_381]
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[catalina.jar:9.0.82]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_381]
+Caused by: java.lang.IllegalStateException: Statement is not initialized
+	at db.MySQLAccess.getStations(MySQLAccess.java:85) ~[?:?]
+	at booking.ws.BookingWS.getStations(BookingWS.java:24) ~[?:?]
+	... 39 more
+22:32:23.530 [http-nio-8088-exec-7] ERROR org.apache.axis2.transport.http.AxisServlet - processAxisFault() found a null HTTP status from the MessageContext instance, setting HttpServletResponse status to: axis2.http.response.state
+Error during MySQLAccess initialization: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:819)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:440)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:270)
+	at db.MySQLAccess.<init>(MySQLAccess.java:29)
+	at booking.ws.BookingWS.getStations(BookingWS.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257)
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121)
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40)
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169)
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179)
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:939)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:809)
+	... 46 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 49 more
+22:49:59.354 [http-nio-8088-exec-1] ERROR org.apache.axis2.rpc.receivers.RPCMessageReceiver - Statement is not initialized
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_381]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_381]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_381]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_381]
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:257) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:121) ~[axis2-adb-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:106) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:169) ~[axis2-kernel-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:179) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:166) ~[axis2-transport-http-1.8.2.jar:1.8.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[catalina.jar:9.0.82]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_381]
+Caused by: java.lang.IllegalStateException: Statement is not initialized
+	at db.MySQLAccess.getStations(MySQLAccess.java:85) ~[?:?]
+	at booking.ws.BookingWS.getStations(BookingWS.java:24) ~[?:?]
+	... 39 more
+22:49:59.414 [http-nio-8088-exec-1] ERROR org.apache.axis2.transport.http.AxisServlet - processAxisFault() found a null HTTP status from the MessageContext instance, setting HttpServletResponse status to: axis2.http.response.state
+08-Jan-2024 23:06:13.131 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+08-Jan-2024 23:06:13.137 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Jan-2024 23:06:13.280 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+08-Jan-2024 23:06:13.295 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]

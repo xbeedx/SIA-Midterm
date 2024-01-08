@@ -37,7 +37,10 @@
  fork="true"
  destdir="${build.dir}/classes"
  srcdir="${basedir}/src"
- classpathref="axis2.classpath">
+ classpathref="axis2.classpath"
+ source="1.8"
+ target="1.8"
+ >
  </javac>
  </target>
 

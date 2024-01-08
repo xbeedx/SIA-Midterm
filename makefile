@@ -15,7 +15,7 @@ run_booking:
 
 run_client:
 	sleep 5
-	cd WebPage && flask run  --debug --port=8081
+	cd WebPage && flask run  --debugger --port=8081
 
 stop_server:
 	@echo "Stopping process using port 8088..."
