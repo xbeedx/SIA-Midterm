@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request
 from zeep import Client
 import json
+import mysql.connector
+
 
 app = Flask(__name__)
 
@@ -14,12 +16,28 @@ except Exception as e:
     app.logger.error("Error initializing SOAP client: %s", str(e))
     exit()
 
+# mysql client
+database_config = {
+    'host': 'localhost',
+    'user': 'root',
+    'database': 'SIA',
+}
+
+try:
+    connection = mysql.connector.connect(**database_config)
+except mysql.connector.errors.ProgrammingError as err:
+        print(f"Error: {err}")
+
 stationArrivalId = ""
 
 # Fetch stations using the global client
 def get_stations():
     try:
         stations = client.service.getStations()
+        if not stations:
+            app.logger.error("No stations found")
+            
+
         return stations
     except Exception as e:
         app.logger.error("Error getting stations: %s", str(e))
@@ -37,8 +55,8 @@ def booking():
     stationId = json.loads(request.args.get('station'))['station']
     request_data = {'stationId': stationId}
 
-    # global stationArrivalId 
-    # stationArrivalId = stationId
+    global stationArrivalId 
+    stationArrivalId = stationId
 
     try:
         station = client.service.getStation(**request_data)

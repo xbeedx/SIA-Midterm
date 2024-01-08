@@ -1,3 +1,4 @@
+USE SIA;
 -- Create the User table
 CREATE TABLE `User` (
     UserID INT PRIMARY KEY,

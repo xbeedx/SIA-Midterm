@@ -14,7 +14,7 @@ run_booking:
 	cd apache-tomcat-9.0.82/bin && ./startup.sh
 
 run_client:
-	sleep 5
+	sleep 2
 	cd WebPage && flask run  --debug --port=8081
 
 stop_server:
