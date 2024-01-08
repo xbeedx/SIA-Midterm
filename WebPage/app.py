@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 from zeep import Client
+import json
 
 app = Flask(__name__)
 
@@ -13,10 +14,12 @@ def home():
     stations = client.service.getStations()
     return render_template('index.html', stations=stations)
 
-@app.route('/selectArrival', methods=['POST'])
-def handle_post():
-    stationId = request.get_json().get('station')
-    return "hai"
+@app.route('/selectArrival', methods=['GET'])
+def booking():
+    stationId = json.loads(request.args.get('station'))['station']
+    return render_template('booking.html', stationId=stationId)
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)

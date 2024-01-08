@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="tps.booking.ws.BookingWSStub"/>
+    <fullyQualifiedTypeName name="tps.booking.ws.BookingWSStub.SayHello"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="objects.Ride"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="objects.Ticket"/>
+    <fullyQualifiedTypeName name="objects.Classe"/>
+    <fullyQualifiedTypeName name="objects.Train"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="objects.Station"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.restlet.resource.ClientResource"/>
+    <fullyQualifiedTypeName name="org.restlet.resource.ResourceException"/>
+</qualifiedTypeNameHistroy>

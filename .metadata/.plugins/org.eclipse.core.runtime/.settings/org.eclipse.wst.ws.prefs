@@ -1,0 +1,4 @@
+WSDL_VALIDATION=2
+eclipse.preferences.version=1
+nonWSIAPCompliance=1
+nonWSISSBPCompliance=1

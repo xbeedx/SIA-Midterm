@@ -1,0 +1,19 @@
+import java.util.List;
+
+import db.MySQLAccess;
+import objects.Station;
+
+public class TestBase {
+
+	public static void main(String[] args) {
+		System.out.print("stations");
+	    MySQLAccess dao = new MySQLAccess();
+	    try {
+			List<Station> stations = dao.getStations();
+			System.out.print(stations);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

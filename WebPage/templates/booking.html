@@ -1,0 +1,58 @@
+{% extends "layout.html" %}
+{% block body %}
+<header>
+    <h1>Rechercher</h1>
+</header>
+
+<div class="container h-100">
+    <div class="row justify-content-center align-items-center h-100">
+        <div class="col-6">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="departure-label">Départ</span>
+                </div>
+                <input type="text" class="form-control" id="departure" aria-describedby="departure-label">
+            </div>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="arrival-label">Arrivée</span>
+                </div>
+                <input type="text" class="form-control" id="arrival" aria-describedby="arrival-label" value="{{ stationId }}">
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header {
+        background-color: #0C131F;
+        color: #fff;
+        padding: 15px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .input-group-text {
+        border: none;
+        background-color: transparent;
+    }
+
+    .form-control {
+        border: none;
+        box-shadow: none;
+    }
+</style>
+
+{% endblock %}

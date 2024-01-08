@@ -4,6 +4,18 @@ window.addEventListener('load', function() {
     stationsContainer.style.width = getComputedStyle(input).width;
 });
 
+document.querySelector('.overlay').addEventListener('click', function() {
+    document.body.style.paddingBottom = '0';
+    document.querySelector(".container-reservation-content").style.width = '75vw'; 
+    document.querySelector(".container-reservation-content").style.padding = '30px';
+    document.querySelector(".container-reservation-content").style.borderRadius = '30px';
+    document.querySelector(".stations-container").style.setProperty("display", "none", "important");
+
+    this.classList.remove('double-border-input');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.querySelector('.overlay').classList.remove('blur');
+});
+
 document.querySelector('.input-reservation').addEventListener('focus', function() {
     document.body.style.paddingBottom = '100vh'; 
     
@@ -39,11 +51,5 @@ input.addEventListener('input', function() {
 });
 
 function selectArrival (station) {
-    fetch('/selectArrival', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({station: station}),
-    })
+    window.location.href = '/selectArrival?station=' + JSON.stringify({station: station});
 };

@@ -1,0 +1,631 @@
+03-Jan-2024 21:51:49.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.82
+03-Jan-2024 21:51:49.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Oct 11 2023 13:15:08 UTC
+03-Jan-2024 21:51:49.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.82.0
+03-Jan-2024 21:51:49.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Mac OS X
+03-Jan-2024 21:51:49.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.16
+03-Jan-2024 21:51:49.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     x86_64
+03-Jan-2024 21:51:49.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        /Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home
+03-Jan-2024 21:51:49.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      15.0.2+7-27
+03-Jan-2024 21:51:49.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+03-Jan-2024 21:51:49.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 21:51:49.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 21:51:49.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Jan-2024 21:51:49.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+03-Jan-2024 21:51:49.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+03-Jan-2024 21:51:49.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Jan-2024 21:51:49.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Jan-2024 21:51:49.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+03-Jan-2024 21:51:49.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Jan-2024 21:51:49.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+03-Jan-2024 21:51:49.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Jan-2024 21:51:49.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Jan-2024 21:51:49.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+03-Jan-2024 21:51:49.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 21:51:49.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 21:51:49.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/temp
+03-Jan-2024 21:51:49.874 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [/Users/boujams/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+03-Jan-2024 21:51:50.132 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 21:51:50.168 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Echec d'initialisation du composant [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: L'initialisation du gestionnaire de protocole a échoué
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:249)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1326)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1339)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+03-Jan-2024 21:51:50.169 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [612] millisecondes
+03-Jan-2024 21:51:50.208 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+03-Jan-2024 21:51:50.208 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.82]
+03-Jan-2024 21:51:50.223 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] de l'application web
+03-Jan-2024 21:51:51.595 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+03-Jan-2024 21:51:52.336 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] s'est terminé en [2 109] ms
+03-Jan-2024 21:51:52.337 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+03-Jan-2024 21:51:52.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] de l'application web s'est terminé en [27] ms
+03-Jan-2024 21:51:52.365 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+03-Jan-2024 21:51:52.407 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] de l'application web s'est terminé en [42] ms
+03-Jan-2024 21:51:52.408 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+03-Jan-2024 21:51:52.665 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] de l'application web s'est terminé en [257] ms
+03-Jan-2024 21:51:52.666 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+03-Jan-2024 21:51:52.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] de l'application web s'est terminé en [43] ms
+03-Jan-2024 21:51:52.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+03-Jan-2024 21:51:52.736 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] de l'application web s'est terminé en [28] ms
+03-Jan-2024 21:51:52.739 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [2570] millisecondes
+03-Jan-2024 22:02:55.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.82
+03-Jan-2024 22:02:55.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Oct 11 2023 13:15:08 UTC
+03-Jan-2024 22:02:55.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.82.0
+03-Jan-2024 22:02:55.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Mac OS X
+03-Jan-2024 22:02:55.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.16
+03-Jan-2024 22:02:55.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     x86_64
+03-Jan-2024 22:02:55.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        /Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home
+03-Jan-2024 22:02:55.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      15.0.2+7-27
+03-Jan-2024 22:02:55.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+03-Jan-2024 22:02:55.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:02:55.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:02:55.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Jan-2024 22:02:55.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+03-Jan-2024 22:02:55.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+03-Jan-2024 22:02:55.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Jan-2024 22:02:55.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Jan-2024 22:02:55.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+03-Jan-2024 22:02:55.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Jan-2024 22:02:55.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+03-Jan-2024 22:02:55.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Jan-2024 22:02:55.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Jan-2024 22:02:55.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+03-Jan-2024 22:02:55.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:02:55.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:02:55.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/temp
+03-Jan-2024 22:02:55.186 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [/Users/boujams/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+03-Jan-2024 22:02:55.459 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:02:55.474 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Echec d'initialisation du composant [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: L'initialisation du gestionnaire de protocole a échoué
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:249)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1326)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1339)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+03-Jan-2024 22:02:55.475 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [491] millisecondes
+03-Jan-2024 22:02:55.513 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+03-Jan-2024 22:02:55.513 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.82]
+03-Jan-2024 22:02:55.529 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] de l'application web
+03-Jan-2024 22:02:56.804 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+03-Jan-2024 22:02:57.400 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] s'est terminé en [1 870] ms
+03-Jan-2024 22:02:57.401 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+03-Jan-2024 22:02:57.422 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] de l'application web s'est terminé en [21] ms
+03-Jan-2024 22:02:57.422 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+03-Jan-2024 22:02:57.454 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] de l'application web s'est terminé en [31] ms
+03-Jan-2024 22:02:57.454 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+03-Jan-2024 22:02:57.650 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] de l'application web s'est terminé en [196] ms
+03-Jan-2024 22:02:57.650 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+03-Jan-2024 22:02:57.663 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] de l'application web s'est terminé en [13] ms
+03-Jan-2024 22:02:57.663 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+03-Jan-2024 22:02:57.681 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] de l'application web s'est terminé en [18] ms
+03-Jan-2024 22:02:57.684 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [2208] millisecondes
+03-Jan-2024 22:02:57.690 SEVERE [main] org.apache.catalina.core.StandardServer.await Impossible de créer le sokcet d'arrêt du serveur à l'adresse [localhost] et au port [8005] (port de base [8005] et offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.Net.bind(Net.java:539)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:396)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:282)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+03-Jan-2024 22:02:57.690 INFO [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+03-Jan-2024 22:02:57.690 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+03-Jan-2024 22:02:57.720 INFO [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:02:57.721 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:03:57.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.82
+03-Jan-2024 22:03:57.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Oct 11 2023 13:15:08 UTC
+03-Jan-2024 22:03:57.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.82.0
+03-Jan-2024 22:03:57.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Mac OS X
+03-Jan-2024 22:03:57.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.16
+03-Jan-2024 22:03:57.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     x86_64
+03-Jan-2024 22:03:57.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        /Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home
+03-Jan-2024 22:03:57.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      15.0.2+7-27
+03-Jan-2024 22:03:57.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+03-Jan-2024 22:03:57.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:03:57.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:03:57.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Jan-2024 22:03:57.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+03-Jan-2024 22:03:57.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+03-Jan-2024 22:03:57.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Jan-2024 22:03:57.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Jan-2024 22:03:57.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+03-Jan-2024 22:03:57.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Jan-2024 22:03:57.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+03-Jan-2024 22:03:57.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Jan-2024 22:03:57.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Jan-2024 22:03:57.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+03-Jan-2024 22:03:57.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:03:57.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:03:57.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/temp
+03-Jan-2024 22:03:57.883 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [/Users/boujams/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+03-Jan-2024 22:03:58.116 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:03:58.134 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Echec d'initialisation du composant [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: L'initialisation du gestionnaire de protocole a échoué
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:249)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1326)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1339)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+03-Jan-2024 22:03:58.135 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [454] millisecondes
+03-Jan-2024 22:03:58.173 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+03-Jan-2024 22:03:58.173 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.82]
+03-Jan-2024 22:03:58.187 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] de l'application web
+03-Jan-2024 22:03:59.374 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+03-Jan-2024 22:03:59.970 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] s'est terminé en [1 782] ms
+03-Jan-2024 22:03:59.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+03-Jan-2024 22:03:59.994 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] de l'application web s'est terminé en [22] ms
+03-Jan-2024 22:03:59.994 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+03-Jan-2024 22:04:00.035 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] de l'application web s'est terminé en [40] ms
+03-Jan-2024 22:04:00.035 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+03-Jan-2024 22:04:00.235 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] de l'application web s'est terminé en [200] ms
+03-Jan-2024 22:04:00.235 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+03-Jan-2024 22:04:00.249 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] de l'application web s'est terminé en [14] ms
+03-Jan-2024 22:04:00.249 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+03-Jan-2024 22:04:00.270 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] de l'application web s'est terminé en [21] ms
+03-Jan-2024 22:04:00.274 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [2139] millisecondes
+03-Jan-2024 22:05:20.670 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+03-Jan-2024 22:05:20.670 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+03-Jan-2024 22:05:20.716 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:05:20.717 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:05:26.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.82
+03-Jan-2024 22:05:26.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Oct 11 2023 13:15:08 UTC
+03-Jan-2024 22:05:26.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.82.0
+03-Jan-2024 22:05:26.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Mac OS X
+03-Jan-2024 22:05:26.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.16
+03-Jan-2024 22:05:26.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     x86_64
+03-Jan-2024 22:05:26.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        /Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home
+03-Jan-2024 22:05:26.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      15.0.2+7-27
+03-Jan-2024 22:05:26.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+03-Jan-2024 22:05:26.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:05:26.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:05:26.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Jan-2024 22:05:26.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+03-Jan-2024 22:05:26.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+03-Jan-2024 22:05:26.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Jan-2024 22:05:26.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Jan-2024 22:05:26.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+03-Jan-2024 22:05:26.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Jan-2024 22:05:26.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+03-Jan-2024 22:05:26.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Jan-2024 22:05:26.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Jan-2024 22:05:26.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+03-Jan-2024 22:05:26.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:05:26.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:05:26.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/temp
+03-Jan-2024 22:05:26.745 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [/Users/boujams/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+03-Jan-2024 22:05:26.971 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:05:26.989 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Echec d'initialisation du composant [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: L'initialisation du gestionnaire de protocole a échoué
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:249)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1326)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1339)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+03-Jan-2024 22:05:26.989 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [418] millisecondes
+03-Jan-2024 22:05:27.026 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+03-Jan-2024 22:05:27.027 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.82]
+03-Jan-2024 22:05:27.039 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] de l'application web
+03-Jan-2024 22:05:28.083 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+03-Jan-2024 22:05:28.657 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] s'est terminé en [1 617] ms
+03-Jan-2024 22:05:28.658 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+03-Jan-2024 22:05:28.678 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] de l'application web s'est terminé en [20] ms
+03-Jan-2024 22:05:28.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+03-Jan-2024 22:05:28.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] de l'application web s'est terminé en [28] ms
+03-Jan-2024 22:05:28.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+03-Jan-2024 22:05:28.880 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] de l'application web s'est terminé en [172] ms
+03-Jan-2024 22:05:28.880 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+03-Jan-2024 22:05:28.893 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] de l'application web s'est terminé en [13] ms
+03-Jan-2024 22:05:28.893 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+03-Jan-2024 22:05:28.911 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] de l'application web s'est terminé en [18] ms
+03-Jan-2024 22:05:28.914 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1924] millisecondes
+03-Jan-2024 22:05:29.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.82
+03-Jan-2024 22:05:29.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Oct 11 2023 13:15:08 UTC
+03-Jan-2024 22:05:29.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.82.0
+03-Jan-2024 22:05:29.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Mac OS X
+03-Jan-2024 22:05:29.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.16
+03-Jan-2024 22:05:29.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     x86_64
+03-Jan-2024 22:05:29.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        /Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home
+03-Jan-2024 22:05:29.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      15.0.2+7-27
+03-Jan-2024 22:05:29.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+03-Jan-2024 22:05:29.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:05:29.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:05:29.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Jan-2024 22:05:29.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+03-Jan-2024 22:05:29.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+03-Jan-2024 22:05:29.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Jan-2024 22:05:29.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Jan-2024 22:05:29.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+03-Jan-2024 22:05:29.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Jan-2024 22:05:29.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+03-Jan-2024 22:05:29.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Jan-2024 22:05:29.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Jan-2024 22:05:29.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+03-Jan-2024 22:05:29.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:05:29.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:05:29.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/temp
+03-Jan-2024 22:05:29.997 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [/Users/boujams/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+03-Jan-2024 22:05:30.209 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:05:30.225 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Echec d'initialisation du composant [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: L'initialisation du gestionnaire de protocole a échoué
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:249)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1326)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1339)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+03-Jan-2024 22:05:30.226 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [405] millisecondes
+03-Jan-2024 22:05:30.261 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+03-Jan-2024 22:05:30.261 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.82]
+03-Jan-2024 22:05:30.274 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] de l'application web
+03-Jan-2024 22:05:31.236 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+03-Jan-2024 22:05:31.821 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] s'est terminé en [1 546] ms
+03-Jan-2024 22:05:31.822 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+03-Jan-2024 22:05:31.844 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] de l'application web s'est terminé en [21] ms
+03-Jan-2024 22:05:31.844 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+03-Jan-2024 22:05:31.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] de l'application web s'est terminé en [31] ms
+03-Jan-2024 22:05:31.876 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+03-Jan-2024 22:05:32.103 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] de l'application web s'est terminé en [228] ms
+03-Jan-2024 22:05:32.103 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+03-Jan-2024 22:05:32.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] de l'application web s'est terminé en [16] ms
+03-Jan-2024 22:05:32.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+03-Jan-2024 22:05:32.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] de l'application web s'est terminé en [22] ms
+03-Jan-2024 22:05:32.144 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1918] millisecondes
+03-Jan-2024 22:05:32.149 SEVERE [main] org.apache.catalina.core.StandardServer.await Impossible de créer le sokcet d'arrêt du serveur à l'adresse [localhost] et au port [8005] (port de base [8005] et offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.Net.bind(Net.java:539)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:396)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:282)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+03-Jan-2024 22:05:32.150 INFO [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+03-Jan-2024 22:05:32.150 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+03-Jan-2024 22:05:32.179 INFO [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:05:32.180 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:06:04.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.82
+03-Jan-2024 22:06:04.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Oct 11 2023 13:15:08 UTC
+03-Jan-2024 22:06:04.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.82.0
+03-Jan-2024 22:06:04.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Mac OS X
+03-Jan-2024 22:06:04.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.16
+03-Jan-2024 22:06:04.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     x86_64
+03-Jan-2024 22:06:04.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        /Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home
+03-Jan-2024 22:06:04.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      15.0.2+7-27
+03-Jan-2024 22:06:04.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+03-Jan-2024 22:06:04.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:06:04.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:06:04.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Jan-2024 22:06:04.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+03-Jan-2024 22:06:04.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+03-Jan-2024 22:06:04.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Jan-2024 22:06:04.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Jan-2024 22:06:04.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+03-Jan-2024 22:06:04.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Jan-2024 22:06:04.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+03-Jan-2024 22:06:04.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Jan-2024 22:06:04.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Jan-2024 22:06:04.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+03-Jan-2024 22:06:04.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:06:04.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:06:04.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/temp
+03-Jan-2024 22:06:04.627 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [/Users/boujams/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+03-Jan-2024 22:06:04.896 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:06:04.924 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Echec d'initialisation du composant [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: L'initialisation du gestionnaire de protocole a échoué
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:249)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1326)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1339)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+03-Jan-2024 22:06:04.925 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [489] millisecondes
+03-Jan-2024 22:06:04.972 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+03-Jan-2024 22:06:04.973 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.82]
+03-Jan-2024 22:06:04.991 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] de l'application web
+03-Jan-2024 22:06:06.034 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+03-Jan-2024 22:06:06.618 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] s'est terminé en [1 626] ms
+03-Jan-2024 22:06:06.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+03-Jan-2024 22:06:06.645 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] de l'application web s'est terminé en [26] ms
+03-Jan-2024 22:06:06.645 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+03-Jan-2024 22:06:06.678 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] de l'application web s'est terminé en [32] ms
+03-Jan-2024 22:06:06.678 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+03-Jan-2024 22:06:06.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] de l'application web s'est terminé en [203] ms
+03-Jan-2024 22:06:06.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+03-Jan-2024 22:06:06.896 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] de l'application web s'est terminé en [15] ms
+03-Jan-2024 22:06:06.896 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+03-Jan-2024 22:06:06.922 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] de l'application web s'est terminé en [26] ms
+03-Jan-2024 22:06:06.925 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1999] millisecondes
+03-Jan-2024 22:06:30.715 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+03-Jan-2024 22:06:30.716 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+03-Jan-2024 22:06:30.750 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:06:30.752 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:07:06.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.82
+03-Jan-2024 22:07:06.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Oct 11 2023 13:15:08 UTC
+03-Jan-2024 22:07:06.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.82.0
+03-Jan-2024 22:07:06.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Mac OS X
+03-Jan-2024 22:07:06.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.16
+03-Jan-2024 22:07:06.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     x86_64
+03-Jan-2024 22:07:06.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        /Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home
+03-Jan-2024 22:07:06.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      15.0.2+7-27
+03-Jan-2024 22:07:06.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+03-Jan-2024 22:07:06.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:07:06.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:07:06.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Jan-2024 22:07:06.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+03-Jan-2024 22:07:06.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+03-Jan-2024 22:07:06.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Jan-2024 22:07:06.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Jan-2024 22:07:06.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+03-Jan-2024 22:07:06.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Jan-2024 22:07:06.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+03-Jan-2024 22:07:06.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Jan-2024 22:07:06.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Jan-2024 22:07:06.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+03-Jan-2024 22:07:06.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:07:06.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:07:06.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/temp
+03-Jan-2024 22:07:06.431 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [/Users/boujams/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+03-Jan-2024 22:07:06.665 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:07:06.692 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [436] millisecondes
+03-Jan-2024 22:07:06.729 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+03-Jan-2024 22:07:06.730 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.82]
+03-Jan-2024 22:07:06.743 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] de l'application web
+03-Jan-2024 22:07:07.817 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+03-Jan-2024 22:07:08.400 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] s'est terminé en [1 655] ms
+03-Jan-2024 22:07:08.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+03-Jan-2024 22:07:08.424 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] de l'application web s'est terminé en [23] ms
+03-Jan-2024 22:07:08.424 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+03-Jan-2024 22:07:08.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] de l'application web s'est terminé en [32] ms
+03-Jan-2024 22:07:08.457 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+03-Jan-2024 22:07:08.627 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] de l'application web s'est terminé en [170] ms
+03-Jan-2024 22:07:08.628 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+03-Jan-2024 22:07:08.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] de l'application web s'est terminé en [13] ms
+03-Jan-2024 22:07:08.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+03-Jan-2024 22:07:08.658 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] de l'application web s'est terminé en [16] ms
+03-Jan-2024 22:07:08.661 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:07:08.674 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1981] millisecondes
+03-Jan-2024 22:08:44.256 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+03-Jan-2024 22:08:44.266 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+03-Jan-2024 22:08:44.305 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:08:44.332 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:08:49.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.82
+03-Jan-2024 22:08:49.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Oct 11 2023 13:15:08 UTC
+03-Jan-2024 22:08:49.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.82.0
+03-Jan-2024 22:08:49.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Mac OS X
+03-Jan-2024 22:08:49.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.16
+03-Jan-2024 22:08:49.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     x86_64
+03-Jan-2024 22:08:49.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        /Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home
+03-Jan-2024 22:08:49.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      15.0.2+7-27
+03-Jan-2024 22:08:49.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+03-Jan-2024 22:08:49.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:08:49.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:08:49.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Jan-2024 22:08:49.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+03-Jan-2024 22:08:49.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+03-Jan-2024 22:08:49.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Jan-2024 22:08:49.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Jan-2024 22:08:49.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+03-Jan-2024 22:08:49.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Jan-2024 22:08:49.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+03-Jan-2024 22:08:49.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Jan-2024 22:08:49.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Jan-2024 22:08:49.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+03-Jan-2024 22:08:49.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:08:49.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:08:49.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/temp
+03-Jan-2024 22:08:49.280 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [/Users/boujams/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+03-Jan-2024 22:08:49.638 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:08:49.694 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [646] millisecondes
+03-Jan-2024 22:08:49.731 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+03-Jan-2024 22:08:49.731 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.82]
+03-Jan-2024 22:08:49.747 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] de l'application web
+03-Jan-2024 22:08:51.540 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+03-Jan-2024 22:08:52.658 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] s'est terminé en [2 909] ms
+03-Jan-2024 22:08:52.659 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+03-Jan-2024 22:08:52.684 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] de l'application web s'est terminé en [25] ms
+03-Jan-2024 22:08:52.685 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+03-Jan-2024 22:08:52.718 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] de l'application web s'est terminé en [34] ms
+03-Jan-2024 22:08:52.719 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+03-Jan-2024 22:08:53.026 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] de l'application web s'est terminé en [308] ms
+03-Jan-2024 22:08:53.026 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+03-Jan-2024 22:08:53.045 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] de l'application web s'est terminé en [18] ms
+03-Jan-2024 22:08:53.046 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+03-Jan-2024 22:08:53.088 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] de l'application web s'est terminé en [42] ms
+03-Jan-2024 22:08:53.090 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:08:53.104 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [3409] millisecondes
+03-Jan-2024 22:12:43.426 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+03-Jan-2024 22:12:43.434 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+03-Jan-2024 22:12:43.486 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:12:43.497 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:12:58.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.82
+03-Jan-2024 22:12:58.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Oct 11 2023 13:15:08 UTC
+03-Jan-2024 22:12:58.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.82.0
+03-Jan-2024 22:12:58.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Mac OS X
+03-Jan-2024 22:12:58.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.16
+03-Jan-2024 22:12:58.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     x86_64
+03-Jan-2024 22:12:58.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        /Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home
+03-Jan-2024 22:12:58.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      15.0.2+7-27
+03-Jan-2024 22:12:58.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+03-Jan-2024 22:12:58.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:12:58.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    /Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:12:58.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Jan-2024 22:12:58.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+03-Jan-2024 22:12:58.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+03-Jan-2024 22:12:58.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Jan-2024 22:12:58.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Jan-2024 22:12:58.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/conf/logging.properties
+03-Jan-2024 22:12:58.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Jan-2024 22:12:58.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+03-Jan-2024 22:12:58.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Jan-2024 22:12:58.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Jan-2024 22:12:58.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+03-Jan-2024 22:12:58.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:12:58.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82
+03-Jan-2024 22:12:58.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/temp
+03-Jan-2024 22:12:58.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Xdebug
+03-Jan-2024 22:12:58.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Xrunjdwp:transport=dt_socket,address=buku.home:53549,suspend=y
+03-Jan-2024 22:12:58.630 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [/Users/boujams/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+03-Jan-2024 22:12:58.996 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:12:59.158 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [794] millisecondes
+03-Jan-2024 22:12:59.197 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+03-Jan-2024 22:12:59.197 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.82]
+03-Jan-2024 22:12:59.216 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] de l'application web
+03-Jan-2024 22:13:00.615 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+03-Jan-2024 22:13:01.438 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/Train_Booking.war] s'est terminé en [2 220] ms
+03-Jan-2024 22:13:01.439 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs]
+03-Jan-2024 22:13:01.473 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/docs] de l'application web s'est terminé en [34] ms
+03-Jan-2024 22:13:01.474 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager]
+03-Jan-2024 22:13:01.515 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/manager] de l'application web s'est terminé en [42] ms
+03-Jan-2024 22:13:01.515 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples]
+03-Jan-2024 22:13:01.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/examples] de l'application web s'est terminé en [301] ms
+03-Jan-2024 22:13:01.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT]
+03-Jan-2024 22:13:01.837 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/ROOT] de l'application web s'est terminé en [20] ms
+03-Jan-2024 22:13:01.837 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager]
+03-Jan-2024 22:13:01.873 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/Users/boujams/Desktop/Smiyou/ENSIIE/2A/SIA/SIA-Midterm/apache-tomcat-9.0.82/webapps/host-manager] de l'application web s'est terminé en [35] ms
+03-Jan-2024 22:13:01.879 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:13:01.911 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [2752] millisecondes
+03-Jan-2024 22:15:24.062 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+03-Jan-2024 22:15:24.073 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+03-Jan-2024 22:15:24.126 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+03-Jan-2024 22:15:24.135 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]

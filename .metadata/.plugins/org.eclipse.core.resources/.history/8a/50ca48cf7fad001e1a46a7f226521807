@@ -1,0 +1,9 @@
+import db.MySQLAccess;
+
+public class TestBase {
+
+	public static void main(String[] args) {
+	    MySQLAccess dao = new MySQLAccess();
+	    dao.getStations();
+	}
+}
