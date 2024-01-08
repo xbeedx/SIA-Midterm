@@ -140,3 +140,13 @@
 0:0:0:0:0:0:0:1 - - [08/Jan/2024:22:04:24 +0100] "POST /axis2/services/BookingWS.BookingWSHttpSoap11Endpoint/ HTTP/1.1" 200 735
 0:0:0:0:0:0:0:1 - - [08/Jan/2024:22:05:16 +0100] "GET /axis2/services/BookingWS?wsdl HTTP/1.1" 200 18678
 0:0:0:0:0:0:0:1 - - [08/Jan/2024:22:05:16 +0100] "POST /axis2/services/BookingWS.BookingWSHttpSoap11Endpoint/ HTTP/1.1" 200 1127242
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:22:32:42 +0100] "GET /axis2/services/BookingWS?wsdl HTTP/1.1" 200 18678
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:22:32:43 +0100] "POST /axis2/services/BookingWS.BookingWSHttpSoap11Endpoint/ HTTP/1.1" 200 1127242
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:22:32:44 +0100] "GET /axis2/services/BookingWS?wsdl HTTP/1.1" 200 18678
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:22:32:44 +0100] "POST /axis2/services/BookingWS.BookingWSHttpSoap11Endpoint/ HTTP/1.1" 200 1127242
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:22:32:49 +0100] "POST /axis2/services/BookingWS.BookingWSHttpSoap11Endpoint/ HTTP/1.1" 200 728
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:22:33:23 +0100] "GET /axis2/services/BookingWS?wsdl HTTP/1.1" 200 18678
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:22:33:27 +0100] "POST /axis2/services/BookingWS.BookingWSHttpSoap11Endpoint/ HTTP/1.1" 200 1127242
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:22:33:33 +0100] "POST /axis2/services/BookingWS.BookingWSHttpSoap11Endpoint/ HTTP/1.1" 200 1127242
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:22:33:37 +0100] "POST /axis2/services/BookingWS.BookingWSHttpSoap11Endpoint/ HTTP/1.1" 200 1127242
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:22:33:37 +0100] "POST /axis2/services/BookingWS.BookingWSHttpSoap11Endpoint/ HTTP/1.1" 200 725

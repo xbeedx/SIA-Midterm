@@ -7,23 +7,45 @@ app = Flask(__name__)
 # Replace the URL with the actual endpoint URL of your web service
 wsdl_url = "http://localhost:8088/axis2/services/BookingWS?wsdl"
 
-client = Client(wsdl_url)
-stations = client.service.getStations()
+# Connect SOAP client
+try:
+    client = Client(wsdl_url)
+except Exception as e:
+    app.logger.error("Error initializing SOAP client: %s", str(e))
+    exit()
+
 stationArrivalId = ""
 
-
+# Fetch stations using the global client
+def get_stations():
+    try:
+        stations = client.service.getStations()
+        return stations
+    except Exception as e:
+        app.logger.error("Error getting stations: %s", str(e))
+        return []
+    
 @app.route('/')
 def home():
+    stations = get_stations()
     return render_template('index.html', stations=stations)
 
 @app.route('/selectArrival', methods=['GET'])
 def booking():
+    stations = get_stations()
+
     stationId = json.loads(request.args.get('station'))['station']
     request_data = {'stationId': stationId}
-    global stationArrivalId 
-    stationArrivalId = stationId
-    station = client.service.getStation(**request_data)
-    return render_template('booking.html', stations=stations, stationArrival=station)
+
+    # global stationArrivalId 
+    # stationArrivalId = stationId
+
+    try:
+        station = client.service.getStation(**request_data)
+        return render_template('booking.html', stations=stations, stationArrival=station)
+    except Exception as e:
+        app.logger.error("Error processing booking request: %s", str(e))
+        return "Error processing booking request"
 
 @app.route('/getTrains', methods=['POST'])
 def trains():
