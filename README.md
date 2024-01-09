@@ -36,3 +36,25 @@ Running on port 8081
 ```
 https://api.sncf.com/v1/coverage/sncf/stop_areas/stop_area:SNCF:87686006/departures
 ```
+
+## Docker and Migration
+
+To run the project using Docker and perform data migrations, use the following commands:
+
+1. Build and run the Docker container:
+    ```bash
+    make run_docker
+    ```
+
+2. Run data migration:
+    ```bash
+    make run_migration-data
+    ```
+
+## Postman
+
+Join our Postman team to explore and test the APIs: [Postman Team Invitation](https://app.getpostman.com/join-team?invite_code=b48fc3c44dd89efbf1fa6906f2360eb9&target_code=026a0c4e0b4d720e6d31e0234dc07284)
+
+Find the Postman collection file for API testing in the `/Postman` directory:
+
+- [BookingWS.postman_collection.json](./Postman/BookingWS.postman_collection.json)
