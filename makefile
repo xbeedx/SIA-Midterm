@@ -14,10 +14,10 @@ run_booking:
 	cp Train_Booking/build/BookingWS.aar apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services
 	cd apache-tomcat-9.0.82/bin && ./startup.sh
 
-run_docker: run_docker-config run_migration-data run_client
+# RUN DOCKER (DB, SOAP and REST) and Webpage
+run_docker: stop_docker stop_db stop_server run_docker-config run_migration-data run_client
 
-run_docker-config:
-	docker-compose down
+run_docker-config: stop_docker
 	docker-compose up --build -d
 
 run_migration-data:
@@ -27,6 +27,9 @@ run_migration-data:
 run_client:
 	sleep 2
 	cd WebPage && flask run  --debugger --port=8081
+
+stop_docker:
+	docker-compose down
 
 stop_server:
 	@echo "Stopping process using port 8088..."
@@ -57,4 +60,25 @@ stop_server:
 		echo "Process on port 8182 stopped."; \
 	else \
 		echo "No process found using port 8182."; \
+	fi
+
+stop_db:
+	@echo "Stopping process using port 3306..."
+	@PID=$$(lsof -ti :3306); \
+	if [ -n "$$PID" ]; then \
+		echo "Killing process $$PID..."; \
+		kill -9 $$PID; \
+		echo "Process stopped."; \
+	else \
+		echo "No process found using port 3306."; \
+	fi
+
+	@echo "Stopping process using port 8080..."
+	@PID=$$(lsof -ti :8080); \
+	if [ -n "$$PID" ]; then \
+		echo "Killing process $$PID..."; \
+		kill -9 $$PID; \
+		echo "Process stopped."; \
+	else \
+		echo "No process found using port 8080."; \
 	fi
