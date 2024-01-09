@@ -8,7 +8,7 @@ db_config = {
 }
 
 # Nom de la base de données à créer
-database_name = 'sia'
+database_name = 'SIA'
 
 # Charger le script SQL pour créer la base de données
 create_database_sql = f"CREATE DATABASE IF NOT EXISTS {database_name}"

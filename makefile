@@ -1,7 +1,7 @@
 all: stop_server run_servers run_client
 
 compile_filtering:
-	cd Train_Filtering/src/Filtering && javac -cp .:../../../restlet-jee-2.4.3/lib/org.restlet.jar:../../../restlet-jee-2.4.3/lib/org.restlet.ext.servlet.jar:../../../DataBase/mysql-connector-j-8.1.0.jar:. *.java
+	cd Train_Filtering/src/Filtering && javac -cp .:../../../restlet-jee-2.4.3/lib/org.restlet.jar:../../../restlet-jee-2.4.3/lib/org.restlet.ext.servlet.jar:../../../DataBase/mysql-connector-j-8.1.0.jar:. -source 1.8 -target 1.8 *.java
 
 run_servers: compile_filtering run_filtering run_booking
 
