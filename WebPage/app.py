@@ -12,7 +12,7 @@ try:
     client = Client(wsdl_url)
 except Exception as e:
     app.logger.error("Error initializing SOAP client: %s", str(e))
-    exit()
+    # exit()
 
 stationArrivalId = ""
 

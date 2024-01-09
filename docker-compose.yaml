@@ -25,28 +25,23 @@ services:
     depends_on:
       - mysql
 
-  filtering:
+  filtering-booking:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.filtering-booking
     ports:
       - "8088:8088"
-
-  booking:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
       - "8182:8182"
+    depends_on:
+      - mysql
 
   web:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.webpage
     env_file:
       - set-env-docker.sh
     ports:
       - "8081:8081"
     depends_on:
-      - filtering
-      - booking
+      - filtering-booking

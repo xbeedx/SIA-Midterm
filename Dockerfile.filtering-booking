@@ -1,0 +1,48 @@
+# Use a base image with OpenJDK
+FROM openjdk:8-jdk-alpine
+
+# Install Apache Ant manually
+RUN apk --no-cache add apache-ant
+
+# Set the working directory
+WORKDIR /app
+
+# Copy the source code into the container
+COPY Train_Booking /app/Train_Booking
+COPY Train_Filtering/src/Filtering /app/Filtering
+COPY axis2-1.8.2 /app/axis2-1.8.2
+COPY apache-tomcat-9.0.82 /app/apache-tomcat-9.0.82
+
+# Copy the Restlet library JAR files
+COPY restlet-jee-2.4.3/lib/org.restlet.jar /app
+COPY restlet-jee-2.4.3/lib/org.restlet.ext.servlet.jar /app
+
+# Copy external dependencies
+COPY DataBase/mysql-connector-j-8.1.0.jar /app
+
+# Source the environment script
+RUN echo "source /app/set-env-docker.sh" >> /etc/bash.bashrc
+ENV AXIS2_HOME=/app/axis2-1.8.2
+
+# Compile Java code for Filtering
+RUN javac -cp .:/app/org.restlet.jar:/app/org.restlet.ext.servlet.jar:/app/mysql-connector-j-8.1.0.jar:. -source 1.8 -target 1.8 /app/Filtering/*.java
+
+# Copy the Restlet library JAR file (2nd)
+COPY restlet-jee-2.4.3/lib/org.restlet.jar /app/restlet-jee-2.4.3/lib/org.restlet.jar
+
+# Compile and generate WSDL and service for Booking
+RUN ant -f /app/Train_Booking clean
+RUN ant -f /app/Train_Booking generate.wsdl
+RUN ant -f /app/Train_Booking generate.service
+
+# Copy the generated AAR file to Apache Tomcat for Booking
+RUN cp /app/Train_Booking/build/BookingWS.aar /app/apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services
+
+# Grant execute permission to the script
+RUN chmod +x /app/apache-tomcat-9.0.82/bin/startup.sh
+
+# Set the entry point to start Apache Tomcat for Booking
+ENTRYPOINT ["/app/apache-tomcat-9.0.82/bin/catalina.sh", "run"]
+
+# Set the command to run the Filtering component
+CMD ["java", "-cp", ".:/app/org.restlet.jar:/app/org.restlet.ext.servlet.jar:/app/mysql-connector-j-8.1.0.jar:/app", "Filtering.RESTDistributor"]

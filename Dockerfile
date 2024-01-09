@@ -7,13 +7,7 @@ WORKDIR /app
 COPY . /app/
 
 # Install dependencies
-RUN apt-get update \
-    && apt-get install -y \
-        lsof \
-        default-jdk \
-        ant \
-        make \
-        python3-pip
+RUN apt-get update && apt-get install -y lsof default-jdk ant make python3-pip
 
 # Install Flask and Zeep
 RUN pip install Flask zeep
