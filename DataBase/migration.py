@@ -40,9 +40,12 @@ try:
     execute_sql_script(cursor, 'createTables.sql')
     print("Tables créées avec succès.")
 
+    execute_sql_script(cursor, 'CreateTrains.sql')
+    print("Trains insérées avec succès.")
+
     # Insertion des stations en utilisant le script createStations.sql
-    # execute_sql_script(cursor, 'createStations.sql')
-    # print("Stations insérées avec succès.")
+    execute_sql_script(cursor, 'createStations.sql')
+    print("Stations insérées avec succès.")
 
     # Valider les changements dans la base de données
     connection.commit()

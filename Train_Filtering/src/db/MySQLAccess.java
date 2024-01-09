@@ -1,104 +1,104 @@
 package db;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
 import java.sql.Connection;
+import java.sql.Date;
+
+import objects.Reservation;
+import objects.Station;
+import objects.Train;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.Date;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MySQLAccess {
     private Connection connect = null;
     private Statement statement = null;
     private PreparedStatement preparedStatement = null;
     private ResultSet resultSet = null;
+    
+    public MySQLAccess() {
+    	try {
+    		Class.forName("com.mysql.jdbc.Driver");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/SIA?useSSL=false&serverTimezone=UTC&user=root&password=");
 
-    public void readDataBase() throws Exception {
-        try {
-            // This will load the MySQL driver, each DB has its own driver
-            Class.forName("com.mysql.jdbc.Driver");
-            // Setup the connection with the DB
-            // connect = DriverManager
-            //         .getConnection("jdbc:mysql://localhost/?"
-            //                 + "user=root&password=");
-            connect = DriverManager.getConnection("jdbc:mysql://mysql-container:3306/SIA?useSSL=false&serverTimezone=UTC&user=root&password=");
-
-            // Statements allow to issue SQL queries to the database
             statement = connect.createStatement();
-            // Result set get the result of the SQL query
-            resultSet = statement
-                    .executeQuery("select * from feedback.comments");
-            writeResultSet(resultSet);
+    	} catch (Exception e) {
+    		 System.out.println("Error during MySQLAccess initialization: " + e.getMessage());
+	        e.printStackTrace();
+    	}
+    }
 
-            // PreparedStatements can use variables and are more efficient
-            preparedStatement = connect
-                    .prepareStatement("insert into  feedback.comments values (default, ?, ?, ?, ? , ?, ?)");
-            // "myuser, webpage, datum, summary, COMMENTS from feedback.comments");
-            // Parameters start with 1
-            preparedStatement.setString(1, "Test");
-            preparedStatement.setString(2, "TestEmail");
-            preparedStatement.setString(3, "TestWebpage");
-            preparedStatement.setDate(4, new java.sql.Date(2009, 12, 11));
-            preparedStatement.setString(5, "TestSummary");
-            preparedStatement.setString(6, "TestComment");
-            preparedStatement.executeUpdate();
+    public List<Train> getTrains(String departureStation, String arrivalStation, String departureDate, String returnDate, String numTickets, String travelClass) {
+        List<Train> trains = new ArrayList<>();
+    
+        try {
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+            LocalDateTime parsedDepartureDate = LocalDate.parse(departureDate, formatter).atStartOfDay();
+            LocalDateTime parsedReturnDate = LocalDate.parse(returnDate, formatter).atStartOfDay().plusDays(1);
 
-            preparedStatement = connect
-                    .prepareStatement("SELECT myuser, webpage, datum, summary, COMMENTS from feedback.comments");
+            departureStation = URLDecoder.decode(departureStation, "UTF-8");
+            arrivalStation = URLDecoder.decode(arrivalStation, "UTF-8");
+            travelClass = URLDecoder.decode(travelClass, "UTF-8");
+
+            preparedStatement = connect.prepareStatement(
+                "SELECT * FROM Train " +
+                "WHERE DepartureStation = ? AND ArrivalStation = ? " +
+                "AND departureDate >= ? AND arrivalDate <= ? " +
+                "AND NumTickets >= ? AND TravelClass = ?"
+            );
+
+            // Set the parameters in the prepared statement
+            preparedStatement.setString(1, departureStation);
+            preparedStatement.setString(2, arrivalStation);
+            preparedStatement.setObject(3, parsedDepartureDate);
+            preparedStatement.setObject(4, parsedReturnDate);
+            preparedStatement.setString(5, numTickets);
+            preparedStatement.setString(6, travelClass);
+
+            System.out.println(preparedStatement.toString());
+    
+            // Execute the query
             resultSet = preparedStatement.executeQuery();
-            writeResultSet(resultSet);
 
-            // Remove again the insert comment
-            preparedStatement = connect
-            .prepareStatement("delete from feedback.comments where myuser= ? ; ");
-            preparedStatement.setString(1, "Test");
-            preparedStatement.executeUpdate();
+            System.out.println(resultSet.toString());
 
-            resultSet = statement
-            .executeQuery("select * from feedback.comments");
-            writeMetaData(resultSet);
+    
+            // Process the result set and populate the list of trains
+            while (resultSet.next()) {
+                int trainId = resultSet.getInt("TrainID");
+                String trainName = resultSet.getString("TrainName");
+                String resdepartureStation = resultSet.getString("departureStation");
+                String resarrivalStation = resultSet.getString("arrivalStation");
+                Date resdepartureDate = resultSet.getDate("departureDate");
+                Date resarrivalDate = resultSet.getDate("arrivalDate");
+                int resnumTickets = resultSet.getInt("numTickets");
+                String restravelClass = resultSet.getString("travelClass");
 
-        } catch (Exception e) {
-            throw e;
+                // Create a Train object and add it to the list
+                Train train = new Train(trainId, trainName, resdepartureStation, resarrivalStation, resdepartureDate, resarrivalDate, resnumTickets, restravelClass);
+                trains.add(train);
+            }
+        } catch (SQLException | UnsupportedEncodingException e) {
+            System.out.println("Error during getTrains: " + e.getMessage());
+            e.printStackTrace();
         } finally {
+            // Close the resources
             close();
         }
-
+    
+        return trains;
     }
-
-    private void writeMetaData(ResultSet resultSet) throws SQLException {
-        //  Now get some metadata from the database
-        // Result set get the result of the SQL query
-
-        System.out.println("The columns in the table are: ");
-
-        System.out.println("Table: " + resultSet.getMetaData().getTableName(1));
-        for  (int i = 1; i<= resultSet.getMetaData().getColumnCount(); i++){
-            System.out.println("Column " +i  + " "+ resultSet.getMetaData().getColumnName(i));
-        }
-    }
-
-    private void writeResultSet(ResultSet resultSet) throws SQLException {
-        // ResultSet is initially before the first data set
-        while (resultSet.next()) {
-            // It is possible to get the columns via name
-            // also possible to get the columns via the column number
-            // which starts at 1
-            // e.g. resultSet.getSTring(2);
-            String user = resultSet.getString("myuser");
-            String website = resultSet.getString("webpage");
-            String summary = resultSet.getString("summary");
-            Date date = resultSet.getDate("datum");
-            String comment = resultSet.getString("comments");
-            System.out.println("User: " + user);
-            System.out.println("Website: " + website);
-            System.out.println("summary: " + summary);
-            System.out.println("Date: " + date);
-            System.out.println("Comment: " + comment);
-        }
-    }
-
+    
     // You need to close the resultSet
     private void close() {
         try {

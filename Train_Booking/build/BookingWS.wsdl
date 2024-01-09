@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns="http://ws.booking" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ax21="http://objects/xsd" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" targetNamespace="http://ws.booking">
+    <wsdl:types>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://objects/xsd">
+            <xs:complexType name="Station">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="city" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="lat" type="xs:float"/>
+                    <xs:element minOccurs="0" name="lon" type="xs:float"/>
+                    <xs:element minOccurs="0" name="stationID" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="stationName" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="zipCode" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:schema>
+        <xs:schema xmlns:ax22="http://objects/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://ws.booking">
+            <xs:import namespace="http://objects/xsd"/>
+            <xs:element name="searchTrains">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="departureStation" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="arrivalStation" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="departureDate" nillable="true" type="xs:date"/>
+                        <xs:element minOccurs="0" name="returnDate" nillable="true" type="xs:date"/>
+                        <xs:element name="numTickets" type="xs:int"/>
+                        <xs:element minOccurs="0" name="travelClass" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="searchTrainsResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="reserveSeat">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element maxOccurs="unbounded" minOccurs="0" name="trainId" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="travelClass" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="ticketType" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="reserveSeatResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="return" type="xs:boolean"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="BookingWSException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="BookingWSException" nillable="true" type="ns:Exception"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:complexType name="Exception">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="getStations">
+                <xs:complexType>
+                    <xs:sequence/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getStationsResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="ax22:Station"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getStation">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="stationId" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getStationResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="ax22:Station"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="authenticateUser">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="username" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="authenticateUserResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="return" type="xs:boolean"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="authenticateUserRequest">
+        <wsdl:part name="parameters" element="ns:authenticateUser"/>
+    </wsdl:message>
+    <wsdl:message name="authenticateUserResponse">
+        <wsdl:part name="parameters" element="ns:authenticateUserResponse"/>
+    </wsdl:message>
+    <wsdl:message name="getStationRequest">
+        <wsdl:part name="parameters" element="ns:getStation"/>
+    </wsdl:message>
+    <wsdl:message name="getStationResponse">
+        <wsdl:part name="parameters" element="ns:getStationResponse"/>
+    </wsdl:message>
+    <wsdl:message name="BookingWSException">
+        <wsdl:part name="parameters" element="ns:BookingWSException"/>
+    </wsdl:message>
+    <wsdl:message name="getStationsRequest">
+        <wsdl:part name="parameters" element="ns:getStations"/>
+    </wsdl:message>
+    <wsdl:message name="getStationsResponse">
+        <wsdl:part name="parameters" element="ns:getStationsResponse"/>
+    </wsdl:message>
+    <wsdl:message name="searchTrainsRequest">
+        <wsdl:part name="parameters" element="ns:searchTrains"/>
+    </wsdl:message>
+    <wsdl:message name="searchTrainsResponse">
+        <wsdl:part name="parameters" element="ns:searchTrainsResponse"/>
+    </wsdl:message>
+    <wsdl:message name="reserveSeatRequest">
+        <wsdl:part name="parameters" element="ns:reserveSeat"/>
+    </wsdl:message>
+    <wsdl:message name="reserveSeatResponse">
+        <wsdl:part name="parameters" element="ns:reserveSeatResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="BookingWSPortType">
+        <wsdl:operation name="authenticateUser">
+            <wsdl:input message="ns:authenticateUserRequest" wsaw:Action="urn:authenticateUser"/>
+            <wsdl:output message="ns:authenticateUserResponse" wsaw:Action="urn:authenticateUserResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="getStation">
+            <wsdl:input message="ns:getStationRequest" wsaw:Action="urn:getStation"/>
+            <wsdl:output message="ns:getStationResponse" wsaw:Action="urn:getStationResponse"/>
+            <wsdl:fault message="ns:BookingWSException" name="BookingWSException" wsaw:Action="urn:getStationBookingWSException"/>
+        </wsdl:operation>
+        <wsdl:operation name="getStations">
+            <wsdl:input message="ns:getStationsRequest" wsaw:Action="urn:getStations"/>
+            <wsdl:output message="ns:getStationsResponse" wsaw:Action="urn:getStationsResponse"/>
+            <wsdl:fault message="ns:BookingWSException" name="BookingWSException" wsaw:Action="urn:getStationsBookingWSException"/>
+        </wsdl:operation>
+        <wsdl:operation name="searchTrains">
+            <wsdl:input message="ns:searchTrainsRequest" wsaw:Action="urn:searchTrains"/>
+            <wsdl:output message="ns:searchTrainsResponse" wsaw:Action="urn:searchTrainsResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="reserveSeat">
+            <wsdl:input message="ns:reserveSeatRequest" wsaw:Action="urn:reserveSeat"/>
+            <wsdl:output message="ns:reserveSeatResponse" wsaw:Action="urn:reserveSeatResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="BookingWSSoap11Binding" type="ns:BookingWSPortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="authenticateUser">
+            <soap:operation soapAction="urn:authenticateUser" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getStation">
+            <soap:operation soapAction="urn:getStation" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="BookingWSException">
+                <soap:fault use="literal" name="BookingWSException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="getStations">
+            <soap:operation soapAction="urn:getStations" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="BookingWSException">
+                <soap:fault use="literal" name="BookingWSException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="searchTrains">
+            <soap:operation soapAction="urn:searchTrains" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="reserveSeat">
+            <soap:operation soapAction="urn:reserveSeat" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="BookingWSSoap12Binding" type="ns:BookingWSPortType">
+        <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="authenticateUser">
+            <soap12:operation soapAction="urn:authenticateUser" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getStation">
+            <soap12:operation soapAction="urn:getStation" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="BookingWSException">
+                <soap12:fault use="literal" name="BookingWSException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="getStations">
+            <soap12:operation soapAction="urn:getStations" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="BookingWSException">
+                <soap12:fault use="literal" name="BookingWSException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="searchTrains">
+            <soap12:operation soapAction="urn:searchTrains" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="reserveSeat">
+            <soap12:operation soapAction="urn:reserveSeat" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="BookingWSHttpBinding" type="ns:BookingWSPortType">
+        <http:binding verb="POST"/>
+        <wsdl:operation name="authenticateUser">
+            <http:operation location="authenticateUser"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getStation">
+            <http:operation location="getStation"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+            <wsdl:fault name="BookingWSException"/>
+        </wsdl:operation>
+        <wsdl:operation name="getStations">
+            <http:operation location="getStations"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+            <wsdl:fault name="BookingWSException"/>
+        </wsdl:operation>
+        <wsdl:operation name="searchTrains">
+            <http:operation location="searchTrains"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="reserveSeat">
+            <http:operation location="reserveSeat"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="BookingWS">
+        <wsdl:port name="BookingWSHttpSoap11Endpoint" binding="ns:BookingWSSoap11Binding">
+            <soap:address location="http://localhost:8080/axis2/services/BookingWS"/>
+        </wsdl:port>
+        <wsdl:port name="BookingWSHttpSoap12Endpoint" binding="ns:BookingWSSoap12Binding">
+            <soap12:address location="http://localhost:8080/axis2/services/BookingWS"/>
+        </wsdl:port>
+        <wsdl:port name="BookingWSHttpEndpoint" binding="ns:BookingWSHttpBinding">
+            <http:address location="http://localhost:8080/axis2/services/BookingWS"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

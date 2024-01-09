@@ -1,6 +1,6 @@
 USE SIA;
 -- Create the User table
-CREATE TABLE `User` (
+CREATE TABLE IF NOT EXISTS `User` (
     UserID INT PRIMARY KEY,
     Username VARCHAR(255) NOT NULL,
     Password VARCHAR(255) NOT NULL,
@@ -10,7 +10,7 @@ CREATE TABLE `User` (
 );
 
 -- Create the Station table
-CREATE TABLE Station (
+CREATE TABLE IF NOT EXISTS Station (
     StationID VARCHAR(255) PRIMARY KEY,
     StationName VARCHAR(255) NOT NULL,
     City VARCHAR(255) NOT NULL,
@@ -20,7 +20,7 @@ CREATE TABLE Station (
 );
 
 -- Create the Reservations table
-CREATE TABLE Reservation (
+CREATE TABLE IF NOT EXISTS Reservation (
     ReservationID INT PRIMARY KEY,
     TrainID VARCHAR(255),
     TrainName VARCHAR(255),
@@ -31,4 +31,16 @@ CREATE TABLE Reservation (
     ArrivalStopName VARCHAR(255),
     DepartureTime DATETIME,
     ArrivalTime DATETIME
+);
+
+-- Create the Train table
+CREATE TABLE IF NOT EXISTS Train (
+    TrainID INT PRIMARY KEY,
+    TrainName VARCHAR(255),
+    DepartureStation VARCHAR(255),
+    ArrivalStation VARCHAR(255),
+    departureDate DATETIME,
+    arrivalDate DATETIME,
+    NumTickets INT,
+    TravelClass VARCHAR(20)
 );

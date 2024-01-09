@@ -4,6 +4,7 @@ import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.restlet.representation.Representation;
 import org.restlet.resource.ClientResource;
 import org.restlet.resource.ResourceException;
 
@@ -14,9 +15,8 @@ import objects.Train;
 public class BookingWS {
 
 	public boolean authenticateUser(String username, String password) {
-        // Implémenter la logique d'authentification
-        // Retourner true si l'authentification réussit, sinon false
-		return true;
+		MySQLAccess dao = new MySQLAccess();
+		return dao.authenticateUser(username,password);
     }
 
 	public List<Station> getStations() throws Exception {
@@ -29,28 +29,34 @@ public class BookingWS {
 		return dao.getStation(stationId);
     }
 
-	public List<Train> searchTrains(String departureStation, String arrivalStation, Date departureDate, Date returnDate, int numTickets, String travelClass) {
-        // Implémenter la logique de recherche de trains
-        // Exemple simplifié : retourner une liste statique de trains
-        List<Train> availableTrains = new ArrayList<>();
-        // Ajouter d'autres trains
-        return availableTrains;
-    }
+	public String searchTrains(String departureStation, String arrivalStation, Date departureDate, Date returnDate, int numTickets, String travelClass) {
 
-	public boolean reserveSeat(List<String> trainIds, String travelClass) {
-        // Implémenter la logique de réservation de sièges
-        // Exemple simplifié : toujours retourner true pour cet exemple
+		String apiUrl = String.format("http://localhost:8182/trains/departureStation=%s&arrivalStation=%s" +
+                            "&departureDate=%s&returnDate=%s&numTickets=%d&travelClass=%s",
+                    departureStation, arrivalStation, departureDate, returnDate,
+                    numTickets, travelClass);
+       ClientResource resource = new ClientResource(apiUrl);
+		try {
+        	String trains = resource.get().getText();
+			return trains;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}  
+		return "";
+	}
+
+	public boolean reserveSeat(List<String> trainId, String travelClass, String ticketType) {
+		String apiUrl = String.format("http://localhost:8182/reserve/trainId=%s&travelClass=%s&ticketType=%s",
+					trainId, travelClass, ticketType);
+		ClientResource resource = new ClientResource(apiUrl);
+		try {
+			String result = resource.get().getText();
+			if (result.equals("true")) {
+				return true;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
         return true;
     }
-	
-	public String sayTchouTchou() {
-		ClientResource resource = new ClientResource("http://localhost:8182/trains");
-		try {
-			return resource.get().getText();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			return e.toString();
-		}  
-
-	}
 }
