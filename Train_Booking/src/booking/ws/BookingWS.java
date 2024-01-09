@@ -14,55 +14,55 @@ import objects.Train;
 
 public class BookingWS {
 
-	public String authenticateUser(String username, String password) {
-		MySQLAccess dao = new MySQLAccess();
-		return dao.authenticateUser(username,password);
+    private static final String TRAINS_API_URL = "http://localhost:8182/trains/";
+    private static final String BOOK_SEAT_API_URL = "http://localhost:8182/book/";
+
+    public String authenticateUser(String username, String password) {
+        MySQLAccess dao = new MySQLAccess();
+        return dao.authenticateUser(username, password);
     }
 
-	public String createUser(String username, String password)
-	{
-		MySQLAccess dao = new MySQLAccess();
-		return dao.createUser(username,password);
-	}
-
-	public List<Station> getStations() throws Exception {
-		MySQLAccess dao = new MySQLAccess();
-		return dao.getStations();
+    public String createUser(String username, String password) {
+        MySQLAccess dao = new MySQLAccess();
+        return dao.createUser(username, password);
     }
 
-	public Station getStation(String stationId) throws Exception {
-		MySQLAccess dao = new MySQLAccess();
-		return dao.getStation(stationId);
+    public List<Station> getStations() throws Exception {
+        MySQLAccess dao = new MySQLAccess();
+        return dao.getStations();
     }
 
-	public String searchTrains(String departureStation, String arrivalStation, Date departureDate, Date returnDate, int numTickets, String travelClass) {
+    public Station getStation(String stationId) throws Exception {
+        MySQLAccess dao = new MySQLAccess();
+        return dao.getStation(stationId);
+    }
 
-		String apiUrl = String.format("http://localhost:8182/trains/departureStation=%s&arrivalStation=%s" +
-                            "&departureDate=%s&returnDate=%s&numTickets=%d&travelClass=%s",
-                    departureStation, arrivalStation, departureDate, returnDate,
-                    numTickets, travelClass);
-       ClientResource resource = new ClientResource(apiUrl);
-		try {
-        	String trains = resource.get().getText();
-			return trains;
-		} catch (Exception e) {
-			e.printStackTrace();
-		}  
-		return "";
-	}
+    public String searchTrains(String departureStation, String arrivalStation, Date departureDate, Date returnDate, int numTickets, String travelClass) {
+        // String apiUrl = String.format("%sdepartureStation=%s&arrivalStation=%s&departureDate=%s&returnDate=%s&numTickets=%d&travelClass=%s",
+        //         TRAINS_API_URL, departureStation, arrivalStation, departureDate, returnDate, numTickets, travelClass);
 
-	public boolean bookSeat(String userId, String trainId, String travelClass, String ticketType) {
-		String apiUrl = String.format("http://localhost:8182/book/trainId=%s&travelClass=%s&ticketType=%s",
-					trainId, travelClass, ticketType);
+		String apiUrl = String.format("%s%s/%s/%s/%s/%d/%s",
+                TRAINS_API_URL, departureStation, arrivalStation, departureDate, returnDate, numTickets, travelClass);
+
 		ClientResource resource = new ClientResource(apiUrl);
-		try {
-			String result = resource.get().getText();
-			if (result.equals("true")) {
-				return true;
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-        return true;
+        try {
+            return resource.get().getText();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return "Error: " + e.getMessage();
+        }
+    }
+
+    public boolean bookSeat(String userId, String trainId, String travelClass, String ticketType) {
+        String apiUrl = String.format("%strainId=%s&travelClass=%s&ticketType=%s", BOOK_SEAT_API_URL, trainId, travelClass, ticketType);
+
+		ClientResource resource = new ClientResource(apiUrl);
+        try {
+            String result = resource.get().getText();
+            return "true".equals(result);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
     }
 }

@@ -8,7 +8,8 @@ DROP TABLE IF EXISTS User;
 
 -- Create the User table
 CREATE TABLE IF NOT EXISTS `User` (
-    UserID INT PRIMARY KEY,
+    -- UserID INT PRIMARY KEY,
+    UserID VARCHAR(36) PRIMARY KEY,
     Username VARCHAR(255) NOT NULL,
     Password VARCHAR(255) NOT NULL
 );

@@ -75,7 +75,8 @@ public class MySQLAccess {
         } catch (Exception e) {
             System.out.println("Error during MySQLAccess.createUser: " + e.getMessage());
             e.printStackTrace();
-            return "";
+            // return "Error creating user: " + e.getMessage();
+            return "Error creating user";
         } finally {
             close();
         }
