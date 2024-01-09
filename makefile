@@ -1,3 +1,4 @@
+# RUN IN TERMINAL (DB, SOAP and REST) and Webpage
 all: stop_server run_servers run_client
 
 compile_filtering:
@@ -5,7 +6,6 @@ compile_filtering:
 
 run_servers: compile_filtering run_filtering run_booking
 
-# cd Train_Filtering/src/ && java -cp .:../../restlet-jee-2.4.3/lib/org.restlet.jar:../../restlet-jee-2.4.3/lib/org.restlet.ext.servlet.jar:../../DataBase/mysql-connector-j-8.1.0.jar Filtering.RESTDistributor &
 run_filtering: 
 	cd Train_Filtering/src/ && java -cp .:../../restlet-jee-2.4.3/lib/org.restlet.jar:../../restlet-jee-2.4.3/lib/org.restlet.ext.servlet.jar:../../DataBase/mysql-connector-j-8.1.0.jar Filtering.RESTDistributor &
 
@@ -14,24 +14,24 @@ run_booking:
 	cp Train_Booking/build/BookingWS.aar apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services
 	cd apache-tomcat-9.0.82/bin && ./startup.sh
 
-# RUN DOCKER (DB, SOAP and REST) and Webpage
-run_docker: stop_docker kill_processus run_docker-config run_client
+# RUN WITH DOCKER (DB, SOAP and REST) and Webpage
+run_docker: kill_processus run_docker-config run_client
+
+# RUN MIGRATION
+run_migration-data:
+	cd  DataBase && python3 migration.py
 
 run_docker-config: stop_docker
 	docker-compose up --build -d
-
-run_migration-data:
-	cd  DataBase && python3 migration.py
 
 run_client:
 	sleep 2
 	cd WebPage && flask run  --debugger --port=8081
 
+kill_processus: stop_docker stop_server stop_db
+
 stop_docker:
 	docker-compose down
-
-# avoid - destroy Docker
-kill_processus: stop_server stop_db
 
 stop_server:
 	@echo "Stopping process using port 8088..."
