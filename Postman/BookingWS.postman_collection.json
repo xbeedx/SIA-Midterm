@@ -9,7 +9,7 @@
 	},
 	"item": [
 		{
-			"name": "BookingWSHttpSoap11Endpoint",
+			"name": "BookingWSHttpSoapEndpoint",
 			"item": [
 				{
 					"name": "bookSeat",
@@ -426,7 +426,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:searchTrains xmlns:ns=\"http://ws.booking\">\n      <ns:departureStation>string</ns:departureStation>\n      <ns:arrivalStation>string</ns:arrivalStation>\n      <ns:departureDate>2024-01-09Z</ns:departureDate>\n      <ns:returnDate>2024-01-09Z</ns:returnDate>\n      <ns:numTickets>100</ns:numTickets>\n      <ns:travelClass>string</ns:travelClass>\n    </ns:searchTrains>\n  </soap:Body>\n</soap:Envelope>\n",
+							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:searchTrains xmlns:ns=\"http://ws.booking\">\n      <ns:departureStation>stop_area:SNCF:87182113</ns:departureStation>\n      <ns:arrivalStation>stop_area:SNCF:80359331</ns:arrivalStation>\n      <ns:departureDate>2024-01-15</ns:departureDate>\n      <ns:returnDate>2024-01-15</ns:returnDate>\n      <ns:numTickets>1</ns:numTickets>\n      <ns:travelClass>Second Class</ns:travelClass>\n    </ns:searchTrains>\n  </soap:Body>\n</soap:Envelope>\n",
 							"options": {
 								"raw": {
 									"language": "xml"
@@ -474,141 +474,6 @@
 							"body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:searchTrainsResponse xmlns:ns=\"http://ws.booking\">\n      <ns:return>string</ns:return>\n    </ns:searchTrainsResponse>\n  </soap:Body>\n</soap:Envelope>\n"
 						}
 					]
-				}
-			]
-		},
-		{
-			"name": "BookingWSHttpSoap12Endpoint",
-			"item": [
-				{
-					"name": "bookSeat",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "text/xml; charset=utf-8"
-							},
-							{
-								"key": "SOAPAction",
-								"value": "urn:bookSeat"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:bookSeat xmlns:ns=\"http://ws.booking\">\n      <ns:userId>string</ns:userId>\n      <ns:trainId>string</ns:trainId>\n      <ns:travelClass>string</ns:travelClass>\n      <ns:ticketType>string</ns:ticketType>\n    </ns:bookSeat>\n  </soap12:Body>\n</soap12:Envelope>\n",
-							"options": {
-								"raw": {
-									"language": "xml"
-								}
-							}
-						},
-						"url": "{{BookingWSHttpSoap12EndpointBaseUrl}}/axis2/services/BookingWS"
-					},
-					"response": [
-						{
-							"name": "bookSeat response",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"value": "text/xml; charset=utf-8"
-									},
-									{
-										"key": "SOAPAction",
-										"value": "urn:bookSeat"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:bookSeat xmlns:ns=\"http://ws.booking\">\n      <ns:userId>string</ns:userId>\n      <ns:trainId>string</ns:trainId>\n      <ns:travelClass>string</ns:travelClass>\n      <ns:ticketType>string</ns:ticketType>\n    </ns:bookSeat>\n  </soap12:Body>\n</soap12:Envelope>\n",
-									"options": {
-										"raw": {
-											"language": "xml"
-										}
-									}
-								},
-								"url": "http://localhost:8088/axis2/services/BookingWS"
-							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "xml",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "text/xml; charset=utf-8"
-								}
-							],
-							"cookie": [],
-							"body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:bookSeatResponse xmlns:ns=\"http://ws.booking\">\n      <ns:return>true</ns:return>\n    </ns:bookSeatResponse>\n  </soap12:Body>\n</soap12:Envelope>\n"
-						}
-					]
-				},
-				{
-					"name": "authenticateUser",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "text/xml; charset=utf-8"
-							},
-							{
-								"key": "SOAPAction",
-								"value": "urn:authenticateUser"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:authenticateUser xmlns:ns=\"http://ws.booking\">\n      <ns:username>string</ns:username>\n      <ns:password>string</ns:password>\n    </ns:authenticateUser>\n  </soap12:Body>\n</soap12:Envelope>\n",
-							"options": {
-								"raw": {
-									"language": "xml"
-								}
-							}
-						},
-						"url": "{{BookingWSHttpSoap12EndpointBaseUrl}}/axis2/services/BookingWS"
-					},
-					"response": [
-						{
-							"name": "authenticateUser response",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"value": "text/xml; charset=utf-8"
-									},
-									{
-										"key": "SOAPAction",
-										"value": "urn:authenticateUser"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:authenticateUser xmlns:ns=\"http://ws.booking\">\n      <ns:username>string</ns:username>\n      <ns:password>string</ns:password>\n    </ns:authenticateUser>\n  </soap12:Body>\n</soap12:Envelope>\n",
-									"options": {
-										"raw": {
-											"language": "xml"
-										}
-									}
-								},
-								"url": "http://localhost:8088/axis2/services/BookingWS"
-							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "xml",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "text/xml; charset=utf-8"
-								}
-							],
-							"cookie": [],
-							"body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:authenticateUserResponse xmlns:ns=\"http://ws.booking\">\n      <ns:return>string</ns:return>\n    </ns:authenticateUserResponse>\n  </soap12:Body>\n</soap12:Envelope>\n"
-						}
-					]
 				},
 				{
 					"name": "getStation",
@@ -626,181 +491,14 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:getStation xmlns:ns=\"http://ws.booking\">\n      <ns:stationId>string</ns:stationId>\n    </ns:getStation>\n  </soap12:Body>\n</soap12:Envelope>\n",
+							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:getStations xmlns:ns=\"http://ws.booking\">\n      <ns:stationId>stop_area:SNCF:71043075</ns:stationId>\n    </ns:getStations>\n  </soap:Body>\n</soap:Envelope>\n",
 							"options": {
 								"raw": {
 									"language": "xml"
 								}
 							}
 						},
-						"url": "{{BookingWSHttpSoap12EndpointBaseUrl}}/axis2/services/BookingWS"
-					},
-					"response": [
-						{
-							"name": "getStation response",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"value": "text/xml; charset=utf-8"
-									},
-									{
-										"key": "SOAPAction",
-										"value": "urn:getStation"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:getStation xmlns:ns=\"http://ws.booking\">\n      <ns:stationId>string</ns:stationId>\n    </ns:getStation>\n  </soap12:Body>\n</soap12:Envelope>\n",
-									"options": {
-										"raw": {
-											"language": "xml"
-										}
-									}
-								},
-								"url": "http://localhost:8088/axis2/services/BookingWS"
-							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "xml",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "text/xml; charset=utf-8"
-								}
-							],
-							"cookie": [],
-							"body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:getStationResponse xmlns:ns=\"http://ws.booking\">\n      <ns:return>\n        <ns:city>string</ns:city>\n        <ns:lat>88</ns:lat>\n        <ns:lon>50</ns:lon>\n        <ns:stationID>string</ns:stationID>\n        <ns:stationName>string</ns:stationName>\n        <ns:zipCode>string</ns:zipCode>\n      </ns:return>\n    </ns:getStationResponse>\n  </soap12:Body>\n</soap12:Envelope>\n"
-						},
-						{
-							"name": "getStation fault - BookingWSException",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"value": "text/xml; charset=utf-8"
-									},
-									{
-										"key": "SOAPAction",
-										"value": "urn:getStation"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "incorrect body message",
-									"options": {
-										"raw": {
-											"language": "xml"
-										}
-									}
-								},
-								"url": "http://localhost:8088/axis2/services/BookingWS"
-							},
-							"status": "not OK",
-							"code": 500,
-							"_postman_previewlanguage": "xml",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "text/xml; charset=utf-8"
-								}
-							],
-							"cookie": [],
-							"body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:BookingWSException xmlns:ns=\"http://ws.booking\">\n      <ns:BookingWSException>\n        <ns:Message>string</ns:Message>\n      </ns:BookingWSException>\n    </ns:BookingWSException>\n  </soap12:Body>\n</soap12:Envelope>\n"
-						}
-					]
-				},
-				{
-					"name": "createUser",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "text/xml; charset=utf-8"
-							},
-							{
-								"key": "SOAPAction",
-								"value": "urn:createUser"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:createUser xmlns:ns=\"http://ws.booking\">\n      <ns:username>string</ns:username>\n      <ns:password>string</ns:password>\n    </ns:createUser>\n  </soap12:Body>\n</soap12:Envelope>\n",
-							"options": {
-								"raw": {
-									"language": "xml"
-								}
-							}
-						},
-						"url": "{{BookingWSHttpSoap12EndpointBaseUrl}}/axis2/services/BookingWS"
-					},
-					"response": [
-						{
-							"name": "createUser response",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"value": "text/xml; charset=utf-8"
-									},
-									{
-										"key": "SOAPAction",
-										"value": "urn:createUser"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:createUser xmlns:ns=\"http://ws.booking\">\n      <ns:username>string</ns:username>\n      <ns:password>string</ns:password>\n    </ns:createUser>\n  </soap12:Body>\n</soap12:Envelope>\n",
-									"options": {
-										"raw": {
-											"language": "xml"
-										}
-									}
-								},
-								"url": "http://localhost:8088/axis2/services/BookingWS"
-							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "xml",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "text/xml; charset=utf-8"
-								}
-							],
-							"cookie": [],
-							"body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:createUserResponse xmlns:ns=\"http://ws.booking\">\n      <ns:return>string</ns:return>\n    </ns:createUserResponse>\n  </soap12:Body>\n</soap12:Envelope>\n"
-						}
-					]
-				},
-				{
-					"name": "getStations",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "text/xml; charset=utf-8"
-							},
-							{
-								"key": "SOAPAction",
-								"value": "urn:getStations"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:getStations xmlns:ns=\"http://ws.booking\"/>\n  </soap12:Body>\n</soap12:Envelope>\n",
-							"options": {
-								"raw": {
-									"language": "xml"
-								}
-							}
-						},
-						"url": "{{BookingWSHttpSoap12EndpointBaseUrl}}/axis2/services/BookingWS"
+						"url": "{{BookingWSHttpSoap11EndpointBaseUrl}}/axis2/services/BookingWS"
 					},
 					"response": [
 						{
@@ -815,431 +513,6 @@
 									{
 										"key": "SOAPAction",
 										"value": "urn:getStations"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:getStations xmlns:ns=\"http://ws.booking\"/>\n  </soap12:Body>\n</soap12:Envelope>\n",
-									"options": {
-										"raw": {
-											"language": "xml"
-										}
-									}
-								},
-								"url": "http://localhost:8088/axis2/services/BookingWS"
-							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "xml",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "text/xml; charset=utf-8"
-								}
-							],
-							"cookie": [],
-							"body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:getStationsResponse xmlns:ns=\"http://ws.booking\">\n      <ns:return>\n        <ns:city>string</ns:city>\n        <ns:lat>15</ns:lat>\n        <ns:lon>11</ns:lon>\n        <ns:stationID>string</ns:stationID>\n        <ns:stationName>string</ns:stationName>\n        <ns:zipCode>string</ns:zipCode>\n      </ns:return>\n    </ns:getStationsResponse>\n  </soap12:Body>\n</soap12:Envelope>\n"
-						},
-						{
-							"name": "getStations fault - BookingWSException",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"value": "text/xml; charset=utf-8"
-									},
-									{
-										"key": "SOAPAction",
-										"value": "urn:getStations"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "incorrect body message",
-									"options": {
-										"raw": {
-											"language": "xml"
-										}
-									}
-								},
-								"url": "http://localhost:8088/axis2/services/BookingWS"
-							},
-							"status": "not OK",
-							"code": 500,
-							"_postman_previewlanguage": "xml",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "text/xml; charset=utf-8"
-								}
-							],
-							"cookie": [],
-							"body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:BookingWSException xmlns:ns=\"http://ws.booking\">\n      <ns:BookingWSException>\n        <ns:Message>string</ns:Message>\n      </ns:BookingWSException>\n    </ns:BookingWSException>\n  </soap12:Body>\n</soap12:Envelope>\n"
-						}
-					]
-				},
-				{
-					"name": "searchTrains",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "text/xml; charset=utf-8"
-							},
-							{
-								"key": "SOAPAction",
-								"value": "urn:searchTrains"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:searchTrains xmlns:ns=\"http://ws.booking\">\n      <ns:departureStation>string</ns:departureStation>\n      <ns:arrivalStation>string</ns:arrivalStation>\n      <ns:departureDate>2024-01-09Z</ns:departureDate>\n      <ns:returnDate>2024-01-09Z</ns:returnDate>\n      <ns:numTickets>100</ns:numTickets>\n      <ns:travelClass>string</ns:travelClass>\n    </ns:searchTrains>\n  </soap12:Body>\n</soap12:Envelope>\n",
-							"options": {
-								"raw": {
-									"language": "xml"
-								}
-							}
-						},
-						"url": "{{BookingWSHttpSoap12EndpointBaseUrl}}/axis2/services/BookingWS"
-					},
-					"response": [
-						{
-							"name": "searchTrains response",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"value": "text/xml; charset=utf-8"
-									},
-									{
-										"key": "SOAPAction",
-										"value": "urn:searchTrains"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:searchTrains xmlns:ns=\"http://ws.booking\">\n      <ns:departureStation>string</ns:departureStation>\n      <ns:arrivalStation>string</ns:arrivalStation>\n      <ns:departureDate>2024-01-09Z</ns:departureDate>\n      <ns:returnDate>2024-01-09Z</ns:returnDate>\n      <ns:numTickets>100</ns:numTickets>\n      <ns:travelClass>string</ns:travelClass>\n    </ns:searchTrains>\n  </soap12:Body>\n</soap12:Envelope>\n",
-									"options": {
-										"raw": {
-											"language": "xml"
-										}
-									}
-								},
-								"url": "http://localhost:8088/axis2/services/BookingWS"
-							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "xml",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "text/xml; charset=utf-8"
-								}
-							],
-							"cookie": [],
-							"body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <ns:searchTrainsResponse xmlns:ns=\"http://ws.booking\">\n      <ns:return>string</ns:return>\n    </ns:searchTrainsResponse>\n  </soap12:Body>\n</soap12:Envelope>\n"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "BookingWSHttpEndpoint",
-			"item": [
-				{
-					"name": "bookSeat",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "text/xml; charset=utf-8"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:bookSeat xmlns:ns=\"http://ws.booking\">\n      <ns:userId>string</ns:userId>\n      <ns:trainId>string</ns:trainId>\n      <ns:travelClass>string</ns:travelClass>\n      <ns:ticketType>string</ns:ticketType>\n    </ns:bookSeat>\n  </soap:Body>\n</soap:Envelope>\n",
-							"options": {
-								"raw": {
-									"language": "xml"
-								}
-							}
-						},
-						"url": "{{BookingWSHttpEndpointBaseUrl}}/axis2/services/BookingWSbookSeat"
-					},
-					"response": [
-						{
-							"name": "bookSeat response",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"value": "text/xml; charset=utf-8"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:bookSeat xmlns:ns=\"http://ws.booking\">\n      <ns:userId>string</ns:userId>\n      <ns:trainId>string</ns:trainId>\n      <ns:travelClass>string</ns:travelClass>\n      <ns:ticketType>string</ns:ticketType>\n    </ns:bookSeat>\n  </soap:Body>\n</soap:Envelope>\n",
-									"options": {
-										"raw": {
-											"language": "xml"
-										}
-									}
-								},
-								"url": "http://localhost:8088/axis2/services/BookingWSbookSeat"
-							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "xml",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "text/xml; charset=utf-8"
-								}
-							],
-							"cookie": [],
-							"body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:bookSeatResponse xmlns:ns=\"http://ws.booking\">\n      <ns:return>true</ns:return>\n    </ns:bookSeatResponse>\n  </soap:Body>\n</soap:Envelope>\n"
-						}
-					]
-				},
-				{
-					"name": "authenticateUser",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "text/xml; charset=utf-8"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:authenticateUser xmlns:ns=\"http://ws.booking\">\n      <ns:username>string</ns:username>\n      <ns:password>string</ns:password>\n    </ns:authenticateUser>\n  </soap:Body>\n</soap:Envelope>\n",
-							"options": {
-								"raw": {
-									"language": "xml"
-								}
-							}
-						},
-						"url": "{{BookingWSHttpEndpointBaseUrl}}/axis2/services/BookingWSauthenticateUser"
-					},
-					"response": [
-						{
-							"name": "authenticateUser response",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"value": "text/xml; charset=utf-8"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:authenticateUser xmlns:ns=\"http://ws.booking\">\n      <ns:username>string</ns:username>\n      <ns:password>string</ns:password>\n    </ns:authenticateUser>\n  </soap:Body>\n</soap:Envelope>\n",
-									"options": {
-										"raw": {
-											"language": "xml"
-										}
-									}
-								},
-								"url": "http://localhost:8088/axis2/services/BookingWSauthenticateUser"
-							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "xml",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "text/xml; charset=utf-8"
-								}
-							],
-							"cookie": [],
-							"body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:authenticateUserResponse xmlns:ns=\"http://ws.booking\">\n      <ns:return>string</ns:return>\n    </ns:authenticateUserResponse>\n  </soap:Body>\n</soap:Envelope>\n"
-						}
-					]
-				},
-				{
-					"name": "getStation",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "text/xml; charset=utf-8"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:getStation xmlns:ns=\"http://ws.booking\">\n      <ns:stationId>string</ns:stationId>\n    </ns:getStation>\n  </soap:Body>\n</soap:Envelope>\n",
-							"options": {
-								"raw": {
-									"language": "xml"
-								}
-							}
-						},
-						"url": "{{BookingWSHttpEndpointBaseUrl}}/axis2/services/BookingWSgetStation"
-					},
-					"response": [
-						{
-							"name": "getStation response",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"value": "text/xml; charset=utf-8"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:getStation xmlns:ns=\"http://ws.booking\">\n      <ns:stationId>string</ns:stationId>\n    </ns:getStation>\n  </soap:Body>\n</soap:Envelope>\n",
-									"options": {
-										"raw": {
-											"language": "xml"
-										}
-									}
-								},
-								"url": "http://localhost:8088/axis2/services/BookingWSgetStation"
-							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "xml",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "text/xml; charset=utf-8"
-								}
-							],
-							"cookie": [],
-							"body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:getStationResponse xmlns:ns=\"http://ws.booking\">\n      <ns:return>\n        <ns:city>string</ns:city>\n        <ns:lat>48</ns:lat>\n        <ns:lon>83</ns:lon>\n        <ns:stationID>string</ns:stationID>\n        <ns:stationName>string</ns:stationName>\n        <ns:zipCode>string</ns:zipCode>\n      </ns:return>\n    </ns:getStationResponse>\n  </soap:Body>\n</soap:Envelope>\n"
-						},
-						{
-							"name": "getStation fault - BookingWSException",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"value": "text/xml; charset=utf-8"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "incorrect body message",
-									"options": {
-										"raw": {
-											"language": "xml"
-										}
-									}
-								},
-								"url": "http://localhost:8088/axis2/services/BookingWSgetStation"
-							},
-							"status": "not OK",
-							"code": 500,
-							"_postman_previewlanguage": "xml",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "text/xml; charset=utf-8"
-								}
-							],
-							"cookie": [],
-							"body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:BookingWSException xmlns:ns=\"http://ws.booking\">\n      <ns:BookingWSException>\n        <ns:Message>string</ns:Message>\n      </ns:BookingWSException>\n    </ns:BookingWSException>\n  </soap:Body>\n</soap:Envelope>\n"
-						}
-					]
-				},
-				{
-					"name": "createUser",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "text/xml; charset=utf-8"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:createUser xmlns:ns=\"http://ws.booking\">\n      <ns:username>string</ns:username>\n      <ns:password>string</ns:password>\n    </ns:createUser>\n  </soap:Body>\n</soap:Envelope>\n",
-							"options": {
-								"raw": {
-									"language": "xml"
-								}
-							}
-						},
-						"url": "{{BookingWSHttpEndpointBaseUrl}}/axis2/services/BookingWScreateUser"
-					},
-					"response": [
-						{
-							"name": "createUser response",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"value": "text/xml; charset=utf-8"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:createUser xmlns:ns=\"http://ws.booking\">\n      <ns:username>string</ns:username>\n      <ns:password>string</ns:password>\n    </ns:createUser>\n  </soap:Body>\n</soap:Envelope>\n",
-									"options": {
-										"raw": {
-											"language": "xml"
-										}
-									}
-								},
-								"url": "http://localhost:8088/axis2/services/BookingWScreateUser"
-							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "xml",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "text/xml; charset=utf-8"
-								}
-							],
-							"cookie": [],
-							"body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:createUserResponse xmlns:ns=\"http://ws.booking\">\n      <ns:return>string</ns:return>\n    </ns:createUserResponse>\n  </soap:Body>\n</soap:Envelope>\n"
-						}
-					]
-				},
-				{
-					"name": "getStations",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "text/xml; charset=utf-8"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:getStations xmlns:ns=\"http://ws.booking\"/>\n  </soap:Body>\n</soap:Envelope>\n",
-							"options": {
-								"raw": {
-									"language": "xml"
-								}
-							}
-						},
-						"url": "{{BookingWSHttpEndpointBaseUrl}}/axis2/services/BookingWSgetStations"
-					},
-					"response": [
-						{
-							"name": "getStations response",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"value": "text/xml; charset=utf-8"
 									}
 								],
 								"body": {
@@ -1251,7 +524,7 @@
 										}
 									}
 								},
-								"url": "http://localhost:8088/axis2/services/BookingWSgetStations"
+								"url": "http://localhost:8088/axis2/services/BookingWS"
 							},
 							"status": "OK",
 							"code": 200,
@@ -1273,6 +546,10 @@
 									{
 										"key": "Content-Type",
 										"value": "text/xml; charset=utf-8"
+									},
+									{
+										"key": "SOAPAction",
+										"value": "urn:getStations"
 									}
 								],
 								"body": {
@@ -1284,7 +561,7 @@
 										}
 									}
 								},
-								"url": "http://localhost:8088/axis2/services/BookingWSgetStations"
+								"url": "http://localhost:8088/axis2/services/BookingWS"
 							},
 							"status": "not OK",
 							"code": 500,
@@ -1301,25 +578,40 @@
 					]
 				},
 				{
-					"name": "searchTrains",
+					"name": "searchTrains v2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
 					"request": {
-						"method": "POST",
+						"method": "GET",
 						"header": [
 							{
 								"key": "Content-Type",
-								"value": "text/xml; charset=utf-8"
+								"value": "text/xml; charset=utf-8",
+								"disabled": true
+							},
+							{
+								"key": "SOAPAction",
+								"value": "urn:searchTrains",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text",
+								"disabled": true
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:searchTrains xmlns:ns=\"http://ws.booking\">\n      <ns:departureStation>string</ns:departureStation>\n      <ns:arrivalStation>string</ns:arrivalStation>\n      <ns:departureDate>2024-01-09Z</ns:departureDate>\n      <ns:returnDate>2024-01-09Z</ns:returnDate>\n      <ns:numTickets>100</ns:numTickets>\n      <ns:travelClass>string</ns:travelClass>\n    </ns:searchTrains>\n  </soap:Body>\n</soap:Envelope>\n",
+							"raw": "",
 							"options": {
 								"raw": {
 									"language": "xml"
 								}
 							}
 						},
-						"url": "{{BookingWSHttpEndpointBaseUrl}}/axis2/services/BookingWSsearchTrains"
+						"url": "http://localhost:8182/trains/stop_area:SNCF:87182113/stop_area:SNCF:80359331/2024-01-15/2024-01-16/1/Second%20Class"
 					},
 					"response": [
 						{
@@ -1330,6 +622,10 @@
 									{
 										"key": "Content-Type",
 										"value": "text/xml; charset=utf-8"
+									},
+									{
+										"key": "SOAPAction",
+										"value": "urn:searchTrains"
 									}
 								],
 								"body": {
@@ -1341,7 +637,7 @@
 										}
 									}
 								},
-								"url": "http://localhost:8088/axis2/services/BookingWSsearchTrains"
+								"url": "http://localhost:8088/axis2/services/BookingWS"
 							},
 							"status": "OK",
 							"code": 200,
