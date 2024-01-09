@@ -15,14 +15,13 @@ run_booking:
 	cd apache-tomcat-9.0.82/bin && ./startup.sh
 
 # RUN DOCKER (DB, SOAP and REST) and Webpage
-run_docker: stop_docker stop_db stop_server run_docker-config run_migration-data run_client
+run_docker: stop_docker kill_processus run_docker-config run_client
 
 run_docker-config: stop_docker
 	docker-compose up --build -d
 
 run_migration-data:
-	sleep 2
-	cd  DataBase && python3 migration.py   
+	cd  DataBase && python3 migration.py
 
 run_client:
 	sleep 2
@@ -30,6 +29,9 @@ run_client:
 
 stop_docker:
 	docker-compose down
+
+# avoid - destroy Docker
+kill_processus: stop_server stop_db
 
 stop_server:
 	@echo "Stopping process using port 8088..."

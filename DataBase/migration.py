@@ -10,8 +10,8 @@ db_config = {
 # Nom de la base de données à créer
 database_name = 'SIA'
 
-# Charger le script SQL pour créer la base de données
-create_database_sql = f"CREATE DATABASE IF NOT EXISTS {database_name}"
+# Charger le script SQL pour créer la base de données avec l'encodage 'utf8-general'
+create_database_sql = f"CREATE DATABASE IF NOT EXISTS {database_name} CHARACTER SET utf8 COLLATE utf8_general_ci"
 
 # Fonction pour exécuter un script SQL à partir d'un fichier
 def execute_sql_script(cursor, script_file):
@@ -43,7 +43,7 @@ try:
     execute_sql_script(cursor, 'CreateTrains.sql')
     print("Trains insérées avec succès.")
 
-    # Insertion des stations en utilisant le script createStations.sql
+    # # Insertion des stations en utilisant le script createStations.sql
     execute_sql_script(cursor, 'createStations.sql')
     print("Stations insérées avec succès.")
 

@@ -35,6 +35,13 @@ for page in range(int(total_items/item_per_page)+1) :
                     if var_api not in print_done:
                         print_done[var_api] = var_api
 
+        # # Modifier les codes postaux pour avoir que le premier code postale
+        # if 'zip_code' in station:
+        #     station['zip_code'] = station['zip_code'].split(';')[0]
+        # Modifier les codes postaux de ";" par un ":"
+        if 'zip_code' in station:
+            station['zip_code'] = ':'.join(station['zip_code'].split(';'))
+
         [station.pop(k,None) for k in ['coord','links','administrative_regions', 'type', 'codes']]
 
     stations = ensemble_stations['stop_areas']
