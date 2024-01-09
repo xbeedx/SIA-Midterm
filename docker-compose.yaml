@@ -35,13 +35,13 @@ services:
     depends_on:
       - mysql
 
-  web:
-    build:
-      context: .
-      dockerfile: Dockerfile.webpage
-    env_file:
-      - set-env-docker.sh
-    ports:
-      - "8081:8081"
-    depends_on:
-      - filtering-booking
+  # web:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile.webpage
+  #   env_file:
+  #     - set-env-docker.sh
+  #   ports:
+  #     - "8081:8081"
+  #   depends_on:
+  #     - filtering-booking

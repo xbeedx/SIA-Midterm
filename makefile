@@ -15,9 +15,19 @@ run_booking:
 	cp Train_Booking/build/BookingWS.aar apache-tomcat-9.0.82/webapps/axis2/WEB-INF/services
 	cd apache-tomcat-9.0.82/bin && ./startup.sh
 
+run_docker: run_docker-config run_migration-data run_client
+
+run_docker-config:
+	docker-compose down
+	docker-compose up --build -d
+
+run_migration-data:
+	sleep 2
+	cd  DataBase && python3 migration.py   
+
 run_client:
 	sleep 2
-	cd WebPage && flask run  --debug --port=8081
+	cd WebPage && flask run  --debugger --port=8081
 
 stop_server:
 	@echo "Stopping process using port 8088..."
