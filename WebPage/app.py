@@ -4,25 +4,29 @@ import json
 
 app = Flask(__name__)
 
-# Replace the URL with the actual endpoint URL of your web service
-wsdl_url = "http://localhost:8088/axis2/services/BookingWS?wsdl"
+stationArrivalId = ""
 
 # Connect SOAP client
-try:
-    client = Client(wsdl_url)
-except Exception as e:
-    app.logger.error("Error initializing SOAP client: %s", str(e))
-    # exit()
+def get_client():
+    # Replace the URL with the actual endpoint URL of your web service
+    wsdl_url = "http://localhost:8088/axis2/services/BookingWS?wsdl"
 
-stationArrivalId = ""
+    try:
+        client = Client(wsdl_url)
+        return client
+    except Exception as e:
+        app.logger.error("Error initializing SOAP client: %s", str(e))
+        # Raise a custom exception or return a special value
+        raise Exception("Failed to initialize SOAP client")
 
 # Fetch stations using the global client
 def get_stations():
     try:
-        stations = client.service.getStations()
+        stations = get_client().service.getStations()
         return stations
     except Exception as e:
         app.logger.error("Error getting stations: %s", str(e))
+        # Handle the error gracefully, e.g., log it and return an empty list
         return []
     
 @app.route('/')
@@ -41,7 +45,7 @@ def booking():
     # stationArrivalId = stationId
 
     try:
-        station = client.service.getStation(**request_data)
+        station = get_client().service.getStation(**request_data)
         return render_template('booking.html', stations=stations, stationArrival=station)
     except Exception as e:
         app.logger.error("Error processing booking request: %s", str(e))

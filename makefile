@@ -16,8 +16,8 @@ run_booking:
 	cd apache-tomcat-9.0.82/bin && ./startup.sh
 
 run_client:
-	sleep 5
-	cd WebPage && flask run --host=0.0.0.0 --port=8081
+	sleep 2
+	cd WebPage && flask run  --debug --port=8081
 
 stop_server:
 	@echo "Stopping process using port 8088..."

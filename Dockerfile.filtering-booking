@@ -29,6 +29,7 @@ RUN javac -cp .:/app/org.restlet.jar:/app/org.restlet.ext.servlet.jar:/app/mysql
 
 # Copy the Restlet library JAR file (2nd)
 COPY restlet-jee-2.4.3/lib/org.restlet.jar /app/restlet-jee-2.4.3/lib/org.restlet.jar
+COPY DataBase/mysql-connector-j-8.1.0.jar /app/mysql-connector-j-8.1.0.jar
 
 # Compile and generate WSDL and service for Booking
 RUN ant -f /app/Train_Booking clean
