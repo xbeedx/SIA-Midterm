@@ -1,4 +1,3 @@
-USE SIA;
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `ZipCode`, `Lat`, `Lon`) VALUES ('stop_area:SNCF:80399048', '', '', '', '0', '0');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `ZipCode`, `Lat`, `Lon`) VALUES ('stop_area:SNCF:80153452', 'Aachen Hauptbahnhof', 'Aachen', '', '50.7675', '6.0912');
 INSERT INTO `Station` (`StationID`, `StationName`, `City`, `ZipCode`, `Lat`, `Lon`) VALUES ('stop_area:SNCF:87313759', 'Abancourt', 'Abancourt', '60220', '49.685621', '1.774297');

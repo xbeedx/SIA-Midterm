@@ -28,7 +28,8 @@ try:
     # Connexion à MySQL
     connection = mysql.connector.connect(**db_config)
     cursor = connection.cursor()
-
+    print("Connected")
+    
     # Créer la base de données
     cursor.execute(create_database_sql)
     print(f"Base de données '{database_name}' créée avec succès.")
