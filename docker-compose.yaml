@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3'
 
 services:
   mysql:
@@ -24,3 +24,29 @@ services:
       - "8080:80"
     depends_on:
       - mysql
+
+  filtering:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8088:8088"
+
+  booking:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8182:8182"
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - set-env-docker.sh
+    ports:
+      - "8081:8081"
+    depends_on:
+      - filtering
+      - booking

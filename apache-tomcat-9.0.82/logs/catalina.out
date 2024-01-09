@@ -14492,3 +14492,7 @@ Caused by: java.lang.IllegalStateException: Statement is not initialized
 	at booking.ws.BookingWS.getStations(BookingWS.java:24) ~[?:?]
 	... 39 more
 01:33:30.356 [http-nio-8088-exec-4] ERROR org.apache.axis2.transport.http.AxisServlet - processAxisFault() found a null HTTP status from the MessageContext instance, setting HttpServletResponse status to: axis2.http.response.state
+09-Jan-2024 03:22:26.733 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+09-Jan-2024 03:22:26.752 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Jan-2024 03:22:26.882 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+09-Jan-2024 03:22:26.893 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]

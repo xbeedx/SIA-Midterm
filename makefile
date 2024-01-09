@@ -5,7 +5,9 @@ compile_filtering:
 
 run_servers: compile_filtering run_filtering run_booking
 
+# cd Train_Filtering/src/ && java -cp .:../../restlet-jee-2.4.3/lib/org.restlet.jar:../../restlet-jee-2.4.3/lib/org.restlet.ext.servlet.jar:../../DataBase/mysql-connector-j-8.1.0.jar Filtering.RESTDistributor &
 run_filtering: 
+	cd Train_Filtering/src/Filtering && javac -cp .:../../../restlet-jee-2.4.3/lib/org.restlet.jar:../../../restlet-jee-2.4.3/lib/org.restlet.ext.servlet.jar:../../../DataBase/mysql-connector-j-8.1.0.jar:. -source 1.8 -target 1.8 *.java
 	cd Train_Filtering/src/ && java -cp .:../../restlet-jee-2.4.3/lib/org.restlet.jar:../../restlet-jee-2.4.3/lib/org.restlet.ext.servlet.jar:../../DataBase/mysql-connector-j-8.1.0.jar Filtering.RESTDistributor &
 
 run_booking:
@@ -15,7 +17,7 @@ run_booking:
 
 run_client:
 	sleep 5
-	cd WebPage && flask run  --debugger --port=8081
+	cd WebPage && flask run --host=0.0.0.0 --port=8081
 
 stop_server:
 	@echo "Stopping process using port 8088..."
