@@ -25,6 +25,7 @@ services:
     depends_on:
       - mysql
 
+  # Train_Filtering and Train_Booking
   filtering-booking:
     build:
       context: .
@@ -34,6 +35,10 @@ services:
       - "8182:8182"
     depends_on:
       - mysql
+    volumes:
+      - ./Train_Filtering:/app/Train_Filtering
+      - ./Train_Booking:/app/Train_Booking
+
 
   # web:
   #   build:
