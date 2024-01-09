@@ -29,7 +29,7 @@ public class MySQLAccess {
     public MySQLAccess() {
     	try {
     		Class.forName("com.mysql.jdbc.Driver");
-            connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/SIA?useSSL=false&serverTimezone=UTC&user=root&password=");
+            connect = DriverManager.getConnection("jdbc:mysql://mysql-container:3306/SIA?useSSL=false&serverTimezone=UTC&user=root&password=");
 
             statement = connect.createStatement();
     	} catch (Exception e) {
@@ -98,6 +98,78 @@ public class MySQLAccess {
     
         return trains;
     }
+
+    public boolean book(String userId, String trainId, String travelClass, String ticketType) {
+        try {
+            // Retrieve train information
+            preparedStatement = connect.prepareStatement(
+                    "SELECT TrainName, DepartureStation, ArrivalStation, " +
+                            "departureDate, arrivalDate " +
+                            "FROM Train WHERE TrainID = ? AND TravelClass = ?"
+            );
+            preparedStatement.setString(1, trainId);
+            preparedStatement.setString(2, travelClass);
+            resultSet = preparedStatement.executeQuery();
+    
+            if (resultSet.next()) {
+                String trainName = resultSet.getString("TrainName");
+                String departureStation = resultSet.getString("DepartureStation");
+                String arrivalStation = resultSet.getString("ArrivalStation");
+                LocalDate departureDate = resultSet.getDate("departureDate").toLocalDate();
+                LocalDate arrivalDate = resultSet.getDate("arrivalDate").toLocalDate();
+    
+                // Retrieve DepartureStopName and ArrivalStopName from the Station table
+                String departureStopName = getStopName(departureStation);
+                String arrivalStopName = getStopName(arrivalStation);
+    
+                // Insert the reservation details into the Reservation table with the associated user
+                preparedStatement = connect.prepareStatement(
+                        "INSERT INTO Reservation (UserID, TrainID, TrainName, " +
+                                "DepartureStopID, DepartureStopName, ArrivalStopID, ArrivalStopName, " +
+                                "DepartureTime, ArrivalTime) " +
+                                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
+                );
+                preparedStatement.setString(1, userId);
+                preparedStatement.setString(2, trainId);
+                preparedStatement.setString(3, trainName);
+                preparedStatement.setString(4, departureStation);
+                preparedStatement.setString(5, departureStopName);
+                preparedStatement.setString(6, arrivalStation);
+                preparedStatement.setString(7, arrivalStopName);
+                preparedStatement.setObject(8, departureDate.atStartOfDay());
+                preparedStatement.setObject(9, arrivalDate.atStartOfDay());
+    
+                // Execute the insert query
+                preparedStatement.executeUpdate();
+    
+                return true; // Booking successful
+            }
+        } catch (SQLException e) {
+            System.out.println("Error during booking: " + e.getMessage());
+            e.printStackTrace();
+        } finally {
+            // Close the resources
+            close();
+        }
+    
+        return false; // Booking failed
+    }
+    
+    private String getStopName(String stationID) throws SQLException {
+        preparedStatement = connect.prepareStatement(
+                "SELECT StationName FROM Station WHERE StationID = ?"
+        );
+        preparedStatement.setString(1, stationID);
+        resultSet = preparedStatement.executeQuery();
+    
+        if (resultSet.next()) {
+            return resultSet.getString("StationName");
+        }
+    
+        return null; // Handle this case based on your application's logic
+    }
+     
+
     
     // You need to close the resultSet
     private void close() {

@@ -14,10 +14,16 @@ import objects.Train;
 
 public class BookingWS {
 
-	public boolean authenticateUser(String username, String password) {
+	public String authenticateUser(String username, String password) {
 		MySQLAccess dao = new MySQLAccess();
 		return dao.authenticateUser(username,password);
     }
+
+	public String createUser(String username, String password)
+	{
+		MySQLAccess dao = new MySQLAccess();
+		return dao.createUser(username,password);
+	}
 
 	public List<Station> getStations() throws Exception {
 		MySQLAccess dao = new MySQLAccess();
@@ -45,8 +51,8 @@ public class BookingWS {
 		return "";
 	}
 
-	public boolean reserveSeat(List<String> trainId, String travelClass, String ticketType) {
-		String apiUrl = String.format("http://localhost:8182/reserve/trainId=%s&travelClass=%s&ticketType=%s",
+	public boolean bookSeat(String userId, String trainId, String travelClass, String ticketType) {
+		String apiUrl = String.format("http://localhost:8182/book/trainId=%s&travelClass=%s&ticketType=%s",
 					trainId, travelClass, ticketType);
 		ClientResource resource = new ClientResource(apiUrl);
 		try {

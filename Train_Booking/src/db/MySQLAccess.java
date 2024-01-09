@@ -13,6 +13,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 public class MySQLAccess {
     private Connection connect = null;
@@ -32,7 +33,7 @@ public class MySQLAccess {
     	}
     }
 
-    public boolean authenticateUser(String username, String password) {
+    public String authenticateUser(String username, String password) {
         try {
             // Prepared statement using ?
             preparedStatement = connect
@@ -48,13 +49,33 @@ public class MySQLAccess {
             }
 
             if (resultSet.next()) {
-                return true;
+                return resultSet.getString("UserID");
             }
-            return false;
+            return "";
         } catch (Exception e) {
             System.out.println("Error during MySQLAccess.authenticateUser: " + e.getMessage());
             e.printStackTrace();
-            return false;
+            return "";
+        } finally {
+            close();
+        }
+    }
+
+    public String createUser(String username, String password) {
+        try {
+            String uuid = UUID.randomUUID().toString();
+            preparedStatement = connect
+                    .prepareStatement("insert into SIA.User (UserID, Username, Password) values (?, ?, ?)");
+            preparedStatement.setString(1, uuid);
+            preparedStatement.setString(2, username);
+            preparedStatement.setString(3, password);
+            preparedStatement.executeUpdate();
+            
+            return authenticateUser(username, password);
+        } catch (Exception e) {
+            System.out.println("Error during MySQLAccess.createUser: " + e.getMessage());
+            e.printStackTrace();
+            return "";
         } finally {
             close();
         }

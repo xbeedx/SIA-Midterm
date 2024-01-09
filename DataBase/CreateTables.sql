@@ -1,12 +1,14 @@
 USE SIA;
+DROP TABLE IF EXISTS User;
+DROP TABLE IF EXISTS Station,
+DROP TABLE IF EXISTS Reservation,
+DROP TABLE IF EXISTS Train;
+
 -- Create the User table
-CREATE TABLE IF NOT EXISTS `User` (
+CREATE TABLE IF NOT EXISTS User (
     UserID INT PRIMARY KEY,
     Username VARCHAR(255) NOT NULL,
     Password VARCHAR(255) NOT NULL,
-    Email VARCHAR(255) NOT NULL,
-    FirstName VARCHAR(255),
-    LastName VARCHAR(255)
 );
 
 -- Create the Station table
@@ -24,7 +26,6 @@ CREATE TABLE IF NOT EXISTS Reservation (
     ReservationID INT PRIMARY KEY,
     TrainID VARCHAR(255),
     TrainName VARCHAR(255),
-    Direction VARCHAR(255),
     DepartureStopID VARCHAR(255),
     DepartureStopName VARCHAR(255),
     ArrivalStopID VARCHAR(255),
