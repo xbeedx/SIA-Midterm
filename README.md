@@ -72,3 +72,18 @@ Join our Postman team to explore and test the APIs: [Postman Team Invitation](ht
 Find the Postman collection file for API testing in the `/Postman` directory:
 
 - [BookingWS.postman_collection.json](./Postman/BookingWS.postman_collection.json)
+
+
+## Notation 
+
+| # | Requirements                                   | Marks (30) | our Notation |
+|---|-----------------------------------------------|------------|--------------------|
+| 1 | Create REST Train Filtering service            | 6          |          6         |
+| 2 | Create SOAP Train Booking service              | 4          |           4        |
+| 3 | Interaction between two services              | 4          |           4        |
+| 4 | Test with Web service Client                  | 2          |          2         |
+| 5 | Work with complex data type (class, table, etc.) | 2       |           2        |
+| 6 | Work with database (in text file, xml, in mysql, etc.) | 2  |           2        |
+| 7 | Postman                                       | 2          |             2      |
+| 8 | OpenAPI                                       | 3          |              3     |
+| 9 | BPMS                                          | 5          |            2       |
