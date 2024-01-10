@@ -55,8 +55,6 @@ services:
       - SWAGGER_JSON=/local/out/go/api/openapi.yaml
     volumes:
       - ./out:/local/out
-    
-
 
   # web:
   #   build:

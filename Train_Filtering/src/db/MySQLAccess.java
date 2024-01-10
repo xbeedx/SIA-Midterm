@@ -5,6 +5,7 @@ import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
 import java.sql.Connection;
 import java.sql.Date;
+import java.sql.Timestamp;
 
 import objects.Reservation;
 import objects.Station;
@@ -124,11 +125,12 @@ public class MySQLAccess {
     
                 // Insert the reservation details into the Reservation table with the associated user
                 preparedStatement = connect.prepareStatement(
-                        "INSERT INTO Reservation (UserID, TrainID, TrainName, " +
-                                "DepartureStopID, DepartureStopName, ArrivalStopID, ArrivalStopName, " +
-                                "DepartureTime, ArrivalTime) " +
-                                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
+                    "INSERT INTO Reservation (UserID, TrainID, TrainName, " +
+                    "DepartureStopID, DepartureStopName, ArrivalStopID, ArrivalStopName, " +
+                    "DepartureTime, ArrivalTime) " +
+                    "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
                 );
+                
                 preparedStatement.setString(1, userId);
                 preparedStatement.setString(2, trainId);
                 preparedStatement.setString(3, trainName);
@@ -136,12 +138,12 @@ public class MySQLAccess {
                 preparedStatement.setString(5, departureStopName);
                 preparedStatement.setString(6, arrivalStation);
                 preparedStatement.setString(7, arrivalStopName);
-                preparedStatement.setObject(8, departureDate.atStartOfDay());
-                preparedStatement.setObject(9, arrivalDate.atStartOfDay());
+                preparedStatement.setObject(8, Timestamp.valueOf(departureDate.atStartOfDay()));
+                preparedStatement.setObject(9, Timestamp.valueOf(arrivalDate.atStartOfDay()));        
     
                 // Execute the insert query
                 preparedStatement.executeUpdate();
-    
+
                 return true; // Booking successful
             }
         } catch (SQLException e) {

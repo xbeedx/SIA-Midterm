@@ -7,7 +7,7 @@ DROP TABLE IF EXISTS Station;
 DROP TABLE IF EXISTS User;
 
 -- Create the User table
-CREATE TABLE IF NOT EXISTS `User` (
+CREATE TABLE IF NOT EXISTS User (
     -- UserID INT PRIMARY KEY,
     UserID VARCHAR(36) PRIMARY KEY,
     Username VARCHAR(255) UNIQUE NOT NULL,
@@ -38,8 +38,8 @@ CREATE TABLE IF NOT EXISTS Train (
 
 -- Create the Reservations table
 CREATE TABLE IF NOT EXISTS Reservation (
-    ReservationID INT PRIMARY KEY,
-    -- TrainID VARCHAR(255),
+    ReservationID INT AUTO_INCREMENT PRIMARY KEY,
+    UserID VARCHAR(255),
     TrainID INT,
     TrainName VARCHAR(255),
     DepartureStopID VARCHAR(255),
