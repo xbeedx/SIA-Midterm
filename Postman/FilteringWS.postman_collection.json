@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "ac4d6509-a814-4e0b-a49f-9966748270af",
+		"name": "FilteringWS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "14116164",
+		"_collection_link": "https://speeding-station-17262.postman.co/workspace/WebService~9c0f7408-9176-4bd0-9e5a-d90fb36d3adb/collection/14116164-ac4d6509-a814-4e0b-a49f-9966748270af?action=share&source=collection_link&creator=14116164"
+	},
+	"item": [
+		{
+			"name": "Get trains informations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{FilteringWSHttpSoap11EndpointBaseUrl}}/trains/{{departureStation}}/{{arrivalStation}}/{{departureDate}}/{{returnDate}}/{{numTickets}}/{{travelClass}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Book a train",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "{{FilteringWSHttpSoap11EndpointBaseUrl}}/book/{{userId}}/{{trainId}}/{{travelClass}}/{{ticketType}}"
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "departureStation",
+			"value": "stop_area:SNCF:87182113"
+		},
+		{
+			"key": "arrivalStation",
+			"value": "stop_area:SNCF:80359331"
+		},
+		{
+			"key": "departureDate",
+			"value": "2024-01-15"
+		},
+		{
+			"key": "returnDate",
+			"value": "2024-01-16"
+		},
+		{
+			"key": "numTickets",
+			"value": "1"
+		},
+		{
+			"key": "travelClass",
+			"value": "Second Class"
+		},
+		{
+			"key": "FilteringWSHttpSoap11EndpointBaseUrl",
+			"value": "http://localhost:8182"
+		},
+		{
+			"key": "userId",
+			"value": "string"
+		},
+		{
+			"key": "trainId",
+			"value": "990"
+		},
+		{
+			"key": "ticketType",
+			"value": "Standard"
+		}
+	]
+}
