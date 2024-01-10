@@ -21,6 +21,10 @@ This project is written in Java 8. You can download and install it from the offi
 ## Train Filtering
 
 Running on port 8182
+Example:
+```
+http://localhost:8182/trains/stop_area%3ASNCF%3A87182113/stop_area%3ASNCF%3A80359331/2024-01-15/2024-01-16/1/Second%20Class
+```
 
 ## Train Booking 
 
