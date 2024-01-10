@@ -1,21 +1,25 @@
 package booking.ws;
 
 import java.sql.Date;
+// import java.text.Normalizer.Form;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.restlet.representation.Representation;
 import org.restlet.resource.ClientResource;
 import org.restlet.resource.ResourceException;
+import org.restlet.data.Form;
+import org.restlet.representation.StringRepresentation;
 
 import db.MySQLAccess;
 import objects.Station;
 import objects.Train;
 
+
 public class BookingWS {
 
     private static final String TRAINS_API_URL = "http://localhost:8182/trains/";
-    private static final String BOOK_SEAT_API_URL = "http://localhost:8182/book/";
+    private static final String BOOK_SEAT_API_URL = "http://localhost:8182/book";
 
     public String authenticateUser(String username, String password) {
         MySQLAccess dao = new MySQLAccess();
@@ -53,16 +57,28 @@ public class BookingWS {
         }
     }
 
-    public boolean bookSeat(String userId, String trainId, String travelClass, String ticketType) {
-        String apiUrl = String.format("%strainId=%s&travelClass=%s&ticketType=%s", BOOK_SEAT_API_URL, trainId, travelClass, ticketType);
+   public boolean bookSeat(String userId, String trainId, String travelClass, String ticketType) {
+        ClientResource resource = new ClientResource(BOOK_SEAT_API_URL);
 
-		ClientResource resource = new ClientResource(apiUrl);
         try {
-            String result = resource.get().getText();
-            return "true".equals(result);
+            // Create a form with the required parameters
+            Form form = new Form();
+            form.add("userId", userId);
+            form.add("trainId", trainId);
+            form.add("travelClass", travelClass);
+            form.add("ticketType", ticketType);
+
+            // Make a POST request with the form
+            Representation result = resource.post(form.getWebRepresentation());
+
+            // Parse the response
+            String responseText = result.getText();
+            return "True".equalsIgnoreCase(responseText); // Assuming the server returns "True" or "False"
         } catch (Exception e) {
             e.printStackTrace();
             return false;
+        } finally {
+            resource.release();
         }
     }
 }
