@@ -37,6 +37,10 @@ Running on port 8081
 https://api.sncf.com/v1/coverage/sncf/stop_areas/stop_area:SNCF:87686006/departures
 ```
 
+## Swagger API Documentation
+
+Explore and test our APIs using Swagger: [Swagger API Documentation](https://app.swaggerhub.com/apis-docs/ChristopheWANG/WebServiceTrainAPI/1.0.0)
+
 ## Docker and Migration
 
 To run the project using Docker and perform data migrations, use the following commands:
