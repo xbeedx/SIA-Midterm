@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 from zeep import Client
 import json
 
@@ -55,15 +55,55 @@ def booking():
 def trains():
     data = request.get_json() 
     print(data)
-    departure = data.get('departure')
-    departureId = data.get('departureId')
-    arrival = data.get('arrival')
-    arrivalId = data.get('arrivalId')
-    outbound = data.get('outbound')
-    returnDate = data.get('return')
-    tickets = data.get('tickets')
-    travelClass = data.get('class')
-    return ""
+
+    # departureId = data.get('departureId')
+    # arrivalId = data.get('arrivalId')
+    travel_class = data.get("class")
+
+    if travel_class == "first":
+        travel_class = "First Class"
+    elif travel_class == "premium":
+        travel_class = "Premium Class"
+    else:
+        travel_class = "Second Class"
+
+    request_data = {
+        'departureStation': data.get('departure'),
+        'arrivalStation': data.get('arrival'),
+        'departureDate': data.get('outbound'),
+        'returnDate': data.get('return'),
+        'numTickets': data.get('tickets'),
+        'travelClass': travel_class
+    }
+
+    try:
+        search_train = get_client().service.searchTrains(**request_data)
+
+        # Split the string into lines
+        lines = search_train.split('\n')
+        # Remove the first line
+        filtered_lines = lines[1:]
+        # Join the lines back into a string
+        output_string = '\n'.join(filtered_lines)
+
+        # Check if output_string is empty
+        is_empty = not bool(output_string)
+        if is_empty:
+            return jsonify({"status": 404, "message": "No trains found for the given parameters."}), 404
+        
+        # Remove unwanted parts of the string
+        json_string = output_string.split('{')[1].split('}')[0]
+        # Convert the remaining string to a dictionary
+        data_dict = dict(item.strip().split('=') for item in json_string.split(','))
+        # Convert the dictionary to a JSON string
+        json_output = json.dumps(data_dict, indent=2)
+
+        train = json_output
+        return jsonify({"status": 200, "data": train}), 200
+    except Exception as e:
+        app.logger.error("Error processing search train request: %s", str(e))
+        return "Error processing search train request"
+
 
 if __name__ == '__main__':
     app.run(debug=True)

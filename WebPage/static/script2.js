@@ -62,6 +62,10 @@ document.querySelector('.btn-primary').addEventListener('click', function(event)
         return response.json();
     }).then(function(data) {
         // Handle the response data
+        // TODO :
+        if(data.status == 200) console.log("success")
+
+        console.log(data)
     }).catch(function(error) {
         console.error('Error:', error);
     });
