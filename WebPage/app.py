@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, redirect, url_for
 from zeep import Client
 import json
 
@@ -29,10 +29,49 @@ def get_stations():
         # Handle the error gracefully, e.g., log it and return an empty list
         return []
     
+
+
+
+
+
+# ----------------- ROUTES ----------------
 @app.route('/')
 def home():
     stations = get_stations()
     return render_template('index.html', stations=stations)
+
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+    if request.method == 'POST':
+        # Get the form data
+        username = request.form.get('username')
+        password = request.form.get('password')
+
+        print(f"Registered User: {username}, Password: {password}")
+        # TODO : register
+
+        # Redirect to a success page or login page
+        return redirect(url_for('login'))
+
+    # If it's a GET request, render the registration form
+    return render_template('register.html')
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        # Get the form data
+        username = request.form.get('username')
+        password = request.form.get('password')
+
+        print(f"Login attempt - User: {username}, Password: {password}")
+        # TODO : login
+
+        # Redirect to a success page or handle the login logic
+        return redirect(url_for('home'))
+
+    # Handle GET request for login form rendering (if needed)
+    return render_template('login.html')
+
 
 @app.route('/selectArrival', methods=['GET'])
 def booking():

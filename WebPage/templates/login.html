@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<header>
+    <h2>Se connecter</h2>
+</header>
+
+<div class="container mt-4">
+    <div class="row">
+        <form method="post" action="{{ url_for('login') }}">
+            <section>
+                <div class="input-group mb-3">
+                    <label class="input-group-text" for="username">Utilisateur :</label>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="Nom d'utilisateur" required>
+                </div>
+                <div class="input-group mb-3">
+                    <label class="input-group-text" for="password">Mot de passe :</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Mot de passe" required>
+                </div>
+            </section>
+            <button type="submit" class="btn btn-primary">Se connecter</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

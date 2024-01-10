@@ -24,7 +24,9 @@ body {
     border: 1px solid transparent;
 }
 
-.topnav a:hover {
+.topnav a:hover,
+.topnav a.active
+ {
     color: #8de8fe;
     border-bottom: solid 1px #8de8fe;
 }
