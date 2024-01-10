@@ -374,13 +374,13 @@
     </wsdl:binding>
     <wsdl:service name="BookingWS">
         <wsdl:port name="BookingWSHttpSoap11Endpoint" binding="ns:BookingWSSoap11Binding">
-            <soap:address location="http://localhost:8088/axis2/services/BookingWS"/>
+            <soap:address location="http://localhost:8080/axis2/services/BookingWS"/>
         </wsdl:port>
         <wsdl:port name="BookingWSHttpSoap12Endpoint" binding="ns:BookingWSSoap12Binding">
-            <soap12:address location="http://localhost:8088/axis2/services/BookingWS"/>
+            <soap12:address location="http://localhost:8080/axis2/services/BookingWS"/>
         </wsdl:port>
         <wsdl:port name="BookingWSHttpEndpoint" binding="ns:BookingWSHttpBinding">
-            <http:address location="http://localhost:8088/axis2/services/BookingWS"/>
+            <http:address location="http://localhost:8080/axis2/services/BookingWS"/>
         </wsdl:port>
     </wsdl:service>
 </wsdl:definitions>
