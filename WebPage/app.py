@@ -46,12 +46,17 @@ def register():
         # Get the form data
         username = request.form.get('username')
         password = request.form.get('password')
+        request_data = {'username': username, 'password': password}
 
-        print(f"Registered User: {username}, Password: {password}")
-        # TODO : register
+        try:
+            user = get_client().service.createUser(**request_data)
+            app.logger.info("message: " + user)
+            print("Register message: " + user)
 
-        # Redirect to a success page or login page
-        return redirect(url_for('login'))
+            return redirect(url_for('login'))
+        except Exception as e:
+            app.logger.error("Error processing booking request: %s", str(e))
+            print("Error processing booking request: %s", str(e))
 
     # If it's a GET request, render the registration form
     return render_template('register.html')
@@ -62,16 +67,21 @@ def login():
         # Get the form data
         username = request.form.get('username')
         password = request.form.get('password')
+        request_data = {'username': username, 'password': password}
 
-        print(f"Login attempt - User: {username}, Password: {password}")
-        # TODO : login
+        try:
+            user = get_client().service.authenticateUser(**request_data)
+            app.logger.info("message: " + user)
+            print("Login message: " + user)
+        except Exception as e:
+            app.logger.error("Error processing booking request: %s", str(e))
+            print("Error processing booking request: %s", str(e))
 
         # Redirect to a success page or handle the login logic
         return redirect(url_for('home'))
 
     # Handle GET request for login form rendering (if needed)
     return render_template('login.html')
-
 
 @app.route('/selectArrival', methods=['GET'])
 def booking():

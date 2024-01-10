@@ -10,7 +10,7 @@ DROP TABLE IF EXISTS User;
 CREATE TABLE IF NOT EXISTS `User` (
     -- UserID INT PRIMARY KEY,
     UserID VARCHAR(36) PRIMARY KEY,
-    Username VARCHAR(255) NOT NULL,
+    Username VARCHAR(255) UNIQUE NOT NULL,
     Password VARCHAR(255) NOT NULL
 );
 
@@ -24,19 +24,6 @@ CREATE TABLE IF NOT EXISTS Station (
     Lon DECIMAL(9,6) NOT NULL
 );
 
--- Create the Reservations table
-CREATE TABLE IF NOT EXISTS Reservation (
-    ReservationID INT PRIMARY KEY,
-    TrainID VARCHAR(255),
-    TrainName VARCHAR(255),
-    DepartureStopID VARCHAR(255),
-    DepartureStopName VARCHAR(255),
-    ArrivalStopID VARCHAR(255),
-    ArrivalStopName VARCHAR(255),
-    DepartureTime DATETIME,
-    ArrivalTime DATETIME
-);
-
 -- Create the Train table
 CREATE TABLE IF NOT EXISTS Train (
     TrainID INT PRIMARY KEY,
@@ -47,4 +34,20 @@ CREATE TABLE IF NOT EXISTS Train (
     ArrivalDate DATETIME,
     NumTickets INT,
     TravelClass VARCHAR(20)
+);
+
+-- Create the Reservations table
+CREATE TABLE IF NOT EXISTS Reservation (
+    ReservationID INT PRIMARY KEY,
+    -- TrainID VARCHAR(255),
+    TrainID INT,
+    TrainName VARCHAR(255),
+    DepartureStopID VARCHAR(255),
+    DepartureStopName VARCHAR(255),
+    ArrivalStopID VARCHAR(255),
+    ArrivalStopName VARCHAR(255),
+    DepartureTime DATETIME,
+    ArrivalTime DATETIME,
+
+    FOREIGN KEY (TrainID) REFERENCES Train(TrainID)
 );
