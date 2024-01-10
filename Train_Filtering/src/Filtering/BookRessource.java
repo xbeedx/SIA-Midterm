@@ -19,9 +19,11 @@ public class BookRessource extends ServerResource {
         String trainId = form.getFirstValue("trainId");
         String travelClass = form.getFirstValue("travelClass");
         String ticketType = form.getFirstValue("ticketType");
+        String nbTickets = form.getFirstValue("nbTickets");
+
 
         MySQLAccess dao = new MySQLAccess();
-        if(dao.book(userId,trainId,travelClass,ticketType))
+        if(dao.book(userId,trainId,travelClass,ticketType,nbTickets))
             result = new StringRepresentation("True", MediaType.TEXT_PLAIN);
 
         return result;

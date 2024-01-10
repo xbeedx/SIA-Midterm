@@ -3,6 +3,13 @@
 {% block body %}
 <div class="container-reservation d-flex align-items-center justify-content-center vh-100">
     <div class="container-reservation-content">
+        {% if session and 'user' in session and 'name' in session %}
+            <div class="row h3">
+                <h3>Bonjour, {{ session['name'] }}!</h3>
+                <a href="{{ url_for('logout') }}"><p>Logout</p></a>
+            </div>
+        {% endif %}
+
         <div class="row h3-reservation">
             <h3>Réserver un billet</h3>
         </div>

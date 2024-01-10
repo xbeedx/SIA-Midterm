@@ -57,7 +57,7 @@ public class BookingWS {
         }
     }
 
-   public boolean bookSeat(String userId, String trainId, String travelClass, String ticketType) {
+   public boolean bookSeat(String userId, String trainId, String travelClass, String ticketType, String nbTickets) {
         ClientResource resource = new ClientResource(BOOK_SEAT_API_URL);
 
         try {
@@ -67,6 +67,7 @@ public class BookingWS {
             form.add("trainId", trainId);
             form.add("travelClass", travelClass);
             form.add("ticketType", ticketType);
+            form.add("nbTickets", nbTickets);
 
             // Make a POST request with the form
             Representation result = resource.post(form.getWebRepresentation());

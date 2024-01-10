@@ -17,11 +17,11 @@
             </div>
             <div class="input-group mb-3">
             <label class="input-group-text" for="outbound">Date de départ :</label>
-            <input type="date" class="form-control" id="outbound" required>
+            <input type="date" class="form-control" id="outbound" min="{{ current_date }}" required>
             </div>
             <div class="input-group mb-3">
             <label class="input-group-text" for="return">Date de retour :</label>
-            <input type="date" class="form-control" id="return" required>
+            <input type="date" class="form-control" id="return" min="{{ current_date }}" required>
             </div>
             <div class="input-group mb-3">
             <label class="input-group-text" for="tickets">Nombre de billets :</label>
@@ -52,6 +52,24 @@
             </li>
         {%endfor%} 
     </ul>
+</div>
+
+<div id="result-container" class="mt-4">
+    <h3>Résultats des Trains</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Train ID</th>
+                <th scope="col">Train Name</th>
+                <th scope="col">Departure Time</th>
+                <th scope="col">Arrival Time</th>
+                <!-- Add more columns as needed -->
+            </tr>
+        </thead>
+        <tbody id="result-table-body">
+            <!-- The table body will be populated dynamically with JavaScript -->
+        </tbody>
+    </table>
 </div>
 
 <div class="overlay"></div>

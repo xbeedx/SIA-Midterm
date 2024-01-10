@@ -100,7 +100,7 @@ public class MySQLAccess {
         return trains;
     }
 
-    public boolean book(String userId, String trainId, String travelClass, String ticketType) {
+    public boolean book(String userId, String trainId, String travelClass, String ticketType, String nbTicket) {
         try {
             // Retrieve train information
             preparedStatement = connect.prepareStatement(
@@ -142,6 +142,14 @@ public class MySQLAccess {
                 preparedStatement.setObject(9, Timestamp.valueOf(arrivalDate.atStartOfDay()));        
     
                 // Execute the insert query
+                preparedStatement.executeUpdate();
+
+                //update nbtickets
+                preparedStatement = connect.prepareStatement(
+                    "UPDATE Train SET NumTickets = NumTickets - ? WHERE TrainID = ?"
+                );
+                preparedStatement.setString(1, nbTicket);
+                preparedStatement.setString(2, trainId);
                 preparedStatement.executeUpdate();
 
                 return true; // Booking successful
