@@ -124,6 +124,12 @@ def logout():
     # Redirect to the login page or any other desired destination
     return redirect(url_for('login'))
 
+@app.route('/account')
+def account():
+    user_id = session["user"]
+    # TODO : train you reserve
+    return render_template('account.html', stations=[])
+
 @app.route('/selectArrival', methods=['GET'])
 def booking():
     stations = get_stations()
