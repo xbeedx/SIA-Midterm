@@ -164,6 +164,42 @@ public class MySQLAccess {
     
         return false; // Booking failed
     }
+
+    public List<Reservation> getReservations(String userId) {
+        List<Reservation> reservations = new ArrayList<>();
+
+        try {
+            // Retrieve reservation information for the specified user
+            preparedStatement = connect.prepareStatement(
+                "SELECT * FROM Reservation WHERE userID = ?"
+            );
+            preparedStatement.setString(1, userId);
+            resultSet = preparedStatement.executeQuery();
+
+            while (resultSet.next()) {
+                int reservationID = resultSet.getInt("ReservationID");
+                String userID = userId;
+                String trainID = resultSet.getString("TrainID");
+                String trainName = resultSet.getString("TrainName");
+                String departureStopID = resultSet.getString("DepartureStopID");
+                String departureStopName = resultSet.getString("DepartureStopName");
+                String arrivalStopID = resultSet.getString("ArrivalStopID");
+                String arrivalStopName = resultSet.getString("ArrivalStopName");
+                Date departureTime = resultSet.getDate("DepartureTime");
+                Date arrivalTime = resultSet.getDate("ArrivalTime");
+
+                Reservation reservation = new Reservation(reservationID, userID, trainID, trainName, departureStopID, departureStopName, arrivalStopID, arrivalStopName, departureTime, arrivalTime);
+                reservations.add(reservation);
+            }
+        } catch (SQLException e) {
+            System.out.println("Error during reservation retrieval: " + e.getMessage());
+            e.printStackTrace();
+        } finally {
+            close();
+        }
+
+        return reservations;
+    }
     
     private String getStopName(String stationID) throws SQLException {
         preparedStatement = connect.prepareStatement(

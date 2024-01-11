@@ -28,9 +28,10 @@ public class RouterApplication extends Application{
 		getServices().add(cs);
 		
 
-		// Defines only two routes
+		// Defines only three routes
 		router.attach("/trains/{departureStation}/{arrivalStation}/{departureDate}/{returnDate}/{numTickets}/{travelClass}", TrainRessource.class);// router.attach("/book/{userId}/{trainId}/{travelClass}/{ticketType}", BookRessource.class);
       	router.attach("/book", BookRessource.class);
+		router.attach("/getBook/{userId}", GetBookRessource.class);
 
 		return router;
 	}

@@ -4,9 +4,9 @@ import java.sql.Date;
 
 public class Reservation {
     private int reservationID;
+    private String userID;
     private String trainID;
     private String trainName;
-    private String direction;
     private String departureStopID;
     private String departureStopName;
     private String arrivalStopID;
@@ -14,13 +14,13 @@ public class Reservation {
     private Date departureTime;
     private Date arrivalTime;
 
-    public Reservation(int reservationID, String trainID, String trainName, String direction,
+    public Reservation(int reservationID, String userID, String trainID, String trainName,
                 String departureStopID, String departureStopName, String arrivalStopID,
                 String arrivalStopName, Date departureTime, Date arrivalTime) {
         this.reservationID = reservationID;
+        this.userID = userID;
         this.trainID = trainID;
         this.trainName = trainName;
-        this.direction = direction;
         this.departureStopID = departureStopID;
         this.departureStopName = departureStopName;
         this.arrivalStopID = arrivalStopID;
@@ -53,12 +53,12 @@ public class Reservation {
         this.trainName = trainName;
     }
 
-    public String getDirection() {
-        return direction;
+    public String getUserID() {
+        return userID;
     }
 
-    public void setDirection(String direction) {
-        this.direction = direction;
+    public void setUserID(String userID) {
+        this.userID = userID;
     }
 
     public String getDepartureStopID() {

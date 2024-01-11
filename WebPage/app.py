@@ -124,6 +124,16 @@ def logout():
     # Redirect to the login page or any other desired destination
     return redirect(url_for('login'))
 
+@app.route('/account')
+def account():
+    user_id = session["user"]
+    request_data = {'userId': user_id}
+    
+    reservations = get_client().service.getBookedByUser(**request_data)
+    reservations_to_json = json.loads(reservations)
+
+    return render_template('account.html', reservations=reservations_to_json)
+
 @app.route('/selectArrival', methods=['GET'])
 def booking():
     stations = get_stations()

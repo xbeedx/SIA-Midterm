@@ -1,0 +1,64 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <header>
+        <h2>Your Travel Reservations - {{ session['name']|capitalize }}</h2>
+    </header>
+
+    <div class="container mt-4">
+        {% if reservations and reservations['reservations'] %}
+            <div class="row overflow-y-container">
+                <div class="col-md-12">
+                    <div class="overflow-auto">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Reservation</th>
+                                    <th scope="col">Train ID</th>
+                                    <th scope="col">Train Name</th>
+                                    <th scope="col">Departure Stop</th>
+                                    <th scope="col">Arrival Stop</th>
+                                    <th scope="col">Departure Time</th>
+                                    <th scope="col">Arrival Time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for reservation in reservations['reservations'] %}
+                                    <tr>
+                                        <th>{{ loop.index }}</th>
+                                        <td>{{ reservation['trainID'] }}</td>
+                                        <td>{{ reservation['trainName'] }}</td>
+                                        <td>{{ reservation['departureStop'] }}</td>
+                                        <td>{{ reservation['arrivalStop'] }}</td>
+                                        <td>{{ reservation['departureTime'] }}</td>
+                                        <td>{{ reservation['arrivalTime'] }}</td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        {% else %}
+            <p>No reservations found.</p>
+        {% endif %}
+    </div>
+
+
+    <style>
+        .overflow-y-container {
+            padding-top: 20px;
+            max-height: 500px;
+            overflow-y: auto;
+
+            /* Hide scrollbar for IE, Edge and Firefox */
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        .overflow-y-container::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+{% endblock %}

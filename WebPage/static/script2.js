@@ -26,7 +26,6 @@ function selectDeparture(stationID, station_Name) {
 };
 
 // Function to handle form submission
-// Function to handle form submission
 function handleFormSubmission() {
     // Get the form values
     var departure = document.querySelector('#departure').title;

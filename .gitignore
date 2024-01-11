@@ -23,3 +23,9 @@
 hs_err_pid*
 replay_pid*
 /.metadata/
+
+# vscode
+.vscode
+
+# swagger
+swagger/go

@@ -21,8 +21,12 @@ run_docker: kill_processus run_docker-config run_client
 run_migration-data:
 	cd  DataBase && python3 migration.py
 
+# 1 - generate the swagger --> ./swagger/go/*
+# 2 - remove the container openapi-generator (unused)
+# 3 - run all containers except openapi-generator (to run correct swagger-ui)
 run_docker-config: stop_docker
-	docker-compose up --build -d
+	docker-compose run --rm openapi-generator
+	docker-compose up --build -d --scale openapi-generator=0
 
 run_client:
 	sleep 2
@@ -84,3 +88,8 @@ stop_db:
 	else \
 		echo "No process found using port 8080."; \
 	fi
+
+clean: stop_docker
+	rm -rf ./DataBase/mysql
+	rm -rf ./swagger/go
+	clear

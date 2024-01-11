@@ -1,0 +1,112 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Train API
+  description: 'An API for accessing train information and booking train tickets.'
+paths:
+  /trains/{departureStation}/{arrivalStation}/{departureDate}/{returnDate}/{numTickets}/{travelClass}:
+    get:
+      summary: Get train information
+      description: Retrieve information about available trains based on specified parameters.
+      parameters:
+        - name: departureStation
+          in: path
+          description: Departure station code
+          required: true
+          type: string
+          default: 'stop_area:SNCF:87182113'
+        - name: arrivalStation
+          in: path
+          description: Arrival station code
+          required: true
+          type: string
+          default: 'stop_area:SNCF:80359331'
+        - name: departureDate
+          in: path
+          description: Departure date
+          required: true
+          type: string
+          format: date
+          default: '2024-01-15'
+        - name: returnDate
+          in: path
+          description: Return date (optional)
+          required: true
+          type: string
+          format: date
+          default: '2024-01-16'
+        - name: numTickets
+          in: path
+          description: Number of tickets
+          required: true
+          type: integer
+          default: 1
+        - name: travelClass
+          in: path
+          description: Travel class
+          required: true
+          type: string
+          default: 'Second Class'
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '404':
+          description: Resource not found
+
+  /book/{userId}/{trainId}/{travelClass}/{ticketType}:
+    post:
+      summary: Book a train
+      description: Book a train based on specified parameters.
+      parameters:
+        - name: userId
+          in: path
+          description: User ID
+          required: true
+          type: string
+        - name: trainId
+          in: path
+          description: Train ID
+          required: true
+          type: string
+        - name: travelClass
+          in: path
+          description: Travel class
+          required: true
+          type: string
+        - name: ticketType
+          in: path
+          description: Ticket type
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '404':
+          description: Resource not found
+
+  /getBook/{userId}:
+    get:
+      summary: Get book information by user ID
+      description: Retrieve book information for a user based on the provided user ID.
+      parameters:
+        - name: userId
+          in: path
+          description: User ID
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '404':
+          description: Resource not found
+
+host: localhost:8182
+schemes:
+ - http
+basePath: /

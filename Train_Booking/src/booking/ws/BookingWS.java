@@ -20,6 +20,7 @@ public class BookingWS {
 
     private static final String TRAINS_API_URL = "http://localhost:8182/trains/";
     private static final String BOOK_SEAT_API_URL = "http://localhost:8182/book";
+    private static final String GET_BOOKED_API_URL = "http://localhost:8182/getBook/";
 
     public String authenticateUser(String username, String password) {
         MySQLAccess dao = new MySQLAccess();
@@ -42,9 +43,6 @@ public class BookingWS {
     }
 
     public String searchTrains(String departureStation, String arrivalStation, Date departureDate, Date returnDate, int numTickets, String travelClass) {
-        // String apiUrl = String.format("%sdepartureStation=%s&arrivalStation=%s&departureDate=%s&returnDate=%s&numTickets=%d&travelClass=%s",
-        //         TRAINS_API_URL, departureStation, arrivalStation, departureDate, returnDate, numTickets, travelClass);
-
 		String apiUrl = String.format("%s%s/%s/%s/%s/%d/%s",
                 TRAINS_API_URL, departureStation, arrivalStation, departureDate, returnDate, numTickets, travelClass);
 
@@ -80,6 +78,19 @@ public class BookingWS {
             return false;
         } finally {
             resource.release();
+        }
+    }
+
+    public String getBookedByUser(String userId) {
+		String apiUrl = String.format("%s%s",
+                GET_BOOKED_API_URL, userId);
+
+		ClientResource resource = new ClientResource(apiUrl);
+        try {
+            return resource.get().getText();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return "Error: " + e.getMessage();
         }
     }
 }

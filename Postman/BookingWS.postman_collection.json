@@ -27,7 +27,72 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:bookSeat xmlns:ns=\"http://ws.booking\">\n      <ns:userId>string</ns:userId>\n      <ns:trainId>string</ns:trainId>\n      <ns:travelClass>string</ns:travelClass>\n      <ns:ticketType>string</ns:ticketType>\n    </ns:bookSeat>\n  </soap:Body>\n</soap:Envelope>\n",
+							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:bookSeat xmlns:ns=\"http://ws.booking\">\n      <ns:userId>78140316-0914-4f5f-aa80-59ec65fe41b2</ns:userId>\n      <ns:trainId>990</ns:trainId>\n      <ns:travelClass>Second Class</ns:travelClass>\n      <ns:ticketType>flexible</ns:ticketType>\n      <ns:nbTickets>11</ns:nbTickets>\n    </ns:bookSeat>\n  </soap:Body>\n</soap:Envelope>\n",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": "{{BookingWSHttpSoap11EndpointBaseUrl}}/axis2/services/BookingWS"
+					},
+					"response": [
+						{
+							"name": "bookSeat response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "text/xml; charset=utf-8"
+									},
+									{
+										"key": "SOAPAction",
+										"value": "urn:bookSeat"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:bookSeat xmlns:ns=\"http://ws.booking\">\n      <ns:userId>string</ns:userId>\n      <ns:trainId>string</ns:trainId>\n      <ns:travelClass>string</ns:travelClass>\n      <ns:ticketType>string</ns:ticketType>\n    </ns:bookSeat>\n  </soap:Body>\n</soap:Envelope>\n",
+									"options": {
+										"raw": {
+											"language": "xml"
+										}
+									}
+								},
+								"url": "http://localhost:8088/axis2/services/BookingWS"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "xml",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/xml; charset=utf-8"
+								}
+							],
+							"cookie": [],
+							"body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:bookSeatResponse xmlns:ns=\"http://ws.booking\">\n      <ns:return>true</ns:return>\n    </ns:bookSeatResponse>\n  </soap:Body>\n</soap:Envelope>\n"
+						}
+					]
+				},
+				{
+					"name": "getBookedByUser",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "text/xml; charset=utf-8"
+							},
+							{
+								"key": "SOAPAction",
+								"value": "urn:getBookedByUser"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <ns:getBookedByUser xmlns:ns=\"http://ws.booking\">\n      <ns:userId>78140316-0914-4f5f-aa80-59ec65fe41b2</ns:userId>\n    </ns:getBookedByUser>\n  </soap:Body>\n</soap:Envelope>\n",
 							"options": {
 								"raw": {
 									"language": "xml"
