@@ -54,6 +54,7 @@ paths:
           description: Bad request
         '404':
           description: Resource not found
+
   /book/{userId}/{trainId}/{travelClass}/{ticketType}:
     post:
       summary: Book a train
@@ -86,6 +87,25 @@ paths:
           description: Bad request
         '404':
           description: Resource not found
+
+  /getBook/{userId}:
+    httpMethod: get
+    summary: Get book information by user ID
+    description: Retrieve book information for a user based on the provided user ID.
+    parameters:
+      - name: userId
+        in: path
+        description: User ID
+        required: true
+        type: string
+    responses:
+      '200':
+        description: Successful response
+      '400':
+        description: Bad request
+      '404':
+        description: Resource not found
+
 host: localhost:8182
 schemes:
  - http
