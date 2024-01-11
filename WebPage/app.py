@@ -127,8 +127,12 @@ def logout():
 @app.route('/account')
 def account():
     user_id = session["user"]
-    # TODO : train you reserve
-    return render_template('account.html', stations=[])
+    request_data = {'userId': user_id}
+    
+    reservations = get_client().service.getBookedByUser(**request_data)
+    reservations_to_json = json.loads(reservations)
+
+    return render_template('account.html', reservations=reservations_to_json)
 
 @app.route('/selectArrival', methods=['GET'])
 def booking():
