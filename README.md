@@ -48,7 +48,7 @@ Explore and test our APIs using Swagger: [Swagger API Documentation](https://app
 or go to http://localhost:8082/
 and explore 
 ```
-./openapi.yaml
+./swagger/go/api/openapi.yaml
 ``` 
 
 ## Docker and Migration

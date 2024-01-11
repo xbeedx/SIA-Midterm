@@ -42,9 +42,9 @@ services:
   openapi-generator:
     image: openapitools/openapi-generator-cli
     volumes:
-      - ./out:/local/out
-      - ./swagger.yml:/local/swagger.yml
-    command: generate -i /local/swagger.yml -g go -o /local/out/go
+      - ./swagger:/local/swagger
+      - ./swagger/code/swagger.yml:/local/swagger.yml
+    command: generate -i /local/swagger.yml -g go -o /local/swagger/go
 
   swagger-ui:
     image: swaggerapi/swagger-ui
@@ -52,9 +52,9 @@ services:
     ports:
       - "8082:8080"
     environment:
-      - SWAGGER_JSON=/local/out/go/api/openapi.yaml
+      - SWAGGER_JSON=/local/swagger/go/api/openapi.yaml
     volumes:
-      - ./out:/local/out
+      - ./swagger:/local/swagger
 
   # web:
   #   build:
