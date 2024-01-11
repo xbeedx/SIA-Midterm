@@ -105,6 +105,28 @@ paths:
           content: {}
           description: Resource not found
       summary: Book a train
+  /getBook/{userId}:
+    get:
+      description: Retrieve book information for a user based on the provided user
+        ID.
+      parameters:
+      - description: User ID
+        in: path
+        name: userId
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content: {}
+          description: Successful response
+        "400":
+          content: {}
+          description: Bad request
+        "404":
+          content: {}
+          description: Resource not found
+      summary: Get book information by user ID
 components:
   schemas: {}
 x-original-swagger-version: "2.0"

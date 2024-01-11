@@ -78,6 +78,7 @@ All URIs are relative to *http://localhost:8182*
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
 *DefaultAPI* | [**BookUserIdTrainIdTravelClassTicketTypePost**](docs/DefaultAPI.md#bookuseridtrainidtravelclasstickettypepost) | **Post** /book/{userId}/{trainId}/{travelClass}/{ticketType} | Book a train
+*DefaultAPI* | [**GetBookUserIdGet**](docs/DefaultAPI.md#getbookuseridget) | **Get** /getBook/{userId} | Get book information by user ID
 *DefaultAPI* | [**TrainsDepartureStationArrivalStationDepartureDateReturnDateNumTicketsTravelClassGet**](docs/DefaultAPI.md#trainsdeparturestationarrivalstationdeparturedatereturndatenumticketstravelclassget) | **Get** /trains/{departureStation}/{arrivalStation}/{departureDate}/{returnDate}/{numTickets}/{travelClass} | Get train information
 
 
